@@ -1,0 +1,72 @@
+# Project Memory
+
+A living summary of the repository’s purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
+
+Last updated: 2025‑08‑10
+
+## 1) What this project is
+- Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
+- Also serves as a reusable template so others can bootstrap a professional, automated GitHub profile
+
+## 2) Primary goals
+- Present a polished, professional GitHub profile with clear sections, badges, stats, and contact options
+- Make it easy for others to “Use this template” and follow a guided setup to personalize their own profile
+- Keep documentation honest, concise, and automation-friendly
+
+## 3) Key decisions and rationale
+- Make the repo a Template Repository (GitHub setting `is_template=true`)
+  - Rationale: Enables one-click reuse by others; aligns with the goal to share a clean, ready profile template
+- Add a “Use This Profile Template” section to README
+  - Rationale: Clear call-to-action with links to the template generator and setup guide improves discoverability and adoption
+- Provide TEMPLATE-SETUP.md and a minimal `template-config-example.ps1`
+  - Rationale: Lower barrier to entry; offer a simple, optional way to centralize personalization variables
+- License under MIT
+  - Rationale: Broad reuse is permitted and encouraged; fits a public template project
+- Add CONTRIBUTING.md
+  - Rationale: Provide scope and expectations for contributions to keep the template lightweight and focused
+
+## 4) Notable changes in this iteration (2025‑08‑10)
+- Enabled template mode via GitHub API
+- README: Added “Use this template” section with badges and quick start
+- New files added:
+  - `TEMPLATE-SETUP.md`: Step-by-step setup instructions for template users
+  - `template-config-example.ps1`: Example PowerShell configuration file for personalization
+  - `LICENSE`: MIT license
+  - `CONTRIBUTING.md`: Contribution guidelines
+
+## 5) Current repo contents (essentials)
+- `README.md`: Primary profile content (banner, badges, stats, areas of focus, portfolio link, contact info, and template CTA)
+- `TEMPLATE-SETUP.md`: Guide for customizing and using this as a template
+- `template-config-example.ps1`: Optional config stub for personalizing template variables
+- `LICENSE`: MIT
+- `CONTRIBUTING.md`: How to contribute (docs-first guidance)
+- `ALEX-CODING.png`: Banner image
+
+## 6) Constraints and notes
+- This is a markdown-first repo; no build required
+- External read-only services used: GitHub stats images, Shields.io badges
+- Windows line-endings (CRLF) warnings noted by Git when staging; acceptable for this context
+
+## 7) Gaps and follow-ups
+- README mentions “automation script” for dynamic repository analysis and generating REPOS.md. That script is not currently included in this repository.
+  - Options:
+    - Add a lightweight script (e.g., PowerShell + `gh`) to fetch repos and render `REPOS.md`
+    - Or, remove/adjust wording to avoid implying a bundled script; link to an external tool if preferred
+- Consider adding a small Contributing badge/section in README linking to `CONTRIBUTING.md`
+- Optional: Add CI to lint markdown or validate links (keep minimal to avoid over-automation)
+
+## 8) How others use this template
+- One-click template link: https://github.com/fabioc-aloha/fabioc-aloha/generate
+- Then follow `TEMPLATE-SETUP.md` to personalize
+- Optionally use `template-config-example.ps1` as a starting point for centralized profile variables
+
+## 9) Philosophy
+- Documentation honesty: only claim what’s implemented; avoid overstating capabilities
+- Professional presentation: clean layout, badges, and clear calls-to-action
+- Keep it lightweight: focus on readability and ease-of-use for the broader community
+
+## 10) Quick status
+- Visibility: Public
+- Template: Enabled
+- License: MIT
+- Contributing: Guidelines present
