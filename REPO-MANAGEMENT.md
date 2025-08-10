@@ -42,6 +42,13 @@ The script automatically:
 - Displays color-coded console output
 - **Always saves comprehensive JSON export** for automation
 
+#### Parameters & UX defaults
+- `-Limit` (default: `200`): Caps how many repositories are retrieved from GitHub when listing repos. Increase this if your portfolio exceeds 200 repos, e.g.:
+  ```powershell
+  .\check-forks.ps1 -Limit 500
+  ```
+- Emoji policy: Console output may use emojis for readability, but the JSON export is always emoji-free. All JSON-bound fields are sanitized to keep the file machine-friendly.
+
 #### Owner auto-detection
 `check-forks.ps1` requires no username parameter. It auto-detects the GitHub owner in this order:
 - `GITHUB_REPOSITORY` environment variable (in CI) → uses the owner part before `/`
@@ -55,6 +62,7 @@ Troubleshooting:
 ### Output Format
 - **Console**: Color-coded summary with clear categorization and live repository count
 - **JSON Export**: **Always created** - Comprehensive analysis including:
+  - Emoji-free fields for clean machine consumption
   - Repository categorization for each section of REPOS.md
   - Language distribution with percentages
   - Pre-formatted table headers and statistics

@@ -24,7 +24,7 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [x] Add optional `[int]$Limit=200` parameter (default enforced)
    - [x] Always remove emojis from JSON-bound data (no `NoEmojiJson` flag needed)
    - [ ] Confirm the script works for any GitHub user and emits strictly-clean JSON
-   - [ ] Document `-Limit` usage and emoji-free JSON policy in `REPO-MANAGEMENT.md`
+   - [x] Document `-Limit` usage and emoji-free JSON policy in `REPO-MANAGEMENT.md`
 
 - [x] Simplify setup by removing `template-config-example.ps1`
    - [x] Update MEMORY and setup docs accordingly
