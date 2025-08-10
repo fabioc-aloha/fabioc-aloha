@@ -21,9 +21,59 @@ This document explains the repo’s lightweight “cognitive system” — how w
 
 These are “synapses”: explicit references between the above files so the workflow is navigable and consistent.
 
+## Diagram
+
+```mermaid
+flowchart LR
+  F[Working memory<br/>.github/copilot-instructions.md]
+  A[Long‑term memory<br/>MEMORY.md]
+  B[Task memory<br/>TODO.md]
+  C[Script<br/>check-forks.ps1]
+  G[Verifier<br/>verify-analysis.ps1]
+  D[Source of truth<br/>repo-analysis.json]
+  E[Docs<br/>REPOS.md / README.md / REPO-MANAGEMENT.md]
+  H[Optional scheduler<br/>weekly-analysis.yml]
+
+  F --> A
+  F --> B
+  A -->|read| B
+  B -->|run| C
+  C -->|write/inspect| D
+  G --> D
+  D -->|update| E
+  E -->|record| A
+  E -->|tick| B
+  H -. triggers .-> C
+  H -. PR .-> E
+
+  classDef data fill:#e8f7ff,stroke:#36c; 
+  classDef docs fill:#f7f7e8,stroke:#888;
+  classDef mem fill:#eef7ee,stroke:#2a7a2a;
+  classDef scripts fill:#fff0e6,stroke:#cc6600;
+  class A,B,F mem; 
+  class D data; 
+  class E docs; 
+  class C,G scripts;
+```
+
 ## How it works (flow)
 
 1) Read `MEMORY.md` → 2) Read `TODO.md` → 3) Run `check-forks.ps1` → 4) Inspect `repo-analysis.json` → 5) Update docs (`REPOS.md`, `README.md`, `REPO-MANAGEMENT.md`) → 6) Record decisions in `MEMORY.md` → 7) Check off acceptance checks in `TODO.md`.
+
+### Flow diagram
+
+```mermaid
+flowchart TD
+  s1[1. Read MEMORY.md]
+  s2[2. Read TODO.md]
+  s3[3. Run check-forks.ps1]
+  s4[4. Inspect repo-analysis.json]
+  s5[5. Update docs: REPOS.md / README.md / REPO-MANAGEMENT.md]
+  s6[6. Record decisions in MEMORY.md]
+  s7[7. Tick acceptance checks in TODO.md]
+
+  s1 --> s2 --> s3 --> s4 --> s5 --> s6 --> s7
+```
 
 ## Guardrails
 
