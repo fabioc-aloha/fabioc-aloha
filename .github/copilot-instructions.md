@@ -23,7 +23,7 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 
 ## Coding & scripting guidelines
 - PowerShell first. Assume pwsh on Windows.
-- For repo analysis, use GitHub CLI (gh) with live API data. Do NOT hardcode repo lists.
+- For repo analysis, use GitHub CLI (gh) with live API data. Do NOT hardcode repo lists. Detect the owner from git remote/GitHub Actions/gh auth.
 - Export data as JSON that is emoji-free and machine-friendly.
 - When updating/creating scripts, prefer parameters over constants (e.g., `param([string]$User='fabioc-aloha', [int]$Limit=200, [switch]$NoEmojiJson)`).
 - Keep functions small and single-purpose; add inline comments for non-obvious logic.
@@ -38,6 +38,7 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - JSON exports must be emoji-free. Emojis are OK in console output and Markdown only.
 - `check-forks.ps1` should:
   - Fetch repos via `gh` dynamically (no hardcoded arrays)
+  - Auto-detect the GitHub owner from git/CI/gh (no username parameter required)
   - Identify forks and parent repo correctly
   - Categorize repos and compute language stats
   - Always write `repo-analysis.json`

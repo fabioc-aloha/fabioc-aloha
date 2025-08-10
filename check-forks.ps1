@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
     Repository Fork Detection Script for fabioc-aloha GitHub portfolio
-    
+
 .DESCRIPTION
-    This script analyzes all repositories in the fabioc-aloha GitHub portfolio to differentiate 
-    between original work and community contributions (forks). It provides detailed information 
+    This script analyzes all repositories in the fabioc-aloha GitHub portfolio to differentiate
+    between original work and community contributions (forks). It provides detailed information
     about each repository including fork status, parent repositories, and comprehensive metadata.
-    
+
     Key Features:
     • Dynamic repository discovery from GitHub API (no hardcoded lists)
     • Fork detection with parent repository identification
@@ -15,21 +15,21 @@
     • Language distribution analysis with statistics
     • Always exports detailed JSON file for automation workflows
     • Color-coded console output for easy visual analysis
-    
-    The script automatically generates repo-analysis.json containing all necessary data for 
-    updating REPOS.md documentation, including pre-formatted table headers, statistics, 
+
+    The script automatically generates repo-analysis.json containing all necessary data for
+    updating REPOS.md documentation, including pre-formatted table headers, statistics,
     and categorized repository listings.
-    
+
 .EXAMPLE
     .\check-forks.ps1
     Performs fork analysis with color-coded console output and saves detailed JSON export
-    
+
 .NOTES
     Requirements:
     - GitHub CLI (gh) installed and authenticated with SSO
     - PowerShell 5.1 or later
     - Access to fabioc-aloha repositories (requires SSO authentication)
-    
+
     Author: Fabio Correa
     Version: 2.1
     Last Updated: August 10, 2025
@@ -42,10 +42,46 @@
 Write-Host "🔍 Fetching repository list from GitHub API..." -ForegroundColor Cyan
 Write-Host ("=" * 60)
 
+# Resolve target GitHub owner dynamically (no hardcoded usernames)
+function Get-GitHubOwner {
+    # 1) GitHub Actions env (owner/repo)
+    if ($env:GITHUB_REPOSITORY) {
+        $parts = $env:GITHUB_REPOSITORY.Split('/')
+        if ($parts.Length -ge 2 -and [string]::IsNullOrWhiteSpace($parts[0]) -eq $false) {
+            return $parts[0]
+        }
+    }
+
+    # 2) git remote origin URL
+    try {
+        $remote = git config --get remote.origin.url 2>$null
+        if ($remote) {
+            if ($remote -match 'github\.com[:/](?<owner>[^/]+)/') {
+                return $Matches.owner
+            }
+        }
+    } catch {}
+
+    # 3) gh authenticated user (fallback)
+    try {
+        $login = gh api user -q .login 2>$null
+        if ($login) { return $login.Trim() }
+    } catch {}
+
+    return $null
+}
+
+$Owner = Get-GitHubOwner
+if (-not $Owner) {
+    Write-Host "❌ ERROR: Could not determine GitHub owner. Ensure a git remote is set or GitHub CLI is authenticated." -ForegroundColor Red
+    exit 1
+}
+Write-Host "👤 Target owner: $Owner" -ForegroundColor Cyan
+
 # Dynamically fetch all repositories from GitHub API
 try {
     Write-Host "📡 Connecting to GitHub API..." -ForegroundColor Yellow
-    $repositories = gh repo list fabioc-aloha --json name --limit 100 | ConvertFrom-Json | Select-Object -ExpandProperty name
+    $repositories = gh repo list $Owner --json name --limit 100 | ConvertFrom-Json | Select-Object -ExpandProperty name
     Write-Host "✅ Found $($repositories.Count) repositories" -ForegroundColor Green
 } catch {
     Write-Host "❌ ERROR: Failed to fetch repositories from GitHub API" -ForegroundColor Red
@@ -64,9 +100,9 @@ $repoDetails = @()
 foreach ($repo in $repositories) {
     try {
         Write-Host "Checking: $repo" -ForegroundColor Yellow
-        
-        # Get comprehensive repo information for REPOS.md update capability
-        $repoInfo = gh api "repos/fabioc-aloha/$repo" --jq '{
+
+    # Get comprehensive repo information for REPOS.md update capability
+    $repoInfo = gh api "repos/$Owner/$repo" --jq '{
             name: .name,
             fork: .fork,
             private: .private,
@@ -86,9 +122,9 @@ foreach ($repo in $repositories) {
             forks_count: .forks_count,
             open_issues_count: .open_issues_count
         }' | ConvertFrom-Json
-        
+
         $repoDetails += $repoInfo
-        
+
         if ($repoInfo.fork -eq $true) {
             $forkedRepos += $repo
             $parentInfo = if ($repoInfo.parent) { " (from $($repoInfo.parent))" } else { "" }
@@ -140,7 +176,7 @@ $categorizedRepos = @{
 # Categorize repositories based on name patterns and topics
 foreach ($repo in $repoDetails) {
     $category = "Development Tools & Utilities" # Default category
-    
+
     # Categorize based on repository names and patterns
     switch -Regex ($repo.name) {
         "^Catalyst" { $category = "Core Cognitive Architecture Suite" }
@@ -153,12 +189,12 @@ foreach ($repo in $repoDetails) {
         "PythonClass" { $category = "Learning & Education" }
         "fabioc-aloha" { $category = "Profile & Portfolio" }
     }
-    
+
     $categorizedRepos[$category] += $repo
 }
 
 # Calculate language distribution
-$languageStats = $repoDetails | Where-Object { $_.language } | Group-Object language | 
+$languageStats = $repoDetails | Where-Object { $_.language } | Group-Object language |
     Sort-Object Count -Descending | ForEach-Object {
         @{
             language = $_.Name
@@ -173,7 +209,7 @@ $exportData = @{
         timestamp = Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ"
         generated_by = "check-forks.ps1"
         script_version = "2.1"
-        github_user = "fabioc-aloha"
+    github_user = $Owner
     }
     statistics = @{
         total_repos = $repositories.Count

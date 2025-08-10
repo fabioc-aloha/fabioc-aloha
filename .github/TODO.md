@@ -19,9 +19,9 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 ## P2 – Template DX & Maintainability
 
-- [ ] Parameterize `check-forks.ps1`
-   - [ ] Add `param([string]$User='fabioc-aloha', [int]$Limit=200, [switch]$NoEmojiJson)`
-   - [ ] Use `$User` in `gh repo list` and follow-up API calls; gate emoji removal on `$NoEmojiJson`
+- [ ] Improve `check-forks.ps1` UX
+   - [ ] Auto-detect owner from git remote/GitHub Actions/gh auth (done)
+   - [ ] Add optional `[int]$Limit=200` and `[switch]$NoEmojiJson` parameters if needed later
    - [ ] Confirm the script works for any GitHub user and can emit strictly-clean JSON
 
 - [ ] Clarify `template-config-example.ps1` usage

@@ -55,7 +55,7 @@ Last updated: 2025‑08‑10
  - Copilot Chat is configured via `.vscode/settings.json` to load repository instructions from `.github/copilot-instructions.md`; use “Developer: Show Chat Debug View” to verify system prompt includes repo guidance
 
 ## 7) Gaps and follow-ups
-- Parameterize `check-forks.ps1` (User/Limit/NoEmojiJson) to improve reuse; document usage in `REPO-MANAGEMENT.md` (tracked in .github/TODO.md)
+- `check-forks.ps1` now auto-detects the GitHub owner from git remote/CI or gh auth; consider adding optional Limit/NoEmojiJson later (tracked in .github/TODO.md)
 - Clarify `template-config-example.ps1` usage in `TEMPLATE-SETUP.md` and optionally add a tiny helper script (tracked in .github/TODO.md)
 - Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in .github/TODO.md)
 - Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in .github/TODO.md)
