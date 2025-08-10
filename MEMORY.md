@@ -33,6 +33,8 @@ Last updated: 2025‑08‑10
   - `template-config-example.ps1`: Example PowerShell configuration file for personalization
   - `LICENSE`: MIT license
   - `CONTRIBUTING.md`: Contribution guidelines
+ - VS Code: Configured Copilot Chat to read `.github/copilot-instructions.md` via `github.copilot.chat.repositoryInstructions` and added fallback `chat.repositoryInstructions`.
+ - Copilot repo guidance: Updated `.github/copilot-instructions.md` to make `MEMORY.md` and `TODO.md` the primary context anchors (consult first; update as progress occurs).
 
 ## 5) Current repo contents (essentials)
 - `README.md`: Primary profile content (banner, badges, stats, areas of focus, portfolio link, contact info, and template CTA)
@@ -41,19 +43,22 @@ Last updated: 2025‑08‑10
 - `LICENSE`: MIT
 - `CONTRIBUTING.md`: How to contribute (docs-first guidance)
 - `ALEX-CODING.png`: Banner image
+ - `.github/copilot-instructions.md`: Repository-level working memory and guidance for Copilot
+ - `.vscode/settings.json`: Points Copilot Chat to `.github/copilot-instructions.md`
+ - `check-forks.ps1` and `verify-analysis.ps1`: Repo analysis and verification scripts (JSON export, parent checks)
 
 ## 6) Constraints and notes
 - This is a markdown-first repo; no build required
 - External read-only services used: GitHub stats images, Shields.io badges
 - Windows line-endings (CRLF) warnings noted by Git when staging; acceptable for this context
+ - Copilot Chat is configured via `.vscode/settings.json` to load repository instructions from `.github/copilot-instructions.md`; use “Developer: Show Chat Debug View” to verify system prompt includes repo guidance
 
 ## 7) Gaps and follow-ups
-- README mentions “automation script” for dynamic repository analysis and generating REPOS.md. That script is not currently included in this repository.
-  - Options:
-    - Add a lightweight script (e.g., PowerShell + `gh`) to fetch repos and render `REPOS.md`
-    - Or, remove/adjust wording to avoid implying a bundled script; link to an external tool if preferred
-- Consider adding a small Contributing badge/section in README linking to `CONTRIBUTING.md`
-- Optional: Add CI to lint markdown or validate links (keep minimal to avoid over-automation)
+- Parameterize `check-forks.ps1` (User/Limit/NoEmojiJson) to improve reuse; document usage in `REPO-MANAGEMENT.md` (tracked in TODO)
+- Clarify `template-config-example.ps1` usage in `TEMPLATE-SETUP.md` and optionally add a tiny helper script (tracked in TODO)
+- Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in TODO)
+- Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in TODO)
+- Optional: README badges (License, Contributing) and a link to `MEMORY.md`; optional scheduled refresh workflow to automate analysis PRs
 
 ## 8) How others use this template
 - One-click template link: https://github.com/fabioc-aloha/fabioc-aloha/generate
@@ -70,3 +75,4 @@ Last updated: 2025‑08‑10
 - Template: Enabled
 - License: MIT
 - Contributing: Guidelines present
+ - Copilot repo instructions: Configured
