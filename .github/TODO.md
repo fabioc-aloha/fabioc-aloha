@@ -19,11 +19,11 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 ## P2 – Template DX & Maintainability
 
-- [ ] Improve `check-forks.ps1` UX
+- [x] Improve `check-forks.ps1` UX
    - [x] Auto-detect owner from git remote/GitHub Actions/gh auth
    - [x] Add optional `[int]$Limit=200` parameter (default enforced)
    - [x] Always remove emojis from JSON-bound data (no `NoEmojiJson` flag needed)
-   - [ ] Confirm the script works for any GitHub user and emits strictly-clean JSON
+   - [x] Confirm the script works for any GitHub user and emits strictly-clean JSON
    - [x] Document `-Limit` usage and emoji-free JSON policy in `REPO-MANAGEMENT.md`
 
 - [x] Simplify setup by removing `template-config-example.ps1`
@@ -32,16 +32,18 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] Add `.gitignore`
    - [x] Keep `repo-analysis.json` tracked at repo root (per decision)
     - [x] Ignore `*-back.md` and temp files
-    - [ ] Confirm cleaner working tree and commits
+   - [x] Confirm cleaner working tree and commits
 
  - [x] Add `.gitattributes`
     - [x] Add `* text=auto` to normalize line endings across OS
-    - [ ] Confirm fewer CRLF/LF warnings
+    - [x] Confirm fewer CRLF/LF warnings
 
-- [ ] Working-memory sync per milestone
+- [x] Working-memory sync per milestone
     - [x] Add a tiny checkbox to tick when `.github/copilot-instructions.md` + `.github/MEMORY.md` + `.github/TODO.md` are aligned after changes
-    - [ ] At the end of each change set, tick this:
-       - [ ] Working-memory synced (copilot-instructions + MEMORY + TODO)
+   - [x] At the end of each change set, tick this:
+      - [x] Working-memory synced (copilot-instructions + MEMORY + TODO)
+
+> P2 status: Complete ✅
 
 ## P3 – Automation & Polish
 
@@ -52,8 +54,8 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [ ] Confirm reduced manual drift for public/private and original/fork counts
 
 - [ ] README badges and cross-links
-   - [ ] Add License and Contributing badges
-   - [ ] Add a small link to `.github/MEMORY.md`
+   - [x] Add License and Contributing badges
+   - [x] Add a small link to `.github/MEMORY.md`
 
 - [ ] Pin minimal `gh` version in docs
    - [ ] Note a baseline GitHub CLI version (e.g., `>= 2.55`) used with `--jq` features
@@ -71,4 +73,4 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] README/REPOS/REPO-MANAGEMENT show the same counts
 - [x] REPO-MANAGEMENT documents owner auto-detection and usage
 - [x] New users can follow `TEMPLATE-SETUP.md` without confusion about the config file
-- [ ] Git warns less about CRLF/LF due to `.gitattributes` (observe over a couple commits)
+- [x] Git warns less about CRLF/LF due to `.gitattributes` (observed)
