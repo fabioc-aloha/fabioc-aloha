@@ -28,8 +28,7 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [x] Update MEMORY and setup docs accordingly
 
 - [x] Add `.gitignore`
-    - [ ] Ignore `repo-analysis.json` (or move it to `/artifacts/`)  
-       (Pending policy decision below)
+   - [x] Keep `repo-analysis.json` tracked at repo root (per decision)
     - [x] Ignore `*-back.md` and temp files
     - [ ] Confirm cleaner working tree and commits
 
@@ -56,9 +55,9 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [ ] Note a baseline GitHub CLI version (e.g., `>= 2.55`) used with `--jq` features
    - [ ] Confirm fewer CLI incompatibility surprises for users
 
-- [ ] Decide tracking policy for `repo-analysis.json`
-   - [ ] Choose policy: Track snapshots via script/PR OR generate-on-demand and `.gitignore`
-   - [ ] Update `.gitignore`/docs accordingly
+- [x] Decide tracking policy for `repo-analysis.json`
+   - [x] Policy: Track snapshots in repo root; do not ignore
+   - [x] Update docs accordingly
 
 ---
 
