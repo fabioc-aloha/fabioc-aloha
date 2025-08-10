@@ -16,6 +16,8 @@ Working memory: This file is the assistant’s working memory for this repo. Bef
 - Prefer concrete edits and small, safe changes over large refactors.
 - Run commands in a terminal and summarize results when needed; avoid dumping long command sequences unless requested.
 - Add small, high-value adjacent improvements (links, badges, lint fixes) when low risk.
+- Always consult MEMORY.md for current project context/history and TODO.md for prioritized tasks before broad repo scans.
+- When proposing or making changes, cross-check acceptance criteria against TODO.md and update it as progress occurs.
 
 ## Coding & scripting guidelines
 - PowerShell first. Assume pwsh on Windows.
@@ -51,6 +53,9 @@ Working memory: This file is the assistant’s working memory for this repo. Bef
 - Avoid destructive operations. When commands could change remote state, note impact or request confirmation.
 
 ## Fast playbooks
+- Load context quickly:
+  - Read MEMORY.md first for the canonical project summary and recent decisions.
+  - Read TODO.md for active priorities, acceptance checks, and next steps.
 - Update portfolio data:
   1) Run `./check-forks.ps1`
   2) Inspect `repo-analysis.json` (no emojis, correct counts)
@@ -59,6 +64,10 @@ Working memory: This file is the assistant’s working memory for this repo. Bef
   - Place details in `TEMPLATE-SETUP.md`; link from README buttons/CTA
 - Verify forks have parents in JSON:
   - Use `./verify-analysis.ps1` to check `MissingParents` is 0
+
+## Context anchors
+- MEMORY.md: Authoritative, living summary of purpose, key decisions, changes, constraints. Consult first to reduce cognitive load and avoid redundant discovery.
+- TODO.md: Prioritized, checkbox-tracked tasks and quick acceptance checks. Use it to drive plans, verify outcomes, and record progress by ticking items when done.
 
 ## Don’ts
 - Don’t hardcode repository names or counts.
@@ -74,4 +83,5 @@ Working memory: This file is the assistant’s working memory for this repo. Bef
 
 ## Continuous improvement
 - Before you push, update `.github/copilot-instructions.md` with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
+- Keep MEMORY.md updated when notable changes happen, and reflect new priorities or completions in TODO.md (check off items and adjust acceptance checks as needed).
 - Capture concrete rules you applied (e.g., parameter names, JSON cleanliness constraints, verification scripts) and add them above in the relevant sections.
