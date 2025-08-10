@@ -2,6 +2,8 @@
 
 Purpose: Provide concise, opinionated guidance for GitHub Copilot to generate code, docs, and commands that fit this project.
 
+Working memory: This file is the assistant’s working memory for this repo. Before you push, update this file with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
+
 ## Context snapshot
 - Repo type: Public profile + reusable template
 - Primary languages: Markdown, PowerShell (scripts), some Python/Jupyter in related repos
