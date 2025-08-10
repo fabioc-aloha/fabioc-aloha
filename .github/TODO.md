@@ -39,7 +39,9 @@ A prioritized checklist of recommended improvements based on a review of the cur
     - [ ] Confirm fewer CRLF/LF warnings
 
 - [ ] Working-memory sync per milestone
-   - [ ] Add a tiny checkbox to tick when `.github/copilot-instructions.md` + `.github/MEMORY.md` + `.github/TODO.md` are aligned after changes
+    - [x] Add a tiny checkbox to tick when `.github/copilot-instructions.md` + `.github/MEMORY.md` + `.github/TODO.md` are aligned after changes
+    - [ ] At the end of each change set, tick this:
+       - [ ] Working-memory synced (copilot-instructions + MEMORY + TODO)
 
 ## P3 – Automation & Polish
 

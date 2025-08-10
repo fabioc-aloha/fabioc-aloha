@@ -25,7 +25,8 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - PowerShell first. Assume pwsh on Windows.
 - For repo analysis, use GitHub CLI (gh) with live API data. Do NOT hardcode repo lists. Detect the owner from git remote/GitHub Actions/gh auth.
 - Export data as JSON that is emoji-free and machine-friendly.
-- When updating/creating scripts, prefer parameters over constants (e.g., `param([string]$User='fabioc-aloha', [int]$Limit=200, [switch]$NoEmojiJson)`).
+- When updating/creating scripts, prefer parameters over constants (e.g., `param([int]$Limit=200)`).
+- Always sanitize JSON-bound fields to remove emojis; emojis are allowed in console/Markdown only.
 - Keep functions small and single-purpose; add inline comments for non-obvious logic.
 
 ## Documentation guidelines
@@ -39,9 +40,12 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - `check-forks.ps1` should:
   - Fetch repos via `gh` dynamically (no hardcoded arrays)
   - Auto-detect the GitHub owner from git/CI/gh (no username parameter required)
+  - Accept a `-Limit` parameter (default 200) for repo fetch pagination limits
   - Identify forks and parent repo correctly
   - Categorize repos and compute language stats
   - Always write `repo-analysis.json`
+- Tracking policy: keep `repo-analysis.json` at the repository root and track snapshots in git.
+- Cadence: prefer manual runs (scheduled workflow removed).
 - For feature/backlog details (e.g., parameterization), follow .github/TODO.md instead of repeating specifics here.
 
 ## Git & commits
@@ -85,6 +89,11 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - Don’t add emojis to JSON payloads.
 - Don’t change unrelated sections when editing Markdown tables.
 - Don’t switch shells—stick to PowerShell syntax in commands.
+
+## Decisions
+- Simplified template: removed `template-config-example.ps1`; rely on README + `TEMPLATE-SETUP.md`.
+- Script UX: added `-Limit` parameter (default 200); JSON export is always emoji-free.
+- Workflow: removed optional weekly analysis workflow; run analysis manually.
 
 ## References
 - Contribution rules: `CONTRIBUTING.md`

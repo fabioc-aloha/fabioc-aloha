@@ -60,6 +60,7 @@ Last updated: 2025‑08‑10
 - Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in .github/TODO.md)
 - Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in .github/TODO.md)
  - Tracking policy decided: keep `repo-analysis.json` at the repository root and track snapshots in git; do not ignore.
+ - Working-memory cadence: after notable changes, sync `.github/copilot-instructions.md`, `.github/MEMORY.md`, and `.github/TODO.md` and tick the checklist.
 - Optional: README badges (License, Contributing) and a link to `.github/MEMORY.md`; optional scheduled refresh workflow to automate analysis PRs
 
 ## 8) How others use this template
