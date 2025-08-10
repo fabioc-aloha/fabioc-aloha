@@ -1,6 +1,8 @@
 {
   // Point Copilot Chat to read repository guidance and context
-  "github.copilot.chat.repositoryInstructions": ".github/copilot-instructions.md",
+  "github.copilot.chat.repositoryInstructions": "${workspaceFolder}/.github/copilot-instructions.md",
+  // Fallback for environments that use the core Chat setting key
+  "chat.repositoryInstructions": "${workspaceFolder}/.github/copilot-instructions.md",
 
   // Keep suggestions concise
   "github.copilot.advanced": {
