@@ -4,18 +4,18 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 ## P1 – Correctness & Drift Prevention
 
-- [ ] Fix fork parent lookup in `check-forks.ps1`
-   - [ ] Capture current repo name in a variable and use it inside the `Where-Object` filter
+- [x] Fix fork parent lookup in `check-forks.ps1`
+   - [x] Capture current repo name in a variable and use it inside the `Where-Object` filter
    - [ ] Verify fork entries display `repo ← owner/parent` consistently
 
-- [ ] Remove emojis from JSON export
-   - [ ] Strip emojis from `repos_md_format.header_stats` and any other JSON fields
+- [x] Remove emojis from JSON export
+   - [x] Strip emojis from `repos_md_format.header_stats` and any other JSON fields
    - [ ] Verify `repo-analysis.json` contains plain text only
 
-- [ ] Clean up `REPO-MANAGEMENT.md`
-   - [ ] Remove pasted console output artifacts
-   - [ ] Normalize counts to current (44)
-   - [ ] Keep purpose/usage/output/maintenance only
+- [x] Clean up `REPO-MANAGEMENT.md`
+   - [x] Remove pasted console output artifacts
+   - [x] Normalize counts to current (44)
+   - [x] Keep purpose/usage/output/maintenance only
 
 ## P2 – Template DX & Maintainability
 
