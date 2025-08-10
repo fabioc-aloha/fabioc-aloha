@@ -55,6 +55,14 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - Avoid destructive operations. When commands could change remote state, note impact or request confirmation.
 
 ## Fast playbooks
+- Cognitive cadence (follow in order):
+  1) Read `MEMORY.md` (context/decisions)
+  2) Read `TODO.md` (priorities/acceptance checks)
+  3) Run `./check-forks.ps1`
+  4) Inspect `repo-analysis.json` (emoji-free, counts)
+  5) Update `REPOS.md`/`README.md`/`REPO-MANAGEMENT.md`
+  6) Record notable changes in `MEMORY.md`
+  7) Tick acceptance checks in `TODO.md`
 - Load context quickly:
   - Read MEMORY.md first for the canonical project summary and recent decisions.
   - Read TODO.md for active priorities, acceptance checks, and next steps.

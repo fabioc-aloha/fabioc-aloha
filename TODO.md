@@ -38,6 +38,9 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [ ] Add `* text=auto` to normalize line endings across OS
    - [ ] Confirm fewer CRLF/LF warnings
 
+- [ ] Working-memory sync per milestone
+   - [ ] Add a tiny checkbox to tick when `.github/copilot-instructions.md` + `MEMORY.md` + `TODO.md` are aligned after changes
+
 ## P3 – Automation & Polish
 
 - [ ] (Optional) Minimal renderer for `REPOS.md`
