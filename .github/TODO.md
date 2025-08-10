@@ -50,16 +50,15 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] Decision: prefer manual analysis; removed weekly GitHub Actions workflow
 
 - [ ] (Optional) Minimal renderer for `REPOS.md`
-   - [ ] Small script to refresh header stats (and optionally section headers) from `repo-analysis.json`
-   - [ ] Confirm reduced manual drift for public/private and original/fork counts
+   - [ ] Won't do (keep manual edits; low ROI)
 
 - [ ] README badges and cross-links
    - [x] Add License and Contributing badges
    - [x] Add a small link to `.github/MEMORY.md`
 
 - [ ] Pin minimal `gh` version in docs
-   - [ ] Note a baseline GitHub CLI version (e.g., `>= 2.55`) used with `--jq` features
-   - [ ] Confirm fewer CLI incompatibility surprises for users
+   - [x] Note a baseline GitHub CLI version (e.g., `>= 2.55`) used with `--jq` features
+   - [x] Confirm fewer CLI incompatibility surprises for users
 
 - [x] Decide tracking policy for `repo-analysis.json`
    - [x] Policy: Track snapshots in repo root; do not ignore

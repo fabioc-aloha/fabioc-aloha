@@ -19,7 +19,7 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=flat"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/Contributing-Welcome-blue?style=flat"></a>
   <a href=".github/MEMORY.md"><img alt="Project Memory" src="https://img.shields.io/badge/Project%20Memory-Context%20%26%20Decisions-9cf?style=flat"></a>
-  
+
 </p>
 
 ---
@@ -277,6 +277,11 @@ This foundational work directly influenced the development of my **44-repository
     <img src="https://img.shields.io/badge/📖%20Setup%20Guide-Step%20by%20Step-blue?style=for-the-badge" alt="Setup Guide"/>
   </a>
 </p>
+
+### Requirements
+
+- GitHub CLI (gh) version >= 2.55
+- PowerShell 5.1 or later
 
 ### What You Get
 
