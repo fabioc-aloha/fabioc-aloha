@@ -1,0 +1,14 @@
+{
+  // Point Copilot Chat to read repository guidance and context
+  "github.copilot.chat.repositoryInstructions": ".github/copilot-instructions.md",
+
+  // Keep suggestions concise
+  "github.copilot.advanced": {
+    "enableExtendedSuggestions": false
+  },
+
+  // Editor hygiene
+  "files.eol": "\r\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
