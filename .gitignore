@@ -1,0 +1,25 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*-back.md
+
+# Env files
+.env
+*.env
+
+# Node/npm (if present)
+node_modules/
+
+# Python (if present)
+__pycache__/
+*.pyc
+
+# VS Code
+# Keep settings in repo; ignore local history
+.history/

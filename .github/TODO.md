@@ -24,19 +24,18 @@ A prioritized checklist of recommended improvements based on a review of the cur
    - [ ] Add optional `[int]$Limit=200` and `[switch]$NoEmojiJson` parameters if needed later
    - [ ] Confirm the script works for any GitHub user and can emit strictly-clean JSON
 
-- [ ] Clarify `template-config-example.ps1` usage
-   - [ ] In `TEMPLATE-SETUP.md`, add a short section explaining how to copy/modify and what it influences
-   - [ ] (Optional) Provide a minimal helper script that reads the config and prints a checklist
-   - [ ] Confirm new users understand why and how to use the file
+- [x] Simplify setup by removing `template-config-example.ps1`
+   - [x] Update MEMORY and setup docs accordingly
 
-- [ ] Add `.gitignore`
-   - [ ] Ignore `repo-analysis.json` (or move it to `/artifacts/`)
-   - [ ] Ignore `*-back.md` and temp files
-   - [ ] Confirm cleaner working tree and commits
+- [x] Add `.gitignore`
+    - [ ] Ignore `repo-analysis.json` (or move it to `/artifacts/`)  
+       (Pending policy decision below)
+    - [x] Ignore `*-back.md` and temp files
+    - [ ] Confirm cleaner working tree and commits
 
-- [ ] Add `.gitattributes`
-   - [ ] Add `* text=auto` to normalize line endings across OS
-   - [ ] Confirm fewer CRLF/LF warnings
+ - [x] Add `.gitattributes`
+    - [x] Add `* text=auto` to normalize line endings across OS
+    - [ ] Confirm fewer CRLF/LF warnings
 
 - [ ] Working-memory sync per milestone
    - [ ] Add a tiny checkbox to tick when `.github/copilot-instructions.md` + `.github/MEMORY.md` + `.github/TODO.md` are aligned after changes
@@ -68,5 +67,5 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] `repo-analysis.json` has zero emojis and valid JSON
 - [x] README/REPOS/REPO-MANAGEMENT show the same counts
 - [x] REPO-MANAGEMENT documents owner auto-detection and usage
-- [ ] New users can follow `TEMPLATE-SETUP.md` without confusion about the config file
-- [ ] Git warns less about CRLF/LF due to `.gitattributes`
+- [x] New users can follow `TEMPLATE-SETUP.md` without confusion about the config file
+- [ ] Git warns less about CRLF/LF due to `.gitattributes` (observe over a couple commits)
