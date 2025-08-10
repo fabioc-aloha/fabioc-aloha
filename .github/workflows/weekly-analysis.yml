@@ -2,7 +2,7 @@ name: Weekly Repo Analysis
 
 on:
   schedule:
-    - cron: '0 9 * * 1'  # Mondays at 09:00 UTC
+  - cron: '0 9 * * 1'  # Mondays at 09:00 UTC
   workflow_dispatch: {}
 
 permissions:
@@ -12,6 +12,9 @@ permissions:
 jobs:
   analyze:
     runs-on: windows-latest
+    env:
+      # gh CLI will use GH_TOKEN automatically; map to GitHub-provided token
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,11 +24,7 @@ jobs:
         with:
           args: install gh -y
 
-      - name: Auth GitHub CLI
-        if: ${{ secrets.GH_PAT != '' }}
-        shell: pwsh
-        run: |
-          echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
+      # Authentication: gh uses GH_TOKEN from env when provided; no explicit login needed
 
       - name: Run analysis
         shell: pwsh
@@ -33,12 +32,11 @@ jobs:
           ./check-forks.ps1
 
       - name: Create PR if changes
-        if: ${{ secrets.GH_PAT != '' }}
         shell: pwsh
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git checkout -b chore/weekly-analysis
+          git checkout -B chore/weekly-analysis
           if (git status --porcelain | Select-String -Quiet repo-analysis.json) {
             git add repo-analysis.json
             git commit -m "chore: weekly repo-analysis.json refresh"
