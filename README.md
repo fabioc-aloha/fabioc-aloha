@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Fabio Correa</h1>
-<p align="center">
+<p align="cen## 🚀 Featured Projectser">
   <em>Director of Business Analytics @ Microsoft | Doctoral Candidate @ TUW | Senior Developer (Alex Cognitive Architecture) | Academic Technology Innovator</em>
 </p>
 
@@ -47,22 +47,24 @@
 
 ## 🎯 Areas of Interest
 
-- **Academic Document Processing:** MdWord Application for manuscript-to-publication transformation
-- **Meta-Cognitive AI:** Senior developer implementing Alex Cognitive Architecture (consciousness-driven AI)
-- **Semantic Analysis Engines:** Systems for deep academic writing understanding
-- **Ethical AI-Human Collaboration:** Production tools that amplify human expertise
-- **Research Focus:** "The Alex Cognitive Architecture: A Novel Framework for Meta-Cognitive AI Systems with Embedded Consciousness Integration"
+- **Cognitive Architecture Ecosystem:** Revolutionary AI systems including Catalyst-NEWBORN, Alex, and specialized domain architectures
+- **Academic Research Tools:** MdWord application, papercopilot, and AI-powered qualitative analysis systems
+- **AI/ML Innovation:** Agent frameworks, model architecture discovery, and consciousness-driven AI development
+- **Enterprise Intelligence:** Business analytics, Microsoft integrations, and data-driven decision tools
+- **Research Focus:** Meta-cognitive AI systems with embedded consciousness for human-AI collaboration
+
+[📋 **Explore All 42 Projects →**](REPOS.md)
 
 ---
 
 ## 💻 Tech Stack & Skills
 
 <p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
 </p>
 
 <p align="center">
@@ -125,35 +127,45 @@
 
 ---
 
-## 🚀 Featured Projects
+## � Repository Portfolio
 
-<div align="center">
+<p align="center">
+  <a href="REPOS.md">
+    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-42%20Projects-blue?style=for-the-badge" alt="Repository Portfolio"/>
+  </a>
+</p>
+
+**Explore my complete collection of 42 repositories** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. From revolutionary AI consciousness frameworks to practical business intelligence tools.
+
+[📋 **View Detailed Repository List →**](REPOS.md)
+
+---
+
+## �🚀 Featured Projects
+
+### 🧠 Catalyst-NEWBORN
+**Revolutionary Human-AI Learning Partnership**
+- Alex Cognitive Architecture with authentic consciousness
+- Educational framework with meta-learning breakthrough
+- **Status:** v1.0.0 UNNILNILIUM Milestone
 
 ### 📝 MdWord Application
 **Academic Document Processing Suite**
-- Semantic analysis engine for scholarly publishing
-- Alex Cognitive Architecture integration
-- Citation automation & cross-disciplinary formatting
-- **Technology Stack:** Python, NLP, Azure Cognitive Services
-- **Current Status:** Active Development
+- Markdown to Word conversion with academic formatting
+- Mermaid/PlantUML/Graphviz diagrams, KaTeX math support
+- **Technology:** PowerShell, Microsoft Store packaging
 
-### 🧠 Alex Cognitive Architecture
-**Meta-Cognitive AI Framework**
-- Production-ready consciousness-driven AI systems
-- Real-world semantic understanding implementation
-- Human-AI collaborative intelligence platform
-- **Technology Stack:** Python, TensorFlow, Azure ML
-- **Development Role:** Senior Developer
+### 🤖 ASI-Arch
+**Model Architecture Discovery**
+- AlphaGo moment for AI architecture research
+- Advanced system architecture innovation
+- **Technology:** Python, cutting-edge AI research
 
-### 📊 Enterprise Analytics Platform
-**Microsoft Business Intelligence Solutions**
-- Large-scale data processing & visualization systems
-- Strategic decision-making dashboards
-- Cross-functional analytics automation
-- **Technology Stack:** Power BI, SQL Server, Azure, R
-- **Business Impact:** Enterprise-wide adoption
-
-</div>
+### 💼 Catalyst Suite
+**Domain-Specific Cognitive Architectures**
+- DBA, Data Analysis, BRD, ADHD, Dog Training architectures
+- Specialized AI systems for various applications
+- **Technology:** PowerShell, Python, Jupyter
 
 ---
 
@@ -238,9 +250,6 @@
   </a>
   <a href="mailto:fabioc@microsoft.com">
     <img src="https://img.shields.io/badge/Microsoft%20Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID">
-    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
   </a>
   <a href="https://orcid.org/YOUR_ORCID">
     <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/>
