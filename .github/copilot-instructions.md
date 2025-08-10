@@ -69,3 +69,7 @@ Purpose: Provide concise, opinionated guidance for GitHub Copilot to generate co
 - License: `LICENSE` (MIT)
 - Working memory: `MEMORY.md`
 - Task tracker: `TODO.md`
+
+## Continuous improvement
+- Before you push, update `.github/copilot-instructions.md` with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
+- Capture concrete rules you applied (e.g., parameter names, JSON cleanliness constraints, verification scripts) and add them above in the relevant sections.
