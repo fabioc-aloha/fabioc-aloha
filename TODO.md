@@ -6,11 +6,11 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 - [x] Fix fork parent lookup in `check-forks.ps1`
    - [x] Capture current repo name in a variable and use it inside the `Where-Object` filter
-   - [ ] Verify fork entries display `repo ← owner/parent` consistently
+   - [x] Verify fork entries display `repo ← owner/parent` consistently
 
 - [x] Remove emojis from JSON export
    - [x] Strip emojis from `repos_md_format.header_stats` and any other JSON fields
-   - [ ] Verify `repo-analysis.json` contains plain text only
+   - [x] Verify `repo-analysis.json` contains plain text only
 
 - [x] Clean up `REPO-MANAGEMENT.md`
    - [x] Remove pasted console output artifacts
@@ -63,8 +63,8 @@ A prioritized checklist of recommended improvements based on a review of the cur
 ---
 
 ## Quick Acceptance Checks
-- [ ] Running `check-forks.ps1` shows proper parent arrows for forks
-- [ ] `repo-analysis.json` has zero emojis and valid JSON
-- [ ] README/REPOS/REPO-MANAGEMENT show the same counts
+- [x] Running `check-forks.ps1` shows proper parent arrows for forks
+- [x] `repo-analysis.json` has zero emojis and valid JSON
+- [x] README/REPOS/REPO-MANAGEMENT show the same counts
 - [ ] New users can follow `TEMPLATE-SETUP.md` without confusion about the config file
 - [ ] Git warns less about CRLF/LF due to `.gitattributes`

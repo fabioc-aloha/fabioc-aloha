@@ -77,15 +77,15 @@ The script automatically:
 
 ### Sample Output
 ```
-🔍 Fetching repository list from GitHub API...
+Fetching repository list from GitHub API...
 ============================================================
-📡 Connecting to GitHub API...
-✅ Found 44 repositories
+Connecting to GitHub API...
+Found 44 repositories
 
-🔍 Checking fork status for all repositories...
+Checking fork status for all repositories...
 ============================================================
 
-🏠 ORIGINAL REPOSITORIES (35):
+ORIGINAL REPOSITORIES (35):
   • Catalyst-NEWBORN
   • Alex-Cognitive-Architecture-Paper
   • mdword
@@ -93,18 +93,18 @@ The script automatically:
   • Catalyst-DBA
   ...
 
-🍴 FORKED REPOSITORIES (9):
-  • agent-zero ← facebookresearch/agent-zero
+FORKED REPOSITORIES (9):
+  • agent-zero ← agent0ai/agent-zero
   • omi ← BasedHardware/omi
   • mcpservers ← modelcontextprotocol/servers
   • ai-agents-for-beginners ← microsoft/ai-agents-for-beginners
   ...
 
-✅ Analysis complete!
-📊 Analyzed 42 repositories dynamically fetched from GitHub API
-� Statistics: 35 Original | 9 Forks | 22 Private | 20 Public
-�📋 Use this information to update REPOS.md with accurate fork status and categories
-📄 Comprehensive analysis saved to repo-analysis.json for automation
+Analysis complete!
+Analyzed 44 repositories dynamically fetched from GitHub API
+Statistics: 35 Original | 9 Forks | 15 Private | 29 Public
+Use this information to update REPOS.md with accurate fork status and categories
+Comprehensive analysis saved to repo-analysis.json for automation
 ```
 
 ## 📝 REPOS.md Structure
