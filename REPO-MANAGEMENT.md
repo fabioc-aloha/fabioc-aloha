@@ -42,6 +42,16 @@ The script automatically:
 - Displays color-coded console output
 - **Always saves comprehensive JSON export** for automation
 
+#### Owner auto-detection
+`check-forks.ps1` requires no username parameter. It auto-detects the GitHub owner in this order:
+- `GITHUB_REPOSITORY` environment variable (in CI) → uses the owner part before `/`
+- `git remote get-url origin` → parses the owner from the Git remote URL
+- `gh api user -q .login` → falls back to the authenticated GitHub CLI user
+
+Troubleshooting:
+- If detection fails, ensure a Git remote is configured (e.g., `origin`) or run `gh auth login`.
+- Works in GitHub Actions out of the box (uses `GITHUB_REPOSITORY`).
+
 ### Output Format
 - **Console**: Color-coded summary with clear categorization and live repository count
 - **JSON Export**: **Always created** - Comprehensive analysis including:
