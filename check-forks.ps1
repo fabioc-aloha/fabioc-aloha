@@ -111,10 +111,11 @@ Write-Host "`n🏠 ORIGINAL REPOSITORIES ($($originalRepos.Count)):" -Foreground
 $originalRepos | Sort-Object | ForEach-Object { Write-Host "  • $_" -ForegroundColor White }
 
 Write-Host "`n🍴 FORKED REPOSITORIES ($($forkedRepos.Count)):" -ForegroundColor Magenta
-$forkedRepos | Sort-Object | ForEach-Object { 
-    $parent = ($repoDetails | Where-Object { $_.name -eq $_ }).parent
+$forkedRepos | Sort-Object | ForEach-Object {
+    $name = $_
+    $parent = ($repoDetails | Where-Object { $_.name -eq $name }).parent
     $parentText = if ($parent) { " ← $parent" } else { "" }
-    Write-Host "  • $_$parentText" -ForegroundColor White 
+    Write-Host "  • $name$parentText" -ForegroundColor White
 }
 
 if ($errors.Count -gt 0) {
@@ -191,7 +192,8 @@ $exportData = @{
     }
     detailed_repositories = $repoDetails | Sort-Object name
     repos_md_format = @{
-        header_stats = "**🏠 Original Work ($($originalRepos.Count) repos)** | **🍴 Community Contributions ($($forkedRepos.Count) forks)** | **🔒 Private ($(($repoDetails | Where-Object { $_.private }).Count))** | **🌐 Public ($(($repoDetails | Where-Object { -not $_.private }).Count))**"
+        # Keep JSON emoji-free for clean machine consumption; emojis are fine in console/markdown only
+        header_stats = "Original Work ($($originalRepos.Count) repos) | Community Contributions ($($forkedRepos.Count) forks) | Private ($(($repoDetails | Where-Object { $_.private }).Count)) | Public ($(($repoDetails | Where-Object { -not $_.private }).Count))"
         table_headers = "| Repository | Type | Visibility | Language | Description | Last Updated |"
         table_separator = "|------------|------|------------|----------|-------------|--------------|"
     }
