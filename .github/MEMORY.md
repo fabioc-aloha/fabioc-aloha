@@ -1,10 +1,5 @@
 # Project Memory
 
-This file moved. Please use the new canonical location:
-
-→ .github/MEMORY.md
-# Project Memory
-
 A living summary of the repository’s purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
 Last updated: 2025‑08‑10
@@ -39,7 +34,7 @@ Last updated: 2025‑08‑10
   - `LICENSE`: MIT license
   - `CONTRIBUTING.md`: Contribution guidelines
  - VS Code: Configured Copilot Chat to read `.github/copilot-instructions.md` via `github.copilot.chat.repositoryInstructions` and added fallback `chat.repositoryInstructions`.
- - Copilot repo guidance: Updated `.github/copilot-instructions.md` to make `MEMORY.md` and `TODO.md` the primary context anchors (consult first; update as progress occurs).
+ - Copilot repo guidance: Updated `.github/copilot-instructions.md` to make `.github/MEMORY.md` and `.github/TODO.md` the primary context anchors (consult first; update as progress occurs).
  - P1 verifications: Confirmed fork arrow output in console, ensured JSON export is emoji-free, and synchronized counts (44/35/9/15/29) across README/REPOS/REPO-MANAGEMENT.
 
 ## 5) Current repo contents (essentials)
@@ -60,11 +55,11 @@ Last updated: 2025‑08‑10
  - Copilot Chat is configured via `.vscode/settings.json` to load repository instructions from `.github/copilot-instructions.md`; use “Developer: Show Chat Debug View” to verify system prompt includes repo guidance
 
 ## 7) Gaps and follow-ups
-- Parameterize `check-forks.ps1` (User/Limit/NoEmojiJson) to improve reuse; document usage in `REPO-MANAGEMENT.md` (tracked in TODO)
-- Clarify `template-config-example.ps1` usage in `TEMPLATE-SETUP.md` and optionally add a tiny helper script (tracked in TODO)
-- Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in TODO)
-- Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in TODO)
-- Optional: README badges (License, Contributing) and a link to `MEMORY.md`; optional scheduled refresh workflow to automate analysis PRs
+- Parameterize `check-forks.ps1` (User/Limit/NoEmojiJson) to improve reuse; document usage in `REPO-MANAGEMENT.md` (tracked in .github/TODO.md)
+- Clarify `template-config-example.ps1` usage in `TEMPLATE-SETUP.md` and optionally add a tiny helper script (tracked in .github/TODO.md)
+- Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in .github/TODO.md)
+- Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in .github/TODO.md)
+- Optional: README badges (License, Contributing) and a link to `.github/MEMORY.md`; optional scheduled refresh workflow to automate analysis PRs
 
 ## 8) How others use this template
 - One-click template link: https://github.com/fabioc-aloha/fabioc-aloha/generate

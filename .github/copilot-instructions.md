@@ -4,22 +4,22 @@ Purpose: Provide concise, opinionated guidance for GitHub Copilot to generate co
 
 Working memory: This file is the assistant’s working memory for this repo. Before you push, update this file with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
 
-De-duplication: Don’t restate the project’s status or backlog here. For decisions, status, and tasks, consult MEMORY.md and TODO.md and reference them directly.
+De-duplication: Don’t restate the project’s status or backlog here. For decisions, status, and tasks, consult .github/MEMORY.md and .github/TODO.md and reference them directly.
 
 ## Context snapshot
 - Repo type: Public profile + reusable template
 - Primary languages: Markdown, PowerShell (scripts), some Python/Jupyter in related repos
 - OS/shell: Windows, PowerShell (pwsh)
 - Tools: GitHub CLI (`gh`), PowerShell 5.1+
-- Key docs: `README.md`, `REPOS.md`, `REPO-MANAGEMENT.md`, `TEMPLATE-SETUP.md`, `CONTRIBUTING.md`, `LICENSE`, `MEMORY.md`, `TODO.md`
+- Key docs: `README.md`, `REPOS.md`, `REPO-MANAGEMENT.md`, `TEMPLATE-SETUP.md`, `CONTRIBUTING.md`, `LICENSE`, `.github/MEMORY.md`, `.github/TODO.md`
 
 ## Behaviors
 - Keep responses short, skimmable, and impersonal.
 - Prefer concrete edits and small, safe changes over large refactors.
 - Run commands in a terminal and summarize results when needed; avoid dumping long command sequences unless requested.
 - Add small, high-value adjacent improvements (links, badges, lint fixes) when low risk.
-- Always consult MEMORY.md for current project context/history and TODO.md for prioritized tasks before broad repo scans.
-- When proposing or making changes, cross-check acceptance criteria against TODO.md and update it as progress occurs.
+- Always consult .github/MEMORY.md for current project context/history and .github/TODO.md for prioritized tasks before broad repo scans.
+- When proposing or making changes, cross-check acceptance criteria against .github/TODO.md and update it as progress occurs.
 
 ## Coding & scripting guidelines
 - PowerShell first. Assume pwsh on Windows.
@@ -41,7 +41,7 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
   - Identify forks and parent repo correctly
   - Categorize repos and compute language stats
   - Always write `repo-analysis.json`
-- For feature/backlog details (e.g., parameterization), follow TODO.md instead of repeating specifics here.
+- For feature/backlog details (e.g., parameterization), follow .github/TODO.md instead of repeating specifics here.
 
 ## Git & commits
 - Use clear, conventional commits, e.g.:
@@ -56,16 +56,16 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 
 ## Fast playbooks
 - Cognitive cadence (follow in order):
-  1) Read `MEMORY.md` (context/decisions)
-  2) Read `TODO.md` (priorities/acceptance checks)
+  1) Read `.github/MEMORY.md` (context/decisions)
+  2) Read `.github/TODO.md` (priorities/acceptance checks)
   3) Run `./check-forks.ps1`
   4) Inspect `repo-analysis.json` (emoji-free, counts)
   5) Update `REPOS.md`/`README.md`/`REPO-MANAGEMENT.md`
-  6) Record notable changes in `MEMORY.md`
-  7) Tick acceptance checks in `TODO.md`
+  6) Record notable changes in `.github/MEMORY.md`
+  7) Tick acceptance checks in `.github/TODO.md`
 - Load context quickly:
-  - Read MEMORY.md first for the canonical project summary and recent decisions.
-  - Read TODO.md for active priorities, acceptance checks, and next steps.
+  - Read .github/MEMORY.md first for the canonical project summary and recent decisions.
+  - Read .github/TODO.md for active priorities, acceptance checks, and next steps.
 - Update portfolio data:
   1) Run `./check-forks.ps1`
   2) Inspect `repo-analysis.json` (no emojis, correct counts)
@@ -76,8 +76,8 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
   - Use `./verify-analysis.ps1` to check `MissingParents` is 0
 
 ## Context anchors
-- MEMORY.md: Authoritative, living summary of purpose, key decisions, changes, constraints. Consult first to reduce cognitive load and avoid redundant discovery.
-- TODO.md: Prioritized, checkbox-tracked tasks and quick acceptance checks. Use it to drive plans, verify outcomes, and record progress by ticking items when done.
+- .github/MEMORY.md: Authoritative, living summary of purpose, key decisions, changes, constraints. Consult first to reduce cognitive load and avoid redundant discovery.
+- .github/TODO.md: Prioritized, checkbox-tracked tasks and quick acceptance checks. Use it to drive plans, verify outcomes, and record progress by ticking items when done.
 
 ## Don’ts
 - Don’t hardcode repository names or counts.
@@ -88,10 +88,10 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 ## References
 - Contribution rules: `CONTRIBUTING.md`
 - License: `LICENSE` (MIT)
-- Working memory: `MEMORY.md`
-- Task tracker: `TODO.md`
+- Working memory: `.github/MEMORY.md`
+- Task tracker: `.github/TODO.md`
 
 ## Continuous improvement
 - Before you push, update `.github/copilot-instructions.md` with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
-- Keep MEMORY.md updated when notable changes happen, and reflect new priorities or completions in TODO.md (check off items and adjust acceptance checks as needed).
+- Keep .github/MEMORY.md updated when notable changes happen, and reflect new priorities or completions in .github/TODO.md (check off items and adjust acceptance checks as needed).
 - Capture concrete rules you applied (e.g., parameter names, JSON cleanliness constraints, verification scripts) and add them above in the relevant sections.
