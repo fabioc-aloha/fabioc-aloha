@@ -4,6 +4,8 @@ Purpose: Provide concise, opinionated guidance for GitHub Copilot to generate co
 
 Working memory: This file is the assistant’s working memory for this repo. Before you push, update this file with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
 
+De-duplication: Don’t restate the project’s status or backlog here. For decisions, status, and tasks, consult MEMORY.md and TODO.md and reference them directly.
+
 ## Context snapshot
 - Repo type: Public profile + reusable template
 - Primary languages: Markdown, PowerShell (scripts), some Python/Jupyter in related repos
@@ -39,7 +41,7 @@ Working memory: This file is the assistant’s working memory for this repo. Bef
   - Identify forks and parent repo correctly
   - Categorize repos and compute language stats
   - Always write `repo-analysis.json`
-- Consider parameterization for reuse by other template users.
+- For feature/backlog details (e.g., parameterization), follow TODO.md instead of repeating specifics here.
 
 ## Git & commits
 - Use clear, conventional commits, e.g.:
