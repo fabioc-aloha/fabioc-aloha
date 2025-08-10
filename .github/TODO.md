@@ -20,7 +20,7 @@ A prioritized checklist of recommended improvements based on a review of the cur
 ## P2 – Template DX & Maintainability
 
 - [ ] Improve `check-forks.ps1` UX
-   - [ ] Auto-detect owner from git remote/GitHub Actions/gh auth (done)
+   - [x] Auto-detect owner from git remote/GitHub Actions/gh auth
    - [ ] Add optional `[int]$Limit=200` and `[switch]$NoEmojiJson` parameters if needed later
    - [ ] Confirm the script works for any GitHub user and can emit strictly-clean JSON
 
@@ -43,13 +43,11 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 ## P3 – Automation & Polish
 
+- [x] Decision: prefer manual analysis; removed weekly GitHub Actions workflow
+
 - [ ] (Optional) Minimal renderer for `REPOS.md`
    - [ ] Small script to refresh header stats (and optionally section headers) from `repo-analysis.json`
    - [ ] Confirm reduced manual drift for public/private and original/fork counts
-
-- [ ] (Optional) Scheduled refresh (GitHub Actions)
-   - [ ] Weekly workflow to run analysis and open a PR if `repo-analysis.json` changes
-   - [ ] Confirm automated upkeep without forcing changes into `main`
 
 - [ ] README badges and cross-links
    - [ ] Add License and Contributing badges
@@ -69,5 +67,6 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] Running `check-forks.ps1` shows proper parent arrows for forks
 - [x] `repo-analysis.json` has zero emojis and valid JSON
 - [x] README/REPOS/REPO-MANAGEMENT show the same counts
+- [x] REPO-MANAGEMENT documents owner auto-detection and usage
 - [ ] New users can follow `TEMPLATE-SETUP.md` without confusion about the config file
 - [ ] Git warns less about CRLF/LF due to `.gitattributes`
