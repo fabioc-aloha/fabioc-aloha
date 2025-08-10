@@ -92,7 +92,7 @@
 
 | Repository | Visibility | Language | Description | Last Updated |
 |------------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🔒 Private | - | GitHub profile repository | Aug 10, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌐 Public | - | GitHub profile repository | Aug 10, 2025 |
 
 ---
 
