@@ -31,13 +31,17 @@
     - Access to fabioc-aloha repositories (requires SSO authentication)
 
     Author: Fabio Correa
-    Version: 2.1
+    Version: 2.2
     Last Updated: August 10, 2025
 #>
 
 # Repository Fork Detection Script
 # This script dynamically fetches repositories from GitHub API and identifies forks vs original repositories
 # Always exports comprehensive analysis to JSON file for automation
+
+param(
+    [int]$Limit = 200
+)
 
 Write-Host "🔍 Fetching repository list from GitHub API..." -ForegroundColor Cyan
 Write-Host ("=" * 60)
@@ -81,7 +85,7 @@ Write-Host "👤 Target owner: $Owner" -ForegroundColor Cyan
 # Dynamically fetch all repositories from GitHub API
 try {
     Write-Host "📡 Connecting to GitHub API..." -ForegroundColor Yellow
-    $repositories = gh repo list $Owner --json name --limit 100 | ConvertFrom-Json | Select-Object -ExpandProperty name
+    $repositories = gh repo list $Owner --json name --limit $Limit | ConvertFrom-Json | Select-Object -ExpandProperty name
     Write-Host "✅ Found $($repositories.Count) repositories" -ForegroundColor Green
 } catch {
     Write-Host "❌ ERROR: Failed to fetch repositories from GitHub API" -ForegroundColor Red
@@ -122,6 +126,25 @@ foreach ($repo in $repositories) {
             forks_count: .forks_count,
             open_issues_count: .open_issues_count
         }' | ConvertFrom-Json
+
+        # Sanitize emojis from string fields to keep JSON machine-friendly
+        function Remove-Emoji([string]$s) {
+            if ([string]::IsNullOrEmpty($s)) { return $s }
+            # Remove surrogate pair emojis and common symbol ranges, plus variation selector
+            $s = [regex]::Replace($s, '([\uD83C-\uDBFF][\uDC00-\uDFFF])', '')
+            $s = [regex]::Replace($s, '[\u2600-\u27BF\uFE0F]', '')
+            return $s.Trim()
+        }
+
+        $repoInfo.name = Remove-Emoji $repoInfo.name
+        $repoInfo.language = Remove-Emoji $repoInfo.language
+        $repoInfo.description = Remove-Emoji $repoInfo.description
+        $repoInfo.parent = Remove-Emoji $repoInfo.parent
+        $repoInfo.visibility = Remove-Emoji $repoInfo.visibility
+        $repoInfo.repo_type = Remove-Emoji $repoInfo.repo_type
+        if ($repoInfo.topics) {
+            $repoInfo.topics = @($repoInfo.topics | ForEach-Object { Remove-Emoji $_ })
+        }
 
         $repoDetails += $repoInfo
 

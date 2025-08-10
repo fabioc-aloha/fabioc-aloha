@@ -21,8 +21,9 @@ A prioritized checklist of recommended improvements based on a review of the cur
 
 - [ ] Improve `check-forks.ps1` UX
    - [x] Auto-detect owner from git remote/GitHub Actions/gh auth
-   - [ ] Add optional `[int]$Limit=200` and `[switch]$NoEmojiJson` parameters if needed later
-   - [ ] Confirm the script works for any GitHub user and can emit strictly-clean JSON
+   - [x] Add optional `[int]$Limit=200` parameter (default enforced)
+   - [x] Always remove emojis from JSON-bound data (no `NoEmojiJson` flag needed)
+   - [ ] Confirm the script works for any GitHub user and emits strictly-clean JSON
 
 - [x] Simplify setup by removing `template-config-example.ps1`
    - [x] Update MEMORY and setup docs accordingly
