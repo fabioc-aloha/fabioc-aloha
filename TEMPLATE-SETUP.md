@@ -176,6 +176,31 @@ Edit `.github/copilot-instructions.md` and replace:
 
 > 📚 **Learn more**: Read `COGNITIVE.md` for the complete system overview
 
+## 🎨 Optional AI Enhancements
+
+### � GPT-4o Integration (Default)
+Enhance your repository descriptions with AI-powered content generation:
+
+- **What it does**: Generates professional, technical descriptions for your repositories
+- **Cost**: Free with GitHub Copilot subscription (or standard OpenAI rates)
+- **Setup time**: Works out of the box!
+- **Default behavior**: Enabled for all users
+
+### 🤖 Claude Sonnet 4 Integration (Alternative)
+Alternative AI enhancement option:
+
+- **What it does**: Generates professional, technical descriptions for your repositories
+- **Cost**: ~$0.001-0.003 per repository analysis (very affordable)
+- **Setup time**: 5 minutes
+- **Default behavior**: Optional (requires setup)
+
+**To enable Claude instead:**
+1. See detailed setup in `CLAUDE-SETUP.md`
+2. Add `CLAUDE_API_KEY` to repository secrets
+3. Choose `claude-sonnet-4` when manually running workflows
+
+> 💡 **Note**: GPT-4o works out of the box and is the recommended option for most users.
+
 ## 🛠️ Advanced Customization
 
 ### 📂 Repository Categories

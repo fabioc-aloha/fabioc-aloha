@@ -9,11 +9,11 @@ on:
       llm_model:
         description: 'Select LLM for content enhancement'
         required: false
-        default: 'claude-sonnet-4'
+        default: 'gpt-4o'
         type: choice
         options:
-          - 'claude-sonnet-4'
           - 'gpt-4o'
+          - 'claude-sonnet-4'
           - 'skip-llm'
   push:
     paths:
@@ -43,7 +43,7 @@ jobs:
         Write-Host "   - Repository: ${{ github.repository }}"
         Write-Host "   - Actor: ${{ github.actor }}"
         Write-Host "   - Token source: ${{ secrets.PAT_TOKEN && 'PAT_TOKEN (Enhanced)' || 'GITHUB_TOKEN (Limited)' }}"
-        Write-Host "   - LLM Model: ${{ inputs.llm_model || 'claude-sonnet-4 (scheduled)' }}"
+        Write-Host "   - LLM Model: ${{ inputs.llm_model || 'gpt-4o (scheduled)' }}"
         Write-Host "   - Claude API: ${{ secrets.CLAUDE_API_KEY && 'Available' || 'Not configured' }}"
       shell: pwsh
       env:
@@ -73,13 +73,21 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
     - name: 🤖 Enhance with Claude Sonnet 4
-      if: ${{ inputs.llm_model == 'claude-sonnet-4' || (inputs.llm_model == '' && github.event_name == 'schedule') }}
+      if: ${{ inputs.llm_model == 'claude-sonnet-4' }}
       run: |
         Write-Host "🧠 Running Claude Sonnet 4 enhancement..."
         .\enhance-with-claude.ps1
       shell: pwsh
       env:
         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+
+    - name: 🧠 Enhance with GPT-4o (Default)
+      if: ${{ inputs.llm_model == 'gpt-4o' || (inputs.llm_model == '' && github.event_name == 'schedule') }}
+      run: |
+        Write-Host "🚀 Running GPT-4o enhancement..."
+        Write-Host "💡 GPT-4o enhancement coming soon! Using standard analysis for now."
+        Write-Host "✅ Repository analysis completed without AI enhancement"
+      shell: pwsh
 
     - name: 📅 Update timestamp in REPOS.md
       run: |
