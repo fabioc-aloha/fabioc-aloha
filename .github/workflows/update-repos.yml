@@ -27,9 +27,15 @@ jobs:
       run: |
         Write-Host "🔍 Verifying GitHub CLI authentication..."
         gh auth status
+
+        # Show which token type is being used
+        Write-Host "� Token configuration check:"
+        Write-Host "   - Repository: ${{ github.repository }}"
+        Write-Host "   - Actor: ${{ github.actor }}"
+        Write-Host "   - Token source: ${{ secrets.PAT_TOKEN && 'PAT_TOKEN (Enhanced)' || 'GITHUB_TOKEN (Limited)' }}"
       shell: pwsh
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
     - name: 📊 Run repository analysis
       run: |
@@ -52,7 +58,7 @@ jobs:
         }
       shell: pwsh
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
     - name: 📅 Update timestamp in REPOS.md
       run: |
@@ -195,7 +201,47 @@ jobs:
         Write-Host "📊 Ready for cognitive architecture analysis!"
       shell: pwsh
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+
+    - name: 🔄 Auto-merge Pull Request (if auto-merge enabled)
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        Write-Host "🤖 Attempting auto-merge of daily update..."
+
+        # Wait a moment for PR to be fully created
+        Start-Sleep -Seconds 5
+
+        # Find the PR for our branch
+        $branch = "daily-repo-update-$(Get-Date -Format 'yyyy-MM-dd-HHmm')"
+
+        try {
+          # Get the PR number for our branch
+          $prInfo = gh pr list --head $branch --json number,title,url | ConvertFrom-Json
+
+          if ($prInfo -and $prInfo.Count -gt 0) {
+            $prNumber = $prInfo[0].number
+            $prUrl = $prInfo[0].url
+
+            Write-Host "🔍 Found PR #$prNumber for branch '$branch'"
+            Write-Host "🔗 PR URL: $prUrl"
+
+            # Enable auto-merge with squash
+            gh pr merge $prNumber --auto --squash --delete-branch
+
+            Write-Host "✅ Auto-merge enabled for PR #$prNumber"
+            Write-Host "🎯 PR will automatically merge when checks pass"
+            Write-Host "🗑️ Branch will be automatically deleted after merge"
+          } else {
+            Write-Host "⚠️ No PR found for branch '$branch' - may need manual creation"
+            Write-Host "🔗 Create manually: https://github.com/${{ github.repository }}/pull/new/$branch"
+          }
+        } catch {
+          Write-Host "⚠️ Auto-merge setup failed: $($_.Exception.Message)"
+          Write-Host "📋 PR may require manual approval/merge"
+        }
+      shell: pwsh
+      env:
+        GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
     - name: 📈 Log completion status
       run: |
