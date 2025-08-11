@@ -35,9 +35,12 @@ Transform this into your professional GitHub portfolio with a cognitive architec
 2. Clone locally and make improvements
 3. Submit pull requests to help others
 
-## ⚡ Setup (4 easy steps)
+## ⚡ Setup (Choose Your Path)
 
-### Step 1: Install GitHub CLI
+### 🚀 Path A: Quick Start (Manual Updates)
+**Time: 10 minutes | Perfect for: Getting started quickly**
+
+#### Step 1: Install GitHub CLI
 **Windows:**
 ```bash
 winget install GitHub.cli
@@ -49,37 +52,91 @@ Then authenticate:
 gh auth login
 ```
 
-### Step 2: Configure AI Assistant (New!)
-The template includes Alex Finch, your AI assistant with a cognitive architecture system:
+#### Step 2: Configure PowerShell (Windows Only)
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
-**Key files to understand:**
-- 📋 `.github/copilot-instructions.md` - AI assistant behavior and guidelines (optimized for easy parsing)
-- 🧠 `.github/MEMORY.md` - Project decisions and context (enhanced with bold categorization)
-- ✅ `.github/TODO.md` - Task tracking and priorities
-- 🔄 `COGNITIVE.md` - How the AI system works (includes architecture diagrams)
-
-> 💡 **Pro tip**: These files work together as a "brain" for your AI assistant, keeping everything organized!
-### Step 3: Make It Yours
+#### Step 3: Make It Yours
 **Required changes:**
-- 🖼️ Replace `ALEX-CODING.png` with your banner image
+- 🖼️ Replace `ALEX-CODING.png` with your banner image (1200x400px recommended)
 - 📝 Edit `README.md` - update name, bio, skills, contact info
-- 🏷️ Update repository descriptions to match your projects
-- 🤖 Customize `.github/copilot-instructions.md` with your name and preferences
+- 🤖 Edit `.github/copilot-instructions.md` - change "Alex Finch" to your name
+- 🧠 Update `.github/MEMORY.md` with your project context
 
-**Optional (but recommended):**
-- 📂 Customize categories in `check-forks.ps1` to match your work
-- 🧠 Update `.github/MEMORY.md` with your project history and decisions
-
-### Step 4: Generate Your Portfolio
+#### Step 4: Generate Your Portfolio
 ```powershell
 .\check-forks.ps1
 ```
-🎉 **That's it!** This creates `repo-analysis.json` with all your repository data.
+✅ **Done!** Your portfolio is ready. Re-run the script whenever you want to update.
 
-## 🛠️ Customization Made Easy
+### 🤖 Path B: Complete Automation (Set & Forget)
+**Time: 15 minutes | Perfect for: Hands-off maintenance**
 
-### 🤖 AI Assistant Configuration
-Want to customize Alex Finch for your needs? Edit `.github/copilot-instructions.md`:
+**Complete Steps 1-4 above, then continue:**
+
+#### Step 5: Create Personal Access Token
+1. **Visit**: https://github.com/settings/personal-access-tokens/new
+2. **Configure**:
+   - **Name**: `portfolio-automation`
+   - **Expiration**: `90 days` (you'll get renewal reminders)
+   - **Repository access**: Selected repositories → Your `[username]/[username]` repo
+   - **Permissions** (Repository permissions):
+     - ✅ **Contents**: `Write`
+     - ✅ **Pull requests**: `Write`
+     - ✅ **Metadata**: `Read`
+     - ✅ **Actions**: `Read`
+3. **Generate token** and **copy the value** (starts with `github_pat_`)
+
+#### Step 6: Add Repository Secret
+1. **Visit**: `https://github.com/[your-username]/[your-username]/settings/secrets/actions`
+2. **Click**: "New repository secret"
+3. **Enter**:
+   - **Name**: `PAT_TOKEN` (exactly this, case-sensitive)
+   - **Secret**: Paste your token from Step 5
+4. **Click**: "Add secret"
+
+#### Step 7: Enable Repository Auto-merge
+1. **Visit**: `https://github.com/[your-username]/[your-username]/settings`
+2. **Scroll to**: "Pull Requests" section
+3. **Check**: ✅ "Allow auto-merge"
+
+#### Step 8: Create Branch Protection Rule
+1. **Visit**: `https://github.com/[your-username]/[your-username]/settings/branch_protection_rules/new`
+2. **Enter**:
+   - **Branch name pattern**: `main`
+   - **Leave all checkboxes unchecked** (minimal protection)
+3. **Click**: "Create"
+
+#### Step 9: Test Your Automation
+```bash
+# Trigger a test run
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main
+
+# Wait 30 seconds, then check if it worked
+gh run list --workflow=update-repos.yml --limit 1
+```
+
+**Success indicators:**
+- ✅ Workflow shows green checkmark (not red X)
+- ✅ PR gets created automatically
+- ✅ PR merges automatically within a minute
+
+✅ **Automation Complete!** Your portfolio now updates itself daily at 6 AM UTC.
+
+## 🔧 AI Assistant Configuration
+## 🔧 AI Assistant Configuration
+
+The template includes a cognitive architecture system with your AI assistant:
+
+**Key files to understand:**
+- 📋 `.github/copilot-instructions.md` - AI assistant behavior (change "Alex Finch" to your name)
+- 🧠 `.github/MEMORY.md` - Project decisions and context
+- ✅ `.github/TODO.md` - Task tracking and priorities
+- 🔄 `COGNITIVE.md` - How the AI system works
+
+### 🤖 Customizing Your AI Assistant
+Edit `.github/copilot-instructions.md` and replace:
 
 ```markdown
 ## Identity & Introduction
@@ -88,17 +145,11 @@ Want to customize Alex Finch for your needs? Edit `.github/copilot-instructions.
 
 ## Behaviors
 - **Name**: When asked for your name, respond with "[Your Name]"
-- **Response style**: Keep responses short, skimmable, and impersonal
 ```
 
-### 🧠 Memory System Customization
-The cognitive architecture uses three memory types:
-
-1. **Working Memory** (`.github/copilot-instructions.md`): How your AI behaves
-2. **Long-term Memory** (`.github/MEMORY.md`): Project decisions and history
-3. **Task Memory** (`.github/TODO.md`): Current priorities and acceptance criteria
-
 > 📚 **Learn more**: Read `COGNITIVE.md` for the complete system overview
+
+## 🛠️ Advanced Customization
 
 ### 📂 Repository Categories
 Want custom categories? Edit the patterns in `check-forks.ps1`:
@@ -150,96 +201,64 @@ Add your expertise to `README.md`:
 - 🆕 Add new repositories and they'll auto-appear
 - 🏷️ Use clear, searchable repository names
 
-## 🤖 Optional: Complete Automation Setup
+## 🔄 Maintaining Your Portfolio
 
-Want your portfolio to maintain itself? Set up **daily automated updates** that handle everything without manual intervention!
+### 📅 Daily Automated Updates (Path B users)
+If you set up automation, your portfolio updates itself every day at 6 AM UTC:
+1. 🔍 Scans all your repositories
+2. 📊 Updates statistics and timestamps
+3. 🌿 Creates branch with changes (if any)
+4. 📋 Generates detailed PR with AI integration
+5. ✅ Auto-merges PR when validation passes
+6. 🗑️ Cleans up temporary branches
 
-### 🎯 What Automation Provides
-
-✅ **Daily repository scanning** (runs at 6 AM UTC)
-✅ **Automatic data updates** (repo counts, statistics, timestamps)
-✅ **Auto-generated pull requests** with detailed change summaries
-✅ **Automatic merging** when validation passes
-✅ **Zero maintenance required** - completely hands-off operation
-
-### 🔧 Automation Setup (One-time, 5 minutes)
-
-#### Step 1: Create Personal Access Token
-1. **Visit**: https://github.com/settings/personal-access-tokens/new
-2. **Configure**:
-   - **Name**: `portfolio-automation`
-   - **Expiration**: `90 days`
-   - **Repository access**: Selected repositories → Your portfolio repo
-   - **Permissions**:
-     - Contents: `Write` ✅
-     - Pull requests: `Write` ✅
-     - Metadata: `Read` ✅
-     - Actions: `Read` ✅
-3. **Generate token** and copy the value
-
-#### Step 2: Add Repository Secret
-1. **Visit**: `https://github.com/[USERNAME]/[USERNAME]/settings/secrets/actions`
-2. **Click**: "New repository secret"
-3. **Name**: `PAT_TOKEN`
-4. **Secret**: Paste your token
-5. **Save**: Click "Add secret"
-
-#### Step 3: Enable Auto-merge
-1. **Visit**: `https://github.com/[USERNAME]/[USERNAME]/settings`
-2. **Find**: "Pull Requests" section
-3. **Enable**: ✅ "Allow auto-merge"
-4. **Save**: Settings are saved automatically
-
-#### Step 4: Setup Branch Protection (Optional)
-1. **Visit**: `https://github.com/[USERNAME]/[USERNAME]/settings/branch_protection_rules/new`
-2. **Branch pattern**: `main`
-3. **Click**: "Create" (minimal settings work fine)
-
-### 🚀 Testing Your Automation
-
-```bash
-# Manually trigger the workflow to test
-gh workflow run "🤖 Daily Repository Analysis Update" --ref main
-
-# Check if it worked
-gh run list --workflow=update-repos.yml --limit 1
-
-# View any created PRs
-gh pr list
+### 🔄 Manual Updates (Path A users)
+Run this whenever you want to refresh your portfolio:
+```powershell
+.\check-forks.ps1
 ```
-
-**Success indicators:**
-- ✅ Workflow shows ✅ (green checkmark)
-- ✅ PR gets created automatically
-- ✅ PR merges automatically
-- ✅ Repository data stays current
-
-### 📅 What Happens Daily
-
-Every morning at 6 AM UTC:
-1. 🔍 **Scans** all your repositories
-2. 📊 **Updates** statistics and timestamps
-3. 🌿 **Creates** branch with changes (if any)
-4. 📋 **Generates** detailed PR with Alex Finch integration
-5. ✅ **Auto-merges** PR when validation passes
-6. 🗑️ **Cleans up** temporary branches
 
 ### 🛠️ Troubleshooting Automation
 
 **Workflow fails with permission errors:**
-- Check PAT_TOKEN secret exists and has correct permissions
+- Verify PAT_TOKEN secret exists and has all 4 required permissions
 
 **PR created but doesn't auto-merge:**
-- Verify "Allow auto-merge" is enabled in repository settings
-- Check branch protection rules are configured
+- Check "Allow auto-merge" is enabled in repository settings
+- Verify branch protection rule exists for `main` branch
 
 **No changes detected:**
-- Normal behavior - automation only creates PRs when data changes
+- Normal behavior - automation only creates PRs when data actually changes
 
-**Need help?**
-- Check the troubleshooting guides: `PAT-VERIFICATION.md` and `TROUBLESHOOTING.md`
+**Token expired:**
+- Create new PAT token and update PAT_TOKEN secret (every 90 days)
 
-> 💡 **Pro tip**: Automation is completely optional. Your portfolio works perfectly with manual updates using `check-forks.ps1`!
+**Need detailed help?**
+- Check `PAT-VERIFICATION.md` and `TROUBLESHOOTING.md` in your repository
+
+## 🎯 What's Next?
+
+### 📝 Customize Your Portfolio
+- Edit `README.md` to personalize your introduction
+- Modify `REPOS.md` to highlight specific projects
+- Update `CONTRIBUTING.md` with your preferences
+
+### 🔍 Monitor Your Automation (Path B users)
+- Check Actions tab for daily workflow runs: `https://github.com/[USERNAME]/[USERNAME]/actions`
+- Review auto-generated PRs for accuracy
+- Token expires every 90 days - set a calendar reminder
+
+### 🤝 Contribute Back
+Found improvements? The template welcomes contributions! See `CONTRIBUTING.md` for details.
+
+### 📚 Advanced Usage
+- **Alex Finch Integration**: Your automation includes an AI assistant persona for enhanced PR descriptions
+- **Cognitive Architecture**: The system maintains memory and context across updates
+- **Data Analysis**: Explore `repo-analysis.json` for detailed repository insights
+
+---
+
+**🎉 Congratulations!** Your dynamic GitHub portfolio is ready. Whether updating manually or running fully automated, your profile will always showcase your latest work professionally.
 
 ## 💡 Pro Tips
 
