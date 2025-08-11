@@ -1,6 +1,6 @@
 # Repository Update Workflow
 
-## � **Simple Collaborative Process**
+## 🧠 **Simple Collaborative Process**
 
 When you want to update your repository documentation, just ask me to **"update repos"** and I'll handle everything automatically.
 
