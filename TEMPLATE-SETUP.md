@@ -35,6 +35,33 @@ Transform this into your professional GitHub portfolio with a cognitive architec
 2. Clone locally and make improvements
 3. Submit pull requests to help others
 
+```mermaid
+flowchart TD
+    A[🚀 Start: Template Setup] --> B{Choose Your Path}
+
+    B -->|🏃 Quick & Simple| C[🚀 Path A: Manual Updates]
+    B -->|🤖 Set & Forget| D[🤖 Path B: Complete Automation]
+
+    C --> C1[⚡ 10 minutes setup]
+    C1 --> C2[📝 Manual updates when needed]
+    C2 --> C3[✨ Professional portfolio]
+
+    D --> D1[⚡ 15 minutes setup]
+    D1 --> D2[🔐 Create PAT token]
+    D2 --> D3[⚙️ Configure automation]
+    D3 --> D4[🤖 Daily auto-updates at 6 AM UTC]
+    D4 --> D5[✨ Zero-maintenance portfolio]
+
+    C3 --> E[🎯 Your Dynamic GitHub Profile]
+    D5 --> E
+
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#e8f5e8
+    style D fill:#f3e5f5
+    style E fill:#fff9c4
+```
+
 ## ⚡ Setup (Choose Your Path)
 
 ### 🚀 Path A: Quick Start (Manual Updates)
