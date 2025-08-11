@@ -81,12 +81,13 @@ Two modes keep cognitive load low while staying accurate.
   7) Close with a brief quality check (no syntax issues; drift minimized)
 
 - Operational analysis (scripts)
-  1) Read `.github/MEMORY.md`
-  2) Read `.github/TODO.md`
-  3) Run `check-forks.ps1`
-  4) Inspect `repo-analysis.json`
-  5) Record decisions in `.github/MEMORY.md`
-  6) Tick acceptance checks in `.github/TODO.md`
+  1) User makes a request/prompt
+  2) Working memory: consult `.github/copilot-instructions.md` for behaviors and guidance
+  3) Read `.github/MEMORY.md` for context/decisions (per instructions)
+  4) Read `.github/TODO.md` for priorities/acceptance checks (per instructions)
+  5) Process request following the guidance (may include running scripts, editing files, etc.)
+  6) Update `.github/MEMORY.md` and `.github/TODO.md` with outcomes
+  7) Cross-check acceptance criteria and tick completed items
 
 ### Flow diagram
 
@@ -105,13 +106,14 @@ flowchart TD
   end
 
   subgraph Operational_analysis
-    s1[Read .github/MEMORY.md]
-    s2[Read .github/TODO.md]
-    s3[Run check-forks.ps1]
-    s4[Inspect repo-analysis.json]
-    s5[Record decisions in MEMORY]
-    s6[Tick acceptance checks in TODO]
-    s1 --> s2 --> s3 --> s4 --> s5 --> s6
+    s1[User prompt/request]
+    s2[Working memory: read copilot instructions]
+    s3[Read .github/MEMORY.md for context]
+    s4[Read .github/TODO.md for priorities]
+    s5[Process request using guidance]
+    s6[Run scripts if needed]
+    s7[Update MEMORY/TODO with results]
+    s1 --> s2 --> s3 --> s4 --> s5 --> s6 --> s7
   end
 ```
 
@@ -139,11 +141,13 @@ sequenceDiagram
     LT-->>TD: connect synapses README/REPOS/REPO-MANAGEMENT
     Note over LT,TD: Quality check: syntax, drift minimized
   else operational analysis
-    TD->>SC: run analysis
-    SC->>JS: write data
-    VF->>JS: validate data
-    U->>LT: record decisions
-    U->>TD: tick checks
+    U->>WM: user prompt/request
+    WM->>LT: consult context per instructions
+    WM->>TD: check priorities per instructions
+    U->>SC: may run scripts as needed
+    SC->>JS: may write/update data
+    U->>LT: record decisions/outcomes
+    U->>TD: tick acceptance checks
   end
 ```
 
