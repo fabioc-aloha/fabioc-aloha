@@ -17,6 +17,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: read
 
     steps:
     - name: 📥 Checkout repository
@@ -175,14 +176,21 @@ jobs:
         "@
 
         # Create the pull request
-        gh pr create `
-          --title "🤖 Daily repository analysis update ($(Get-Date -Format 'MMM dd, yyyy'))" `
-          --body $prBody `
-          --head $branch `
-          --base main `
-          --label "automation,daily-update,alex-finch"
+        try {
+          gh pr create `
+            --title "🤖 Daily repository analysis update ($(Get-Date -Format 'MMM dd, yyyy'))" `
+            --body $prBody `
+            --head $branch `
+            --base main `
+            --label "automation,daily-update,alex-finch"
 
-        Write-Host "✅ Pull request created successfully with Alex Finch integration!"
+          Write-Host "✅ Pull request created successfully with Alex Finch integration!"
+        } catch {
+          Write-Host "⚠️ PR creation failed (likely due to permissions): $($_.Exception.Message)"
+          Write-Host "📋 Branch '$branch' was pushed successfully and is ready for manual PR creation"
+          Write-Host "🔗 Create PR manually: https://github.com/${{ github.repository }}/pull/new/$branch"
+        }
+
         Write-Host "🎯 Branch: $branch"
         Write-Host "📊 Ready for cognitive architecture analysis!"
       shell: pwsh
