@@ -19,6 +19,7 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=flat"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/Contributing-Welcome-blue?style=flat"></a>
   <a href=".github/MEMORY.md"><img alt="Project Memory" src="https://img.shields.io/badge/Project%20Memory-Context%20%26%20Decisions-9cf?style=flat"></a>
+  <a href="https://github.com/fabioc-aloha/fabioc-aloha/releases/tag/v1.0.0"><img alt="Version" src="https://img.shields.io/badge/Version-v1.0.0-brightgreen?style=flat"></a>
 
 </p>
 
