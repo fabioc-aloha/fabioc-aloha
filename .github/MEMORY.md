@@ -36,6 +36,12 @@ Last updated: 2025‑08‑10
  - Copilot repo guidance: Updated `.github/copilot-instructions.md` to make `.github/MEMORY.md` and `.github/TODO.md` the primary context anchors (consult first; update as progress occurs).
  - P1 verifications: Confirmed fork arrow output in console, ensured JSON export is emoji-free, and synchronized counts (44/35/9/15/29) across README/REPOS/REPO-MANAGEMENT.
  - Workflow pruning: Removed optional weekly analysis workflow; prefer manual `check-forks.ps1` runs.
+ - KISS/DRY: Consolidated Copilot instructions by merging "Fast playbooks" and "Meditation" into a single section; added an explicit KISS/DRY behavior and unified context anchors & references to reduce repetition and cognitive load.
+ - Script enhancements: `check-forks.ps1` v2.2 now auto-detects the owner, supports `-Limit 200` by default, and sanitizes all JSON-bound fields to be emoji-free; output remains `repo-analysis.json` at the repo root.
+ - Repo hygiene: Added `.gitattributes` (normalize line endings; `.ps1` CRLF) and `.gitignore` (common noise; does not ignore `repo-analysis.json`).
+ - README updates: Added License/Contributing/Project Memory badges and a Requirements section (GitHub CLI ≥ 2.55, PowerShell 5.1+).
+ - Template simplification: Removed `template-config-example.ps1` and scrubbed references; `TEMPLATE-SETUP.md` is the single setup guide.
+ - P2 completion: Template DX and maintainability polish completed and backlog moved to post‑P2 in `.github/TODO.md`.
 
 ## 5) Current repo contents (essentials)
 - `README.md`: Primary profile content (banner, badges, stats, areas of focus, portfolio link, contact info, and template CTA)
@@ -55,13 +61,11 @@ Last updated: 2025‑08‑10
  - Added `.gitattributes` to normalize line endings and `.gitignore` for common noise
 
 ## 7) Gaps and follow-ups
-- `check-forks.ps1` now auto-detects the GitHub owner from git remote/CI or gh auth; consider adding optional Limit/NoEmojiJson later (tracked in .github/TODO.md)
-  - Simplified template: removed `template-config-example.ps1`; setup relies on README and `TEMPLATE-SETUP.md`
-- Add `.gitignore` and `.gitattributes` to reduce noise and CRLF/LF warnings (tracked in .github/TODO.md)
-- Decide policy for tracking `repo-analysis.json` (snapshot via PR vs generate-on-demand) and update docs (tracked in .github/TODO.md)
- - Tracking policy decided: keep `repo-analysis.json` at the repository root and track snapshots in git; do not ignore.
- - Working-memory cadence: after notable changes, sync `.github/copilot-instructions.md`, `.github/MEMORY.md`, and `.github/TODO.md` and tick the checklist.
-- Optional: README badges (License, Contributing) and a link to `.github/MEMORY.md`; optional scheduled refresh workflow to automate analysis PRs
+- `check-forks.ps1` is upgraded (owner auto-detect, Limit, emoji-free JSON). Remaining hardening is tracked in `.github/TODO.md` (retry/backoff, guard empty lists, gh presence check, broaden sanitizer).
+- Tracking policy decided: keep `repo-analysis.json` at the repository root and track snapshots in git; do not ignore.
+- Working-memory cadence: after notable changes, sync `.github/copilot-instructions.md`, `.github/MEMORY.md`, and `.github/TODO.md` and tick the checklist.
+- Meditation trigger: When asked to "meditate", run consolidation + synapse wiring per `.github/copilot-instructions.md` (purely cognitive; no scripts are executed; align counts/text → update MEMORY/TODO → quick quality check).
+- Optional: A scheduled refresh workflow could automate analysis PRs in the future, but current preference is manual runs.
 
 ## 8) How others use this template
 - One-click template link: https://github.com/fabioc-aloha/fabioc-aloha/generate
@@ -78,3 +82,4 @@ Last updated: 2025‑08‑10
 - License: MIT
 - Contributing: Guidelines present
  - Copilot repo instructions: Configured
+ - P2 (Template DX & Maintainability): Completed on 2025-08-10
