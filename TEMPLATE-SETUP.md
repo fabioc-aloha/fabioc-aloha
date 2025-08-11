@@ -150,36 +150,25 @@ gh run list --workflow=update-repos.yml --limit 1
 - ✅ PR gets created automatically
 - ✅ PR merges automatically within a minute
 
-#### Step 10: Understanding AI Enhancement Options
-Your workflow now supports three LLM options:
+#### Step 10: Understanding GPT-4o Enhancement
+Your workflow includes GPT-4o AI enhancement:
 
-**🚀 GPT-4o (Default)** - Recommended for most users
+**🧠 GPT-4o Enhancement (Default)** - Enabled automatically
 - ✅ Works immediately, no setup required
 - ✅ Free with GitHub Copilot subscription
 - ✅ Professional AI-enhanced descriptions
+- ✅ Automatic technology stack identification
 
-**🤖 Claude Sonnet 4** - Alternative for advanced users
-- ⚙️ Requires API key setup (see `CLAUDE-SETUP.md`)
-- 💰 ~$0.001-0.003 per repository analysis
-- 🎯 Alternative AI model with different writing style
+**To manually control AI enhancement**:
+```bash
+# Enable GPT-4o enhancement (default)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=enabled
 
-**⏭️ Skip LLM** - No AI enhancement
-- 📝 Uses original repository descriptions
-- 🚀 Fastest processing option
+# Disable AI enhancement (use original descriptions)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=disabled
+```
 
 **To change the default**: Edit the workflow file `.github/workflows/update-repos.yml` and modify the `default:` value under `llm_model`.
-
-**To manually trigger with specific LLM**:
-```bash
-# Use GPT-4o (default)
-gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=gpt-4o
-
-# Use Claude Sonnet 4 (requires setup)
-gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=claude-sonnet-4
-
-# Skip AI enhancement
-gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=skip-llm
-```
 - ✅ PR merges automatically within a minute
 
 ✅ **Automation Complete!** Your portfolio now updates itself daily at 6 AM UTC.
@@ -209,7 +198,7 @@ Edit `.github/copilot-instructions.md` and replace:
 
 > 📚 **Learn more**: Read `COGNITIVE.md` for the complete system overview
 
-## 🎨 Optional AI Enhancements
+## 🧠 GPT-4o AI Enhancement
 
 ### � GPT-4o Integration (Default)
 Enhance your repository descriptions with AI-powered content generation:
@@ -219,20 +208,18 @@ Enhance your repository descriptions with AI-powered content generation:
 - **Setup time**: Works out of the box!
 - **Default behavior**: Enabled for all users
 
-### 🤖 Claude Sonnet 4 Integration (Alternative)
-Alternative AI enhancement option:
+**GPT-4o Enhancement Features:**
+- ✅ Professional, technical writing style
+- ✅ Automatic technology stack identification
+- ✅ Consistent tone across your portfolio
+- ✅ Smart fallback to original descriptions if needed
 
-- **What it does**: Generates professional, technical descriptions for your repositories
-- **Cost**: ~$0.001-0.003 per repository analysis (very affordable)
-- **Setup time**: 5 minutes
-- **Default behavior**: Optional (requires setup)
+**To disable AI enhancement:**
+```bash
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=disabled
+```
 
-**To enable Claude instead:**
-1. See detailed setup in `CLAUDE-SETUP.md`
-2. Add `CLAUDE_API_KEY` to repository secrets
-3. Choose `claude-sonnet-4` when manually running workflows
-
-> 💡 **Note**: GPT-4o works out of the box and is the recommended option for most users.
+> 💡 **Note**: GPT-4o works seamlessly out of the box with no configuration required!
 
 ## 🛠️ Advanced Customization
 

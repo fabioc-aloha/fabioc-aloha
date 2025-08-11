@@ -22,8 +22,7 @@ This document explains the repo's lightweight "cognitive system" — how working
   - Machine‑readable portfolio data; JSON is emoji‑free by design
 - **Scripts**: `check-forks.ps1`, `verify-analysis.ps1`
   - Generate and validate the JSON and parent/fork relationships
-- **AI Enhancement**: GPT-4o integration (default) and Claude Sonnet 4 (alternative)
-  - Professional repository descriptions and content enhancement
+- **AI Enhancement**: GPT-4o integration for professional repository descriptions
 
 **Control**:
 - **Cognitive playbooks & meditation** (trigger: "meditate") live in `.github/copilot-instructions.md`.
