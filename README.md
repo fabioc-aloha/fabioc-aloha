@@ -287,10 +287,13 @@ This foundational work directly influenced the development of my **44-repository
 ### What You Get
 
 - **Dynamic Repository Analysis**: PowerShell script that automatically fetches and categorizes your GitHub repositories
+- **AI-Enhanced Descriptions**: GPT-4o integration for professional repository descriptions (works out-of-the-box)
 - **Auto-Generated Documentation**: Creates beautiful REPOS.md with statistics and project descriptions
 - **Professional Layout**: Clean, organized README template with badges and stats
+- **Cognitive Architecture**: Alex Finch AI assistant for streamlined portfolio maintenance
 - **Easy Customization**: Template configuration files for quick personalization
 - **GitHub Stats Integration**: Automated profile statistics and contribution graphs
+- **Optional Automation**: Complete hands-off daily updates with GitHub Actions
 
 ### Quick Start
 

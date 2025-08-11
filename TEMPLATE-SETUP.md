@@ -8,6 +8,7 @@ Transform this into your professional GitHub portfolio with a cognitive architec
 ✅ **Professional README**: Ready-to-use profile with stats and badges
 ✅ **Repository management**: Organized, categorized project listings
 ✅ **AI-powered maintenance**: Alex Finch assistant for streamlined updates
+✅ **GPT-4o integration**: AI-enhanced descriptions (works out-of-the-box)
 ✅ **Cognitive architecture**: Structured memory system for project tracking
 ✅ **Easy maintenance**: One command updates everything
 ✅ **Optional automation**: Complete hands-off daily updates (5-minute setup)
@@ -147,6 +148,38 @@ gh run list --workflow=update-repos.yml --limit 1
 **Success indicators:**
 - ✅ Workflow shows green checkmark (not red X)
 - ✅ PR gets created automatically
+- ✅ PR merges automatically within a minute
+
+#### Step 10: Understanding AI Enhancement Options
+Your workflow now supports three LLM options:
+
+**🚀 GPT-4o (Default)** - Recommended for most users
+- ✅ Works immediately, no setup required
+- ✅ Free with GitHub Copilot subscription
+- ✅ Professional AI-enhanced descriptions
+
+**🤖 Claude Sonnet 4** - Alternative for advanced users
+- ⚙️ Requires API key setup (see `CLAUDE-SETUP.md`)
+- 💰 ~$0.001-0.003 per repository analysis
+- 🎯 Alternative AI model with different writing style
+
+**⏭️ Skip LLM** - No AI enhancement
+- 📝 Uses original repository descriptions
+- 🚀 Fastest processing option
+
+**To change the default**: Edit the workflow file `.github/workflows/update-repos.yml` and modify the `default:` value under `llm_model`.
+
+**To manually trigger with specific LLM**:
+```bash
+# Use GPT-4o (default)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=gpt-4o
+
+# Use Claude Sonnet 4 (requires setup)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=claude-sonnet-4
+
+# Skip AI enhancement
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=skip-llm
+```
 - ✅ PR merges automatically within a minute
 
 ✅ **Automation Complete!** Your portfolio now updates itself daily at 6 AM UTC.

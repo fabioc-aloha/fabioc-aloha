@@ -1,16 +1,18 @@
-# 🤖 Claude Sonnet 4 Integration Setup Guide
+# 🤖 Claude Sonnet 4 Integration Setup Guide (Alternative AI Option)
 
 ## Overview
 
-This guide will help you integrate Claude Sonnet 4 into your GitHub portfolio automation for AI-enhanced repository descriptions and insights.
+This guide will help you integrate Claude Sonnet 4 as an **alternative AI option** for your GitHub portfolio automation.
 
-## 🎯 What You'll Get
+> 💡 **Note**: By default, the workflow uses **GPT-4o** which works out-of-the-box. This guide is for users who want to use Claude Sonnet 4 instead.
+
+## 🎯 What You'll Get with Claude
 
 ✅ **AI-Enhanced Descriptions**: Professional, technical repository descriptions
 ✅ **Consistent Tone**: Unified voice across your entire portfolio
 ✅ **Technical Insights**: Automatic technology stack identification
 ✅ **Smart Fallback**: Continues with original data if Claude fails
-✅ **Cost Efficient**: Only calls API when repository data changes
+✅ **Cost Efficient**: Only calls API when repository data changes (~$0.001-0.003 per repo)
 
 ## 📋 Prerequisites
 
