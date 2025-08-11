@@ -72,12 +72,13 @@ A step‑by‑step routine to follow when updating analysis and decisions.
 Two modes keep cognitive load low while staying accurate.
 
 - Meditation (cognitive‑only; trigger: "meditate")
-  1) Summarize recent changes
-  2) Read `.github/MEMORY.md`
-  3) Read `.github/TODO.md`
+  1) Summarize chat history
+  2) Read `.github/MEMORY.md` (context/decisions)
+  3) Read `.github/TODO.md` (priorities/acceptance checks)
   4) Record notable learnings in `.github/MEMORY.md`
-  5) Update tasks/acceptance checks in `.github/TODO.md`
-  6) Conceptual consistency checks: README/REPOS/REPO‑MANAGEMENT align; links/badges valid → brief quality check
+  5) Update the to-do list in `.github/TODO.md` if needed
+  6) Consolidate and connect synapses: ensure counts/statements conceptually match across `README.md`, `REPOS.md`, and `REPO-MANAGEMENT.md`; confirm links/badges remain valid (README ↔ MEMORY ↔ REPOS)
+  7) Close with a brief quality check (no syntax issues; drift minimized)
 
 - Operational analysis (scripts)
   1) Read `.github/MEMORY.md`
@@ -93,13 +94,14 @@ Two modes keep cognitive load low while staying accurate.
 flowchart TD
   subgraph Meditation_cognitive_only
     m0[Trigger meditate]
-    m1[Summarize changes]
+    m1[Summarize chat history]
     m2[Read .github/MEMORY.md]
     m3[Read .github/TODO.md]
-    m4[Update MEMORY]
-    m5[Update TODO]
-    m6[Conceptual checks + quality check]
-    m0 --> m1 --> m2 --> m3 --> m4 --> m5 --> m6
+    m4[Record learnings in MEMORY]
+    m5[Update TODO list if needed]
+    m6[Connect synapses: README/REPOS/REPO-MANAGEMENT align]
+    m7[Quality check: no syntax issues, drift minimized]
+    m0 --> m1 --> m2 --> m3 --> m4 --> m5 --> m6 --> m7
   end
 
   subgraph Operational_analysis
@@ -134,7 +136,8 @@ sequenceDiagram
   alt meditate (cognitive-only)
     U->>LT: record learnings
     U->>TD: update tasks/checks
-    LT-->>TD: conceptual alignment
+    LT-->>TD: connect synapses README/REPOS/REPO-MANAGEMENT
+    Note over LT,TD: Quality check: syntax, drift minimized
   else operational analysis
     TD->>SC: run analysis
     SC->>JS: write data
@@ -190,4 +193,4 @@ Quick end‑of‑run validations to make sure everything aligns.
 - `repo-analysis.json` has zero emojis and valid JSON
 - `.github/MEMORY.md` reflects notable changes this iteration
 - `.github/TODO.md` acceptance checks updated
-- If meditation: conceptual consistency checks performed and links/badges validated
+- If meditation: synapses connected (README/REPOS/REPO-MANAGEMENT align), links/badges validated, and quality check performed
