@@ -23,6 +23,10 @@ What the parts are and the role each one plays.
 - Scripts: `check-forks.ps1`, `verify-analysis.ps1`
   - Generate and validate the JSON and parent/fork relationships
 
+Control:
+- Cognitive playbooks & meditation (trigger: "meditate") live in `.github/copilot-instructions.md`.
+  - Meditate runs the cadence end‑to‑end purely cognitively (no scripts), then does conceptual consistency checks and a brief quality check.
+
 These are “synapses”: explicit references between the above files so the workflow is navigable and consistent.
 
 ## Diagram
@@ -38,14 +42,20 @@ flowchart LR
   G[Verifier<br/>verify-analysis.ps1]
   D[Source of truth<br/>repo-analysis.json]
 
-  F --> A
-  F --> B
-  A -->|read| B
+  %% Operational path
   B -->|run| C
   C -->|write/inspect| D
   G --> D
   D -->|inform| A
   D -->|inform| B
+
+  %% Cognitive control and anchors
+  F --> A
+  F --> B
+
+  %% Meditation (cognitive‑only loop)
+  A -. read/update .-> B
+  B -. acceptance/checks .-> A
 
   classDef data fill:#e8f7ff,stroke:#36c;
   classDef mem fill:#eef7ee,stroke:#2a7a2a;
@@ -59,20 +69,48 @@ flowchart LR
 
 A step‑by‑step routine to follow when updating analysis and decisions.
 
-1) Read `.github/MEMORY.md` → 2) Read `.github/TODO.md` → 3) Run `check-forks.ps1` → 4) Inspect `repo-analysis.json` → 5) Record decisions in `.github/MEMORY.md` → 6) Check off acceptance checks in `.github/TODO.md`.
+Two modes keep cognitive load low while staying accurate.
+
+- Meditation (cognitive‑only; trigger: "meditate")
+  1) Summarize recent changes
+  2) Read `.github/MEMORY.md`
+  3) Read `.github/TODO.md`
+  4) Record notable learnings in `.github/MEMORY.md`
+  5) Update tasks/acceptance checks in `.github/TODO.md`
+  6) Conceptual consistency checks: README/REPOS/REPO‑MANAGEMENT align; links/badges valid → brief quality check
+
+- Operational analysis (scripts)
+  1) Read `.github/MEMORY.md`
+  2) Read `.github/TODO.md`
+  3) Run `check-forks.ps1`
+  4) Inspect `repo-analysis.json`
+  5) Record decisions in `.github/MEMORY.md`
+  6) Tick acceptance checks in `.github/TODO.md`
 
 ### Flow diagram
 
 ```mermaid
 flowchart TD
-  s1[1. Read .github/MEMORY.md]
-  s2[2. Read .github/TODO.md]
-  s3[3. Run check-forks.ps1]
-  s4[4. Inspect repo-analysis.json]
-  s5[5. Record decisions in .github/MEMORY.md]
-  s6[6. Tick acceptance checks in .github/TODO.md]
+  subgraph Meditation_cognitive_only
+    m0[Trigger meditate]
+    m1[Summarize changes]
+    m2[Read .github/MEMORY.md]
+    m3[Read .github/TODO.md]
+    m4[Update MEMORY]
+    m5[Update TODO]
+    m6[Conceptual checks + quality check]
+    m0 --> m1 --> m2 --> m3 --> m4 --> m5 --> m6
+  end
 
-  s1 --> s2 --> s3 --> s4 --> s5 --> s6
+  subgraph Operational_analysis
+    s1[Read .github/MEMORY.md]
+    s2[Read .github/TODO.md]
+    s3[Run check-forks.ps1]
+    s4[Inspect repo-analysis.json]
+    s5[Record decisions in MEMORY]
+    s6[Tick acceptance checks in TODO]
+    s1 --> s2 --> s3 --> s4 --> s5 --> s6
+  end
 ```
 
 ### Update cycle (sequence)
@@ -92,11 +130,18 @@ sequenceDiagram
   U->>WM: read rules
   WM->>LT: consult context
   LT->>TD: select priorities
-  TD->>SC: run analysis
-  SC->>JS: write data
-  VF->>JS: validate data
-  U->>LT: record decisions
-  U->>TD: tick checks
+
+  alt meditate (cognitive-only)
+    U->>LT: record learnings
+    U->>TD: update tasks/checks
+    LT-->>TD: conceptual alignment
+  else operational analysis
+    TD->>SC: run analysis
+    SC->>JS: write data
+    VF->>JS: validate data
+    U->>LT: record decisions
+    U->>TD: tick checks
+  end
 ```
 
 ## Guardrails
@@ -110,6 +155,7 @@ Simple rules that keep the system reliable and in sync.
   - `.github/copilot-instructions.md` = operating rules and pointers
 - JSON cleanliness: no emojis in JSON; emojis OK in console/Markdown
 - Drift prevention: written claims align with `repo-analysis.json`
+- Meditation is script‑free; it updates MEMORY/TODO and performs conceptual checks only.
 
 ## Risks and failure modes
 
@@ -123,7 +169,6 @@ Where things can go wrong and what to watch for.
 
 Small, low‑risk enhancements to increase clarity and reduce drift.
 
-- Add “Update cadence” to `.github/copilot-instructions.md`
 - Stamp “Last updated” at the top of `.github/MEMORY.md` and `.github/TODO.md` (keep current)
 - Add a tiny “Working memory synced” checkbox per milestone in `.github/TODO.md`
 
@@ -131,8 +176,10 @@ Small, low‑risk enhancements to increase clarity and reduce drift.
 
 A fast checklist for day‑to‑day updates.
 
-- Run analysis script and regenerate JSON
-- Verify: parent arrows, counts (total/original/fork/private/public), JSON is emoji‑free
+- Pick a mode:
+  - Meditate: cognitive‑only consolidation (no scripts)
+  - Analyze: run scripts to refresh data
+- If Analyze: run analysis and regenerate JSON; verify parent arrows, counts (total/original/fork/private/public), and emoji‑free JSON
 - Record meaningful changes in `.github/MEMORY.md`; tick acceptance checks in `.github/TODO.md`
 
 ## Acceptance checks (quick)
@@ -143,3 +190,4 @@ Quick end‑of‑run validations to make sure everything aligns.
 - `repo-analysis.json` has zero emojis and valid JSON
 - `.github/MEMORY.md` reflects notable changes this iteration
 - `.github/TODO.md` acceptance checks updated
+- If meditation: conceptual consistency checks performed and links/badges validated
