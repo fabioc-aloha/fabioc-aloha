@@ -1,4 +1,21 @@
-# Cognitive System for this Repository
+# Cognitive System for this Repos**Control**:
+- **Cognitive playbooks & meditation** (trigger: "meditate") live in `.github/copilot-instructions.md`.
+  - Meditate runs the cade## Improvement opportunities
+
+**Small, low‑risk enhancements** to increase clarity and reduce drift.
+
+- **Timestamp stamps**: "Last updated" at the top of `.github/MEMORY.md` and `.github/TODO.md` (keep current)
+- **Sync indicators**: Add a tiny "Working memory synced" checkbox per milestone in `.github/TODO.md`d‑to‑end purely cognitively (no scripts), then does conceptual consistency checks and a brief quality check.
+
+These are **"synapses"**: explicit references between the above files so the workflow is navigable and consistent.
+
+**Last updated**: 2025-08-11
+
+## Purpose
+
+**Quick why**: what this document is and how it keeps the repo consistent.
+
+This document explains the repo's lightweight "cognitive system" — how working memory, long‑term memory, and automation connect to keep decisions, tasks, and outputs consistent.ve System for this Repository
 
 Last updated: 2025-08-10
 
@@ -10,17 +27,17 @@ This document explains the repo’s lightweight “cognitive system” — how w
 
 ## Architecture
 
-What the parts are and the role each one plays.
+**What the parts are and the role each one plays.**
 
-- Working memory: `.github/copilot-instructions.md`
+- **Working memory**: `.github/copilot-instructions.md`
   - Operating rules, priorities, and where to look first
-- Long‑term memory: `.github/MEMORY.md`
+- **Long‑term memory**: `.github/MEMORY.md`
   - Canonical summary of purpose, decisions, notable changes, and constraints
-- Task memory: `.github/TODO.md`
+- **Task memory**: `.github/TODO.md`
   - Prioritized tasks with acceptance checks and quick validation steps
-- Data source of truth: `repo-analysis.json`
+- **Data source of truth**: `repo-analysis.json`
   - Machine‑readable portfolio data; JSON is emoji‑free by design
-- Scripts: `check-forks.ps1`, `verify-analysis.ps1`
+- **Scripts**: `check-forks.ps1`, `verify-analysis.ps1`
   - Generate and validate the JSON and parent/fork relationships
 
 Control:
@@ -31,7 +48,7 @@ These are “synapses”: explicit references between the above files so the wor
 
 ## Architecture Diagram
 
-System architecture showing cognitive components, script automation, and information flow patterns.
+**System architecture** showing cognitive components, script automation, and information flow patterns.
 
 ```mermaid
 flowchart TD
@@ -45,7 +62,7 @@ flowchart TD
     TD1 -.quality check.-> LT1
   end
 
-  subgraph EF ["Executive Function (GitHub Copilot)"]
+  subgraph EF ["Executive Function (Alex Finch)"]
     U2[User: prompt/request]
     WM2[Working memory: consult instructions]
     LT2[Long-term memory: read context]
@@ -88,11 +105,11 @@ flowchart TD
 
 ## How it works (flow)
 
-A step‑by‑step routine to follow when updating analysis and decisions.
+**A step‑by‑step routine** to follow when updating analysis and decisions.
 
-Two modes keep cognitive load low while staying accurate.
+**Two modes** keep cognitive load low while staying accurate.
 
-- Meditation (cognitive‑only; trigger: "meditate")
+- **Meditation** (cognitive‑only; trigger: "meditate")
   1) Summarize chat history
   2) Read `.github/MEMORY.md` (context/decisions)
   3) Read `.github/TODO.md` (priorities/acceptance checks)
@@ -100,7 +117,7 @@ Two modes keep cognitive load low while staying accurate.
   5) Update the to-do list in `.github/TODO.md` if needed
   6) Consolidate and connect synapses: ensure counts/statements conceptually match across `README.md`, `REPOS.md`, and `REPO-MANAGEMENT.md`; confirm links/badges remain valid (README ↔ MEMORY ↔ REPOS); close with a brief quality check (no syntax issues; drift minimized)
 
-- Operational analysis (scripts)
+- **Operational analysis** (scripts)
   1) User makes a request/prompt
   2) Working memory: consult `.github/copilot-instructions.md` for behaviors and guidance
   3) Read `.github/MEMORY.md` for context/decisions (per instructions)
@@ -111,7 +128,7 @@ Two modes keep cognitive load low while staying accurate.
 
 ### Update cycle (sequence)
 
-Shows the interactions between people, scripts, and files during an update.
+**Shows the interactions** between people, scripts, and files during an update.
 
 ```mermaid
 sequenceDiagram
@@ -145,24 +162,24 @@ sequenceDiagram
 
 ## Guardrails
 
-Simple rules that keep the system reliable and in sync.
+**Simple rules** that keep the system reliable and in sync.
 
-- Single source of truth for counts/stats: `repo-analysis.json` (no manual duplication)
-- Canonical roles:
+- **Single source of truth** for counts/stats: `repo-analysis.json` (no manual duplication)
+- **Canonical roles**:
   - `.github/MEMORY.md` = authoritative context/decisions
   - `.github/TODO.md` = prioritized actions + acceptance checks
   - `.github/copilot-instructions.md` = operating rules and pointers
-- JSON cleanliness: no emojis in JSON; emojis OK in console/Markdown
-- Drift prevention: written claims align with `repo-analysis.json`
-- Meditation is script‑free; it updates MEMORY/TODO and performs conceptual checks only.
+- **JSON cleanliness**: no emojis in JSON; emojis OK in console/Markdown
+- **Drift prevention**: written claims align with `repo-analysis.json`
+- **Meditation is script‑free**: it updates MEMORY/TODO and performs conceptual checks only.
 
 ## Risks and failure modes
 
-Where things can go wrong and what to watch for.
+**Where things can go wrong** and what to watch for.
 
-- Drift: statements in docs diverge from `repo-analysis.json`
-- Duplication: repeating the same facts across files without a reference
-- Incomplete verification: skipping parent arrows or private/public splits after changes
+- **Drift**: statements in docs diverge from `repo-analysis.json`
+- **Duplication**: repeating the same facts across files without a reference
+- **Incomplete verification**: skipping parent arrows or private/public splits after changes
 
 ## Improvement opportunities
 
@@ -173,20 +190,20 @@ Small, low‑risk enhancements to increase clarity and reduce drift.
 
 ## Operational cadence (fast path)
 
-A fast checklist for day‑to‑day updates.
+**A fast checklist** for day‑to‑day updates.
 
-- Pick a mode:
-  - Meditation: cognitive‑only consolidation (no scripts)
-  - Executive Function: run scripts to refresh data and process requests
-- If Executive Function: run analysis and regenerate JSON; verify parent arrows, counts (total/original/fork/private/public), and emoji‑free JSON
-- Record meaningful changes in `.github/MEMORY.md`; tick acceptance checks in `.github/TODO.md`
+- **Pick a mode**:
+  - **Meditation**: cognitive‑only consolidation (no scripts)
+  - **Executive Function**: run scripts to refresh data and process requests
+- **If Executive Function**: run analysis and regenerate JSON; verify parent arrows, counts (total/original/fork/private/public), and emoji‑free JSON
+- **Record meaningful changes** in `.github/MEMORY.md`; tick acceptance checks in `.github/TODO.md`
 
 ## Acceptance checks (quick)
 
-Quick end‑of‑run validations to make sure everything aligns.
+**Quick end‑of‑run validations** to make sure everything aligns.
 
-- Console shows correct fork arrows: `repo ← owner/parent`
-- `repo-analysis.json` has zero emojis and valid JSON
-- `.github/MEMORY.md` reflects notable changes this iteration
-- `.github/TODO.md` acceptance checks updated
-- If meditation: synapses connected (README/REPOS/REPO-MANAGEMENT align), links/badges validated, and quality check performed
+- **Console shows correct fork arrows**: `repo ← owner/parent`
+- **`repo-analysis.json` has zero emojis** and valid JSON
+- **`.github/MEMORY.md` reflects notable changes** this iteration
+- **`.github/TODO.md` acceptance checks updated**
+- **If meditation**: synapses connected (README/REPOS/REPO-MANAGEMENT align), links/badges validated, and quality check performed
