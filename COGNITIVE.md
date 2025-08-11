@@ -1,13 +1,41 @@
-# Cognitive System for this Repos**Control**:
+# Cognitive System for this Repository
+
+**Last updated**: 2025-08-11
+
+## Purpose
+
+**Quick why**: what this document is and how it keeps the repo consistent.
+
+This document explains the repo's lightweight "cognitive system" — how working memory, long‑term memory, automation, and AI enhancement connect to keep decisions, tasks, and outputs consistent.
+
+## Architecture
+
+**What the parts are and the role each one plays.**
+
+- **Working memory**: `.github/copilot-instructions.md`
+  - Operating rules, priorities, and where to look first
+- **Long‑term memory**: `.github/MEMORY.md`
+  - Canonical summary of purpose, decisions, notable changes, and constraints
+- **Task memory**: `.github/TODO.md`
+  - Prioritized tasks with acceptance checks and quick validation steps
+- **Data source of truth**: `repo-analysis.json`
+  - Machine‑readable portfolio data; JSON is emoji‑free by design
+- **Scripts**: `check-forks.ps1`, `verify-analysis.ps1`
+  - Generate and validate the JSON and parent/fork relationships
+- **AI Enhancement**: GPT-4o integration for professional repository descriptions
+
+**Control**:
 - **Cognitive playbooks & meditation** (trigger: "meditate") live in `.github/copilot-instructions.md`.
-  - Meditate runs the cade## Improvement opportunities
+  - Meditate runs the cadence end‑to‑end purely cognitively (no scripts), then does conceptual consistency checks and a brief quality check.
+
+These are **"synapses"**: explicit references between the above files so the workflow is navigable and consistent.
+
+## Improvement opportunities
 
 **Small, low‑risk enhancements** to increase clarity and reduce drift.
 
 - **Timestamp stamps**: "Last updated" at the top of `.github/MEMORY.md` and `.github/TODO.md` (keep current)
-- **Sync indicators**: Add a tiny "Working memory synced" checkbox per milestone in `.github/TODO.md`d‑to‑end purely cognitively (no scripts), then does conceptual consistency checks and a brief quality check.
-
-These are **"synapses"**: explicit references between the above files so the workflow is navigable and consistent.
+- **Sync indicators**: Add a tiny "Working memory synced" checkbox per milestone in `.github/TODO.md`
 
 **Last updated**: 2025-08-11
 

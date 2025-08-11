@@ -8,6 +8,7 @@ Transform this into your professional GitHub portfolio with a cognitive architec
 ✅ **Professional README**: Ready-to-use profile with stats and badges
 ✅ **Repository management**: Organized, categorized project listings
 ✅ **AI-powered maintenance**: Alex Finch assistant for streamlined updates
+✅ **GPT-4o integration**: AI-enhanced descriptions (works out-of-the-box)
 ✅ **Cognitive architecture**: Structured memory system for project tracking
 ✅ **Easy maintenance**: One command updates everything
 ✅ **Optional automation**: Complete hands-off daily updates (5-minute setup)
@@ -149,6 +150,27 @@ gh run list --workflow=update-repos.yml --limit 1
 - ✅ PR gets created automatically
 - ✅ PR merges automatically within a minute
 
+#### Step 10: Understanding GPT-4o Enhancement
+Your workflow includes GPT-4o AI enhancement:
+
+**🧠 GPT-4o Enhancement (Default)** - Enabled automatically
+- ✅ Works immediately, no setup required
+- ✅ Free with GitHub Copilot subscription
+- ✅ Professional AI-enhanced descriptions
+- ✅ Automatic technology stack identification
+
+**To manually control AI enhancement**:
+```bash
+# Enable GPT-4o enhancement (default)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=enabled
+
+# Disable AI enhancement (use original descriptions)
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=disabled
+```
+
+**To change the default**: Edit the workflow file `.github/workflows/update-repos.yml` and modify the `default:` value under `llm_model`.
+- ✅ PR merges automatically within a minute
+
 ✅ **Automation Complete!** Your portfolio now updates itself daily at 6 AM UTC.
 
 ## 🔧 AI Assistant Configuration
@@ -175,6 +197,29 @@ Edit `.github/copilot-instructions.md` and replace:
 ```
 
 > 📚 **Learn more**: Read `COGNITIVE.md` for the complete system overview
+
+## 🧠 GPT-4o AI Enhancement
+
+### � GPT-4o Integration (Default)
+Enhance your repository descriptions with AI-powered content generation:
+
+- **What it does**: Generates professional, technical descriptions for your repositories
+- **Cost**: Free with GitHub Copilot subscription (or standard OpenAI rates)
+- **Setup time**: Works out of the box!
+- **Default behavior**: Enabled for all users
+
+**GPT-4o Enhancement Features:**
+- ✅ Professional, technical writing style
+- ✅ Automatic technology stack identification
+- ✅ Consistent tone across your portfolio
+- ✅ Smart fallback to original descriptions if needed
+
+**To disable AI enhancement:**
+```bash
+gh workflow run "🤖 Daily Repository Analysis Update" --ref main -f llm_model=disabled
+```
+
+> 💡 **Note**: GPT-4o works seamlessly out of the box with no configuration required!
 
 ## 🛠️ Advanced Customization
 

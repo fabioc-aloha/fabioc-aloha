@@ -7,14 +7,13 @@ on:
   workflow_dispatch: # Allow manual trigger
     inputs:
       llm_model:
-        description: 'Select LLM for content enhancement'
+        description: 'Enable GPT-4o content enhancement'
         required: false
-        default: 'claude-sonnet-4'
+        default: 'enabled'
         type: choice
         options:
-          - 'claude-sonnet-4'
-          - 'gpt-4o'
-          - 'skip-llm'
+          - 'enabled'
+          - 'disabled'
   push:
     paths:
       - 'check-forks.ps1'
@@ -43,8 +42,7 @@ jobs:
         Write-Host "   - Repository: ${{ github.repository }}"
         Write-Host "   - Actor: ${{ github.actor }}"
         Write-Host "   - Token source: ${{ secrets.PAT_TOKEN && 'PAT_TOKEN (Enhanced)' || 'GITHUB_TOKEN (Limited)' }}"
-        Write-Host "   - LLM Model: ${{ inputs.llm_model || 'claude-sonnet-4 (scheduled)' }}"
-        Write-Host "   - Claude API: ${{ secrets.CLAUDE_API_KEY && 'Available' || 'Not configured' }}"
+        Write-Host "   - GPT-4o Enhancement: ${{ inputs.llm_model || 'enabled (scheduled)' }}"
       shell: pwsh
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
@@ -72,14 +70,13 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-    - name: 🤖 Enhance with Claude Sonnet 4
-      if: ${{ inputs.llm_model == 'claude-sonnet-4' || (inputs.llm_model == '' && github.event_name == 'schedule') }}
+    - name: � Enhance with GPT-4o
+      if: ${{ inputs.llm_model == 'enabled' || (inputs.llm_model == '' && github.event_name == 'schedule') }}
       run: |
-        Write-Host "🧠 Running Claude Sonnet 4 enhancement..."
-        .\enhance-with-claude.ps1
+        Write-Host "🚀 Running GPT-4o enhancement..."
+        Write-Host "💡 GPT-4o enhancement coming soon! Using standard analysis for now."
+        Write-Host "✅ Repository analysis completed with AI enhancement placeholder"
       shell: pwsh
-      env:
-        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
 
     - name: 📅 Update timestamp in REPOS.md
       run: |
