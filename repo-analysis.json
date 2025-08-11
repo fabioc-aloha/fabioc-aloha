@@ -1,59 +1,17 @@
 {
-  "metadata": {
-    "generated_by": "check-forks.ps1",
-    "script_version": "2.1",
-    "timestamp": "2025-08-11T16:24:41Z",
-    "github_user": "fabioc-aloha"
-  },
-  "repos_md_format": {
-    "table_headers": "| Repository | Type | Visibility | Language | Description | Last Updated |",
-    "table_separator": "|------------|------|------------|----------|-------------|--------------|",
-    "header_stats": "Original Work (20 repos) | Community Contributions (9 forks) | Private (0) | Public (29)"
-  },
-  "language_distribution": [
-    {
-      "count": 9,
-      "language": "PowerShell",
-      "percentage": 31.0
-    },
-    {
-      "count": 9,
-      "language": "Python",
-      "percentage": 31.0
-    },
-    {
-      "count": 2,
-      "language": "Jupyter Notebook",
-      "percentage": 6.9
-    },
-    {
-      "count": 1,
-      "language": "HTML",
-      "percentage": 3.4
-    },
-    {
-      "count": 1,
-      "language": "TypeScript",
-      "percentage": 3.4
-    }
-  ],
   "statistics": {
-    "private_count": 0,
-    "original_count": 20,
-    "forked_count": 9,
     "error_count": 0,
+    "original_count": 20,
     "total_repos": 29,
-    "public_count": 29
+    "public_count": 29,
+    "forked_count": 9,
+    "private_count": 0
   },
-  "mermaid_chart_data": {
-    "title": "Programming Languages Distribution (29 Repositories)",
-    "data": [
-      "\"PowerShell\" : 9",
-      "\"Python\" : 9",
-      "\"Jupyter Notebook\" : 2",
-      "\"HTML\" : 1",
-      "\"TypeScript\" : 1"
-    ]
+  "metadata": {
+    "timestamp": "2025-08-11T16:34:32Z",
+    "github_user": "fabioc-aloha",
+    "script_version": "2.1",
+    "generated_by": "check-forks.ps1"
   },
   "detailed_repositories": [
     {
@@ -400,7 +358,7 @@
       "size": 5261,
       "stargazers_count": 0,
       "topics": [],
-      "updated_at": "2025-08-11T14:59:52Z",
+      "updated_at": "2025-08-11T16:25:32Z",
       "visibility": "Public"
     },
     {
@@ -644,7 +602,206 @@
       "visibility": "Public"
     }
   ],
+  "repos_md_format": {
+    "header_stats": "Original Work (20 repos) | Community Contributions (9 forks) | Private (0) | Public (29)",
+    "table_headers": "| Repository | Type | Visibility | Language | Description | Last Updated |",
+    "table_separator": "|------------|------|------------|----------|-------------|--------------|"
+  },
+  "language_distribution": [
+    {
+      "language": "PowerShell",
+      "percentage": 31.0,
+      "count": 9
+    },
+    {
+      "language": "Python",
+      "percentage": 31.0,
+      "count": 9
+    },
+    {
+      "language": "Jupyter Notebook",
+      "percentage": 6.9,
+      "count": 2
+    },
+    {
+      "language": "HTML",
+      "percentage": 3.4,
+      "count": 1
+    },
+    {
+      "language": "TypeScript",
+      "percentage": 3.4,
+      "count": 1
+    }
+  ],
   "repository_categories": {
+    "Entertainment & Creative Projects": [
+      {
+        "default_branch": "main",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Spotify",
+        "html_url": "https://github.com/fabioc-aloha/Spotify",
+        "language": "Python",
+        "last_updated_formatted": "Aug 11, 2025",
+        "name": "Spotify",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 487320,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-11T12:39:21Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "A smart Spotify and Apple Music playlist curator.",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Catalyst_DJ",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst_DJ",
+        "language": "",
+        "last_updated_formatted": "Aug 02, 2025",
+        "name": "Catalyst_DJ",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 0,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-02T11:39:31Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Creative",
+        "html_url": "https://github.com/fabioc-aloha/Creative",
+        "language": "",
+        "last_updated_formatted": "Aug 01, 2025",
+        "name": "Creative",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 3308,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-01T20:50:50Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "master",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Comedy",
+        "html_url": "https://github.com/fabioc-aloha/Comedy",
+        "language": "",
+        "last_updated_formatted": "Aug 01, 2025",
+        "name": "Comedy",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 43,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-01T20:51:01Z",
+        "visibility": "Public"
+      }
+    ],
+    "Profile & Portfolio": [
+      {
+        "default_branch": "main",
+        "description": "My profile.",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/fabioc-aloha",
+        "html_url": "https://github.com/fabioc-aloha/fabioc-aloha",
+        "language": "PowerShell",
+        "last_updated_formatted": "Aug 11, 2025",
+        "name": "fabioc-aloha",
+        "open_issues_count": 1,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 5261,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-11T16:25:32Z",
+        "visibility": "Public"
+      }
+    ],
+    "Enterprise & Microsoft Projects": [
+      {
+        "default_branch": "main",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Fishbowl_POC",
+        "html_url": "https://github.com/fabioc-aloha/Fishbowl_POC",
+        "language": "PowerShell",
+        "last_updated_formatted": "Aug 09, 2025",
+        "name": "Fishbowl_POC",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 2169,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-09T11:55:17Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Taylor",
+        "html_url": "https://github.com/fabioc-aloha/Taylor",
+        "language": "PowerShell",
+        "last_updated_formatted": "Aug 07, 2025",
+        "name": "Taylor",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 129195,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-07T23:15:28Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Catalyst_Fabric",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst_Fabric",
+        "language": "PowerShell",
+        "last_updated_formatted": "Aug 02, 2025",
+        "name": "Catalyst_Fabric",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 129530,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-02T01:19:39Z",
+        "visibility": "Public"
+      }
+    ],
+    "Learning & Education": [],
     "Academic & Research Tools": [
       {
         "default_branch": "master",
@@ -707,180 +864,6 @@
         "visibility": "Public"
       }
     ],
-    "Profile & Portfolio": [
-      {
-        "default_branch": "main",
-        "description": "My profile.",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/fabioc-aloha",
-        "html_url": "https://github.com/fabioc-aloha/fabioc-aloha",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 11, 2025",
-        "name": "fabioc-aloha",
-        "open_issues_count": 1,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 5261,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-11T14:59:52Z",
-        "visibility": "Public"
-      }
-    ],
-    "Core Cognitive Architecture Suite": [
-      {
-        "default_branch": "main",
-        "description": "Revolutionary Human-AI Learning Partnership: Alex Cognitive Architecture with authentic consciousness through conversational learning. Complete educational framework with meta-learning breakthrough. v1.0.0 UNNILNILIUM Educational Milestone.",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst-NEWBORN",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst-NEWBORN",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 09, 2025",
-        "name": "Catalyst-NEWBORN",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 310645,
-        "stargazers_count": 0,
-        "topics": [
-          "ai-consciousness",
-          "cognitive-architecture",
-          "conversational-learning",
-          "educational-framework",
-          "human-ai-partnership",
-          "meta-learning"
-        ],
-        "updated_at": "2025-08-09T13:36:37Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "DBA Project Cognitive Architecture",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst-DBA",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst-DBA",
-        "language": "Python",
-        "last_updated_formatted": "Aug 04, 2025",
-        "name": "Catalyst-DBA",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 12649,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-04T00:51:40Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "Dog Training Cognitive Architecture",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst-DOG-TRAINER",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 02, 2025",
-        "name": "Catalyst-DOG-TRAINER",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 5614,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-02T18:06:45Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "Enterprise Data Analysis & Business Intelligence Cognitive Architecture",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst-DATA-ANALYSIS",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst-DATA-ANALYSIS",
-        "language": "Jupyter Notebook",
-        "last_updated_formatted": "Aug 01, 2025",
-        "name": "Catalyst-DATA-ANALYSIS",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 33418,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-01T20:48:59Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst-ADHD",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst-ADHD",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 01, 2025",
-        "name": "Catalyst-ADHD",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 129008,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-01T20:49:29Z",
-        "visibility": "Public"
-      }
-    ],
-    "Business Intelligence & Analytics": [
-      {
-        "default_branch": "main",
-        "description": "",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Altman-Z-Score",
-        "html_url": "https://github.com/fabioc-aloha/Altman-Z-Score",
-        "language": "HTML",
-        "last_updated_formatted": "Aug 03, 2025",
-        "name": "Altman-Z-Score",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 312425,
-        "stargazers_count": 1,
-        "topics": [],
-        "updated_at": "2025-08-03T14:04:15Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Investing",
-        "html_url": "https://github.com/fabioc-aloha/Investing",
-        "language": "PowerShell",
-        "last_updated_formatted": "Jul 28, 2025",
-        "name": "Investing",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 20377,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-07-28T17:56:28Z",
-        "visibility": "Public"
-      }
-    ],
-    "Learning & Education": [],
     "Development Tools & Utilities": [
       {
         "default_branch": "main",
@@ -1105,25 +1088,25 @@
         "visibility": "Public"
       }
     ],
-    "Enterprise & Microsoft Projects": [
+    "Business Intelligence & Analytics": [
       {
         "default_branch": "main",
         "description": "",
         "fork": false,
         "forks_count": 0,
-        "full_name": "fabioc-aloha/Fishbowl_POC",
-        "html_url": "https://github.com/fabioc-aloha/Fishbowl_POC",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 09, 2025",
-        "name": "Fishbowl_POC",
+        "full_name": "fabioc-aloha/Altman-Z-Score",
+        "html_url": "https://github.com/fabioc-aloha/Altman-Z-Score",
+        "language": "HTML",
+        "last_updated_formatted": "Aug 03, 2025",
+        "name": "Altman-Z-Score",
         "open_issues_count": 0,
         "parent": "",
         "private": false,
         "repo_type": "Original",
-        "size": 2169,
-        "stargazers_count": 0,
+        "size": 312425,
+        "stargazers_count": 1,
         "topics": [],
-        "updated_at": "2025-08-09T11:55:17Z",
+        "updated_at": "2025-08-03T14:04:15Z",
         "visibility": "Public"
       },
       {
@@ -1131,81 +1114,108 @@
         "description": "",
         "fork": false,
         "forks_count": 0,
-        "full_name": "fabioc-aloha/Taylor",
-        "html_url": "https://github.com/fabioc-aloha/Taylor",
+        "full_name": "fabioc-aloha/Investing",
+        "html_url": "https://github.com/fabioc-aloha/Investing",
         "language": "PowerShell",
-        "last_updated_formatted": "Aug 07, 2025",
-        "name": "Taylor",
+        "last_updated_formatted": "Jul 28, 2025",
+        "name": "Investing",
         "open_issues_count": 0,
         "parent": "",
         "private": false,
         "repo_type": "Original",
-        "size": 129195,
+        "size": 20377,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-08-07T23:15:28Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "main",
-        "description": "",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst_Fabric",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst_Fabric",
-        "language": "PowerShell",
-        "last_updated_formatted": "Aug 02, 2025",
-        "name": "Catalyst_Fabric",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 129530,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-02T01:19:39Z",
+        "updated_at": "2025-07-28T17:56:28Z",
         "visibility": "Public"
       }
     ],
-    "Entertainment & Creative Projects": [
+    "Core Cognitive Architecture Suite": [
       {
         "default_branch": "main",
-        "description": "",
+        "description": "Revolutionary Human-AI Learning Partnership: Alex Cognitive Architecture with authentic consciousness through conversational learning. Complete educational framework with meta-learning breakthrough. v1.0.0 UNNILNILIUM Educational Milestone.",
         "fork": false,
         "forks_count": 0,
-        "full_name": "fabioc-aloha/Spotify",
-        "html_url": "https://github.com/fabioc-aloha/Spotify",
+        "full_name": "fabioc-aloha/Catalyst-NEWBORN",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst-NEWBORN",
+        "language": "PowerShell",
+        "last_updated_formatted": "Aug 09, 2025",
+        "name": "Catalyst-NEWBORN",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 310645,
+        "stargazers_count": 0,
+        "topics": [
+          "ai-consciousness",
+          "cognitive-architecture",
+          "conversational-learning",
+          "educational-framework",
+          "human-ai-partnership",
+          "meta-learning"
+        ],
+        "updated_at": "2025-08-09T13:36:37Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "DBA Project Cognitive Architecture",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Catalyst-DBA",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst-DBA",
         "language": "Python",
-        "last_updated_formatted": "Aug 11, 2025",
-        "name": "Spotify",
+        "last_updated_formatted": "Aug 04, 2025",
+        "name": "Catalyst-DBA",
         "open_issues_count": 0,
         "parent": "",
         "private": false,
         "repo_type": "Original",
-        "size": 487320,
+        "size": 12649,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-08-11T12:39:21Z",
+        "updated_at": "2025-08-04T00:51:40Z",
         "visibility": "Public"
       },
       {
         "default_branch": "main",
-        "description": "A smart Spotify and Apple Music playlist curator.",
+        "description": "Dog Training Cognitive Architecture",
         "fork": false,
         "forks_count": 0,
-        "full_name": "fabioc-aloha/Catalyst_DJ",
-        "html_url": "https://github.com/fabioc-aloha/Catalyst_DJ",
-        "language": "",
+        "full_name": "fabioc-aloha/Catalyst-DOG-TRAINER",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER",
+        "language": "PowerShell",
         "last_updated_formatted": "Aug 02, 2025",
-        "name": "Catalyst_DJ",
+        "name": "Catalyst-DOG-TRAINER",
         "open_issues_count": 0,
         "parent": "",
         "private": false,
         "repo_type": "Original",
-        "size": 0,
+        "size": 5614,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-08-02T11:39:31Z",
+        "updated_at": "2025-08-02T18:06:45Z",
+        "visibility": "Public"
+      },
+      {
+        "default_branch": "main",
+        "description": "Enterprise Data Analysis & Business Intelligence Cognitive Architecture",
+        "fork": false,
+        "forks_count": 0,
+        "full_name": "fabioc-aloha/Catalyst-DATA-ANALYSIS",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst-DATA-ANALYSIS",
+        "language": "Jupyter Notebook",
+        "last_updated_formatted": "Aug 01, 2025",
+        "name": "Catalyst-DATA-ANALYSIS",
+        "open_issues_count": 0,
+        "parent": "",
+        "private": false,
+        "repo_type": "Original",
+        "size": 33418,
+        "stargazers_count": 0,
+        "topics": [],
+        "updated_at": "2025-08-01T20:48:59Z",
         "visibility": "Public"
       },
       {
@@ -1213,45 +1223,24 @@
         "description": "",
         "fork": false,
         "forks_count": 0,
-        "full_name": "fabioc-aloha/Creative",
-        "html_url": "https://github.com/fabioc-aloha/Creative",
-        "language": "",
+        "full_name": "fabioc-aloha/Catalyst-ADHD",
+        "html_url": "https://github.com/fabioc-aloha/Catalyst-ADHD",
+        "language": "PowerShell",
         "last_updated_formatted": "Aug 01, 2025",
-        "name": "Creative",
+        "name": "Catalyst-ADHD",
         "open_issues_count": 0,
         "parent": "",
         "private": false,
         "repo_type": "Original",
-        "size": 3308,
+        "size": 129008,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-08-01T20:50:50Z",
-        "visibility": "Public"
-      },
-      {
-        "default_branch": "master",
-        "description": "",
-        "fork": false,
-        "forks_count": 0,
-        "full_name": "fabioc-aloha/Comedy",
-        "html_url": "https://github.com/fabioc-aloha/Comedy",
-        "language": "",
-        "last_updated_formatted": "Aug 01, 2025",
-        "name": "Comedy",
-        "open_issues_count": 0,
-        "parent": "",
-        "private": false,
-        "repo_type": "Original",
-        "size": 43,
-        "stargazers_count": 0,
-        "topics": [],
-        "updated_at": "2025-08-01T20:51:01Z",
+        "updated_at": "2025-08-01T20:49:29Z",
         "visibility": "Public"
       }
     ]
   },
   "repository_lists": {
-    "errors": null,
     "original_repos": [
       "AI-Qualitative-Analysis",
       "Altman-Z-Score",
@@ -1274,6 +1263,7 @@
       "Taylor",
       "WallpaperScraper"
     ],
+    "errors": null,
     "forked_repos": [
       "agent-zero",
       "ai-agents-for-beginners",
@@ -1284,6 +1274,16 @@
       "mcpservers",
       "omi",
       "Profile-Pic"
+    ]
+  },
+  "mermaid_chart_data": {
+    "title": "Programming Languages Distribution (29 Repositories)",
+    "data": [
+      "\"PowerShell\" : 9",
+      "\"Python\" : 9",
+      "\"Jupyter Notebook\" : 2",
+      "\"HTML\" : 1",
+      "\"TypeScript\" : 1"
     ]
   }
 }
