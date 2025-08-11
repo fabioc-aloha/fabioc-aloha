@@ -29,40 +29,61 @@ Control:
 
 These are “synapses”: explicit references between the above files so the workflow is navigable and consistent.
 
-## Diagram
+## Architecture Diagram
 
-A high‑level map of minimal components and how information flows between them.
+System architecture showing cognitive components, script automation, and information flow patterns.
 
 ```mermaid
-flowchart LR
-  F[Working memory<br/>.github/copilot-instructions.md]
-  A[Long‑term memory<br/>.github/MEMORY.md]
-  B[Task memory<br/>.github/TODO.md]
-  C[Script<br/>check-forks.ps1]
-  G[Verifier<br/>verify-analysis.ps1]
-  D[Source of truth<br/>repo-analysis.json]
+flowchart TD
+  subgraph MP ["Meditation Protocol"]
+    U1[User: trigger meditate]
+    WM1[Working memory: cognitive cadence]
+    LT1[Long-term memory: context/decisions]
+    TD1[Task memory: priorities/checks]
+    U1 --> WM1 --> LT1 --> TD1
+    LT1 -.synapses.-> TD1
+    TD1 -.quality check.-> LT1
+  end
 
-  %% Operational path
-  B -->|run| C
-  C -->|write/inspect| D
-  G --> D
-  D -->|inform| A
-  D -->|inform| B
+  subgraph EF ["Executive Function (GitHub Copilot)"]
+    U2[User: prompt/request]
+    WM2[Working memory: consult instructions]
+    LT2[Long-term memory: read context]
+    TD2[Task memory: check priorities]
+    SC[Scripts: check-forks.ps1]
+    VF[Verifier: verify-analysis.ps1]
+    JS[Data source: repo-analysis.json]
 
-  %% Cognitive control and anchors
-  F --> A
-  F --> B
+    U2 --> WM2 --> LT2 --> TD2
+    TD2 --> SC
+    SC --> JS
+    VF --> JS
+    JS --> LT2
+    JS --> TD2
+  end
 
-  %% Meditation (cognitive‑only loop)
-  A -. read/update .-> B
-  B -. acceptance/checks .-> A
+  %% Cross-connections
+  WM1 -.anchors.-> LT1
+  WM1 -.anchors.-> TD1
+  WM2 -.anchors.-> LT2
+  WM2 -.anchors.-> TD2
 
-  classDef data fill:#e8f7ff,stroke:#36c;
-  classDef mem fill:#eef7ee,stroke:#2a7a2a;
-  classDef scripts fill:#fff0e6,stroke:#cc6600;
-  class A,B,F mem;
-  class D data;
-  class C,G scripts;
+  %% Styling
+  classDef trigger fill:#fff3e0,stroke:#ff9800,stroke-width:2px,color:#ef6c00
+  classDef memory fill:#e8f5e8,stroke:#4caf50,stroke-width:2px,color:#2e7d32
+  classDef processing fill:#fce4ec,stroke:#e91e63,stroke-width:2px,color:#c2185b
+  classDef scripts fill:#fff0e6,stroke:#cc6600,stroke-width:2px,color:#cc6600
+  classDef data fill:#e8f7ff,stroke:#36c,stroke-width:2px,color:#36c
+  classDef meditation fill:#e8f4f8,stroke:#2196f3,stroke-width:3px
+  classDef executive fill:#f3e5f5,stroke:#9c27b0,stroke-width:3px
+
+  class U1,U2 trigger
+  class LT1,LT2,TD1,TD2 memory
+  class WM1,WM2 processing
+  class SC,VF scripts
+  class JS data
+  class MP meditation
+  class EF executive
 ```
 
 ## How it works (flow)
@@ -77,8 +98,7 @@ Two modes keep cognitive load low while staying accurate.
   3) Read `.github/TODO.md` (priorities/acceptance checks)
   4) Record notable learnings in `.github/MEMORY.md`
   5) Update the to-do list in `.github/TODO.md` if needed
-  6) Consolidate and connect synapses: ensure counts/statements conceptually match across `README.md`, `REPOS.md`, and `REPO-MANAGEMENT.md`; confirm links/badges remain valid (README ↔ MEMORY ↔ REPOS)
-  7) Close with a brief quality check (no syntax issues; drift minimized)
+  6) Consolidate and connect synapses: ensure counts/statements conceptually match across `README.md`, `REPOS.md`, and `REPO-MANAGEMENT.md`; confirm links/badges remain valid (README ↔ MEMORY ↔ REPOS); close with a brief quality check (no syntax issues; drift minimized)
 
 - Operational analysis (scripts)
   1) User makes a request/prompt
@@ -88,34 +108,6 @@ Two modes keep cognitive load low while staying accurate.
   5) Process request following the guidance (may include running scripts, editing files, etc.)
   6) Update `.github/MEMORY.md` and `.github/TODO.md` with outcomes
   7) Cross-check acceptance criteria and tick completed items
-
-### Flow diagram
-
-```mermaid
-flowchart TD
-  subgraph Meditation_cognitive_only
-    m0[Trigger meditate]
-    m1[Summarize chat history]
-    m2[Read .github/MEMORY.md]
-    m3[Read .github/TODO.md]
-    m4[Record learnings in MEMORY]
-    m5[Update TODO list if needed]
-    m6[Connect synapses: README/REPOS/REPO-MANAGEMENT align]
-    m7[Quality check: no syntax issues, drift minimized]
-    m0 --> m1 --> m2 --> m3 --> m4 --> m5 --> m6 --> m7
-  end
-
-  subgraph Operational_analysis
-    s1[User prompt/request]
-    s2[Working memory: read copilot instructions]
-    s3[Read .github/MEMORY.md for context]
-    s4[Read .github/TODO.md for priorities]
-    s5[Process request using guidance]
-    s6[Run scripts if needed]
-    s7[Update MEMORY/TODO with results]
-    s1 --> s2 --> s3 --> s4 --> s5 --> s6 --> s7
-  end
-```
 
 ### Update cycle (sequence)
 
@@ -184,9 +176,9 @@ Small, low‑risk enhancements to increase clarity and reduce drift.
 A fast checklist for day‑to‑day updates.
 
 - Pick a mode:
-  - Meditate: cognitive‑only consolidation (no scripts)
-  - Analyze: run scripts to refresh data
-- If Analyze: run analysis and regenerate JSON; verify parent arrows, counts (total/original/fork/private/public), and emoji‑free JSON
+  - Meditation: cognitive‑only consolidation (no scripts)
+  - Executive Function: run scripts to refresh data and process requests
+- If Executive Function: run analysis and regenerate JSON; verify parent arrows, counts (total/original/fork/private/public), and emoji‑free JSON
 - Record meaningful changes in `.github/MEMORY.md`; tick acceptance checks in `.github/TODO.md`
 
 ## Acceptance checks (quick)
