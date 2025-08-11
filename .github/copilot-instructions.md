@@ -11,7 +11,7 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - Primary languages: Markdown, PowerShell (scripts), some Python/Jupyter in related repos
 - OS/shell: Windows, PowerShell (pwsh)
 - Tools: GitHub CLI (`gh`), PowerShell 5.1+
-- Key docs: `README.md`, `REPOS.md`, `REPO-MANAGEMENT.md`, `TEMPLATE-SETUP.md`, `CONTRIBUTING.md`, `LICENSE`, `.github/MEMORY.md`, `.github/TODO.md`
+- Key docs: located in the root folder
 
 ## Behaviors
 - Keep responses short, skimmable, and impersonal.
@@ -20,33 +20,19 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - Add small, high-value adjacent improvements (links, badges, lint fixes) when low risk.
 - Always consult .github/MEMORY.md for current project context/history and .github/TODO.md for prioritized tasks before broad repo scans.
 - When proposing or making changes, cross-check acceptance criteria against .github/TODO.md and update it as progress occurs.
+ - Keep it KISS/DRY: avoid repeating rules; point to `.github/MEMORY.md` and `.github/TODO.md` instead of restating.
 
 ## Coding & scripting guidelines
 - PowerShell first. Assume pwsh on Windows.
 - For repo analysis, use GitHub CLI (gh) with live API data. Do NOT hardcode repo lists. Detect the owner from git remote/GitHub Actions/gh auth.
 - Export data as JSON that is emoji-free and machine-friendly.
-- When updating/creating scripts, prefer parameters over constants (e.g., `param([int]$Limit=200)`).
 - Always sanitize JSON-bound fields to remove emojis; emojis are allowed in console/Markdown only.
 - Keep functions small and single-purpose; add inline comments for non-obvious logic.
 
 ## Documentation guidelines
-- Keep counts and stats consistent across README/REPOS/REPO-MANAGEMENT.
-- If counts come from automation, read `repo-analysis.json` instead of guessing.
 - Use concise headings, tables, and badges. Avoid fluff.
+- Use mermaid for visualization of concepts when it makes sense.
 - Place new guidance for template users in `TEMPLATE-SETUP.md`.
-
-## Automation & data rules
-- JSON exports must be emoji-free. Emojis are OK in console output and Markdown only.
-- `check-forks.ps1` should:
-  - Fetch repos via `gh` dynamically (no hardcoded arrays)
-  - Auto-detect the GitHub owner from git/CI/gh (no username parameter required)
-  - Accept a `-Limit` parameter (default 200) for repo fetch pagination limits
-  - Identify forks and parent repo correctly
-  - Categorize repos and compute language stats
-  - Always write `repo-analysis.json`
-- Tracking policy: keep `repo-analysis.json` at the repository root and track snapshots in git.
-- Cadence: prefer manual runs (scheduled workflow removed).
-- For feature/backlog details (e.g., parameterization), follow .github/TODO.md instead of repeating specifics here.
 
 ## Git & commits
 - Use clear, conventional commits, e.g.:
@@ -59,47 +45,30 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 - Never include or request secrets/tokens in code or docs.
 - Avoid destructive operations. When commands could change remote state, note impact or request confirmation.
 
-## Fast playbooks
+## Cognitive playbooks & meditation (trigger: "meditate")
 - Cognitive cadence (follow in order):
-  1) Read `.github/MEMORY.md` (context/decisions)
-  2) Read `.github/TODO.md` (priorities/acceptance checks)
-  3) Run `./check-forks.ps1`
-  4) Inspect `repo-analysis.json` (emoji-free, counts)
-  5) Update `REPOS.md`/`README.md`/`REPO-MANAGEMENT.md`
-  6) Record notable changes in `.github/MEMORY.md`
-  7) Tick acceptance checks in `.github/TODO.md`
-- Load context quickly:
-  - Read .github/MEMORY.md first for the canonical project summary and recent decisions.
-  - Read .github/TODO.md for active priorities, acceptance checks, and next steps.
-- Update portfolio data:
-  1) Run `./check-forks.ps1`
-  2) Inspect `repo-analysis.json` (no emojis, correct counts)
-  3) Update `REPOS.md`/`README.md` as needed
-- Add a template note:
-  - Place details in `TEMPLATE-SETUP.md`; link from README buttons/CTA
-- Verify forks have parents in JSON:
-  - Use `./verify-analysis.ps1` to check `MissingParents` is 0
+  1) Summarize chat history.
+  2) Read `.github/MEMORY.md` (context/decisions)
+  3) Read `.github/TODO.md` (priorities/acceptance checks)
+  4) Record notable learnings in `.github/MEMORY.md`
+  5) Update the to-do list in `.github/TODO.md` if needed
+- Load context only when needed:
+  - Read `.github/MEMORY.md` first for the canonical project summary and recent decisions.
+  - Read `.github/TODO.md` for active priorities, acceptance checks, and next steps.
+- Meditation trigger:
+  - When the user says "meditate", execute the cadence above end-to-end (purely cognitive; do not run scripts), then:
+    - Consolidate and connect synapses: ensure counts/statements conceptually match across `README.md`, `REPOS.md`, and `REPO-MANAGEMENT.md`; confirm links/badges remain valid (README ↔ MEMORY ↔ REPOS).
+    - Close with a brief quality check (no syntax issues; drift minimized).
 
-## Context anchors
+## Context anchors & references
 - .github/MEMORY.md: Authoritative, living summary of purpose, key decisions, changes, constraints. Consult first to reduce cognitive load and avoid redundant discovery.
 - .github/TODO.md: Prioritized, checkbox-tracked tasks and quick acceptance checks. Use it to drive plans, verify outcomes, and record progress by ticking items when done.
+- CONTRIBUTING.md: Scope and expectations for contributions.
+- LICENSE: MIT license terms.
 
 ## Don’ts
-- Don’t hardcode repository names or counts.
-- Don’t add emojis to JSON payloads.
 - Don’t change unrelated sections when editing Markdown tables.
 - Don’t switch shells—stick to PowerShell syntax in commands.
-
-## Decisions
-- Simplified template: removed `template-config-example.ps1`; rely on README + `TEMPLATE-SETUP.md`.
-- Script UX: added `-Limit` parameter (default 200); JSON export is always emoji-free.
-- Workflow: removed optional weekly analysis workflow; run analysis manually.
-
-## References
-- Contribution rules: `CONTRIBUTING.md`
-- License: `LICENSE` (MIT)
-- Working memory: `.github/MEMORY.md`
-- Task tracker: `.github/TODO.md`
 
 ## Continuous improvement
 - Before you push, update `.github/copilot-instructions.md` with any new learnings or patterns from the current chat/session so future suggestions stay aligned.
