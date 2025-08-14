@@ -1,6 +1,24 @@
 
 # 🎵 Alex Method DJ - Playlist Catalog
 
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Curated-45%20Playlists-1DB954?style=for-the-badge&logo=spotify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Through%20Decades-29%20Collections-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Genres-Rock%20|%20Metal%20|%20Focus%20|%20Therapy-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Custom%20Art-Professional%20Covers-green?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/🏠%20Back%20to%20Profile-Fabio%20Correa-blue?style=for-the-badge" alt="Back to GitHub Profile"/>
+  </a>
+  <a href="https://github.com/fabioc-aloha">
+    <img src="https://img.shields.io/badge/GitHub-fabioc--aloha-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+  </a>
+</p>
+
+---
+
 ## 🎸 Through the Decades Collection
 
 **Global Rock Evolution Library - 29 Playlists spanning 6 decades and 5 continents**
@@ -12,7 +30,7 @@
 | <img src="cover-art/iron-maiden-through-decades.png" width="80" alt="Iron Maiden Through the Decades"/> | 🎤 Iron Maiden Through the Decades | 300 min | Epic 45+ year journey from NWOBHM pioneers to metal opera masters. Raw early metal → Bruce Dickinson era anthems → experimental 90s → modern epic masterpieces with 15-minute metal operas. | [Listen](https://open.spotify.com/playlist/TBD) |
 | <img src="cover-art/metallica-through-decades.png" width="80" alt="Metallica Through the Decades"/> | 🤘 Metallica Through the Decades | 129 min | Epic chronological journey through Metallica's 40+ year evolution from underground thrash pioneers to mainstream masters to modern legends. Four distinct eras of metal excellence. | [Listen](https://open.spotify.com/playlist/4GeuWromEKOhBUFaYrxZu2) |
 
-### � British Rock Legends ✅
+### 🇬🇧 British Rock Legends ✅
 | Cover Art | Playlist | Duration | Description | Spotify Link |
 |:---------:|:---------|:--------:|:------------|:-------------|
 | <img src="cover-art/led-zeppelin-through-decades.png" width="80" alt="Led Zeppelin Through the Decades"/> | 🔊 Led Zeppelin Through the Decades | 300 min | Mystical journey from blues rock origins to hard rock mastery to experimental brilliance, tragically cut short. Raw blues power → heavy rock innovation → mystical experimentation → legendary legacy. | [Listen](https://open.spotify.com/playlist/3wxpoxDFmentQ5cMdG3qk1) |
@@ -108,22 +126,6 @@
 |:---------:|:---------|:--------:|:------------|:-------------|
 | <img src="cover-art/italian-african-fusion-cooking.png" width="80" alt="Italian African Fusion Cooking"/> | 🍝🌍 Italian African Fusion Cooking | 86 min | Energetic cooking playlist blending Italian passion and African rhythms. Perfect for preparing fusion cuisine with vibrant Mediterranean and African musical flavors. | [Listen](https://open.spotify.com/playlist/0E8Y8eoMONQnuCQAZqH3Qn) |
 | <img src="cover-art/vibe-coding-test.png" width="80" alt="Vibe Coding"/> | 💻 Vibe Coding: Playlist Generator | 68 min | Meta coding vibes for building the ultimate playlist generator! Focus flows, creative breakthroughs, and debugging zen. | [Listen](https://open.spotify.com/playlist/2ekuAvdzgHkH3LxSMGq77v) |
-| <img src="cover-art/christian-jazz-contemporary-gospel.png" width="80" alt="Christian Jazz Contemporary Gospel"/> | ✝️ Christian Jazz & Contemporary Gospel | 119 min | Sophisticated fusion of Christian faith and jazz excellence. A spiritual journey through smooth rhythms, inspiring lyrics, and masterful American musical traditions that uplift the soul and touch the heart. | [Listen](https://open.spotify.com/playlist/2oeA5ANbLLkREzHIxJqeAD) |
-| <img src="cover-art/tame-the-amygdala.png" width="80" alt="Tame the Amygdala"/> | 🧠💙 Tame the Amygdala | 85 min | Neuroscience-based emotional regulation playlist targeting amygdala hyperactivity. Research-backed audio features, binaural elements, and therapeutic phases designed for anxiety reduction, PTSD recovery, and emotional healing. | [Listen](https://open.spotify.com/playlist/1bq7r3xwZrj3Cf9n2aB8D7) |
-| <img src="cover-art/scientific-research-focus.png" width="80" alt="Scientific Research Focus"/> | 🔬🧠 Scientific Research Focus | 90 min | Research-optimized focus music. Instrumental ambient, minimal classical, binaural beats. Enhances concentration, reduces cognitive load, supports deep analytical thinking. | [Listen](https://open.spotify.com/playlist/2uGnHdWQrqNeEvtdJIYlI3) |
-| <img src="cover-art/adhd-focus-protocol.png" width="80" alt="ADHD Focus Protocol"/> | 🧠🎯 ADHD Focus Protocol | 115 min | Neuroscience-based music therapy for ADHD support. Carefully designed phases targeting dopamine regulation, attention enhancement, emotional regulation, and cognitive flow states. Based on research in music therapy and ADHD neuroscience. | [Listen](https://open.spotify.com/playlist/49JnXdXrt8aSoBFvtvvUel) |
-| <img src="cover-art/anxiety-depression-support.png" width="80" alt="Anxiety Depression Support"/> | 🌱💚 Anxiety & Depression Support | 90 min | Evidence-based music therapy for anxiety and depression management. Carefully crafted phases supporting nervous system regulation, mood stabilization, cognitive reframing, and emotional healing. Based on clinical music therapy research and neuroscience. | [Listen](https://open.spotify.com/playlist/3FBEJjsH3RVMmUbGQ8oi9J) |
-| <img src="cover-art/ketamine-therapy-journey.png" width="80" alt="Ketamine Therapy Journey"/> | 🧠💫 Ketamine Therapy Journey | 90 min | Research-based therapeutic music for ketamine infusion sessions. Carefully curated phases supporting pre-treatment preparation, onset, peak experience, integration, and return to baseline. Designed with neuroscience and therapeutic protocols in mind. | [Listen](https://open.spotify.com/playlist/2Go7HdhR606krOJGhV1IUQ) |
-| <img src="cover-art/coffee-shop-focus.png" width="80" alt="Coffee Shop Focus"/> | ☕ Coffee Shop Focus | 115 min | Perfect ambient focus music for coffee shops, co-working spaces, and productive work sessions. Gentle instrumental tracks with subtle electronic elements creating an atmosphere of calm concentration and creative inspiration. | [Listen](https://open.spotify.com/playlist/0SfcoLFDBLYbQ9HL32hutw) |
-| <img src="cover-art/bass-boost-subwoofer-test.png" width="80" alt="Bass Boost Subwoofer Test"/> | 🔊💥 Bass Boost Subwoofer Test | 59 min | Maximum bass workout! Deep sub-bass, heavy drums, bass guitar thunder. Hip-hop beats, electronic drops, rock bass lines. Your subwoofer's ultimate test. | [Listen](https://open.spotify.com/playlist/6NJ1K7gyBLPCpkNTv3PWym) |
-| <img src="cover-art/nintendo-switch-legends.png" width="80" alt="Nintendo Switch Legends"/> | 🎮🔄 Nintendo Switch Gaming Legends Collection | 88 min | Modern Nintendo magic! Switch exclusives + top publisher hits. Zelda, Mario, Xenoblade, Splatoon & more. Contemporary gaming BGM excellence from the hybrid console revolution. | [Listen](https://open.spotify.com/playlist/5rkpGlkxSgTmftnsQRaKvj) |
-| <img src="cover-art/bass-boost-subwoofer-test.png" width="80" alt="Bass Boost Subwoofer Test"/> | �💥 Bass Boost Subwoofer Test | 59 min | Maximum bass workout! Deep sub-bass, heavy drums, bass guitar thunder. Hip-hop beats, electronic drops, rock bass lines. Your subwoofer's ultimate test. | [Listen](https://open.spotify.com/playlist/6NJ1K7gyBLPCpkNTv3PWym) |
-| <img src="cover-art/nintendo-switch-legends.png" width="80" alt="Nintendo Switch Legends"/> | 🎮🔄 Nintendo Switch Gaming Legends Collection | 88 min | Modern Nintendo magic! Switch exclusives + top publisher hits. Zelda, Mario, Xenoblade, Splatoon & more. Contemporary gaming BGM excellence from the hybrid console revolution. | [Listen](https://open.spotify.com/playlist/5rkpGlkxSgTmftnsQRaKvj) |
-| <img src="cover-art/epic-8bit-16bit-gaming.png" width="80" alt="Epic 8-bit 16-bit Gaming"/> | 🎮🕹️ Epic 8-bit & 16-bit Video Game Music Collection | 82 min | Ultimate chiptune adventure from NES classics to modern indie gems! Mario, Zelda, Mega Man, Undertale, and more. Perfect for gaming sessions, nostalgia trips, and high-energy focus work. | [Listen](https://open.spotify.com/playlist/1NDt6O50iBjEt0QxX7tHLp) |
-| <img src="cover-art/konami-msx-classics.png" width="80" alt="Konami MSX Classics"/> | 🎯🎮 Konami MSX Classics | 76 min | A tribute to Japan's legendary MSX computer system and Konami's arcade dominance! From Metal Gear's stealth beginnings to Gradius shooters, Castlevania gothic symphonies, and Contra's military anthems. | [Listen](https://open.spotify.com/playlist/1nDJ3cwWVnrfw0NDa8iMep) |
-| <img src="cover-art/vibe-coding-test.png" width="80" alt="Vibe Coding"/> | 💻 Vibe Coding: Playlist Generator | 68 min | Meta coding vibes for building the ultimate playlist generator! Focus flows, creative breakthroughs, and debugging zen. | [Listen](https://open.spotify.com/playlist/2ekuAvdzgHkH3LxSMGq77v) |
-| <img src="cover-art/mpb-top-hits.png" width="80" alt="MPB Top Hits"/> | 🇧🇷 MPB Top Hits | 119 min | The greatest hits of Música Popular Brasileira featuring legendary artists like Caetano Veloso, Gilberto Gil, Chico Buarque, Elis Regina, and contemporary MPB stars. A journey through Brazil's rich musical heritage. | [Listen](https://open.spotify.com/playlist/1IRZx4dW8ir2R1Us0Lpp8E) |
-| <img src="cover-art/italian-african-fusion-cooking.png" width="80" alt="Italian African Fusion Cooking"/> | 🍝🌍 Italian African Fusion Cooking | 86 min | Energetic cooking playlist blending Italian passion and African rhythms. Perfect for preparing fusion cuisine with vibrant Mediterranean and African musical flavors. | [Listen](https://open.spotify.com/playlist/0E8Y8eoMONQnuCQAZqH3Qn) |
 
 ---
 
