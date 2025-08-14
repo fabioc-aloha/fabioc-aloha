@@ -4,14 +4,17 @@ Transform this into your professional GitHub portfolio with a cognitive architec
 
 ## 🎯 What You'll Get
 
-✅ **Automated portfolio**: Script generates your repository showcase
+✅ **Automated portfolio**: PowerShell script generates your repository showcase
 ✅ **Professional README**: Ready-to-use profile with stats and badges
 ✅ **Repository management**: Organized, categorized project listings
 ✅ **AI-powered maintenance**: Alex Finch assistant for streamlined updates
-✅ **GPT-4o integration**: AI-enhanced descriptions (works out-of-the-box)
+✅ **GPT-4o AI enhancement**: Professional descriptions (works out-of-the-box)
 ✅ **Cognitive architecture**: Structured memory system for project tracking
 ✅ **Easy maintenance**: One command updates everything
 ✅ **Optional automation**: Complete hands-off daily updates (5-minute setup)
+
+### 🚀 Built-in AI Enhancement
+Your portfolio includes AI-powered content generation by default:
 
 ## 🏃‍♂️ Quick Start
 

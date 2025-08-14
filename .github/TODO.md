@@ -40,3 +40,8 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [x] JSON export remains emoji-free and valid
 - [x] Counts consistent across README/REPOS/REPO-MANAGEMENT
 - [x] Working memory stays synced (copilot-instructions + MEMORY + TODO)
+- [x] GPT-4o workflow simplification completed (enabled/disabled parameters)
+- [x] Claude references removed from all documentation
+- [x] Workflow logging fixed to show correct parameter values
+- [x] Latest automated updates merged successfully
+- [x] Repository synchronized and pushed to simplify-to-gpt4o-only branch
