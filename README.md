@@ -175,6 +175,22 @@ This foundational work directly influenced the development of my **44-repository
 - Specialized AI systems for various applications
 - **Technology:** PowerShell, Python, Jupyter
 
+### 🎵 Alex Method DJ - AI Spotify Playlists
+
+**Curated Music Intelligence Collection**
+
+- 52 AI-generated playlists spanning decades and genres
+- "Through the Decades" collections for major artists
+- Specialized focus, therapy, and lifestyle playlists
+- **Technology:** AI curation, Custom cover art, Professional catalog
+- **View Collection:** [Spotify Catalog →](Spotify/CATALOG.md)
+
+<p align="center">
+  <a href="Spotify/CATALOG.md">
+    <img src="https://img.shields.io/badge/🎵%20Explore%20Playlists-52%20AI%20Curated%20Collections-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist Catalog"/>
+  </a>
+</p>
+
 ---
 
 ## Professional Expertise
