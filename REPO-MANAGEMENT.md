@@ -1,32 +1,33 @@
 # Repository Update Workflow
 
-## 🧠 **Simple Collaborative Process**
+## 🧠 **Simple Automated Process**
 
-When you want to update your repository documentation, just ask me to **"update repos"** and I'll handle everything automatically.
+When you want to update your repository documentation, just run the automated refresh command for instant updates.
 
 ### **The Workflow:**
 
-1. **You say**: *"Update my repos"* or *"Refresh repository documentation"*
+1. **You run**: `.\refresh-repos.ps1`
 
-2. **I will**:
-   - Run `.\check-forks.ps1` to analyze your current GitHub portfolio
-   - Use the JSON output to update `REPOS.md` with current data
-   - Update `README.md` statistics if repository counts changed
-   - Show you what was updated
+2. **The automation**:
+   - Runs repository analysis to collect current GitHub data
+   - Automatically categorizes all repositories using dynamic logic
+   - Generates complete updated `REPOS.md` with current statistics
+   - Shows you a summary of what was updated
 
 3. **You review and commit** the changes when ready
 
 ---
 
-## 🛠️ **What the Script Does**
+## 🛠️ **What the Automation Does**
 
-`check-forks.ps1` automatically:
+The automated system:
 - ✅ Fetches all repositories from GitHub API (no hardcoded lists)
 - ✅ Identifies original work vs community forks
-- ✅ Categorizes repositories into appropriate sections
+- ✅ Automatically categorizes repositories using priority-based logic
 - ✅ Calculates language distribution and statistics
-- ✅ Exports clean JSON data for documentation updates
+- ✅ Generates complete REPOS.md with current data and timestamps
 - ✅ Always reflects your current portfolio state
+- ✅ Zero manual intervention required
 
 ---
 

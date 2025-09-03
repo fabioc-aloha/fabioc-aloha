@@ -97,7 +97,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 #### Step 4: Generate Your Portfolio
 ```powershell
-.\check-forks.ps1
+.\refresh-repos.ps1
 ```
 ✅ **Done!** Your portfolio is ready. Re-run the script whenever you want to update.
 
@@ -253,7 +253,9 @@ Add your expertise to `README.md`:
 |------|---------|---------------|
 | `README.md` | Your main profile page | ✏️ **Customize heavily** |
 | `REPOS.md` | Detailed project showcase | 📝 Update descriptions |
-| `check-forks.ps1` | Magic automation script | ▶️ Just run it |
+| `refresh-repos.ps1` | One-command portfolio update | ▶️ Just run it |
+| `auto-update-repos.ps1` | Full automation engine | 🤖 Auto-called |
+| `check-forks.ps1` | Repository data collection | 🤖 Auto-called |
 | `repo-analysis.json` | Generated portfolio data | 🤖 Auto-created |
 | `[your-banner].png` | Profile header image | 🖼️ Replace with yours |
 | **Cognitive Architecture Files** | | |
@@ -267,7 +269,7 @@ Add your expertise to `README.md`:
 
 ### Monthly Refresh
 ```powershell
-.\check-forks.ps1
+.\refresh-repos.ps1
 ```
 > 🔄 Updates all your repository stats and data
 
@@ -290,7 +292,7 @@ If you set up automation, your portfolio updates itself every day at 6 AM UTC:
 ### 🔄 Manual Updates (Path A users)
 Run this whenever you want to refresh your portfolio:
 ```powershell
-.\check-forks.ps1
+.\refresh-repos.ps1
 ```
 
 ### 🛠️ Troubleshooting Automation
@@ -344,7 +346,7 @@ Found improvements? The template welcomes contributions! See `CONTRIBUTING.md` f
 🤖 **AI assistant**: Use "meditate" command to consolidate insights and verify consistency
 📝 **Memory management**: Update `.github/MEMORY.md` with key decisions and `.github/TODO.md` with priorities
 ⚙️ **AI customization**: Modify `.github/copilot-instructions.md` to match your working style
-🔄 **Automation**: Run `check-forks.ps1` weekly to keep portfolio data fresh
+🔄 **Automation**: Run `.\refresh-repos.ps1` to keep portfolio data fresh
 
 ## 🆘 Need Help?
 

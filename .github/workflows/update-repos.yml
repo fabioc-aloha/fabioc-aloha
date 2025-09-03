@@ -17,7 +17,8 @@ on:
   push:
     paths:
       - 'check-forks.ps1'
-      - 'verify-analysis.ps1'
+      - 'auto-update-repos.ps1'
+      - 'refresh-repos.ps1'
       - '.github/workflows/update-repos.yml'
 
 jobs:
@@ -47,23 +48,20 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-    - name: 📊 Run repository analysis
+    - name: 📊 Run automated repository update
       run: |
-        Write-Host "🚀 Starting daily repository analysis..."
+        Write-Host "🚀 Starting automated repository update..."
         Write-Host "📅 Timestamp: $(Get-Date -Format 'yyyy-MM-dd HH:mm UTC')"
 
-        Write-Host "🔍 Running check-forks.ps1..."
-        .\check-forks.ps1
+        Write-Host "🤖 Running automated REPOS.md generator..."
+        .\auto-update-repos.ps1
 
-        Write-Host "✅ Running verification script..."
-        .\verify-analysis.ps1
-
-        Write-Host "📊 Repository analysis complete!"
+        Write-Host "✅ Automated repository update complete!"
 
         # Show summary of changes
         if (Test-Path "repo-analysis.json") {
           $analysis = Get-Content "repo-analysis.json" | ConvertFrom-Json
-          $repoCount = $analysis.repositories.Count
+          $repoCount = $analysis.detailed_repositories.Count
           Write-Host "📈 Total repositories analyzed: $repoCount"
         }
       shell: pwsh
@@ -78,33 +76,7 @@ jobs:
         Write-Host "✅ Repository analysis completed with AI enhancement placeholder"
       shell: pwsh
 
-    - name: 📅 Update timestamp in REPOS.md
-      run: |
-        Write-Host "🕒 Updating last updated timestamp in REPOS.md..."
-
-        # Get current UTC timestamp
-        $utcTime = (Get-Date).ToUniversalTime().ToString("MMMM dd, yyyy \a\t hh:mm tt UTC")
-        Write-Host "📅 New timestamp: $utcTime"
-
-        # Update the timestamp in REPOS.md
-        if (Test-Path "REPOS.md") {
-          $content = Get-Content "REPOS.md" -Raw
-          $pattern = '> \*\*Last Updated\*\*: .+?UTC'
-          $replacement = "> **Last Updated**: $utcTime"
-
-          if ($content -match $pattern) {
-            $newContent = $content -replace $pattern, $replacement
-            Set-Content "REPOS.md" -Value $newContent -NoNewline
-            Write-Host "✅ Timestamp updated successfully in REPOS.md"
-          } else {
-            Write-Host "⚠️ Could not find timestamp pattern in REPOS.md"
-          }
-        } else {
-          Write-Host "⚠️ REPOS.md file not found"
-        }
-      shell: pwsh
-
-    - name: 🔍 Check for changes
+    - name:  Check for changes
       id: git-check
       run: |
         $changes = git status --porcelain
@@ -183,7 +155,7 @@ jobs:
         - \`@github-copilot suggest documentation improvements\` - Enhance descriptions
 
         ### 🔍 **Quality Assurance:**
-        - ✅ Scripts executed successfully (\`check-forks.ps1\`, \`verify-analysis.ps1\`)
+        - ✅ Automated repository update completed successfully
         - ✅ Data validation completed
         - ✅ JSON structure verified
         - ✅ Documentation synchronization confirmed

@@ -20,8 +20,8 @@ This document explains the repo's lightweight "cognitive system" — how working
   - Prioritized tasks with acceptance checks and quick validation steps
 - **Data source of truth**: `repo-analysis.json`
   - Machine‑readable portfolio data; JSON is emoji‑free by design
-- **Scripts**: `check-forks.ps1`, `verify-analysis.ps1`
-  - Generate and validate the JSON and parent/fork relationships
+- **Scripts**: `check-forks.ps1`, `auto-update-repos.ps1`, `refresh-repos.ps1`
+  - Automated repository analysis and REPOS.md generation
 - **AI Enhancement**: GPT-4o integration for professional repository descriptions
 
 **Control**:
@@ -65,8 +65,8 @@ This document explains the repo’s lightweight “cognitive system” — how w
   - Prioritized tasks with acceptance checks and quick validation steps
 - **Data source of truth**: `repo-analysis.json`
   - Machine‑readable portfolio data; JSON is emoji‑free by design
-- **Scripts**: `check-forks.ps1`, `verify-analysis.ps1`
-  - Generate and validate the JSON and parent/fork relationships
+- **Scripts**: `check-forks.ps1`, `auto-update-repos.ps1`, `refresh-repos.ps1`
+  - Automated repository analysis and REPOS.md generation
 
 Control:
 - Cognitive playbooks & meditation (trigger: "meditate") live in `.github/copilot-instructions.md`.
@@ -96,13 +96,15 @@ flowchart TD
     LT2[Long-term memory: read context]
     TD2[Task memory: check priorities]
     SC[Scripts: check-forks.ps1]
-    VF[Verifier: verify-analysis.ps1]
+    AU[Automation: auto-update-repos.ps1]
+    RF[Refresh: refresh-repos.ps1]
     JS[Data source: repo-analysis.json]
 
     U2 --> WM2 --> LT2 --> TD2
-    TD2 --> SC
+    TD2 --> RF
+    RF --> AU
+    AU --> SC
     SC --> JS
-    VF --> JS
     JS --> LT2
     JS --> TD2
   end
@@ -164,9 +166,10 @@ sequenceDiagram
   participant WM as Working memory (.github/copilot-instructions.md)
   participant LT as Long-term (.github/MEMORY.md)
   participant TD as Tasks (.github/TODO.md)
+  participant RF as Refresh (refresh-repos.ps1)
+  participant AU as Automation (auto-update-repos.ps1)
   participant SC as Script (check-forks.ps1)
   participant JS as Data (repo-analysis.json)
-  participant VF as Verifier (verify-analysis.ps1)
 
   U->>WM: read rules
   WM->>LT: consult context
@@ -181,8 +184,11 @@ sequenceDiagram
     U->>WM: user prompt/request
     WM->>LT: consult context per instructions
     WM->>TD: check priorities per instructions
-    U->>SC: may run scripts as needed
-    SC->>JS: may write/update data
+    U->>RF: may run automated refresh
+    RF->>AU: calls automation script
+    AU->>SC: runs repository analysis
+    SC->>JS: writes/updates data
+    AU->>U: generates REPOS.md
     U->>LT: record decisions/outcomes
     U->>TD: tick acceptance checks
   end

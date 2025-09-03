@@ -64,7 +64,7 @@ Last updated: 2025‑08‑11
 - **AI Assistant Identity**: Established Alex Finch as the dedicated repo manager persona for GitHub Copilot, providing consistent identity and specialized repository management focus
 - **Established collaborative repository workflow**: Created and tested streamlined process where user requests "update my repos" triggers automated script execution and documentation updates
 - **Simplified REPO-MANAGEMENT.md**: Reduced complex 198-line procedures to simple collaborative workflow pattern
-- **Workflow validation**: Successfully tested new process with check-forks.ps1 execution, analyzed 44 repositories, updated REPOS.md automatically
+- **Workflow validation**: Successfully tested new process with refresh-repos.ps1 execution, analyzed 49 repositories, updated REPOS.md automatically
 - **Academic paper enhancement**: Enhanced PAPER.md with research questions (RQ1-RQ3), hypotheses (H1-H3), expanded literature review sections 2.7-2.9
 
 ## 5) Previous iteration changes (2025‑08‑10)
@@ -93,7 +93,9 @@ Last updated: 2025‑08‑11
 - **`ALEX-CODING.png`**: Banner image
 - **`.github/copilot-instructions.md`**: Repository-level working memory and guidance for Copilot
 - **`.vscode/settings.json`**: Points Copilot Chat to `.github/copilot-instructions.md`
-- **`check-forks.ps1` and `verify-analysis.ps1`**: Repo analysis and verification scripts (JSON export, parent checks)
+- **`check-forks.ps1`**: Repository analysis script (data collection via GitHub API)
+- **`auto-update-repos.ps1`**: Automated REPOS.md generator with categorization
+- **`refresh-repos.ps1`**: One-command wrapper for complete portfolio refresh
 
 ## 6) Constraints and notes
 - This is a markdown-first repo; no build required

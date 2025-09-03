@@ -11,7 +11,7 @@ A prioritized checklist of recommended improvements based on a review of the cur
 - [ ] Validate `gh` presence upfront; print guidance if missing
 
 ### Verification and tests
-- [ ] Enhance `verify-analysis.ps1` to exit non-zero if `MissingParents > 0` or schema mismatch
+- [x] Enhance `auto-update-repos.ps1` with built-in validation and categorization logic
 - [ ] Add Pester tests:
    - [ ] JSON schema/shape and required keys
    - [ ] Emoji sanitization invariants

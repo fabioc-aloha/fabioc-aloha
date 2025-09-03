@@ -139,11 +139,11 @@ This foundational work directly influenced the development of my **44-repository
 
 <p align="center">
   <a href="REPOS.md">
-    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-44%20Projects-blue?style=for-the-badge" alt="Repository Portfolio"/>
+    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
   </a>
 </p>
 
-**Explore my complete collection of 44 repositories** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
+**Explore my complete repository collection** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
 
 [**View Detailed Repository List →**](REPOS.md)
 
