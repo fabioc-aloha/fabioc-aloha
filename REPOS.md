@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: September 04, 2025 at 08:30 AM UTC
+> **Last Updated**: September 04, 2025 at 08:40 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 49 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -36,12 +36,12 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
+| [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🍴 Fork | 🌟 Public | - | Create rich visualizations with AI | Sep 04, 2025 |
 | [**Google-AI-Edge-Gallery**](https://github.com/fabioc-aloha/Google-AI-Edge-Gallery) | 🍴 Fork | 🌟 Public | - | Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies | Sep 04, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🍴 Fork | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
 | [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🍴 Fork | 🌟 Public | Python | Agent Zero AI framework | Jul 18, 2025 |
 | [**ai-agents-for-beginners**](https://github.com/fabioc-aloha/ai-agents-for-beginners) | 🍴 Fork | 🌟 Public | Jupyter Notebook | 11 Lessons to Get Started Building AI Agents | Jul 17, 2025 |
 | [**chatterbox**](https://github.com/fabioc-aloha/chatterbox) | 🍴 Fork | 🌟 Public | Python | SoTA open-source TTS | Jul 17, 2025 |
-| [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🍴 Fork | 🌟 Public | - | ≡ƒ¬ä Create rich visualizations with AI | Aug 20, 2025 |
 | [**omi**](https://github.com/fabioc-aloha/omi) | 🍴 Fork | 🌟 Public | - | AI wearables. Put it on, speak, transcribe, automatically | Aug 02, 2025 |
 | [**ASI-Arch**](https://github.com/fabioc-aloha/ASI-Arch) | 🍴 Fork | 🌟 Public | - | AlphaGo Moment for Model Architecture Discovery. | Aug 01, 2025 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🏠 Original | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |

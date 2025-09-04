@@ -303,13 +303,13 @@
       },
       {
         "default_branch": "main",
-        "description": "≡ƒ¬ä Create rich visualizations with AI",
+        "description": "Create rich visualizations with AI",
         "fork": true,
         "forks_count": 0,
         "full_name": "fabioc-aloha/data-formulator",
         "html_url": "https://github.com/fabioc-aloha/data-formulator",
         "language": "",
-        "last_updated_formatted": "Aug 20, 2025",
+        "last_updated_formatted": "Sep 04, 2025",
         "name": "data-formulator",
         "open_issues_count": 0,
         "parent": "microsoft/data-formulator",
@@ -318,7 +318,7 @@
         "size": 5971,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-08-20T13:25:37Z",
+        "updated_at": "2025-09-04T12:33:42Z",
         "visibility": "Public"
       },
       {
@@ -684,7 +684,7 @@
         "size": 117436,
         "stargazers_count": 0,
         "topics": [],
-        "updated_at": "2025-09-04T06:35:29Z",
+        "updated_at": "2025-09-04T12:33:15Z",
         "visibility": "Public"
       }
     ],
@@ -1589,13 +1589,13 @@
     },
     {
       "default_branch": "main",
-      "description": "≡ƒ¬ä Create rich visualizations with AI",
+      "description": "Create rich visualizations with AI",
       "fork": true,
       "forks_count": 0,
       "full_name": "fabioc-aloha/data-formulator",
       "html_url": "https://github.com/fabioc-aloha/data-formulator",
       "language": "",
-      "last_updated_formatted": "Aug 20, 2025",
+      "last_updated_formatted": "Sep 04, 2025",
       "name": "data-formulator",
       "open_issues_count": 0,
       "parent": "microsoft/data-formulator",
@@ -1604,7 +1604,7 @@
       "size": 5971,
       "stargazers_count": 0,
       "topics": [],
-      "updated_at": "2025-08-20T13:25:37Z",
+      "updated_at": "2025-09-04T12:33:42Z",
       "visibility": "Public"
     },
     {
@@ -1664,7 +1664,7 @@
       "size": 117436,
       "stargazers_count": 0,
       "topics": [],
-      "updated_at": "2025-09-04T06:35:29Z",
+      "updated_at": "2025-09-04T12:33:15Z",
       "visibility": "Public"
     },
     {
@@ -2109,7 +2109,7 @@
     "generated_by": "check-forks.ps1",
     "script_version": "2.1",
     "github_user": "fabioc-aloha",
-    "timestamp": "2025-09-04T08:30:47Z"
+    "timestamp": "2025-09-04T08:40:07Z"
   },
   "statistics": {
     "original_count": 38,
