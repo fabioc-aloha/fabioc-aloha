@@ -11,10 +11,19 @@
     • Language distribution charts and statistics
     • Automated date stamping and formatting
     • Full integration with existing check-forks.ps1 data
+    • Automatic repository description creation for repositories missing them
 
 .EXAMPLE
     .\auto-update-repos.ps1
     Analyzes repositories and automatically generates updated REPOS.md
+
+.EXAMPLE
+    .\auto-update-repos.ps1 -UpdateDescriptions
+    Updates missing repository descriptions before generating REPOS.md
+
+.EXAMPLE
+    .\auto-update-repos.ps1 -SkipAnalysis -UpdateDescriptions
+    Updates descriptions and generates REPOS.md without re-running analysis
 
 .NOTES
     Requirements:
@@ -29,6 +38,7 @@
 
 param(
     [switch]$SkipAnalysis,  # Skip repository analysis if repo-analysis.json is current
+    [switch]$UpdateDescriptions,  # Automatically update missing repository descriptions
     [int]$Limit = 200
 )
 
@@ -56,6 +66,105 @@ if (-not (Test-Path "repo-analysis.json")) {
 
 $data = Get-Content "repo-analysis.json" | ConvertFrom-Json
 $repos = $data.detailed_repositories
+
+# Step 2.5: Update repository descriptions if requested
+if ($UpdateDescriptions) {
+    Write-Host "📝 Checking for repositories missing descriptions..." -ForegroundColor Yellow
+
+    function Add-RepositoryDescription {
+        param(
+            [string]$RepoName,
+            [string]$Description
+        )
+
+        try {
+            gh repo edit "fabioc-aloha/$RepoName" --description "$Description"
+            Write-Host "  ✅ Updated description for $RepoName" -ForegroundColor Green
+            return $true
+        }
+        catch {
+            Write-Host "  ❌ Failed to update $RepoName`: $($_.Exception.Message)" -ForegroundColor Red
+            return $false
+        }
+    }
+
+    # Repository descriptions based on analysis of README files and project content
+    $defaultDescriptions = @{
+        "ChatGPT" = "OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework"
+        "executive-coach" = "Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology"
+        "Qualtrics" = "Survey research and data collection tools with Qualtrics integration for academic and business research applications"
+        "Spotify" = "Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts"
+        "GCXMCP" = "Google Cloud and Model Context Protocol integration tools for enterprise AI applications and cloud service management"
+        "Alex-Cognitive-Architecture-Paper" = "Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships"
+        "Fishbowl_POC" = "Proof of concept implementation for Fishbowl inventory management system integration and business process automation"
+        "Taylor" = "Personal project management and productivity tools with intelligent task organization and workflow optimization"
+        "Altman-Z-Score" = "Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment"
+        "Fishbowl" = "Complete Fishbowl inventory management system with advanced features for business operations and supply chain management"
+        "Catalyst_Fabric" = "Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence"
+        "XDL" = "Extended Data Language implementation for advanced data processing and transformation workflows"
+        "Investing" = "Investment analysis and portfolio management tools with financial modeling and market research capabilities"
+        "Catalyst-ADHD" = "ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems"
+        "Catalyst" = "Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration"
+        "BRD" = "Business Requirements Documentation tools and templates for enterprise software development and project management"
+        "Creative" = "Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression"
+        "Comedy" = "Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development"
+        "WallpaperScraper" = "Automated wallpaper collection and management system with intelligent image curation and desktop customization features"
+        "Google-AI-Edge-Gallery" = "Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies"
+        "CPMXDLFunction" = "Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows"
+        "XDL_Predictions" = "Machine learning prediction models using Extended Data Language for advanced analytics and forecasting applications"
+        "SendToQualtricsTool" = "Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation"
+        "Bing-Wallpaper-Fetcher" = "Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features"
+        "PythonClass" = "Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals"
+    }
+
+    # Find repositories without descriptions
+    $reposNeedingDescriptions = $repos | Where-Object {
+        -not $_.description -or $_.description.Trim() -eq "" -or $_.description.Trim() -eq "-"
+    }
+
+    if ($reposNeedingDescriptions.Count -gt 0) {
+        Write-Host "  Found $($reposNeedingDescriptions.Count) repositories without descriptions" -ForegroundColor Cyan
+
+        $successCount = 0
+        $errorCount = 0
+
+        foreach ($repo in $reposNeedingDescriptions) {
+            if ($defaultDescriptions.ContainsKey($repo.name)) {
+                $description = $defaultDescriptions[$repo.name]
+                Write-Host "  📝 Adding description to $($repo.name)..." -ForegroundColor Yellow
+
+                if (Add-RepositoryDescription -RepoName $repo.name -Description $description) {
+                    # Update the local data for immediate use in this script
+                    $repo.description = $description
+                    $successCount++
+                } else {
+                    $errorCount++
+                }
+
+                # Rate limiting - be nice to GitHub API
+                Start-Sleep -Seconds 1
+            } else {
+                Write-Host "  ⚠️  No default description available for $($repo.name)" -ForegroundColor Yellow
+            }
+        }
+
+        Write-Host "  📊 Description update results: ✅ $successCount successful, ❌ $errorCount failed" -ForegroundColor Cyan
+
+        # If we updated descriptions, refresh the analysis
+        if ($successCount -gt 0) {
+            Write-Host "  🔄 Refreshing repository analysis to include new descriptions..." -ForegroundColor Yellow
+            & ".\check-forks.ps1" -Limit $Limit
+            if ($LASTEXITCODE -eq 0) {
+                # Reload the updated data
+                $data = Get-Content "repo-analysis.json" | ConvertFrom-Json
+                $repos = $data.detailed_repositories
+                Write-Host "  ✅ Repository data refreshed with new descriptions" -ForegroundColor Green
+            }
+        }
+    } else {
+        Write-Host "  ✅ All repositories already have descriptions!" -ForegroundColor Green
+    }
+}
 
 # Step 3: Dynamic categorization function (priority-based logic)
 function Get-RepositoryCategory($repo) {
