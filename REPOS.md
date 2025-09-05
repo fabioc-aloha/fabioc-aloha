@@ -1,11 +1,11 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: September 04, 2025 at 08:40 AM UTC
+> **Last Updated**: September 05, 2025 at 06:35 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 49 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 50 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (38 repos)** | **🍴 Community Contributions (11 forks)** | **🔒 Private (21)** | **🌐 Public (28)**
+> **🏠 Original Work (38 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (21)** | **🌐 Public (29)**
 
 ---
 
@@ -36,6 +36,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
+| [**BASIC-M6502**](https://github.com/fabioc-aloha/BASIC-M6502) | 🍴 Fork | 🌟 Public | - | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Sep 04, 2025 |
 | [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🍴 Fork | 🌟 Public | - | Create rich visualizations with AI | Sep 04, 2025 |
 | [**Google-AI-Edge-Gallery**](https://github.com/fabioc-aloha/Google-AI-Edge-Gallery) | 🍴 Fork | 🌟 Public | - | Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies | Sep 04, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🍴 Fork | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
@@ -114,7 +115,7 @@ These represent my **independent research, development, and innovation work**:
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
-### **🍴 Forked Repositories (11)**
+### **🍴 Forked Repositories (12)**
 These represent **learning, collaboration, and community contributions**:
 - **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
 - **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
@@ -125,7 +126,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages Distribution (49 Repositories)
+pie title Programming Languages Distribution (50 Repositories)
     "PowerShell" : 16
     "Python" : 9
     "Jupyter Notebook" : 6
@@ -134,10 +135,10 @@ pie title Programming Languages Distribution (49 Repositories)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (32.7%)**: Primary language for 16 repositories
-- **Python (18.4%)**: Primary language for 9 repositories
-- **Jupyter Notebook (12.2%)**: Primary language for 6 repositories
-- **C# (8.2%)**: Primary language for 4 repositories
+- **PowerShell (32%)**: Primary language for 16 repositories
+- **Python (18%)**: Primary language for 9 repositories
+- **Jupyter Notebook (12%)**: Primary language for 6 repositories
+- **C# (8%)**: Primary language for 4 repositories
 - **HTML (2%)**: Primary language for 1 repositories
 
 ---
