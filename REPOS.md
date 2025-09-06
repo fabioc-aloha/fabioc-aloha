@@ -1,11 +1,11 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: September 05, 2025 at 06:35 AM UTC
+> **Last Updated**: September 06, 2025 at 06:31 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 50 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 52 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (38 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (21)** | **🌐 Public (29)**
+> **🏠 Original Work (40 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (23)** | **🌐 Public (29)**
 
 ---
 
@@ -13,6 +13,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
+| [**Catalyst-BABY**](https://github.com/fabioc-aloha/Catalyst-BABY) | 🏠 Original | 🔒 Private | PowerShell | Minimal cognitive system add-on to existing projects. | Sep 06, 2025 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🏠 Original | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 04, 2025 |
 | [**Catalyst**](https://github.com/fabioc-aloha/Catalyst) | 🏠 Original | 🔒 Private | PowerShell | Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration | Sep 04, 2025 |
 | [**Catalyst-ADHD**](https://github.com/fabioc-aloha/Catalyst-ADHD) | 🏠 Original | 🌟 Public | PowerShell | ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems | Sep 04, 2025 |
@@ -102,13 +103,13 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | My profile. | Sep 04, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | My profile. | Sep 05, 2025 |
 
 ---
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (38)**
+### **🏠 Original Repositories (40)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -126,20 +127,20 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages Distribution (50 Repositories)
-    "PowerShell" : 16
+pie title Programming Languages Distribution (52 Repositories)
+    "PowerShell" : 17
     "Python" : 9
     "Jupyter Notebook" : 6
     "C#" : 4
-    "HTML" : 1
+    "TypeScript" : 2
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (32%)**: Primary language for 16 repositories
-- **Python (18%)**: Primary language for 9 repositories
-- **Jupyter Notebook (12%)**: Primary language for 6 repositories
-- **C# (8%)**: Primary language for 4 repositories
-- **HTML (2%)**: Primary language for 1 repositories
+- **PowerShell (32.7%)**: Primary language for 17 repositories
+- **Python (17.3%)**: Primary language for 9 repositories
+- **Jupyter Notebook (11.5%)**: Primary language for 6 repositories
+- **C# (7.7%)**: Primary language for 4 repositories
+- **TypeScript (3.8%)**: Primary language for 2 repositories
 
 ---
 
