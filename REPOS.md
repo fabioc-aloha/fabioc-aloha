@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: September 18, 2025 at 06:11 AM UTC
+> **Last Updated**: September 20, 2025 at 06:10 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 52 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -82,10 +82,10 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
+| [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🏠 Original | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
 | [**Catalyst_Fabric**](https://github.com/fabioc-aloha/Catalyst_Fabric) | 🏠 Original | 🌟 Public | PowerShell | Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence | Sep 04, 2025 |
 | [**ChatGPT**](https://github.com/fabioc-aloha/ChatGPT) | 🏠 Original | 🔒 Private | PowerShell | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 04, 2025 |
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🏠 Original | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
-| [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🏠 Original | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 04, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🏠 Original | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🏠 Original | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
 | [**GCXMCP**](https://github.com/fabioc-aloha/GCXMCP) | 🏠 Original | 🔒 Private | PowerShell | Google Cloud and Model Context Protocol integration tools for enterprise AI applications and cloud service management | Sep 04, 2025 |
@@ -103,7 +103,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Sep 17, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Sep 18, 2025 |
 
 ---
 
