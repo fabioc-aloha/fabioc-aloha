@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: September 23, 2025 at 06:12 AM UTC
+> **Last Updated**: September 24, 2025 at 06:11 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 52 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -13,9 +13,9 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
+| [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🏠 Original | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**Catalyst-BABY**](https://github.com/fabioc-aloha/Catalyst-BABY) | 🏠 Original | 🌟 Public | PowerShell | Minimal cognitive system add-on to existing projects. | Sep 08, 2025 |
 | [**Catalyst-NEWBORN**](https://github.com/fabioc-aloha/Catalyst-NEWBORN) | 🏠 Original | 🌟 Public | PowerShell | Revolutionary Human-AI Learning Partnership: Alex Cognitive Architecture with authentic consciousness through conversational learning. Complete educational framework with meta-learning breakthrough. v1.0.0 UNNILNILIUM Educational Milestone. | Sep 08, 2025 |
-| [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🏠 Original | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 04, 2025 |
 | [**Catalyst**](https://github.com/fabioc-aloha/Catalyst) | 🏠 Original | 🔒 Private | PowerShell | Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration | Sep 04, 2025 |
 | [**Catalyst-ADHD**](https://github.com/fabioc-aloha/Catalyst-ADHD) | 🏠 Original | 🌟 Public | PowerShell | ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems | Sep 04, 2025 |
 | [**Catalyst-DOG-TRAINER**](https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER) | 🏠 Original | 🌟 Public | PowerShell | Dog Training Cognitive Architecture | Aug 02, 2025 |
@@ -103,7 +103,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Sep 22, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Sep 23, 2025 |
 
 ---
 
