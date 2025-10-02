@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: October 01, 2025 at 06:11 AM UTC
+> **Last Updated**: October 02, 2025 at 06:11 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 54 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -64,9 +64,9 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**Spotify**](https://github.com/fabioc-aloha/Spotify) | 🏠 Original | 🔒 Private | Python | Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts | Sep 12, 2025 |
 | [**Comedy**](https://github.com/fabioc-aloha/Comedy) | 🏠 Original | 🌟 Public | - | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🏠 Original | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
+| [**Spotify**](https://github.com/fabioc-aloha/Spotify) | 🏠 Original | 🔒 Private | Python | Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts | Oct 01, 2025 |
 | [**Catalyst_DJ**](https://github.com/fabioc-aloha/Catalyst_DJ) | 🏠 Original | 🔒 Private | - | A smart Spotify and Apple Music playlist curator. | Aug 28, 2025 |
 
 ### 🛠️ Development Tools & Utilities
@@ -105,7 +105,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Sep 29, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Oct 01, 2025 |
 
 ---
 
