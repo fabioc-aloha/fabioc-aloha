@@ -133,6 +133,9 @@ foreach ($repo in $repositories) {
             # Remove surrogate pair emojis and common symbol ranges, plus variation selector
             $s = [regex]::Replace($s, '([\uD83C-\uDBFF][\uDC00-\uDFFF])', '')
             $s = [regex]::Replace($s, '[\u2600-\u27BF\uFE0F]', '')
+            # Remove malformed UTF-8 characters and broken emoji encodings
+            $s = [regex]::Replace($s, '[\u0080-\u009F]', '')
+            $s = [regex]::Replace($s, '[≡ƒ∩Γâ][^\x20-\x7E]', '')
             return $s.Trim()
         }
 
