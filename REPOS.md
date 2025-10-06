@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: October 06, 2025 at 05:37 PM UTC
+> **Last Updated**: October 06, 2025 at 05:47 PM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 54 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -37,11 +37,11 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**spec-kit**](https://github.com/fabioc-aloha/spec-kit) | 🍴 Fork | 🌟 Public | - | Toolkit to help you get started with Spec-Driven Development | Sep 25, 2025 |
 | [**Python**](https://github.com/fabioc-aloha/Python) | 🍴 Fork | 🌟 Public | - | All Algorithms implemented in Python | Sep 24, 2025 |
 | [**BASIC-M6502**](https://github.com/fabioc-aloha/BASIC-M6502) | 🍴 Fork | 🌟 Public | - | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Sep 04, 2025 |
 | [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🍴 Fork | 🌟 Public | - | Create rich visualizations with AI | Sep 04, 2025 |
 | [**Google-AI-Edge-Gallery**](https://github.com/fabioc-aloha/Google-AI-Edge-Gallery) | 🍴 Fork | 🌟 Public | - | Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies | Sep 04, 2025 |
+| [**spec-kit**](https://github.com/fabioc-aloha/spec-kit) | 🍴 Fork | 🌟 Public | - | Toolkit to help you get started with Spec-Driven Development | Oct 06, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🍴 Fork | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
 | [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🍴 Fork | 🌟 Public | Python | Agent Zero AI framework | Jul 18, 2025 |
 | [**ai-agents-for-beginners**](https://github.com/fabioc-aloha/ai-agents-for-beginners) | 🍴 Fork | 🌟 Public | Jupyter Notebook | 11 Lessons to Get Started Building AI Agents | Jul 17, 2025 |
