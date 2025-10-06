@@ -5,15 +5,6 @@ on:
     # Run daily at 6 AM UTC (adjust timezone as needed)
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
-    inputs:
-      llm_model:
-        description: 'Enable GPT-4o content enhancement'
-        required: false
-        default: 'enabled'
-        type: choice
-        options:
-          - 'enabled'
-          - 'disabled'
   push:
     paths:
       - 'check-forks.ps1'
@@ -43,7 +34,6 @@ jobs:
         Write-Host "   - Repository: ${{ github.repository }}"
         Write-Host "   - Actor: ${{ github.actor }}"
         Write-Host "   - Token source: ${{ secrets.PAT_TOKEN && 'PAT_TOKEN (Enhanced)' || 'GITHUB_TOKEN (Limited)' }}"
-        Write-Host "   - GPT-4o Enhancement: ${{ inputs.llm_model || 'enabled (scheduled)' }}"
       shell: pwsh
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
@@ -68,15 +58,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-    - name: � Enhance with GPT-4o
-      if: ${{ inputs.llm_model == 'enabled' || (inputs.llm_model == '' && github.event_name == 'schedule') }}
-      run: |
-        Write-Host "🚀 Running GPT-4o enhancement..."
-        Write-Host "💡 GPT-4o enhancement coming soon! Using standard analysis for now."
-        Write-Host "✅ Repository analysis completed with AI enhancement placeholder"
-      shell: pwsh
-
-    - name:  Check for changes
+    - name: � Check for changes
       id: git-check
       run: |
         $changes = git status --porcelain

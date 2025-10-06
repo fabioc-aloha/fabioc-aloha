@@ -2,9 +2,17 @@
 
 ## 🧠 **Simple Automated Process**
 
-When you want to update your repository documentation, just run the automated refresh command for instant updates.
+Your repository documentation updates automatically via **GitHub Actions** and can also be triggered manually for instant updates.
 
-### **The Workflow:**
+### **Automatic Updates (GitHub Actions):**
+
+- **Runs daily** at 6 AM UTC automatically
+- **Creates Pull Requests** with documentation updates
+- **Auto-merges changes** immediately without manual review
+- **Zero manual intervention** required
+- **Completely hands-free** operation
+
+### **Manual Updates (Local Command):**
 
 1. **You run**: `.\refresh-repos.ps1`
 
@@ -15,6 +23,20 @@ When you want to update your repository documentation, just run the automated re
    - Shows you a summary of what was updated
 
 3. **You review and commit** the changes when ready
+
+---
+
+## 🤖 **GitHub Actions Automation**
+
+Your portfolio includes a fully configured GitHub Actions workflow:
+
+- **Daily Schedule**: Automatic updates at 6 AM UTC
+- **Auto-Merge Enabled**: PRs are automatically merged after creation
+- **Manual Trigger**: Run on-demand from GitHub Actions tab
+- **Completely Hands-Free**: Zero manual intervention required
+- **Complete Documentation**: See [AUTOMATION-GUIDE.md](AUTOMATION-GUIDE.md) for details
+
+**The workflow is enabled by default** and requires no manual PR merging - everything happens automatically!
 
 ---
 

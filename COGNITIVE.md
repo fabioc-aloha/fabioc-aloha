@@ -22,7 +22,7 @@ This document explains the repo's lightweight "cognitive system" — how working
   - Machine‑readable portfolio data; JSON is emoji‑free by design
 - **Scripts**: `check-forks.ps1`, `auto-update-repos.ps1`, `refresh-repos.ps1`
   - Automated repository analysis and REPOS.md generation
-- **AI Enhancement**: GPT-4o integration for professional repository descriptions
+  - Data-driven architecture: GitHub API as single source for all content
 
 **Control**:
 - **Cognitive playbooks & meditation** (trigger: "meditate") live in `.github/copilot-instructions.md`.
