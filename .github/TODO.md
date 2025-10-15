@@ -2,7 +2,7 @@
 
 A prioritized checklist of recommended improvements and completed milestones for the repository.
 
-**Last updated**: 2025-10-06
+**Last updated**: 2025-10-15
 
 ## ✅ Recently Completed (2025-10-06)
 
@@ -48,8 +48,8 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 ### Linting and editor experience
 - [ ] Add PSScriptAnalyzer and a `lint.ps1` convenience runner
-- [ ] Add `.editorconfig` for Markdown/PowerShell formatting hints
-- [ ] Add VS Code `tasks.json` entries for “Analyze portfolio” and “Verify analysis”
+- [x] Add `.editorconfig` for Markdown/PowerShell formatting hints
+- [x] Add VS Code `tasks.json` entries for "Analyze portfolio" and "Verify analysis"
 
 ### Docs polish
 - [ ] TEMPLATE-SETUP.md: Troubleshooting (gh auth, execution policy, rate limits)
