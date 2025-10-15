@@ -19,7 +19,7 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=flat"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/Contributing-Welcome-blue?style=flat"></a>
   <a href=".github/MEMORY.md"><img alt="Project Memory" src="https://img.shields.io/badge/Project%20Memory-Context%20%26%20Decisions-9cf?style=flat"></a>
-  <a href="https://github.com/fabioc-aloha/fabioc-aloha/releases/tag/v1.0.0"><img alt="Version" src="https://img.shields.io/badge/Version-v1.0.0-brightgreen?style=flat"></a>
+  <a href="CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/Version-v1.1.0-brightgreen?style=flat"></a>
 
 </p>
 
@@ -205,6 +205,45 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 > **For Developers**: This automation framework is available as part of the [portfolio template](TEMPLATE-SETUP.md) - create your own self-maintaining GitHub profile with GitHub Actions!
 
 ---
+
+## ✅ Code Quality & Standards
+
+### Automated Code Quality Enforcement
+
+This repository maintains **professional code quality standards** through automated linting and continuous integration:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PSScriptAnalyzer-Enabled-success?style=for-the-badge&logo=powershell"/>
+  <img src="https://img.shields.io/badge/Lint%20Status-Zero%20Issues-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CI%20Checks-Automated-blue?style=for-the-badge&logo=github-actions"/>
+  <img src="https://img.shields.io/badge/UTF--8%20BOM-Enforced-orange?style=for-the-badge"/>
+</p>
+
+### Quality Features
+
+- **✅ PSScriptAnalyzer Integration**: All PowerShell scripts pass static analysis with zero issues
+- **✅ Automated PR Checks**: GitHub Actions runs lint on every pull request
+- **✅ Best Practices**: `Write-Information` logging, `ShouldProcess` support, approved verb naming
+- **✅ UTF-8 BOM Compliance**: Consistent encoding across all PowerShell scripts
+- **✅ Version Adaptive**: Lint runner works across different PSScriptAnalyzer versions
+- **✅ Developer Friendly**: Local `lint.ps1` runner for quick validation
+
+### Run Quality Checks Locally
+
+```powershell
+# Run PSScriptAnalyzer on all scripts
+.\lint.ps1
+```
+
+### Configuration Files
+
+- **`.pssa.psd1`**: PSScriptAnalyzer rule configuration
+- **`lint.ps1`**: Convenience runner with version detection
+- **`.github/workflows/lint.yml`**: Automated CI checks
+- **`scripts/fix-bom.ps1`**: UTF-8 BOM normalization utility
+
+---
+
 ## Featured Projects
 
 ### Catalyst-NEWBORN
