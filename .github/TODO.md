@@ -51,6 +51,11 @@ A prioritized checklist of recommended improvements and completed milestones for
 - [x] Add `.editorconfig` for Markdown/PowerShell formatting hints
 - [x] Add VS Code `tasks.json` entries for "Analyze portfolio" and "Verify analysis"
 
+### Repository metadata
+- [x] Add GitHub topics for discoverability
+- [ ] Add SECURITY.md security policy
+- [ ] Add CODE_OF_CONDUCT.md for community standards
+
 ### Docs polish
 - [ ] TEMPLATE-SETUP.md: Troubleshooting (gh auth, execution policy, rate limits)
 - [ ] REPO-MANAGEMENT.md: “Analyze → Verify” sequence with expected pass/fail examples

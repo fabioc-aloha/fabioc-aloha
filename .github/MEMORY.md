@@ -42,6 +42,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Editor configuration**: Added `.editorconfig` for consistent code formatting across all file types
 - **VS Code tasks**: Created `.vscode/tasks.json` with 5 common automation tasks
 - **Developer experience**: Improved workflow efficiency with keyboard shortcuts (Ctrl+Shift+B for portfolio refresh)
+- **Repository topics**: Added 12 topics for discoverability (github-profile, profile-readme, automation, powershell, portfolio, template, github-actions, repository-management, ai-research, cognitive-architecture, documentation, developer-tools)
 - **Documentation sync**: Updated TODO.md to reflect completed improvements
 
 ## 5) Previous iteration changes (2025‑08‑11 through 2025‑08‑14)
