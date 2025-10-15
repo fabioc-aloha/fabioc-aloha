@@ -62,5 +62,17 @@
       "problemMatcher": [],
       "detail": "Verify GitHub CLI authentication status"
     }
+    ,
+    {
+      "label": "Lint PowerShell",
+      "type": "shell",
+      "command": ".\\lint.ps1",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": [],
+      "detail": "Run PSScriptAnalyzer across repository PowerShell scripts"
+    }
   ]
 }
