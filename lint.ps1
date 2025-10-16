@@ -42,19 +42,9 @@ if (-not $scriptFiles) {
 Write-Host "Found $($scriptFiles.Count) script(s) to analyze." -ForegroundColor Green
 
 $issues = @()
-$settingsPath = "$PWD\.pssa.psd1"
-if (Test-Path $settingsPath) {
-    Write-Host "Using PSScriptAnalyzer settings: $settingsPath" -ForegroundColor Green
-} else {
-    $settingsPath = $null
-}
 foreach ($file in $scriptFiles) {
     Write-Host "Analyzing: $($file.FullName)" -ForegroundColor Gray
-    if ($settingsPath) {
-        $result = Invoke-ScriptAnalyzer -Path $file.FullName -Recurse -Severity Error, Warning -SettingsPath $settingsPath -ErrorAction SilentlyContinue
-    } else {
-        $result = Invoke-ScriptAnalyzer -Path $file.FullName -Recurse -Severity Error, Warning -ErrorAction SilentlyContinue
-    }
+    $result = Invoke-ScriptAnalyzer -Path $file.FullName -Recurse -Severity Error, Warning -ErrorAction SilentlyContinue
     if ($result) { $issues += $result }
 }
 
