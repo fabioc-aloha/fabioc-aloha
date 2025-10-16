@@ -36,7 +36,7 @@
 
 ## TL;DR
 
-Automated, data-driven GitHub profile that regenerates its repository portfolio daily (6 AM UTC) via PowerShell + GitHub Actions. Zero hardcoded data, auto-merging PR updates, categorized portfolio (54 repos / 9 sections), and reusable template so others can clone the same hands-free setup.
+Automated, data-driven GitHub profile that regenerates its repository portfolio daily (6 AM UTC) via PowerShell + GitHub Actions. Zero hardcoded data, auto-merging PR updates, categorized portfolio (54 repos / 9 sections), and reusable template so others can clone the same hands-free setup—built around practical human-AI collaboration and Dialog Engineering principles.
 
 Key features: daily self-update, smart categorization, fork/original differentiation, language stats, fully unattended merges, professional layout, and documented setup for replication.
 
@@ -389,6 +389,15 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
   <a href="TEMPLATE-SETUP.md">
     <img src="https://img.shields.io/badge/📖%20Setup%20Guide-Step%20by%20Step-blue?style=for-the-badge" alt="Setup Guide"/>
   </a>
+  <a href="SECURITY.md">
+    <img src="https://img.shields.io/badge/🔐%20Security-Policy-red?style=for-the-badge" alt="Security Policy"/>
+  </a>
+  <a href="CODE_OF_CONDUCT.md">
+    <img src="https://img.shields.io/badge/🤝%20Code%20of%20Conduct-Community-purple?style=for-the-badge" alt="Code of Conduct"/>
+  </a>
+  <a href="SOCIAL-PREVIEW.svg">
+    <img src="https://img.shields.io/badge/🖼️%20Social%20Preview-Brand%20Image-lightgrey?style=for-the-badge" alt="Social Preview"/>
+  </a>
 </p>
 
 ### Requirements
@@ -416,6 +425,10 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 4. **Customize and enjoy** your professional GitHub presence!
 
 **Perfect for:** Developers, researchers, students, and professionals who want a dynamic, automated GitHub profile that stays current with their work.
+
+### Social Preview
+
+Use the included `SOCIAL-PREVIEW.svg` (1200x630 aspect) as your repository social preview (Settings → Social preview) for better sharing visibility.
 
 ---
 
