@@ -395,9 +395,6 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
   <a href="CODE_OF_CONDUCT.md">
     <img src="https://img.shields.io/badge/🤝%20Code%20of%20Conduct-Community-purple?style=for-the-badge" alt="Code of Conduct"/>
   </a>
-  <a href="SOCIAL-PREVIEW.svg">
-    <img src="https://img.shields.io/badge/🖼️%20Social%20Preview-Brand%20Image-lightgrey?style=for-the-badge" alt="Social Preview"/>
-  </a>
 </p>
 
 ### Requirements
@@ -426,9 +423,6 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 
 **Perfect for:** Developers, researchers, students, and professionals who want a dynamic, automated GitHub profile that stays current with their work.
 
-### Social Preview
-
-Use the included `SOCIAL-PREVIEW.svg` (1200x630 aspect) as your repository social preview (Settings → Social preview) for better sharing visibility.
 
 ---
 
