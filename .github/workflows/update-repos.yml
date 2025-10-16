@@ -210,7 +210,7 @@ jobs:
         $prUrl    = $prInfo[0].url
         Write-Host "🔍 Found PR #$prNumber => $prUrl"
 
-        $maxAttempts = 5
+        $maxAttempts = 10
         for ($i=1; $i -le $maxAttempts; $i++) {
           Write-Host "⏱️ Mergeability check attempt $i/$maxAttempts"
           $view = gh pr view $prNumber --json number,mergeable,mergeStateStatus | ConvertFrom-Json
