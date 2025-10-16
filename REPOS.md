@@ -1,6 +1,6 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: October 16, 2025 at 03:50 PM UTC
+> **Last Updated**: October 16, 2025 at 04:27 PM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 54 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -106,7 +106,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | This portfolio automatically updates itself using a sophisticated PowerShell workflow that I developed to maintain professional presentation without manual intervention. | Oct 16, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 16, 2025 |
 
 ---
 
