@@ -23,6 +23,44 @@
 
 </p>
 
+<p align="center">
+  <a href="SECURITY.md"><img alt="Security Policy" src="https://img.shields.io/badge/Security-Policy-red?style=flat"></a>
+  <a href="CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Code%20of%20Conduct-Active-purple?style=flat"></a>
+  <img alt="Stars" src="https://img.shields.io/github/stars/fabioc-aloha/fabioc-aloha?style=flat&label=Stars">
+  <img alt="Forks" src="https://img.shields.io/github/forks/fabioc-aloha/fabioc-aloha?style=flat&label=Forks">
+  <img alt="Issues" src="https://img.shields.io/github/issues/fabioc-aloha/fabioc-aloha?style=flat&label=Issues">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/fabioc-aloha/fabioc-aloha?style=flat&label=Last%20Commit">
+</p>
+
+---
+
+## TL;DR
+
+Automated, data-driven GitHub profile that regenerates its repository portfolio daily (6 AM UTC) via PowerShell + GitHub Actions. Zero hardcoded data, auto-merging PR updates, categorized portfolio (54 repos / 9 sections), and reusable template so others can clone the same hands-free setup.
+
+Key features: daily self-update, smart categorization, fork/original differentiation, language stats, fully unattended merges, professional layout, and documented setup for replication.
+
+👉 Jump directly to: [Automation](#-automated-portfolio-management) · [Portfolio List](#repository-portfolio) · [Template Usage](#use-this-profile-template) · [Featured Projects](#featured-projects) · [Professional Expertise](#professional-expertise) · [Connect](#connect-with-me)
+
+---
+
+## Table of Contents
+1. [GitHub Stats](#github-stats)
+2. [About Me](#about-me)
+3. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
+4. [Tech Stack & Skills](#tech-stack--skills)
+5. [Areas of Focus](#areas-of-focus)
+6. [Repository Portfolio](#repository-portfolio)
+7. [Automated Portfolio Management](#-automated-portfolio-management)
+8. [Featured Projects](#featured-projects)
+9. [Professional Expertise](#professional-expertise)
+10. [Technical Philosophy](#technical-philosophy)
+11. [Activity & Contributions](#activity--contributions)
+12. [Working & Communication Style](#working--communication-style)
+13. [Connect With Me](#connect-with-me)
+14. [Use This Profile Template](#use-this-profile-template)
+15. [Profile Analytics](#profile-analytics)
+
 ---
 
 ## GitHub Stats
@@ -203,6 +241,8 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 **Result**: Professional GitHub profile that maintains itself with accurate, up-to-date information directly from your repositories—completely hands-free!
 
 > **For Developers**: This automation framework is available as part of the [portfolio template](TEMPLATE-SETUP.md) - create your own self-maintaining GitHub profile with GitHub Actions!
+
+> **Governance & Community**: Please review the [Security Policy](SECURITY.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before opening issues or contributing.
 
 ---
 ## Featured Projects
@@ -391,3 +431,7 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 <p align="center">
   <em>"Professional evolution, honest documentation, and ethical AI—always."</em>
 </p>
+
+<!--
+SEO/Discoverability Keywords (hidden): cognitive architecture, dialog engineering, meta-cognitive AI, automated GitHub profile template, PowerShell GitHub Actions portfolio, academic tooling, AI consciousness research, repository categorization automation, hands-free GitHub automation, Fabio Correa, Alex Finch assistant.
+-->
