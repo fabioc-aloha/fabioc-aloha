@@ -183,7 +183,7 @@ foreach ($repo in $repositories) {
     }
 }
 
-Write-Information ("`n" + ("=" * 60)) -InformationAction Continue
+Write-Information "`n" + ("=" * 60) -InformationAction Continue
 Write-Information "📊 SUMMARY RESULTS" -InformationAction Continue
 Write-Information ("=" * 60) -InformationAction Continue
 

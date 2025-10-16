@@ -32,7 +32,6 @@
     Last Updated: September 3, 2025
 #>
 
-[CmdletBinding(SupportsShouldProcess=$true)]
 param(
     [switch]$SkipAnalysis,  # Skip repository analysis if repo-analysis.json is current
     [int]$Limit = 200
