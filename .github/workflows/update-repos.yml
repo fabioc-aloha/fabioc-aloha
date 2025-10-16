@@ -232,7 +232,7 @@ jobs:
           }
 
           if ($stateStatus -eq 'BEHIND') {
-            Write-Host "� Branch behind main; updating..."
+            Write-Host "⚠️ Branch behind main; updating..."
             try {
               gh pr checkout $prNumber
               git fetch origin main

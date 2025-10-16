@@ -2,7 +2,7 @@
 
 A prioritized checklist of recommended improvements and completed milestones for the repository.
 
-**Last updated**: 2025-10-06
+**Last updated**: 2025-10-16
 
 ## ✅ Recently Completed (2025-10-06)
 
@@ -31,6 +31,15 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 ---
 
+## ✅ Recently Completed (2025-10-16)
+
+### Workflow Robustness & Hands-Free Automation
+- [x] Added branch output for daily update workflow
+- [x] Added superseded PR cleanup (auto-close + branch delete)
+- [x] Added robust auto-merge polling (initial 5 attempts)
+- [x] Increased auto-merge attempts to 10 for greater reliability
+- [x] Confirmed automatic merge success (PR #98)
+
 ## 🔜 Next Improvements (Future)
 
 ### Script hardening
@@ -38,6 +47,9 @@ A prioritized checklist of recommended improvements and completed milestones for
 - [ ] Guard against empty repo lists (avoid divide-by-zero in language percentages)
 - [ ] Expand emoji sanitizer to remove ZWJ/zero-width/variation selectors
 - [ ] Validate `gh` presence upfront; print guidance if missing
+- [ ] Exponential backoff for auto-merge polling (6s → 12s → 24s)
+- [ ] Persist workflow telemetry (attempt count, final merge state) as artifact or summary
+- [ ] Optional local rebase/merge fallback if state remains DIRTY but no content conflicts
 
 ### Verification and tests
 - [x] Enhance `auto-update-repos.ps1` with built-in validation and categorization logic

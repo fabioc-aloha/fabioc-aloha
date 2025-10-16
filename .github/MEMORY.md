@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2025‑10‑06
+**Last updated**: 2025‑10‑16
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -88,4 +88,12 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 ## 11) Quick status
 - **Visibility**: Public | **Template**: Enabled | **License**: MIT
 - **Portfolio**: 54 repositories (40 original, 14 forks)
-- **Automation**: Fully operational, read-only, data-driven
+- **Automation**: Fully operational, data-driven, hands-free (robust auto-merge + old PR cleanup)
+
+## 12) Subsequent changes (2025‑10‑16)
+- Implemented robust auto-merge polling loop (10 attempts, 6s delay)
+- Exposed branch name as workflow output for downstream steps
+- Added superseded PR auto-close and branch deletion functionality
+- Increased merge attempts from 5 → 10 for reliability
+- Validated hands-free cycle (PR #98 merged automatically on attempt 1, CLEAN state)
+- Future consideration: exponential backoff & telemetry artifact (attempt count, final state)
