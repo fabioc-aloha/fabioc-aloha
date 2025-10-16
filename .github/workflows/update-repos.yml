@@ -78,6 +78,7 @@ jobs:
       shell: pwsh
 
     - name: 🚀 Create Pull Request with Alex Finch integration
+      id: create-pr
       if: steps.git-check.outputs.changes == 'true'
       run: |
         # Configure git for automation
@@ -171,46 +172,87 @@ jobs:
 
         Write-Host "🎯 Branch: $branch"
         Write-Host "📊 Ready for cognitive architecture analysis!"
+
+        # Expose branch name to later steps
+        echo "branch=$branch" >> $env:GITHUB_OUTPUT
       shell: pwsh
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-    - name: 🔄 Auto-merge Pull Request (if auto-merge enabled)
+    - name: 🧹 Cleanup superseded daily update PRs
       if: steps.git-check.outputs.changes == 'true'
       run: |
-        Write-Host "🤖 Attempting auto-merge of daily update..."
-
-        # Wait a moment for PR to be fully created
-        Start-Sleep -Seconds 5
-
-        # Find the PR for our branch
-        $branch = "daily-repo-update-$(Get-Date -Format 'yyyy-MM-dd-HHmm')"
-
-        try {
-          # Get the PR number for our branch
-          $prInfo = gh pr list --head $branch --json number,title,url | ConvertFrom-Json
-
-          if ($prInfo -and $prInfo.Count -gt 0) {
-            $prNumber = $prInfo[0].number
-            $prUrl = $prInfo[0].url
-
-            Write-Host "🔍 Found PR #$prNumber for branch '$branch'"
-            Write-Host "🔗 PR URL: $prUrl"
-
-            # Enable auto-merge with squash
-            gh pr merge $prNumber --auto --squash --delete-branch
-
-            Write-Host "✅ Auto-merge enabled for PR #$prNumber"
-            Write-Host "🎯 PR will automatically merge when checks pass"
-            Write-Host "🗑️ Branch will be automatically deleted after merge"
-          } else {
-            Write-Host "⚠️ No PR found for branch '$branch' - may need manual creation"
-            Write-Host "🔗 Create manually: https://github.com/${{ github.repository }}/pull/new/$branch"
-          }
-        } catch {
-          Write-Host "⚠️ Auto-merge setup failed: $($_.Exception.Message)"
-          Write-Host "📋 PR may require manual approval/merge"
+        $current = '${{ steps.create-pr.outputs.branch }}'
+        if (-not $current) { Write-Host '⚠️ No current branch output; skipping cleanup.'; exit 0 }
+        Write-Host "🧹 Checking for older daily update PRs to close..."
+        $open = gh pr list --state open --json number,headRefName,title,url | ConvertFrom-Json | Where-Object { $_.headRefName -like 'daily-repo-update-*' -and $_.headRefName -ne $current }
+        if (-not $open) { Write-Host '✨ No old daily update PRs found.'; exit 0 }
+        foreach ($pr in $open) {
+          Write-Host "🔒 Closing superseded PR #$($pr.number) ($($pr.headRefName))"
+          try { gh pr close $pr.number --comment "Superseded by newer daily update ($current)." } catch { Write-Host "⚠️ Failed to close PR #$($pr.number): $($_.Exception.Message)" }
+          try { git push origin --delete $pr.headRefName } catch { Write-Host "⚠️ Failed to delete branch $($pr.headRefName): $($_.Exception.Message)" }
         }
+      shell: pwsh
+      env:
+        GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+
+    - name: 🔄 Auto-merge Pull Request (robust)
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        $branch = '${{ steps.create-pr.outputs.branch }}'
+        if (-not $branch) { Write-Host '⚠️ No branch output available; skipping auto-merge.'; exit 0 }
+        Write-Host "🤖 Attempting robust auto-merge for branch: $branch"
+
+        # Locate PR
+        $prInfo = gh pr list --head $branch --json number,url | ConvertFrom-Json
+        if (-not $prInfo) { Write-Host "⚠️ No PR found for branch $branch"; exit 0 }
+        $prNumber = $prInfo[0].number
+        $prUrl    = $prInfo[0].url
+        Write-Host "🔍 Found PR #$prNumber => $prUrl"
+
+        $maxAttempts = 5
+        for ($i=1; $i -le $maxAttempts; $i++) {
+          Write-Host "⏱️ Mergeability check attempt $i/$maxAttempts"
+          $view = gh pr view $prNumber --json number,mergeable,mergeStateStatus | ConvertFrom-Json
+          $mergeable      = $view.mergeable
+          $stateStatus    = $view.mergeStateStatus
+          Write-Host "� mergeable=$mergeable mergeStateStatus=$stateStatus"
+
+          # Ready conditions
+          if ($mergeable -eq 'MERGEABLE' -or $stateStatus -eq 'CLEAN') {
+            Write-Host "✅ PR appears mergeable; performing squash merge..."
+            try {
+              gh pr merge $prNumber --squash --delete-branch
+              Write-Host "🎉 Successfully merged PR #$prNumber and deleted branch."
+              exit 0
+            } catch {
+              Write-Host "⚠️ Merge command failed: $($_.Exception.Message)"
+              # Continue retries; maybe transient
+            }
+          }
+
+          if ($stateStatus -eq 'BEHIND') {
+            Write-Host "� Branch behind main; updating..."
+            try {
+              gh pr checkout $prNumber
+              git fetch origin main
+              git merge --no-edit origin/main 2>$null || Write-Host '⚠️ Merge introduced conflicts; retaining generated versions.'
+              # Prefer generated files (already on branch). If conflicts occurred, choose ours for known files
+              if (Test-Path REPOS.md -and (Get-Content REPOS.md | Select-String '<<<<<<<')) { git checkout --ours REPOS.md; git add REPOS.md }
+              if (Test-Path repo-analysis.json -and (Get-Content repo-analysis.json | Select-String '<<<<<<<')) { git checkout --ours repo-analysis.json; git add repo-analysis.json }
+              git commit -m "chore: sync daily update branch with main for auto-merge" 2>$null || Write-Host 'ℹ️ No commit needed after merge.'
+              git push origin HEAD
+            } catch { Write-Host "⚠️ Failed to update branch: $($_.Exception.Message)" }
+          }
+
+          if ($stateStatus -in @('BLOCKED','DIRTY')) {
+            Write-Host "⚠️ State=$stateStatus (blocked or conflicts). Will retry if attempts remain."}
+
+          if ($i -lt $maxAttempts) { Start-Sleep -Seconds 6 }
+        }
+
+        Write-Host "📝 Auto-merge not completed after $maxAttempts attempts; leaving PR #$prNumber open for manual review without failing the workflow."
+        exit 0
       shell: pwsh
       env:
         GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
