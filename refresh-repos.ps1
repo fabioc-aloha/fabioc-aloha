@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env pwsh
+#!/usr/bin/env pwsh
 <#
 .SYNOPSIS
     One-Command Repository Portfolio Refresh
@@ -19,8 +19,8 @@
     This is a wrapper around auto-update-repos.ps1 for maximum simplicity
 #>
 
-Write-Information "🔄 Repository Portfolio Refresh" -InformationAction Continue
-Write-Information ("=" * 40) -InformationAction Continue
+Write-Host "🔄 Repository Portfolio Refresh" -ForegroundColor Cyan
+Write-Host ("=" * 40) -ForegroundColor Gray
 
 # Check dependencies
 if (-not (Test-Path "check-forks.ps1")) {
@@ -41,17 +41,16 @@ try {
     exit 1
 }
 
-Write-Information "✅ Dependencies verified" -InformationAction Continue
+Write-Host "✅ Dependencies verified" -ForegroundColor Green
 
 # Run the full automation
-Write-Information "🚀 Starting automated refresh..." -InformationAction Continue
+Write-Host "🚀 Starting automated refresh..." -ForegroundColor Yellow
 & ".\auto-update-repos.ps1"
 
 if ($LASTEXITCODE -eq 0) {
-    Write-Information "`n🎉 Repository portfolio successfully refreshed!" -InformationAction Continue
-    Write-Information "📄 REPOS.md is now up-to-date with current GitHub data" -InformationAction Continue
+    Write-Host "`n🎉 Repository portfolio successfully refreshed!" -ForegroundColor Green
+    Write-Host "📄 REPOS.md is now up-to-date with current GitHub data" -ForegroundColor Cyan
 } else {
     Write-Error "Refresh failed. Check output above for details."
     exit 1
 }
-
