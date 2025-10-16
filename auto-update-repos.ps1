@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Automated REPOS.md Generator with Dynamic Categorization
 
@@ -32,29 +32,28 @@
     Last Updated: September 3, 2025
 #>
 
-[CmdletBinding(SupportsShouldProcess=$true)]
 param(
     [switch]$SkipAnalysis,  # Skip repository analysis if repo-analysis.json is current
     [int]$Limit = 200
 )
 
-Write-Information "🤖 Automated REPOS.md Generator" -InformationAction Continue
-Write-Information ("=" * 50) -InformationAction Continue
+Write-Host "🤖 Automated REPOS.md Generator" -ForegroundColor Cyan
+Write-Host ("=" * 50) -ForegroundColor Gray
 
 # Step 1: Run repository analysis (unless skipped)
 if (-not $SkipAnalysis) {
-    Write-Information "📊 Running repository analysis..." -InformationAction Continue
+    Write-Host "📊 Running repository analysis..." -ForegroundColor Yellow
     & ".\check-forks.ps1" -Limit $Limit
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Repository analysis failed. Exiting."
         exit 1
     }
 } else {
-    Write-Information "⏭️  Skipping analysis - using existing repo-analysis.json" -InformationAction Continue
+    Write-Host "⏭️  Skipping analysis - using existing repo-analysis.json" -ForegroundColor Yellow
 }
 
 # Step 2: Load repository data
-Write-Information "📋 Loading repository data..." -InformationAction Continue
+Write-Host "📋 Loading repository data..." -ForegroundColor Yellow
 if (-not (Test-Path "repo-analysis.json")) {
     Write-Error "repo-analysis.json not found. Run without -SkipAnalysis flag."
     exit 1
@@ -148,7 +147,7 @@ function Get-RepositoryCategory($repo) {
 }
 
 # Step 4: Categorize all repositories
-Write-Information "🏷️  Categorizing repositories..." -InformationAction Continue
+Write-Host "🏷️  Categorizing repositories..." -ForegroundColor Yellow
 $categorizedRepos = $repos | ForEach-Object {
     [PSCustomObject]@{
         Name = $_.name
@@ -171,7 +170,7 @@ function Get-RepoTableEntry($repo) {
 }
 
 # Step 6: Generate complete REPOS.md content
-Write-Information "📝 Generating REPOS.md content..." -InformationAction Continue
+Write-Host "📝 Generating REPOS.md content..." -ForegroundColor Yellow
 
 $currentDate = Get-Date -Format "MMMM dd, yyyy 'at' hh:mm tt 'UTC'"
 $totalRepos = $repos.Count
@@ -280,35 +279,30 @@ $($topLanguages | ForEach-Object { $percentage = [math]::Round(($_.Count / $tota
 "@
 
 # Step 7: Write the complete REPOS.md file
-Write-Information "💾 Writing REPOS.md file..." -InformationAction Continue
-if ($PSCmdlet.ShouldProcess('REPOS.md','Write generated REPOS.md')) {
-    # Ensure file is written with BOM
-    $utf8bom = [System.Text.Encoding]::UTF8.GetPreamble()
-    $bytes = $utf8bom + ([System.Text.Encoding]::UTF8.GetBytes($reposContent))
-    [System.IO.File]::WriteAllBytes('REPOS.md', $bytes)
-}
+Write-Host "💾 Writing REPOS.md file..." -ForegroundColor Yellow
+$reposContent | Out-File -FilePath "REPOS.md" -Encoding UTF8
 
 # Step 8: Generate summary report
-Write-Information "`n✅ REPOS.md automatically generated!" -InformationAction Continue
-Write-Information "📊 Repository Summary:" -InformationAction Continue
-Write-Information "   🏠 Original Work: $originalCount repositories" -InformationAction Continue
-Write-Information "   🍴 Community Contributions: $forkCount forks" -InformationAction Continue
-Write-Information "   🔒 Private: $privateCount | 🌐 Public: $publicCount" -InformationAction Continue
-Write-Information "📝 Categories Generated:" -InformationAction Continue
+Write-Host "`n✅ REPOS.md automatically generated!" -ForegroundColor Green
+Write-Host "📊 Repository Summary:" -ForegroundColor Cyan
+Write-Host "   🏠 Original Work: $originalCount repositories" -ForegroundColor White
+Write-Host "   🍴 Community Contributions: $forkCount forks" -ForegroundColor White
+Write-Host "   🔒 Private: $privateCount | 🌐 Public: $publicCount" -ForegroundColor White
+Write-Host "📝 Categories Generated:" -ForegroundColor Cyan
 foreach ($categoryInfo in $categoryOrder) {
     $count = ($categorizedRepos | Where-Object { $_.Category -eq $categoryInfo.Name }).Count
     if ($count -gt 0) {
-        Write-Information "   $($categoryInfo.Icon) $($categoryInfo.Name): $count repos" -InformationAction Continue
+        Write-Host "   $($categoryInfo.Icon) $($categoryInfo.Name): $count repos" -ForegroundColor White
     }
 }
 
 # Check for uncategorized repositories
 $uncategorized = $categorizedRepos | Where-Object { $_.Category -eq '❓ NEEDS_MANUAL_CATEGORIZATION' }
 if ($uncategorized.Count -gt 0) {
-    Write-Information "`n⚠️  Uncategorized Repositories ($($uncategorized.Count)):" -InformationAction Continue
-    $uncategorized | ForEach-Object { Write-Information "   - $($_.Name)" -InformationAction Continue }
-    Write-Information "   These repos need manual categorization logic added to the script." -InformationAction Continue
+    Write-Host "`n⚠️  Uncategorized Repositories ($($uncategorized.Count)):" -ForegroundColor Yellow
+    $uncategorized | ForEach-Object { Write-Host "   - $($_.Name)" -ForegroundColor Red }
+    Write-Host "   These repos need manual categorization logic added to the script." -ForegroundColor Gray
 }
 
-Write-Information "`n🎉 Automation complete! REPOS.md is now fully up-to-date." -InformationAction Continue
-Write-Information "🔄 To update again, simply run: .\auto-update-repos.ps1" -InformationAction Continue
+Write-Host "`n🎉 Automation complete! REPOS.md is now fully up-to-date." -ForegroundColor Green
+Write-Host "🔄 To update again, simply run: .\auto-update-repos.ps1" -ForegroundColor Cyan

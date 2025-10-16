@@ -4,7 +4,7 @@ Thanks for your interest in contributing! This repository is a public profile an
 
 ## Code of Conduct
 
-This project follows a Code of Conduct to ensure a welcoming and inclusive community. Please read the full policy in `CODE_OF_CONDUCT.md` before contributing.
+Be respectful and constructive. Treat everyone with professionalism.
 
 ## How to Contribute
 
@@ -34,8 +34,6 @@ Use clear, conventional messages, e.g.:
 - Open issues for questions or proposals
 - Include context, screenshots, and examples when helpful
 
-If your issue concerns a security vulnerability, please **do NOT** open a public issue. Instead, see `SECURITY.md` for responsible disclosure instructions.
-
 ## Scope Guidance
 
 This repo is primarily documentation + template. Please avoid:
@@ -43,10 +41,3 @@ This repo is primarily documentation + template. Please avoid:
 - Heavy automation or workflows without discussion first
 
 Thanks for helping make this template better for the community! 🙌
-
-Useful links:
-
-- Code of conduct: `CODE_OF_CONDUCT.md`
-- Security policy: `SECURITY.md`
-- Issue templates: `.github/ISSUE_TEMPLATE/`
-- Pull request template: `.github/PULL_REQUEST_TEMPLATE.md`

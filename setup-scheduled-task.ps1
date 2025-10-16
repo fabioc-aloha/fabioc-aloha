@@ -1,4 +1,4 @@
-﻿# Setup Scheduled Task for Portfolio Workflow
+# Setup Scheduled Task for Portfolio Workflow
 # This script creates a Windows scheduled task to run the portfolio workflow every 4 hours
 
 param(
@@ -11,38 +11,38 @@ $ScriptPath = "C:\Development\fabioc-aloha\auto-update-repos.ps1"
 $WorkingDirectory = "C:\Development\fabioc-aloha"
 
 if ($Remove) {
-    Write-Information "🗑️  Removing scheduled task..." -InformationAction Continue
+    Write-Host "🗑️  Removing scheduled task..." -ForegroundColor Yellow
     if (Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue) {
         Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false
-    Write-Information "✅ Task removed successfully!" -InformationAction Continue
+        Write-Host "✅ Task removed successfully!" -ForegroundColor Green
     } else {
-    Write-Information "❌ Task not found!" -InformationAction Continue
+        Write-Host "❌ Task not found!" -ForegroundColor Red
     }
     exit 0
 }
 
 if ($Status) {
-    Write-Information "📊 Task Status:" -InformationAction Continue
+    Write-Host "📊 Task Status:" -ForegroundColor Cyan
     $Task = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
     if ($Task) {
         $Task | Format-Table TaskName, State, LastRunTime, NextRunTime -AutoSize
-    Write-Information "📋 Task Details:" -InformationAction Continue
-    $TaskInfo = Get-ScheduledTaskInfo -TaskName $TaskName
-    Write-Information "  Last Result: $($TaskInfo.LastTaskResult)" -InformationAction Continue
-    Write-Information "  Last Run Time: $($TaskInfo.LastRunTime)" -InformationAction Continue
-    Write-Information "  Next Run Time: $($TaskInfo.NextRunTime)" -InformationAction Continue
+        Write-Host "📋 Task Details:" -ForegroundColor Cyan
+        $TaskInfo = Get-ScheduledTaskInfo -TaskName $TaskName
+        Write-Host "  Last Result: $($TaskInfo.LastTaskResult)" -ForegroundColor Gray
+        Write-Host "  Last Run Time: $($TaskInfo.LastRunTime)" -ForegroundColor Gray
+        Write-Host "  Next Run Time: $($TaskInfo.NextRunTime)" -ForegroundColor Gray
     } else {
-        Write-Information "❌ Task not found!" -InformationAction Continue
+        Write-Host "❌ Task not found!" -ForegroundColor Red
     }
     exit 0
 }
 
-Write-Information "🕐 Setting up Portfolio Workflow - Every 4 Hours" -InformationAction Continue
-Write-Information ("=" * 55) -InformationAction Continue
+Write-Host "🕐 Setting up Portfolio Workflow - Every 4 Hours" -ForegroundColor Cyan
+Write-Host ("=" * 55) -ForegroundColor Gray
 
 # Check if task already exists and remove it
 if (Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue) {
-    Write-Information "🔄 Removing existing task: $TaskName" -InformationAction Continue
+    Write-Host "🔄 Removing existing task: $TaskName" -ForegroundColor Yellow
     Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false
 }
 
@@ -56,7 +56,7 @@ if (-not (Test-Path $ScriptPath)) {
 $Action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-ExecutionPolicy Bypass -File `"$ScriptPath`" -UpdateDescriptions" -WorkingDirectory $WorkingDirectory
 
 # Create triggers for every 4 hours
-Write-Information "⏰ Creating triggers for every 4 hours..." -InformationAction Continue
+Write-Host "⏰ Creating triggers for every 4 hours..." -ForegroundColor Yellow
 $Triggers = @()
 $RunTimes = @("00:00", "04:00", "08:00", "12:00", "16:00", "20:00")
 
@@ -74,27 +74,27 @@ try {
     # Register the task
     Register-ScheduledTask -TaskName $TaskName -Action $Action -Trigger $Triggers -Settings $Settings -Principal $Principal -Description "Automatically updates GitHub portfolio every 4 hours with repository descriptions"
 
-    Write-Information "✅ Scheduled task created successfully!" -InformationAction Continue
-    Write-Information "📋 Task Details:" -InformationAction Continue
-    Write-Information "  Task Name: $TaskName" -InformationAction Continue
-    Write-Information "  Schedule: Every 4 hours at 12:00 AM, 4:00 AM, 8:00 AM, 12:00 PM, 4:00 PM, 8:00 PM" -InformationAction Continue
-    Write-Information "  Command: powershell.exe -ExecutionPolicy Bypass -File `"$ScriptPath`" -UpdateDescriptions" -InformationAction Continue
-    Write-Information "  Working Directory: $WorkingDirectory" -InformationAction Continue
+    Write-Host "✅ Scheduled task created successfully!" -ForegroundColor Green
+    Write-Host "📋 Task Details:" -ForegroundColor Cyan
+    Write-Host "  Task Name: $TaskName" -ForegroundColor White
+    Write-Host "  Schedule: Every 4 hours at 12:00 AM, 4:00 AM, 8:00 AM, 12:00 PM, 4:00 PM, 8:00 PM" -ForegroundColor White
+    Write-Host "  Command: powershell.exe -ExecutionPolicy Bypass -File `"$ScriptPath`" -UpdateDescriptions" -ForegroundColor White
+    Write-Host "  Working Directory: $WorkingDirectory" -ForegroundColor White
 
     # Show next run times
-    Write-Information "`n📅 Next Run Times:" -InformationAction Continue
+    Write-Host "`n📅 Next Run Times:" -ForegroundColor Cyan
     $Task = Get-ScheduledTask -TaskName $TaskName
     $TaskInfo = Get-ScheduledTaskInfo -TaskName $TaskName
-    Write-Information "  Next Run: $($TaskInfo.NextRunTime)" -InformationAction Continue
+    Write-Host "  Next Run: $($TaskInfo.NextRunTime)" -ForegroundColor White
 
 } catch {
     Write-Error "Failed to create scheduled task: $($_.Exception.Message)"
     exit 1
 }
-Write-Information "`n🎯 Management Commands:" -InformationAction Continue
-Write-Information "  View Status: .\setup-scheduled-task.ps1 -Status" -InformationAction Continue
-Write-Information "  Remove Task: .\setup-scheduled-task.ps1 -Remove" -InformationAction Continue
-Write-Information "  Manual Run: Start-ScheduledTask -TaskName '$TaskName'" -InformationAction Continue
 
-Write-Information "`n🎉 Setup complete! Your portfolio will now update automatically every 4 hours." -InformationAction Continue
+Write-Host "`n🎯 Management Commands:" -ForegroundColor Cyan
+Write-Host "  View Status: .\setup-scheduled-task.ps1 -Status" -ForegroundColor Gray
+Write-Host "  Remove Task: .\setup-scheduled-task.ps1 -Remove" -ForegroundColor Gray
+Write-Host "  Manual Run: Start-ScheduledTask -TaskName '$TaskName'" -ForegroundColor Gray
 
+Write-Host "`n🎉 Setup complete! Your portfolio will now update automatically every 4 hours." -ForegroundColor Green

@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Repository Fork Detection Script for fabioc-aloha GitHub portfolio
 
@@ -39,13 +39,12 @@
 # This script dynamically fetches repositories from GitHub API and identifies forks vs original repositories
 # Always exports comprehensive analysis to JSON file for automation
 
-[CmdletBinding(SupportsShouldProcess=$true)]
 param(
     [int]$Limit = 200
 )
 
-Write-Information "🔍 Fetching repository list from GitHub API..." -InformationAction Continue
-Write-Information ("=" * 60) -InformationAction Continue
+Write-Host "🔍 Fetching repository list from GitHub API..." -ForegroundColor Cyan
+Write-Host ("=" * 60)
 
 # Resolve target GitHub owner dynamically (no hardcoded usernames)
 function Get-GitHubOwner {
@@ -65,48 +64,37 @@ function Get-GitHubOwner {
                 return $Matches.owner
             }
         }
-    } catch {
-        # Ignored - fallback to other lookup methods
-        Write-Verbose "Get-GitHubOwner: git remote lookup failed: $($_.Exception.Message)"
-    }
+    } catch {}
 
     # 3) gh authenticated user (fallback)
     try {
         $login = gh api user -q .login 2>$null
         if ($login) { return $login.Trim() }
-    } catch {
-        # Ignored - will return $null if no gh auth
-        Write-Verbose "Get-GitHubOwner: gh api user lookup failed: $($_.Exception.Message)"
-    }
+    } catch {}
 
     return $null
 }
 
 $Owner = Get-GitHubOwner
 if (-not $Owner) {
-    Write-Information "❌ ERROR: Could not determine GitHub owner. Ensure a git remote is set or GitHub CLI is authenticated." -InformationAction Continue
+    Write-Host "❌ ERROR: Could not determine GitHub owner. Ensure a git remote is set or GitHub CLI is authenticated." -ForegroundColor Red
     exit 1
 }
-Write-Information "👤 Target owner: $Owner" -InformationAction Continue
+Write-Host "👤 Target owner: $Owner" -ForegroundColor Cyan
 
 # Dynamically fetch all repositories from GitHub API
 try {
-    Write-Information "📡 Connecting to GitHub API..." -InformationAction Continue
-    if ($PSCmdlet.ShouldProcess("GitHub: $Owner", "List repositories")) {
-        $repositories = gh repo list $Owner --json name --limit $Limit | ConvertFrom-Json | Select-Object -ExpandProperty name
-        Write-Information "✅ Found $($repositories.Count) repositories" -InformationAction Continue
-    } else {
-        Write-Information "Skipping repository listing due to ShouldProcess/WhatIf." -InformationAction Continue
-        $repositories = @()
-    }
+    Write-Host "📡 Connecting to GitHub API..." -ForegroundColor Yellow
+    $repositories = gh repo list $Owner --json name --limit $Limit | ConvertFrom-Json | Select-Object -ExpandProperty name
+    Write-Host "✅ Found $($repositories.Count) repositories" -ForegroundColor Green
 } catch {
-    Write-Information "❌ ERROR: Failed to fetch repositories from GitHub API" -InformationAction Continue
-    Write-Information "   Make sure GitHub CLI is installed and authenticated with SSO" -InformationAction Continue
+    Write-Host "❌ ERROR: Failed to fetch repositories from GitHub API" -ForegroundColor Red
+    Write-Host "   Make sure GitHub CLI is installed and authenticated with SSO" -ForegroundColor Yellow
     exit 1
 }
 
-Write-Information "🔍 Checking fork status for all repositories..." -InformationAction Continue
-Write-Information ("=" * 60) -InformationAction Continue
+Write-Host "🔍 Checking fork status for all repositories..." -ForegroundColor Cyan
+Write-Host ("=" * 60)
 
 $originalRepos = @()
 $forkedRepos = @()
@@ -115,11 +103,10 @@ $repoDetails = @()
 
 foreach ($repo in $repositories) {
     try {
-    Write-Information "Checking: $repo" -InformationAction Continue
+        Write-Host "Checking: $repo" -ForegroundColor Yellow
 
     # Get comprehensive repo information for REPOS.md update capability
-    if ($PSCmdlet.ShouldProcess("GitHub: $repo", "Fetch repository metadata")) {
-        $repoInfo = gh api "repos/$Owner/$repo" --jq '{
+    $repoInfo = gh api "repos/$Owner/$repo" --jq '{
             name: .name,
             fork: .fork,
             private: .private,
@@ -139,13 +126,9 @@ foreach ($repo in $repositories) {
             forks_count: .forks_count,
             open_issues_count: .open_issues_count
         }' | ConvertFrom-Json
-    } else {
-        Write-Information "Skipping metadata fetch for $repo due to ShouldProcess/WhatIf." -InformationAction Continue
-        continue
-    }
 
         # Sanitize emojis from string fields to keep JSON machine-friendly
-        function Convert-StripEmoji([string]$s) {
+        function Remove-Emoji([string]$s) {
             if ([string]::IsNullOrEmpty($s)) { return $s }
             # Remove surrogate pair emojis and common symbol ranges, plus variation selector
             $s = [regex]::Replace($s, '([\uD83C-\uDBFF][\uDC00-\uDFFF])', '')
@@ -156,14 +139,14 @@ foreach ($repo in $repositories) {
             return $s.Trim()
         }
 
-        $repoInfo.name = Convert-StripEmoji $repoInfo.name
-        $repoInfo.language = Convert-StripEmoji $repoInfo.language
-        $repoInfo.description = Convert-StripEmoji $repoInfo.description
-        $repoInfo.parent = Convert-StripEmoji $repoInfo.parent
-        $repoInfo.visibility = Convert-StripEmoji $repoInfo.visibility
-        $repoInfo.repo_type = Convert-StripEmoji $repoInfo.repo_type
+        $repoInfo.name = Remove-Emoji $repoInfo.name
+        $repoInfo.language = Remove-Emoji $repoInfo.language
+        $repoInfo.description = Remove-Emoji $repoInfo.description
+        $repoInfo.parent = Remove-Emoji $repoInfo.parent
+        $repoInfo.visibility = Remove-Emoji $repoInfo.visibility
+        $repoInfo.repo_type = Remove-Emoji $repoInfo.repo_type
         if ($repoInfo.topics) {
-            $repoInfo.topics = @($repoInfo.topics | ForEach-Object { Convert-StripEmoji $_ })
+            $repoInfo.topics = @($repoInfo.topics | ForEach-Object { Remove-Emoji $_ })
         }
 
         $repoDetails += $repoInfo
@@ -171,36 +154,35 @@ foreach ($repo in $repositories) {
         if ($repoInfo.fork -eq $true) {
             $forkedRepos += $repo
             $parentInfo = if ($repoInfo.parent) { " (from $($repoInfo.parent))" } else { "" }
-            Write-Information "  🍴 FORK$parentInfo" -InformationAction Continue
+            Write-Host "  🍴 FORK$parentInfo" -ForegroundColor Magenta
         } else {
             $originalRepos += $repo
-            Write-Information "  🏠 ORIGINAL" -InformationAction Continue
+            Write-Host "  🏠 ORIGINAL" -ForegroundColor Green
         }
     } catch {
         $errors += $repo
-        Write-Information "  ❌ ERROR: $($_.Exception.Message)" -InformationAction Continue
-        Write-Verbose "Error details: $($_.Exception.ToString())"
+        Write-Host "  ❌ ERROR: $($_.Exception.Message)" -ForegroundColor Red
     }
 }
 
-Write-Information ("`n" + ("=" * 60)) -InformationAction Continue
-Write-Information "📊 SUMMARY RESULTS" -InformationAction Continue
-Write-Information ("=" * 60) -InformationAction Continue
+Write-Host "`n" + ("=" * 60)
+Write-Host "📊 SUMMARY RESULTS" -ForegroundColor Cyan
+Write-Host ("=" * 60)
 
-Write-Information "`n🏠 ORIGINAL REPOSITORIES ($($originalRepos.Count)):" -InformationAction Continue
-$originalRepos | Sort-Object | ForEach-Object { Write-Information "  • $_" -InformationAction Continue }
+Write-Host "`n🏠 ORIGINAL REPOSITORIES ($($originalRepos.Count)):" -ForegroundColor Green
+$originalRepos | Sort-Object | ForEach-Object { Write-Host "  • $_" -ForegroundColor White }
 
-Write-Information "`n🍴 FORKED REPOSITORIES ($($forkedRepos.Count)):" -InformationAction Continue
+Write-Host "`n🍴 FORKED REPOSITORIES ($($forkedRepos.Count)):" -ForegroundColor Magenta
 $forkedRepos | Sort-Object | ForEach-Object {
     $name = $_
     $parent = ($repoDetails | Where-Object { $_.name -eq $name }).parent
     $parentText = if ($parent) { " ← $parent" } else { "" }
-    Write-Information "  • $name$parentText" -InformationAction Continue
+    Write-Host "  • $name$parentText" -ForegroundColor White
 }
 
 if ($errors.Count -gt 0) {
-    Write-Information "`n❌ ERRORS ($($errors.Count)):" -InformationAction Continue
-    $errors | Sort-Object | ForEach-Object { Write-Information "  • $_" -InformationAction Continue }
+    Write-Host "`n❌ ERRORS ($($errors.Count)):" -ForegroundColor Red
+    $errors | Sort-Object | ForEach-Object { Write-Host "  • $_" -ForegroundColor White }
 }
 
 # Export comprehensive analysis to JSON file (always enabled)
@@ -283,14 +265,12 @@ $exportData = @{
     }
 }
 
-if ($PSCmdlet.ShouldProcess('repo-analysis.json', 'Write JSON export')) {
-    $exportData | ConvertTo-Json -Depth 6 | Out-File -FilePath "repo-analysis.json" -Encoding UTF8
-}
-Write-Information "`n📄 Exported comprehensive analysis to repo-analysis.json" -InformationAction Continue
-Write-Information "   └─ Includes categorized repositories, language stats, and REPOS.md formatting data" -InformationAction Continue
+$exportData | ConvertTo-Json -Depth 6 | Out-File -FilePath "repo-analysis.json" -Encoding UTF8
+Write-Host "`n📄 Exported comprehensive analysis to repo-analysis.json" -ForegroundColor Cyan
+Write-Host "   └─ Includes categorized repositories, language stats, and REPOS.md formatting data" -ForegroundColor Gray
 
-Write-Information "`n✅ Analysis complete!" -InformationAction Continue
-Write-Information "🔍 Analyzed $($repositories.Count) repositories dynamically fetched from GitHub API" -InformationAction Continue
-Write-Information "📊 Statistics: $($originalRepos.Count) Original | $($forkedRepos.Count) Forks | $(($repoDetails | Where-Object { $_.private }).Count) Private | $(($repoDetails | Where-Object { -not $_.private }).Count) Public" -InformationAction Continue
-Write-Information "📋 Use this information to update REPOS.md with accurate fork status and categories" -InformationAction Continue
-Write-Information "📄 Comprehensive analysis saved to repo-analysis.json for automation" -InformationAction Continue
+Write-Host "`n✅ Analysis complete!" -ForegroundColor Cyan
+Write-Host "🔍 Analyzed $($repositories.Count) repositories dynamically fetched from GitHub API" -ForegroundColor Green
+Write-Host "📊 Statistics: $($originalRepos.Count) Original | $($forkedRepos.Count) Forks | $(($repoDetails | Where-Object { $_.private }).Count) Private | $(($repoDetails | Where-Object { -not $_.private }).Count) Public" -ForegroundColor White
+Write-Host "📋 Use this information to update REPOS.md with accurate fork status and categories" -ForegroundColor White
+Write-Host "📄 Comprehensive analysis saved to repo-analysis.json for automation" -ForegroundColor Yellow
