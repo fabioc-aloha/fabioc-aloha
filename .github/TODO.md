@@ -4,31 +4,7 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 **Last updated**: 2025-10-15
 
-## ✅ Recently Completed (2025-10-15)
-
-### PowerShell Linting & Code Quality
-- [x] Added PSScriptAnalyzer with `lint.ps1` convenience runner
-- [x] Created `.pssa.psd1` configuration with enabled rules
-- [x] Replaced all `Write-Host` with `Write-Information` across 6 scripts
-- [x] Added `ShouldProcess` support to scripts that modify files
-- [x] Fixed UTF-8 BOM encoding issues
-- [x] Created `scripts/fix-bom.ps1` helper utility
-- [x] All scripts now pass lint with zero issues
-- [x] Added CHANGELOG.md to track changes
-
-### GitHub Actions Workflow Fixes
-- [x] Fixed corrupted `update-repos.yml` workflow (427 lines → 59 lines)
-- [x] Eliminated positional-parameter bug in automated updates
-- [x] Simplified workflow to use single-line commit messages
-- [x] Validated workflow runs successfully on main branch
-- [x] Added PR lint workflow (passing on Windows runner)
-
-### Repository Cleanup
-- [x] Removed outdated `.github/MEMORY.md.backup` file
-- [x] Verified no other obsolete files remain
-- [x] Repository structure is clean and organized
-
-## ✅ Previously Completed (2025-10-06)
+## ✅ Recently Completed (2025-10-06)
 
 ### Data-Driven Architecture Transformation
 - [x] Removed all hardcoded descriptions from `auto-update-repos.ps1` (~100 lines)
@@ -65,23 +41,20 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 ### Verification and tests
 - [x] Enhance `auto-update-repos.ps1` with built-in validation and categorization logic
-- [ ] Add comprehensive Pester tests:
-   - [ ] Lint runner tests (PSScriptAnalyzer invocation)
+- [ ] Add Pester tests:
    - [ ] JSON schema/shape and required keys
    - [ ] Emoji sanitization invariants
    - [ ] Owner auto-detection order/fallbacks
-   - [ ] Script dry-run tests (no external modifications)
 
 ### Linting and editor experience
-- [x] Add PSScriptAnalyzer and a `lint.ps1` convenience runner
+- [ ] Add PSScriptAnalyzer and a `lint.ps1` convenience runner
 - [x] Add `.editorconfig` for Markdown/PowerShell formatting hints
 - [x] Add VS Code `tasks.json` entries for "Analyze portfolio" and "Verify analysis"
-- [x] Configure GitHub Actions to run lint checks on PRs
 
 ### Repository metadata
 - [x] Add GitHub topics for discoverability
-- [x] Add SECURITY.md security policy
-- [x] Add CODE_OF_CONDUCT.md for community standards
+- [ ] Add SECURITY.md security policy
+- [ ] Add CODE_OF_CONDUCT.md for community standards
 
 ### Docs polish
 - [ ] TEMPLATE-SETUP.md: Troubleshooting (gh auth, execution policy, rate limits)
