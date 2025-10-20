@@ -1,11 +1,11 @@
 # 📁 Repository Portfolio
 
-> **Last Updated**: October 19, 2025 at 06:12 AM UTC
+> **Last Updated**: October 20, 2025 at 06:12 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 54 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 56 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (40 repos)** | **🍴 Community Contributions (14 forks)** | **🔒 Private (22)** | **🌐 Public (32)**
+> **🏠 Original Work (40 repos)** | **🍴 Community Contributions (16 forks)** | **🔒 Private (22)** | **🌐 Public (34)**
 
 ---
 
@@ -41,6 +41,8 @@
 | [**BASIC-M6502**](https://github.com/fabioc-aloha/BASIC-M6502) | 🍴 Fork | 🌟 Public | - | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Sep 04, 2025 |
 | [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🍴 Fork | 🌟 Public | - | Create rich visualizations with AI | Sep 04, 2025 |
 | [**Google-AI-Edge-Gallery**](https://github.com/fabioc-aloha/Google-AI-Edge-Gallery) | 🍴 Fork | 🌟 Public | - | Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies | Sep 04, 2025 |
+| [**mcpb**](https://github.com/fabioc-aloha/mcpb) | 🍴 Fork | 🌟 Public | - | Desktop Extensions: One-click local MCP server installation in desktop apps | Oct 20, 2025 |
+| [**spotify-dxt**](https://github.com/fabioc-aloha/spotify-dxt) | 🍴 Fork | 🌟 Public | - | - | Oct 20, 2025 |
 | [**spec-kit**](https://github.com/fabioc-aloha/spec-kit) | 🍴 Fork | 🌟 Public | - | Toolkit to help you get started with Spec-Driven Development | Oct 06, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🍴 Fork | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
 | [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🍴 Fork | 🌟 Public | Python | Agent Zero AI framework | Jul 18, 2025 |
@@ -106,7 +108,7 @@
 
 | Repository | Type | Visibility | Language | Description | Last Updated |
 |------------|------|------------|----------|-------------|--------------|
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 18, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🏠 Original | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 19, 2025 |
 
 ---
 
@@ -119,7 +121,7 @@ These represent my **independent research, development, and innovation work**:
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
-### **🍴 Forked Repositories (14)**
+### **🍴 Forked Repositories (16)**
 These represent **learning, collaboration, and community contributions**:
 - **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
 - **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
@@ -130,7 +132,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages Distribution (54 Repositories)
+pie title Programming Languages Distribution (56 Repositories)
     "PowerShell" : 18
     "Python" : 9
     "Jupyter Notebook" : 6
@@ -139,11 +141,11 @@ pie title Programming Languages Distribution (54 Repositories)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (33.3%)**: Primary language for 18 repositories
-- **Python (16.7%)**: Primary language for 9 repositories
-- **Jupyter Notebook (11.1%)**: Primary language for 6 repositories
-- **C# (7.4%)**: Primary language for 4 repositories
-- **HTML (1.9%)**: Primary language for 1 repositories
+- **PowerShell (32.1%)**: Primary language for 18 repositories
+- **Python (16.1%)**: Primary language for 9 repositories
+- **Jupyter Notebook (10.7%)**: Primary language for 6 repositories
+- **C# (7.1%)**: Primary language for 4 repositories
+- **HTML (1.8%)**: Primary language for 1 repositories
 
 ---
 
