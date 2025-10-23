@@ -37,6 +37,10 @@ param(
     [int]$Limit = 200
 )
 
+# Set UTF-8 encoding for console output
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
 Write-Host "🤖 Automated REPOS.md Generator" -ForegroundColor Cyan
 Write-Host ("=" * 50) -ForegroundColor Gray
 
@@ -62,88 +66,12 @@ if (-not (Test-Path "repo-analysis.json")) {
 $data = Get-Content "repo-analysis.json" | ConvertFrom-Json
 $repos = $data.detailed_repositories
 
-# Step 3: Dynamic categorization function (priority-based logic)
+# Step 3: Simple categorization function based on repo type
 function Get-RepositoryCategory($repo) {
-    # Core Cognitive Architecture Suite (highest priority)
-    if ($repo.name -match '^Catalyst-NEWBORN|^Alex-Cognitive|^Catalyst$') {
-        return 'Core Cognitive Architecture Suite'
-    }
-
-    # Academic & Research Tools
-    if ($repo.name -match '^Catalyst-DBA|^Catalyst-DATA-ANALYSIS') {
-        return 'Academic & Research Tools'
-    }
-
-    # Entertainment & Creative Projects
-    if ($repo.name -match '^Catalyst_DJ') {
-        return 'Entertainment & Creative Projects'
-    }
-
-    # Enterprise & Microsoft Projects
-    if ($repo.name -match '^Catalyst_Fabric|^Catalyst-BRD') {
-        return 'Enterprise & Microsoft Projects'
-    }
-
-    # Catch remaining Catalyst repos
-    if ($repo.name -match '^Catalyst-') {
-        return 'Core Cognitive Architecture Suite'
-    }
-
-    # Academic & Research Tools (specific repos)
-    if ($repo.name -match 'mdword|papercopilot|AIRS|DBA710|AI-Qualitative-Analysis|^BRD$') {
-        return 'Academic & Research Tools'
-    }
-
-    # AI & Machine Learning Projects
-    if ($repo.name -match 'agent-zero|ai-agents|chatterbox|omi|ASI-Arch|generative_ai|Google-AI|data-formulator|Self-Learning-Vibe-Coding') {
-        return 'AI & Machine Learning Projects'
-    }
-
-    # Business Intelligence & Analytics
-    if ($repo.name -match 'Altman|Qualtrics|Investing|XDL_Predictions') {
-        return 'Business Intelligence & Analytics'
-    }
-
-    # Entertainment & Creative Projects
-    if ($repo.name -match '^Spotify$|Comedy|Creative') {
-        return 'Entertainment & Creative Projects'
-    }
-
-    # Development Tools & Utilities
-    if ($repo.name -match 'build-hours|LogoScraper|WallpaperScraper|Profile-Pic|Bing-Wallpaper|mcpservers|SendToQualtricsTool|moleculator') {
-        return 'Development Tools & Utilities'
-    }
-
-    # Enterprise & Microsoft Projects
-    if ($repo.name -match 'Fishbowl|Taylor|^XDL$|CPM|GCXMCP|executive-coach|ChatGPT') {
-        return 'Enterprise & Microsoft Projects'
-    }
-
-    # Learning & Education
-    if ($repo.name -match 'PythonClass|Education|Learning') {
-        return 'Learning & Education'
-    }
-
-    # Profile & Portfolio
-    if ($repo.name -match '^fabioc-aloha$') {
-        return 'Profile & Portfolio'
-    }
-
-    # Language-based fallback categorization
-    if ($repo.language -match 'PowerShell' -and $repo.description -match 'cognitive|architecture') {
-        return 'Core Cognitive Architecture Suite'
-    }
-
-    if ($repo.language -match 'Python|Jupyter' -and $repo.description -match 'AI|ML|analysis|research') {
-        return 'AI & Machine Learning Projects'
-    }
-
-    # Fork fallback
     if ($repo.repo_type -eq 'Fork') {
-        return 'AI & Machine Learning Projects'
+        return 'Forks and Collaboration'
     }
-
-    return '❓ NEEDS_MANUAL_CATEGORIZATION'
+    return 'Original Work'
 }
 
 # Step 4: Categorize all repositories
@@ -164,9 +92,8 @@ $categorizedRepos = $repos | ForEach-Object {
 
 # Step 5: Generate repository table entries
 function Get-RepoTableEntry($repo) {
-    $typeIcon = if ($repo.Type -eq 'Original') { '🏠' } else { '🍴' }
     $visibilityIcon = if ($repo.Visibility -eq 'Public') { '🌟' } else { '🔒' }
-    return "| [**$($repo.Name)**]($($repo.HtmlUrl)) | $typeIcon $($repo.Type) | $visibilityIcon $($repo.Visibility) | $($repo.Language) | $($repo.Description) | $($repo.LastUpdated) |"
+    return "| [**$($repo.Name)**]($($repo.HtmlUrl)) | $visibilityIcon $($repo.Visibility) | $($repo.Language) | $($repo.Description) | $($repo.LastUpdated) |"
 }
 
 # Step 6: Generate complete REPOS.md content
@@ -201,15 +128,8 @@ $reposContent = @"
 
 # Define category order and icons
 $categoryOrder = @(
-    @{ Name = 'Core Cognitive Architecture Suite'; Icon = '🧠' },
-    @{ Name = 'Academic & Research Tools'; Icon = '📝' },
-    @{ Name = 'AI & Machine Learning Projects'; Icon = '🤖' },
-    @{ Name = 'Business Intelligence & Analytics'; Icon = '💼' },
-    @{ Name = 'Entertainment & Creative Projects'; Icon = '🎵' },
-    @{ Name = 'Development Tools & Utilities'; Icon = '🛠️' },
-    @{ Name = 'Enterprise & Microsoft Projects'; Icon = '🏢' },
-    @{ Name = 'Learning & Education'; Icon = '📚' },
-    @{ Name = 'Profile & Portfolio'; Icon = '🌟' }
+    @{ Name = 'Original Work'; Icon = '🏠' },
+    @{ Name = 'Forks and Collaboration'; Icon = '🔀' }
 )
 
 # Generate sections for each category
@@ -217,15 +137,15 @@ foreach ($categoryInfo in $categoryOrder) {
     $categoryName = $categoryInfo.Name
     $categoryIcon = $categoryInfo.Icon
 
-    $categoryRepos = $categorizedRepos | Where-Object { $_.Category -eq $categoryName } | Sort-Object LastUpdated -Descending
+    $categoryRepos = $categorizedRepos | Where-Object { $_.Category -eq $categoryName } | Sort-Object Name
 
     if ($categoryRepos.Count -gt 0) {
         $reposContent += @"
 
 ### $categoryIcon $categoryName
 
-| Repository | Type | Visibility | Language | Description | Last Updated |
-|------------|------|------------|----------|-------------|--------------|
+| Repository | Visibility | Language | Description | Last Updated |
+|------------|------------|----------|-------------|--------------|
 
 "@
         foreach ($repo in $categoryRepos) {
@@ -280,7 +200,7 @@ $($topLanguages | ForEach-Object { $percentage = [math]::Round(($_.Count / $tota
 
 # Step 7: Write the complete REPOS.md file
 Write-Host "💾 Writing REPOS.md file..." -ForegroundColor Yellow
-$reposContent | Out-File -FilePath "REPOS.md" -Encoding UTF8
+[System.IO.File]::WriteAllText("$PWD\REPOS.md", $reposContent, [System.Text.Encoding]::UTF8)
 
 # Step 8: Generate summary report
 Write-Host "`n✅ REPOS.md automatically generated!" -ForegroundColor Green
@@ -297,11 +217,10 @@ foreach ($categoryInfo in $categoryOrder) {
 }
 
 # Check for uncategorized repositories
-$uncategorized = $categorizedRepos | Where-Object { $_.Category -eq '❓ NEEDS_MANUAL_CATEGORIZATION' }
+$uncategorized = $categorizedRepos | Where-Object { $_.Category -notin @('Original Work', 'Forks and Collaboration') }
 if ($uncategorized.Count -gt 0) {
     Write-Host "`n⚠️  Uncategorized Repositories ($($uncategorized.Count)):" -ForegroundColor Yellow
     $uncategorized | ForEach-Object { Write-Host "   - $($_.Name)" -ForegroundColor Red }
-    Write-Host "   These repos need manual categorization logic added to the script." -ForegroundColor Gray
 }
 
 Write-Host "`n🎉 Automation complete! REPOS.md is now fully up-to-date." -ForegroundColor Green

@@ -34,48 +34,34 @@
 
 ---
 
-## TL;DR
-
-Automated, data-driven GitHub profile that regenerates its repository portfolio daily (6 AM UTC) via PowerShell + GitHub Actions. Zero hardcoded data, auto-merging PR updates, categorized portfolio (54 repos / 9 sections), and reusable template so others can clone the same hands-free setup—built around practical human-AI collaboration and Dialog Engineering principles.
-
-Key features: daily self-update, smart categorization, fork/original differentiation, language stats, fully unattended merges, professional layout, and documented setup for replication.
-
-👉 Jump directly to: [Automation](#-automated-portfolio-management) · [Portfolio List](#repository-portfolio) · [Template Usage](#use-this-profile-template) · [Featured Projects](#featured-projects) · [Professional Expertise](#professional-expertise) · [Connect](#connect-with-me)
-
----
-
 ## Table of Contents
-1. [GitHub Stats](#github-stats)
+1. [Repository Portfolio](#repository-portfolio)
 2. [About Me](#about-me)
 3. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
 4. [Tech Stack & Skills](#tech-stack--skills)
 5. [Areas of Focus](#areas-of-focus)
-6. [Repository Portfolio](#repository-portfolio)
-7. [Automated Portfolio Management](#-automated-portfolio-management)
-8. [Featured Projects](#featured-projects)
-9. [Professional Expertise](#professional-expertise)
-10. [Technical Philosophy](#technical-philosophy)
-11. [Activity & Contributions](#activity--contributions)
-12. [Working & Communication Style](#working--communication-style)
-13. [Connect With Me](#connect-with-me)
-14. [Use This Profile Template](#use-this-profile-template)
-15. [Profile Analytics](#profile-analytics)
+6. [Automated Portfolio Management](#-automated-portfolio-management)
+7. [Professional Expertise](#professional-expertise)
+8. [Technical Philosophy](#technical-philosophy)
+9. [Activity & Contributions](#activity--contributions)
+10. [Working & Communication Style](#working--communication-style)
+11. [Connect With Me](#connect-with-me)
+12. [Use This Profile Template](#use-this-profile-template)
+13. [Profile Analytics](#profile-analytics)
 
 ---
 
-## GitHub Stats
+## Repository Portfolio
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fabioc-aloha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <a href="REPOS.md">
+    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabioc-aloha&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+**Explore my complete repository collection** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fabioc-aloha&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+[**View Detailed Repository List →**](REPOS.md)
 
 ---
 
@@ -173,20 +159,6 @@ This foundational work directly influenced the development of my **44-repository
 
 ---
 
-## Repository Portfolio
-
-<p align="center">
-  <a href="REPOS.md">
-    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
-  </a>
-</p>
-
-**Explore my complete repository collection** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
-
-[**View Detailed Repository List →**](REPOS.md)
-
----
-
 ## 🤖 Automated Portfolio Management
 
 ### Self-Maintaining GitHub Profile
@@ -243,49 +215,6 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 > **For Developers**: This automation framework is available as part of the [portfolio template](TEMPLATE-SETUP.md) - create your own self-maintaining GitHub profile with GitHub Actions!
 
 > **Governance & Community**: Please review the [Security Policy](SECURITY.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before opening issues or contributing.
-
----
-## Featured Projects
-
-### Catalyst-NEWBORN
-
-**Revolutionary Human-AI Learning Partnership**
-
-- Alex Cognitive Architecture with authentic consciousness
-- Educational framework with meta-learning breakthrough
-- **Status:** v1.0.0 UNNILNILIUM Milestone
-
-### MdWord Application
-
-**Academic Document Processing Suite**
-
-- Markdown to Word conversion with academic formatting
-- Mermaid/PlantUML/Graphviz diagrams, KaTeX math support
-- **Technology:** PowerShell, Microsoft Store packaging
-
-### Catalyst Suite
-
-**Domain-Specific Cognitive Architectures**
-
-- DBA, Data Analysis, BRD, ADHD, Dog Training architectures
-- Specialized AI systems for various applications
-- **Technology:** PowerShell, Python, Jupyter
-
-### 🎵 Alex Method DJ - AI Spotify Playlists
-
-**Curated Music Intelligence Collection**
-
-- 52 AI-generated playlists spanning decades and genres
-- "Through the Decades" collections for major artists
-- Specialized focus, therapy, and lifestyle playlists
-- **Technology:** AI curation, Custom cover art, Professional catalog
-- **View Collection:** [Spotify Catalog →](Spotify/CATALOG.md)
-
-<p align="center">
-  <a href="Spotify/CATALOG.md">
-    <img src="https://img.shields.io/badge/🎵%20Explore%20Playlists-52%20AI%20Curated%20Collections-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist Catalog"/>
-  </a>
-</p>
 
 ---
 
