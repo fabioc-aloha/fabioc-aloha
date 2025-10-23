@@ -185,7 +185,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ``````mermaid
-pie title Programming Languages Distribution ($totalRepos Repositories)
+pie title Programming Languages ($totalRepos Repositories)
     $($languagePercentages -join "`n    ")
 ``````
 

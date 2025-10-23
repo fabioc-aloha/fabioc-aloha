@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: October 23, 2025 at 11:03 AM UTC
+> **Last Updated**: October 23, 2025 at 11:19 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 59 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -100,7 +100,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages Distribution (59 Repositories)
+pie title Programming Languages (59 Repositories)
     "PowerShell" : 18
     "Python" : 10
     "Jupyter Notebook" : 6
