@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2025‑10‑16
+**Last updated**: 2025‑10‑28
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -97,3 +97,29 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - Increased merge attempts from 5 → 10 for reliability
 - Validated hands-free cycle (PR #98 merged automatically on attempt 1, CLEAN state)
 - Future consideration: exponential backoff & telemetry artifact (attempt count, final state)
+
+## 13) Major documentation overhaul (2025‑10‑28)
+- **README restructuring**: Reordered sections for maximum impact (About Me → Research Foundation → Portfolio → Featured Projects → Publications)
+- **Section optimization**: Removed low-value content (Profile Analytics, Areas of Focus, Working & Communication Style)
+- **New high-value sections**: Added Featured Projects (Catalyst, MdWord, Research Tools) and Publications & Speaking
+- **Tech Stack condensation**: Reduced from 45 lines of badges to 4 lines of text (90% space reduction)
+- **Language refinements**: Professional tone for business/academic opportunities
+  - "revolutionizes" → "advances" (defensible claims)
+  - "first implementation" → "pioneering implementation" (softer claims)
+  - Subtitle: "Creator & Lead Developer, Alex Cognitive Architecture" (accurate positioning)
+- **Template documentation**: Created comprehensive TEMPLATE-USER-GUIDE.md (760+ lines)
+  - Merged best content from TEMPLATE-SETUP.md
+  - Added Mermaid flowchart (Path A: Manual vs Path B: Automated)
+  - Detailed PAT token setup with step-by-step instructions
+  - AI Assistant configuration section
+  - Pro Tips section for best practices
+- **File consolidation**: Removed TEMPLATE-SETUP.md (redundant with new guide)
+- **Data accuracy**: Fact-checked all documentation, updated repository counts (54 → 59)
+  - 59 total repositories (42 original, 17 forked)
+  - Updated across README.md, MEMORY.md, WORKFLOW-GUIDE.md, PAPER.md
+  - Changed to future-proof "40+ repository ecosystem" in README
+- **Cross-reference cleanup**: Updated all links from TEMPLATE-SETUP.md to TEMPLATE-USER-GUIDE.md
+- **User context**: Profile optimized for Director @ Microsoft + Doctoral Candidate + Independent Developer
+- **Target audience**: Business and academic opportunities (resume complement)
+- **Result**: Professional profile with higher value density, easier to scan, action-oriented
+
