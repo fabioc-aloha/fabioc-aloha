@@ -53,7 +53,7 @@ The automated system:
 
 ---
 
-## � **Current Portfolio Structure**
+## 📁 **Current Portfolio Structure**
 
 Your repositories are organized into these categories:
 - **🧠 Core Cognitive Architecture Suite** - Catalyst frameworks and Alex systems

@@ -16,7 +16,7 @@ The portfolio update workflow provides streamlined automation for keeping your r
 - Generates updated REPOS.md file
 - Shows comprehensive statistics and categorization
 
-### � Direct Portfolio Update
+### 🔄 Direct Portfolio Update
 ```powershell
 .\auto-update-repos.ps1
 ```
@@ -128,7 +128,7 @@ gh repo edit owner/repo-name --description "Your description here"
 - **🎯 Zero Maintenance**: Fully automated data collection
 - **🔍 Always Current**: Live GitHub API data
 - **⚡ No Hardcoding**: Dynamic discovery and categorization
-- **� Comprehensive**: Complete metadata and statistics
+- **📊 Comprehensive**: Complete metadata and statistics
 - **🚀 Scalable**: Handles unlimited repositories
 - **📝 Clean Output**: Emoji-free JSON, emoji-rich markdown
 

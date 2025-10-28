@@ -122,4 +122,3 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **User context**: Profile optimized for Director @ Microsoft + Doctoral Candidate + Independent Developer
 - **Target audience**: Business and academic opportunities (resume complement)
 - **Result**: Professional profile with higher value density, easier to scan, action-oriented
-
