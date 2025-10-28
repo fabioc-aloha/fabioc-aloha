@@ -64,7 +64,7 @@ A prioritized checklist of recommended improvements and completed milestones for
 - [ ] Add VS Code `tasks.json` entries for “Analyze portfolio” and “Verify analysis”
 
 ### Docs polish
-- [ ] TEMPLATE-SETUP.md: Troubleshooting (gh auth, execution policy, rate limits)
+- [x] TEMPLATE-USER-GUIDE.md: Comprehensive troubleshooting (gh auth, execution policy, rate limits, PAT tokens)
 - [ ] REPO-MANAGEMENT.md: “Analyze → Verify” sequence with expected pass/fail examples
 
 ### Maintenance ergonomics

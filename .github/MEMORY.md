@@ -19,7 +19,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
   - Rationale: Enables one-click reuse by others; aligns with the goal to share a clean, ready profile template
 - **README enhancement**: Add a "Use This Profile Template" section to README
   - Rationale: Clear call-to-action with links to the template generator and setup guide improves discoverability and adoption
-- **Simplified setup**: Provide TEMPLATE-SETUP.md only (dropped `template-config-example.ps1`)
+- **Simplified setup**: Provide TEMPLATE-USER-GUIDE.md only (comprehensive user guide)
   - Rationale: Minimize moving parts; README + setup guide are sufficient
 - **MIT License**: License under MIT
   - Rationale: Broad reuse is permitted and encouraged; fits a public template project
@@ -36,7 +36,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Cleaner codebase**: Reduced script by ~100 lines, improved maintainability
 - **Updated documentation**: Refreshed WORKFLOW-GUIDE.md and README.md to reflect new approach
 - **Added moleculator categorization**: Categorized previously uncategorized repository
-- **Portfolio refresh**: Successfully updated 54 repositories with new workflow
+- **Portfolio refresh**: Successfully updated 59 repositories with new workflow
 
 ## 5) Previous iteration changes (2025‑08‑11 through 2025‑08‑14)
 - **GPT-4o Workflow Simplification**: Completed major simplification from multi-LLM system to streamlined GPT-4o only
@@ -49,8 +49,8 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 6) Essential repo contents
 - **`README.md`**: Primary profile content with banner, badges, stats, and template CTA
-- **`REPOS.md`**: Auto-generated portfolio documentation (54 repositories)
-- **`TEMPLATE-SETUP.md`**: Guide for customizing and using this as a template
+- **`REPOS.md`**: Auto-generated portfolio documentation (59 repositories)
+- **`TEMPLATE-USER-GUIDE.md`**: Comprehensive guide for customizing and using this as a template
 - **`.github/MEMORY.md`**: This file - project memory and decision log
 - **`.github/TODO.md`**: Prioritized tasks and acceptance checks
 - **`.github/copilot-instructions.md`**: Repository-level guidance for Copilot
@@ -71,7 +71,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 ## 8) Collaborative workflow pattern
 - **Request pattern**: User says "update my repos" or similar
 - **Automated execution**: Assistant runs `refresh-repos.ps1`
-- **Documentation sync**: Script analyzes 54 repositories and updates REPOS.md
+- **Documentation sync**: Script analyzes 59 repositories and updates REPOS.md
 - **Minimal intervention**: Process maximizes automation
 - **Memory anchor**: Preferred method for ongoing repository maintenance
 
@@ -83,11 +83,11 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 10) Template usage
 - **One-click template**: https://github.com/fabioc-aloha/fabioc-aloha/generate
-- **Setup guide**: Follow `TEMPLATE-SETUP.md` to personalize
+- **Setup guide**: Follow `TEMPLATE-USER-GUIDE.md` to personalize
 
 ## 11) Quick status
 - **Visibility**: Public | **Template**: Enabled | **License**: MIT
-- **Portfolio**: 54 repositories (40 original, 14 forks)
+- **Portfolio**: 59 repositories (42 original, 17 forked)
 - **Automation**: Fully operational, data-driven, hands-free (robust auto-merge + old PR cleanup)
 
 ## 12) Subsequent changes (2025‑10‑16)

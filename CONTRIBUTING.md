@@ -9,7 +9,7 @@ Be respectful and constructive. Treat everyone with professionalism.
 ## How to Contribute
 
 - Fix typos, improve clarity, or add missing steps in docs
-- Improve template instructions in `TEMPLATE-SETUP.md`
+- Improve template instructions in `TEMPLATE-USER-GUIDE.md`
 - Suggest enhancements for badges, layout, or accessibility
 - Add non-intrusive automation helpers (scripts/docs)
 

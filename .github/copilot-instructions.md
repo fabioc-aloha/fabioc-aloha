@@ -38,7 +38,7 @@ De-duplication: Don’t restate the project’s status or backlog here. For deci
 ## Documentation guidelines
 - **Style**: Use concise headings, tables, and badges. Avoid fluff.
 - **Visualization**: Use mermaid for visualization of concepts when it makes sense.
-- **Template guidance**: Place new guidance for template users in `TEMPLATE-SETUP.md`.
+- **Template guidance**: Place new guidance for template users in `TEMPLATE-USER-GUIDE.md`.
 
 ## Git & commits
 - **Format**: Use clear, conventional commits, e.g.:

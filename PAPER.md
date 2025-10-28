@@ -50,7 +50,7 @@ Following Hutchins' (1995) distributed cognition theory and Clark and Chalmers' 
 
 ### 1.4 Research Scope and Approach
 
-This research employs a design science methodology (Hevner et al., 2004) to develop, implement, and evaluate a cognitive architecture for human-AI collaboration. The study focuses specifically on software development and project management contexts, using a 44-repository portfolio as the primary validation environment.
+This research employs a design science methodology (Hevner et al., 2004) to develop, implement, and evaluate a cognitive architecture for human-AI collaboration. The study focuses specifically on software development and project management contexts, using a 59-repository portfolio as the primary validation environment.
 
 The research scope encompasses:
 - **Theoretical Integration**: Systematic application of cognitive science principles to human-AI collaboration design
