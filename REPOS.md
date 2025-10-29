@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: October 28, 2025 at 06:12 AM UTC
+> **Last Updated**: October 29, 2025 at 06:12 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 59 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 60 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (42 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (22)** | **🌐 Public (37)**
+> **🏠 Original Work (43 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (23)** | **🌐 Public (37)**
 
 ---
 
@@ -35,7 +35,8 @@
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 27, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 28, 2025 |
+| [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | PowerShell | Testing how to manage Fabric from VS Code. | Oct 28, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
 | [**GCXMCP**](https://github.com/fabioc-aloha/GCXMCP) | 🔒 Private | PowerShell | Google Cloud and Model Context Protocol integration tools for enterprise AI applications and cloud service management | Sep 04, 2025 |
@@ -82,7 +83,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (42)**
+### **🏠 Original Repositories (43)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -100,8 +101,8 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (59 Repos)
-    "PowerShell" : 18
+pie title Programming Languages (60 Repos)
+    "PowerShell" : 19
     "Python" : 10
     "Jupyter Notebook" : 6
     "C#" : 4
@@ -109,10 +110,10 @@ pie title Programming Languages (59 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (30.5%)**: Primary language for 18 repositories
-- **Python (16.9%)**: Primary language for 10 repositories
-- **Jupyter Notebook (10.2%)**: Primary language for 6 repositories
-- **C# (6.8%)**: Primary language for 4 repositories
+- **PowerShell (31.7%)**: Primary language for 19 repositories
+- **Python (16.7%)**: Primary language for 10 repositories
+- **Jupyter Notebook (10%)**: Primary language for 6 repositories
+- **C# (6.7%)**: Primary language for 4 repositories
 - **HTML (1.7%)**: Primary language for 1 repositories
 
 ---
