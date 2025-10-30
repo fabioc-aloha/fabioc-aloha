@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: October 29, 2025 at 12:20 PM UTC
+> **Last Updated**: October 30, 2025 at 06:11 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 60 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -49,9 +49,9 @@
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |
 | [**SendToQualtricsTool**](https://github.com/fabioc-aloha/SendToQualtricsTool) | 🔒 Private | C# | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 04, 2025 |
-| [**Spotify**](https://github.com/fabioc-aloha/Spotify) | 🔒 Private | Python | Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts | Oct 02, 2025 |
+| [**Spotify**](https://github.com/fabioc-aloha/Spotify) | 🔒 Private | Python | Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts | Oct 29, 2025 |
 | [**spotify-mcpb**](https://github.com/fabioc-aloha/spotify-mcpb) | 🌟 Public | JavaScript | AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
-| [**spotify-skill**](https://github.com/fabioc-aloha/spotify-skill) | 🌟 Public | Python | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Oct 24, 2025 |
+| [**spotify-skill**](https://github.com/fabioc-aloha/spotify-skill) | 🌟 Public | Python | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Oct 30, 2025 |
 | [**Taylor**](https://github.com/fabioc-aloha/Taylor) | 🌟 Public | PowerShell | Personal project management and productivity tools with intelligent task organization and workflow optimization | Sep 04, 2025 |
 | [**WallpaperScraper**](https://github.com/fabioc-aloha/WallpaperScraper) | 🌟 Public | Python | Automated wallpaper collection and management system with intelligent image curation and desktop customization features | Sep 04, 2025 |
 | [**XDL**](https://github.com/fabioc-aloha/XDL) | 🔒 Private | PowerShell | Extended Data Language implementation for advanced data processing and transformation workflows | Sep 04, 2025 |
