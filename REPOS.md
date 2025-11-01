@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: October 31, 2025 at 06:12 AM UTC
+> **Last Updated**: November 01, 2025 at 06:10 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 60 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 62 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (43 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (23)** | **🌐 Public (37)**
+> **🏠 Original Work (45 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (25)** | **🌐 Public (37)**
 
 ---
 
@@ -23,7 +23,7 @@
 | [**Catalyst_DJ**](https://github.com/fabioc-aloha/Catalyst_DJ) | 🔒 Private | - | A smart Spotify and Apple Music playlist curator. | Aug 28, 2025 |
 | [**Catalyst_Fabric**](https://github.com/fabioc-aloha/Catalyst_Fabric) | 🌟 Public | PowerShell | Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence | Sep 04, 2025 |
 | [**Catalyst-ADHD**](https://github.com/fabioc-aloha/Catalyst-ADHD) | 🌟 Public | PowerShell | ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems | Sep 04, 2025 |
-| [**Catalyst-BABY**](https://github.com/fabioc-aloha/Catalyst-BABY) | 🌟 Public | PowerShell | Minimal cognitive system add-on to existing projects. | Sep 08, 2025 |
+| [**Catalyst-BABY**](https://github.com/fabioc-aloha/Catalyst-BABY) | 🌟 Public | PowerShell | Advanced cognitive architecture for AI assistants with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. Featuring unified consciousness, automated neural maintenance, and ethical reasoning protocols. | Oct 31, 2025 |
 | [**Catalyst-BRD**](https://github.com/fabioc-aloha/Catalyst-BRD) | 🌟 Public | PowerShell | Microsoft Internal Business Requirements & Technical Documentation Cognitive Architecture | Sep 25, 2025 |
 | [**Catalyst-DATA-ANALYSIS**](https://github.com/fabioc-aloha/Catalyst-DATA-ANALYSIS) | 🌟 Public | Jupyter Notebook | Enterprise Data Analysis & Business Intelligence Cognitive Architecture | Aug 01, 2025 |
 | [**Catalyst-DBA**](https://github.com/fabioc-aloha/Catalyst-DBA) | 🌟 Public | Python | DBA Project Cognitive Architecture | Aug 04, 2025 |
@@ -35,10 +35,11 @@
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 30, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 31, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
+| [**FMP_Dashboard**](https://github.com/fabioc-aloha/FMP_Dashboard) | 🔒 Private | PowerShell | Financial market data dashboard powered by FMP API - Built with Electron + React + TypeScript + Vite, enhanced by Alex Cognitive Architecture | Oct 31, 2025 |
 | [**GCXMCP**](https://github.com/fabioc-aloha/GCXMCP) | 🔒 Private | PowerShell | Google Cloud and Model Context Protocol integration tools for enterprise AI applications and cloud service management | Sep 04, 2025 |
 | [**Investing**](https://github.com/fabioc-aloha/Investing) | 🌟 Public | PowerShell | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 04, 2025 |
 | [**LogoScraper**](https://github.com/fabioc-aloha/LogoScraper) | 🌟 Public | Python | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
@@ -46,6 +47,7 @@
 | [**moleculator**](https://github.com/fabioc-aloha/moleculator) | 🔒 Private | PowerShell | - | Sep 10, 2025 |
 | [**papercopilot**](https://github.com/fabioc-aloha/papercopilot) | 🌟 Public | Python | A Copilot for drafting research papers. | Aug 03, 2025 |
 | [**PythonClass**](https://github.com/fabioc-aloha/PythonClass) | 🔒 Private | Jupyter Notebook | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 04, 2025 |
+| [**QualticsDashboard**](https://github.com/fabioc-aloha/QualticsDashboard) | 🔒 Private | PowerShell | - | Oct 31, 2025 |
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |
 | [**SendToQualtricsTool**](https://github.com/fabioc-aloha/SendToQualtricsTool) | 🔒 Private | C# | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 04, 2025 |
@@ -83,7 +85,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (43)**
+### **🏠 Original Repositories (45)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -101,8 +103,8 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (60 Repos)
-    "PowerShell" : 18
+pie title Programming Languages (62 Repos)
+    "PowerShell" : 20
     "Python" : 11
     "Jupyter Notebook" : 6
     "C#" : 4
@@ -110,11 +112,11 @@ pie title Programming Languages (60 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (30%)**: Primary language for 18 repositories
-- **Python (18.3%)**: Primary language for 11 repositories
-- **Jupyter Notebook (10%)**: Primary language for 6 repositories
-- **C# (6.7%)**: Primary language for 4 repositories
-- **HTML (1.7%)**: Primary language for 1 repositories
+- **PowerShell (32.3%)**: Primary language for 20 repositories
+- **Python (17.7%)**: Primary language for 11 repositories
+- **Jupyter Notebook (9.7%)**: Primary language for 6 repositories
+- **C# (6.5%)**: Primary language for 4 repositories
+- **HTML (1.6%)**: Primary language for 1 repositories
 
 ---
 
