@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: November 01, 2025 at 06:10 AM UTC
+> **Last Updated**: November 02, 2025 at 06:11 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 62 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -35,19 +35,19 @@
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Oct 31, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Nov 01, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
-| [**FMP_Dashboard**](https://github.com/fabioc-aloha/FMP_Dashboard) | 🔒 Private | PowerShell | Financial market data dashboard powered by FMP API - Built with Electron + React + TypeScript + Vite, enhanced by Alex Cognitive Architecture | Oct 31, 2025 |
+| [**FMP_Dashboard**](https://github.com/fabioc-aloha/FMP_Dashboard) | 🔒 Private | TypeScript | Professional Electron desktop application for real-time financial market data. Features include live stock quotes, customizable watchlist with drag-and-drop, news feed, and comprehensive financial metrics powered by FMP API. Built with React 18, TypeScript, React Query, and Zod validation. | Nov 01, 2025 |
 | [**GCXMCP**](https://github.com/fabioc-aloha/GCXMCP) | 🔒 Private | PowerShell | Google Cloud and Model Context Protocol integration tools for enterprise AI applications and cloud service management | Sep 04, 2025 |
 | [**Investing**](https://github.com/fabioc-aloha/Investing) | 🌟 Public | PowerShell | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 04, 2025 |
 | [**LogoScraper**](https://github.com/fabioc-aloha/LogoScraper) | 🌟 Public | Python | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
 | [**mdword**](https://github.com/fabioc-aloha/mdword) | 🔒 Private | C# | Windows app and CLI that convert Markdown projects to Word .docx with academic formatting, Mermaid/PlantUML/Graphviz diagrams, KaTeX math, and Microsoft Store packaging support. | Aug 14, 2025 |
-| [**moleculator**](https://github.com/fabioc-aloha/moleculator) | 🔒 Private | PowerShell | - | Sep 10, 2025 |
+| [**moleculator**](https://github.com/fabioc-aloha/moleculator) | 🔒 Private | TypeScript | Interactive 3D molecule visualization studio built with React, Three.js, and OpenAI integration for educational chemistry learning | Nov 01, 2025 |
 | [**papercopilot**](https://github.com/fabioc-aloha/papercopilot) | 🌟 Public | Python | A Copilot for drafting research papers. | Aug 03, 2025 |
 | [**PythonClass**](https://github.com/fabioc-aloha/PythonClass) | 🔒 Private | Jupyter Notebook | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 04, 2025 |
-| [**QualticsDashboard**](https://github.com/fabioc-aloha/QualticsDashboard) | 🔒 Private | PowerShell | - | Oct 31, 2025 |
+| [**QualticsDashboard**](https://github.com/fabioc-aloha/QualticsDashboard) | 🔒 Private | PowerShell | Production-grade real-time dashboard for Qualtrics survey fielding with Azure serverless architecture. Features: SignalR real-time updates, async export processing, custom exception handling, 13 Azure resources optimized for ≤100 users. Cost: ~/mo dev, ~/mo prod. | Nov 01, 2025 |
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |
 | [**SendToQualtricsTool**](https://github.com/fabioc-aloha/SendToQualtricsTool) | 🔒 Private | C# | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 04, 2025 |
@@ -104,19 +104,19 @@ These represent **learning, collaboration, and community contributions**:
 
 ```mermaid
 pie title Programming Languages (62 Repos)
-    "PowerShell" : 20
+    "PowerShell" : 18
     "Python" : 11
     "Jupyter Notebook" : 6
     "C#" : 4
-    "HTML" : 1
+    "TypeScript" : 3
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (32.3%)**: Primary language for 20 repositories
+- **PowerShell (29%)**: Primary language for 18 repositories
 - **Python (17.7%)**: Primary language for 11 repositories
 - **Jupyter Notebook (9.7%)**: Primary language for 6 repositories
 - **C# (6.5%)**: Primary language for 4 repositories
-- **HTML (1.6%)**: Primary language for 1 repositories
+- **TypeScript (4.8%)**: Primary language for 3 repositories
 
 ---
 
