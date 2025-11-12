@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: November 11, 2025 at 06:12 AM UTC
+> **Last Updated**: November 12, 2025 at 06:12 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 63 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -16,7 +16,7 @@
 | [**AI-Qualitative-Analysis**](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) | 🌟 Public | Python | Processes customer interviews and aligns the discussed topics to the MCEM framework. | Jun 20, 2025 |
 | [**AIRS**](https://github.com/fabioc-aloha/AIRS) | 🔒 Private | Rich Text Format | My DBA Project | Aug 03, 2025 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
-| [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal starter template for Qualtrics + Azure integration projects. Includes 140+ verified API endpoints, production-ready code examples, SFI governance patterns, and complete documentation. | Nov 11, 2025 |
+| [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**Altman-Z-Score**](https://github.com/fabioc-aloha/Altman-Z-Score) | 🌟 Public | HTML | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 04, 2025 |
 | [**Bing-Wallpaper-Fetcher**](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | 🔒 Private | C# | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 04, 2025 |
 | [**BRD**](https://github.com/fabioc-aloha/BRD) | 🔒 Private | - | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 04, 2025 |
@@ -35,9 +35,9 @@
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | PowerShell | Real-time survey fielding disposition dashboard for Instrument Managers. Monitor distribution health, bounce rates, and engagement metrics across Qualtrics surveys with Azure-powered infrastructure. | Nov 11, 2025 |
+| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | HTML | Real-time survey fielding disposition dashboard for Instrument Managers. Monitor distribution health, bounce rates, and engagement metrics across Qualtrics surveys with Azure-powered infrastructure. | Nov 12, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Nov 10, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Nov 11, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -74,7 +74,7 @@
 | [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🌟 Public | - | Create rich visualizations with AI | Sep 04, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
 | [**Google-AI-Edge-Gallery**](https://github.com/fabioc-aloha/Google-AI-Edge-Gallery) | 🌟 Public | - | Google AI Edge computing examples and implementation gallery showcasing on-device AI applications and edge deployment strategies | Sep 04, 2025 |
-| [**mcpb**](https://github.com/fabioc-aloha/mcpb) | 🌟 Public | - | Desktop Extensions: One-click local MCP server installation in desktop apps | Oct 20, 2025 |
+| [**mcpb**](https://github.com/fabioc-aloha/mcpb) | 🌟 Public | - | Desktop Extensions: One-click local MCP server installation in desktop apps | Nov 11, 2025 |
 | [**mcpservers**](https://github.com/fabioc-aloha/mcpservers) | 🌟 Public | TypeScript | Model Context Protocol Servers | Jul 17, 2025 |
 | [**omi**](https://github.com/fabioc-aloha/omi) | 🌟 Public | - | AI wearables. Put it on, speak, transcribe, automatically | Aug 02, 2025 |
 | [**Profile-Pic**](https://github.com/fabioc-aloha/Profile-Pic) | 🌟 Public | - | Playing around with blackhole distortion | May 23, 2025 |
@@ -105,7 +105,7 @@ These represent **learning, collaboration, and community contributions**:
 
 ```mermaid
 pie title Programming Languages (63 Repos)
-    "PowerShell" : 19
+    "PowerShell" : 18
     "Python" : 11
     "Jupyter Notebook" : 6
     "C#" : 4
@@ -113,7 +113,7 @@ pie title Programming Languages (63 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (30.2%)**: Primary language for 19 repositories
+- **PowerShell (28.6%)**: Primary language for 18 repositories
 - **Python (17.5%)**: Primary language for 11 repositories
 - **Jupyter Notebook (9.5%)**: Primary language for 6 repositories
 - **C# (6.3%)**: Primary language for 4 repositories
