@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: December 10, 2025 at 06:13 AM UTC
+> **Last Updated**: December 11, 2025 at 06:13 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 66 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 67 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (49 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (26)** | **🌐 Public (40)**
+> **🏠 Original Work (50 repos)** | **🍴 Community Contributions (17 forks)** | **🔒 Private (27)** | **🌐 Public (40)**
 
 ---
 
@@ -16,7 +16,7 @@
 | [**AI-Qualitative-Analysis**](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) | 🌟 Public | Python | Processes customer interviews and aligns the discussed topics to the MCEM framework. | Jun 20, 2025 |
 | [**AIRS**](https://github.com/fabioc-aloha/AIRS) | 🔒 Private | Rich Text Format | My DBA Project | Aug 03, 2025 |
 | [**AIRS_Data_Analysis**](https://github.com/fabioc-aloha/AIRS_Data_Analysis) | 🌟 Public | Jupyter Notebook | AI Readiness Scale (AIRS): Validated 12-item instrument. 7-phase psychometric validation (N=362): EFA→CFA→Invariance→SEM→Mediation→Moderation→Behavioral. Autonomy-centered UTAUT2 extension (R²=.819). Reproducible Jupyter analysis, intervention protocols, practitioner guidelines. | Dec 09, 2025 |
-| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform your development environment into a sophisticated AI learning partner with meta-cognitive awareness, bootstrap learning, and autonomous neural maintenance for GitHub Copilot. | Dec 08, 2025 |
+| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform your development environment into a sophisticated AI learning partner with meta-cognitive awareness, bootstrap learning, and autonomous neural maintenance for GitHub Copilot. | Dec 10, 2025 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | PowerShell | Alex - AI-powered Azure subscription administrator for Microsoft Lab Subscription. SFI-first priority with permission-based operations and comprehensive resource inventory. Microsoft internal project. | Dec 08, 2025 |
@@ -38,9 +38,9 @@
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 09, 2025 |
+| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 10, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 09, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 10, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -59,6 +59,7 @@
 | [**spotify-mcpb**](https://github.com/fabioc-aloha/spotify-mcpb) | 🌟 Public | JavaScript | AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | [**spotify-skill**](https://github.com/fabioc-aloha/spotify-skill) | 🌟 Public | Python | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Nov 08, 2025 |
 | [**Taylor**](https://github.com/fabioc-aloha/Taylor) | 🌟 Public | PowerShell | Personal project management and productivity tools with intelligent task organization and workflow optimization | Sep 04, 2025 |
+| [**VT_AIPOWERBI**](https://github.com/fabioc-aloha/VT_AIPOWERBI) | 🔒 Private | - | - | Dec 10, 2025 |
 | [**WallpaperScraper**](https://github.com/fabioc-aloha/WallpaperScraper) | 🌟 Public | Python | Automated wallpaper collection and management system with intelligent image curation and desktop customization features | Sep 04, 2025 |
 | [**XDL**](https://github.com/fabioc-aloha/XDL) | 🔒 Private | PowerShell | Extended Data Language implementation for advanced data processing and transformation workflows | Sep 04, 2025 |
 | [**XDL_Predictions**](https://github.com/fabioc-aloha/XDL_Predictions) | 🔒 Private | Jupyter Notebook | Machine learning prediction models using Extended Data Language for advanced analytics and forecasting applications | Sep 04, 2025 |
@@ -89,7 +90,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (49)**
+### **🏠 Original Repositories (50)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -107,7 +108,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (66 Repos)
+pie title Programming Languages (67 Repos)
     "PowerShell" : 19
     "Python" : 11
     "Jupyter Notebook" : 7
@@ -116,11 +117,11 @@ pie title Programming Languages (66 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (28.8%)**: Primary language for 19 repositories
-- **Python (16.7%)**: Primary language for 11 repositories
-- **Jupyter Notebook (10.6%)**: Primary language for 7 repositories
-- **C# (7.6%)**: Primary language for 5 repositories
-- **TypeScript (6.1%)**: Primary language for 4 repositories
+- **PowerShell (28.4%)**: Primary language for 19 repositories
+- **Python (16.4%)**: Primary language for 11 repositories
+- **Jupyter Notebook (10.4%)**: Primary language for 7 repositories
+- **C# (7.5%)**: Primary language for 5 repositories
+- **TypeScript (6%)**: Primary language for 4 repositories
 
 ---
 
