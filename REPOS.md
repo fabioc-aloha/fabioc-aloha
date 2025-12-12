@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: December 11, 2025 at 06:13 AM UTC
+> **Last Updated**: December 12, 2025 at 06:13 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 67 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -40,7 +40,7 @@
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 10, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 10, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 11, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -59,7 +59,7 @@
 | [**spotify-mcpb**](https://github.com/fabioc-aloha/spotify-mcpb) | 🌟 Public | JavaScript | AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | [**spotify-skill**](https://github.com/fabioc-aloha/spotify-skill) | 🌟 Public | Python | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Nov 08, 2025 |
 | [**Taylor**](https://github.com/fabioc-aloha/Taylor) | 🌟 Public | PowerShell | Personal project management and productivity tools with intelligent task organization and workflow optimization | Sep 04, 2025 |
-| [**VT_AIPOWERBI**](https://github.com/fabioc-aloha/VT_AIPOWERBI) | 🔒 Private | - | - | Dec 10, 2025 |
+| [**VT_AIPOWERBI**](https://github.com/fabioc-aloha/VT_AIPOWERBI) | 🔒 Private | PowerShell | AI-Assisted Power BI for Business Analytics - Virginia Tech MBA Program. Copilot-first approach to business intelligence with Microsoft case studies. | Dec 12, 2025 |
 | [**WallpaperScraper**](https://github.com/fabioc-aloha/WallpaperScraper) | 🌟 Public | Python | Automated wallpaper collection and management system with intelligent image curation and desktop customization features | Sep 04, 2025 |
 | [**XDL**](https://github.com/fabioc-aloha/XDL) | 🔒 Private | PowerShell | Extended Data Language implementation for advanced data processing and transformation workflows | Sep 04, 2025 |
 | [**XDL_Predictions**](https://github.com/fabioc-aloha/XDL_Predictions) | 🔒 Private | Jupyter Notebook | Machine learning prediction models using Extended Data Language for advanced analytics and forecasting applications | Sep 04, 2025 |
@@ -109,7 +109,7 @@ These represent **learning, collaboration, and community contributions**:
 
 ```mermaid
 pie title Programming Languages (67 Repos)
-    "PowerShell" : 19
+    "PowerShell" : 20
     "Python" : 11
     "Jupyter Notebook" : 7
     "C#" : 5
@@ -117,7 +117,7 @@ pie title Programming Languages (67 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (28.4%)**: Primary language for 19 repositories
+- **PowerShell (29.9%)**: Primary language for 20 repositories
 - **Python (16.4%)**: Primary language for 11 repositories
 - **Jupyter Notebook (10.4%)**: Primary language for 7 repositories
 - **C# (7.5%)**: Primary language for 5 repositories
