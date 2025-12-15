@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: December 14, 2025 at 06:11 AM UTC
+> **Last Updated**: December 15, 2025 at 06:14 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 68 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -19,7 +19,7 @@
 | [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform your development environment into a sophisticated AI learning partner with meta-cognitive awareness, bootstrap learning, and autonomous neural maintenance for GitHub Copilot. | Dec 10, 2025 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
-| [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | PowerShell | Alex - AI-powered Azure subscription administrator for Microsoft Lab Subscription. SFI-first priority with permission-based operations and comprehensive resource inventory. Microsoft internal project. | Dec 08, 2025 |
+| [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | HTML | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
 | [**Altman-Z-Score**](https://github.com/fabioc-aloha/Altman-Z-Score) | 🌟 Public | HTML | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 04, 2025 |
 | [**Bing-Wallpaper-Fetcher**](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | 🔒 Private | C# | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 04, 2025 |
 | [**BRD**](https://github.com/fabioc-aloha/BRD) | 🔒 Private | - | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 04, 2025 |
@@ -38,9 +38,9 @@
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 12, 2025 |
+| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 14, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 13, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 14, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -48,7 +48,7 @@
 | [**Investing**](https://github.com/fabioc-aloha/Investing) | 🌟 Public | PowerShell | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 04, 2025 |
 | [**KalabashDashboard**](https://github.com/fabioc-aloha/KalabashDashboard) | 🔒 Private | TypeScript | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 08, 2025 |
 | [**LogoScraper**](https://github.com/fabioc-aloha/LogoScraper) | 🌟 Public | Python | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
-| [**maya**](https://github.com/fabioc-aloha/maya) | 🌟 Public | Python | Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 13, 2025 |
+| [**maya**](https://github.com/fabioc-aloha/maya) | 🌟 Public | Python | Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | [**mdword**](https://github.com/fabioc-aloha/mdword) | 🔒 Private | C# | Windows app and CLI that convert Markdown projects to Word .docx with academic formatting, Mermaid/PlantUML/Graphviz diagrams, KaTeX math, and Microsoft Store packaging support. | Aug 14, 2025 |
 | [**moleculator**](https://github.com/fabioc-aloha/moleculator) | 🔒 Private | TypeScript | Interactive 3D molecule visualization studio built with React, Three.js, and OpenAI integration for educational chemistry learning | Nov 01, 2025 |
 | [**papercopilot**](https://github.com/fabioc-aloha/papercopilot) | 🌟 Public | Python | A Copilot for drafting research papers. | Aug 03, 2025 |
@@ -110,7 +110,7 @@ These represent **learning, collaboration, and community contributions**:
 
 ```mermaid
 pie title Programming Languages (68 Repos)
-    "PowerShell" : 20
+    "PowerShell" : 19
     "Python" : 12
     "Jupyter Notebook" : 7
     "C#" : 5
@@ -118,7 +118,7 @@ pie title Programming Languages (68 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (29.4%)**: Primary language for 20 repositories
+- **PowerShell (27.9%)**: Primary language for 19 repositories
 - **Python (17.6%)**: Primary language for 12 repositories
 - **Jupyter Notebook (10.3%)**: Primary language for 7 repositories
 - **C# (7.4%)**: Primary language for 5 repositories
