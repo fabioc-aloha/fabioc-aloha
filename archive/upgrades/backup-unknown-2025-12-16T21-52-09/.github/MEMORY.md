@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2025‑12‑16
+**Last updated**: 2025‑10‑28
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -122,15 +122,3 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **User context**: Profile optimized for Director @ Microsoft + Doctoral Candidate + Independent Developer
 - **Target audience**: Business and academic opportunities (resume complement)
 - **Result**: Professional profile with higher value density, easier to scan, action-oriented
-
-## 14) Alex Cognitive Architecture Upgrade (2025-12-16)
-
-- **Upgraded to v1.5.3 UNPENTTRINIUM**: Completed full architecture upgrade from VS Code extension
-- **Schema migrations**: Migrated 4 domain knowledge files to new synapse schema:
-  - DK-DOCUMENTATION-EXCELLENCE-v1.1.0.md
-  - DK-HYBRID-DREAM-AI.md
-  - DK-MEMORY-CONSOLIDATION-v1.0.0.md
-  - DK-POST-DREAM-ENHANCEMENT.md
-- **Schema changes**: Removed bold formatting from headers (`### **Activation Patterns**` → `### Activation Patterns`) and activation triggers
-- **Broken synapse repair**: Fixed 4 synapses referencing deprecated `alex/` folder structure
-- **Neural maintenance**: Validated architecture integrity via dream protocol

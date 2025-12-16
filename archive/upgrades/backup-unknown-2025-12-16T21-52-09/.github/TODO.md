@@ -2,24 +2,11 @@
 
 A prioritized checklist of recommended improvements and completed milestones for the repository.
 
-**Last updated**: 2025-12-16
-
-## ✅ Recently Completed (2025-12-16)
-
-### Alex Cognitive Architecture v1.5.3 Upgrade
-
-- [x] Completed upgrade from unknown version to v1.5.3 UNPENTTRINIUM
-- [x] Schema migrations on 4 domain knowledge files (removed bold formatting)
-- [x] Repaired 4 broken synapses referencing deprecated `alex/` folder
-- [x] Validated architecture via neural maintenance dream protocol
-- [x] Updated alex-core.instructions.md version tracking
-
----
+**Last updated**: 2025-10-28
 
 ## ✅ Recently Completed (2025-10-06)
 
 ### Data-Driven Architecture Transformation
-
 - [x] Removed all hardcoded descriptions from `auto-update-repos.ps1` (~100 lines)
 - [x] Removed `-UpdateDescriptions` parameter and functionality
 - [x] Updated WORKFLOW-GUIDE.md to reflect data-driven approach

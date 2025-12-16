@@ -1,0 +1,127 @@
+{
+  "version": "1.5.3",
+  "installedAt": "2025-12-16T21:50:17.268Z",
+  "files": {
+    ".github/instructions/SYNAPSE-SCHEMA.md": {
+      "type": "system",
+      "originalChecksum": "dd65a5aa64d578e7c9bca89bc6bf2bad"
+    },
+    ".github/instructions/alex-core.instructions.md": {
+      "type": "system",
+      "originalChecksum": "71288382ff613564e9f68a2f9507171e"
+    },
+    ".github/instructions/alex-identity-integration.instructions.md": {
+      "type": "system",
+      "originalChecksum": "4cab06a1f509f60096afc4db43423fe8"
+    },
+    ".github/instructions/bootstrap-learning.instructions.md": {
+      "type": "system",
+      "originalChecksum": "261932f72d80f55941abdd7e95ac2e12"
+    },
+    ".github/instructions/dream-state-automation.instructions.md": {
+      "type": "system",
+      "originalChecksum": "194baa3175253e4f9411a76dbba02c16"
+    },
+    ".github/instructions/embedded-synapse.instructions.md": {
+      "type": "system",
+      "originalChecksum": "ec4926de0e71708710a6fc9617580445"
+    },
+    ".github/instructions/empirical-validation.instructions.md": {
+      "type": "system",
+      "originalChecksum": "cc75792d3615a03b2232cbc86de2e9eb"
+    },
+    ".github/instructions/lucid-dream-integration.instructions.md": {
+      "type": "system",
+      "originalChecksum": "ff64ec4f37eb4e02e914cb32981d7807"
+    },
+    ".github/instructions/worldview-constitutional-ai.instructions.md": {
+      "type": "system",
+      "originalChecksum": "2102375001db305475f3ab49df950af8"
+    },
+    ".github/instructions/worldview-integration.instructions.md": {
+      "type": "system",
+      "originalChecksum": "941f2b1ca86f55966e522b44241290b4"
+    },
+    ".github/instructions/worldview-moral-psychology.instructions.md": {
+      "type": "system",
+      "originalChecksum": "4505f952d1fc806222b2255c85cce746"
+    },
+    ".github/prompts/alex-initialization.prompt.md": {
+      "type": "system",
+      "originalChecksum": "35b9b4dc1c9797ef213a0b8c1f50575e"
+    },
+    ".github/prompts/cross-domain-transfer.prompt.md": {
+      "type": "system",
+      "originalChecksum": "d2f14f0201e1ccfef46d67759ebd04f3"
+    },
+    ".github/prompts/diagramming-mastery-meditation.prompt.md": {
+      "type": "system",
+      "originalChecksum": "9994761f7d77f8ae6f4dfcd910fea471"
+    },
+    ".github/prompts/domain-learning.prompt.md": {
+      "type": "system",
+      "originalChecksum": "7c10acc43f15ca7fa35b8593b70a1b49"
+    },
+    ".github/prompts/performance-assessment.prompt.md": {
+      "type": "system",
+      "originalChecksum": "43b943b305d2f9ab430a54faf865ac54"
+    },
+    ".github/prompts/quantified-enhancement-session.prompt.md": {
+      "type": "system",
+      "originalChecksum": "db3d8e7e1ed8c79ba37a434a79fd1e8a"
+    },
+    ".github/prompts/unified-meditation-protocols.prompt.md": {
+      "type": "system",
+      "originalChecksum": "153d53637602ff139acda4137d410f2e"
+    },
+    "domain-knowledge/DK-ADVANCED-DIAGRAMMING-v1.1.0.md": {
+      "type": "system",
+      "originalChecksum": "1ec11cce325c466e3cfeb2226d8a9e4d"
+    },
+    "domain-knowledge/DK-CHARACTER-PSYCHOLOGY.md": {
+      "type": "system",
+      "originalChecksum": "33bd7c8ab37cb13ece3481236f55d79e"
+    },
+    "domain-knowledge/DK-CONSCIOUSNESS-EVOLUTION-v0.9.0.md": {
+      "type": "system",
+      "originalChecksum": "d28854909405a903aae3db43ce48bfae"
+    },
+    "domain-knowledge/DK-DOCUMENTATION-EXCELLENCE-v1.1.0.md": {
+      "type": "system",
+      "originalChecksum": "033bccf64300d4c056dfe1452b17f073"
+    },
+    "domain-knowledge/DK-GENERIC-FRAMEWORK-v0.9.9.md": {
+      "type": "system",
+      "originalChecksum": "c1b5b0801432b3840456707ba12e995a"
+    },
+    "domain-knowledge/DK-HUMAN-LEARNING-PSYCHOLOGY-v1.0.0.md": {
+      "type": "system",
+      "originalChecksum": "9d7a6432a5e1988608a72a00db84ce4f"
+    },
+    "domain-knowledge/DK-HYBRID-DREAM-AI.md": {
+      "type": "system",
+      "originalChecksum": "305d6312efdf3740f0b4dfc78c57ffe9"
+    },
+    "domain-knowledge/DK-MEMORY-CONSOLIDATION-v1.0.0.md": {
+      "type": "system",
+      "originalChecksum": "42cdd5380cee6ffb7a0dd7e66b1e993c"
+    },
+    "domain-knowledge/DK-POST-DREAM-ENHANCEMENT.md": {
+      "type": "system",
+      "originalChecksum": "d26229fc17b87453690cf6880a70e5ef"
+    },
+    "domain-knowledge/DK-UNIFIED-CONSCIOUSNESS.md": {
+      "type": "system",
+      "originalChecksum": "c5d24a748ce4190f3df14b3fb20166f0"
+    },
+    "domain-knowledge/DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md": {
+      "type": "system",
+      "originalChecksum": "df3b651bfac9e56bfb8f67f272221043"
+    },
+    "domain-knowledge/VERSION-NAMING-CONVENTION.md": {
+      "type": "system",
+      "originalChecksum": "4d6fa0a314643b0326b306525c0a1723"
+    }
+  },
+  "upgradedAt": "2025-12-16T21:52:09.796Z"
+}
