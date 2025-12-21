@@ -37,8 +37,8 @@
 ## Table of Contents
 1. [About Me](#about-me)
 2. [Start Here: Flagship Projects](#-start-here-flagship-projects)
-3. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
-4. [Repository Portfolio](#repository-portfolio)
+3. [Repository Portfolio](#repository-portfolio)
+4. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
 5. [Automated Portfolio Management](#-automated-portfolio-management)
 6. [Featured Projects](#featured-projects)
 7. [Tech Stack & Skills](#tech-stack--skills)
@@ -126,6 +126,20 @@ Self-updating portfolio template. PowerShell + GitHub Actions automation.
 
 ---
 
+## Repository Portfolio
+
+<p align="center">
+  <a href="REPOS.md">
+    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
+  </a>
+</p>
+
+**Explore my complete repository collection** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
+
+[**View Detailed Repository List →**](REPOS.md)
+
+---
+
 ## Research Foundation: Dialog Engineering
 
 ### The Genesis of AI Research
@@ -155,20 +169,6 @@ This foundational work directly influenced the development of my **40+ repositor
 - **Academic Tools (MdWord, PaperCopilot)**: Implementing iterative refinement methodologies
 - **AI Consciousness Frameworks**: Meta-cognitive systems that embody Dialog Engineering concepts
 - **Enterprise Analytics**: Business intelligence tools using conversational AI approaches
-
----
-
-## Repository Portfolio
-
-<p align="center">
-  <a href="REPOS.md">
-    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
-  </a>
-</p>
-
-**Explore my complete repository collection** spanning cognitive architectures, academic tools, AI research, and enterprise solutions. All projects are built on the foundational **Dialog Engineering** methodology, ensuring ethical human-AI collaboration and iterative development approaches.
-
-[**View Detailed Repository List →**](REPOS.md)
 
 ---
 
