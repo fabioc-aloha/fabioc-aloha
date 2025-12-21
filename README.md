@@ -63,11 +63,11 @@
 
 ## 🚀 Start Here: Flagship Projects
 
-New to this portfolio? These three tracks showcase the core of my work:
+New to this portfolio? These four tracks showcase the core of my work:
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🎓 Research
 **[AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)**
@@ -77,7 +77,7 @@ AI Readiness Scale: Validated 12-item psychometric instrument with 7-phase valid
 `psychometrics` `sem` `doctoral-research`
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 📊 Applied Analytics
 **[Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)**
@@ -87,7 +87,7 @@ Production-ready financial analysis with CLI, portfolio parallelization, caching
 `financial-analytics` `risk` `dashboard`
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🧠 Cognitive Architecture
 **[Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)**
@@ -95,6 +95,16 @@ Production-ready financial analysis with CLI, portfolio parallelization, caching
 Advanced AI architecture with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. The hub for the Alex/Catalyst ecosystem.
 
 `cognitive-architecture` `copilot` `automation`
+
+</td>
+<td align="center" width="25%">
+
+### 🎮 Retro Computing
+**[BASIC-M6502-TS](https://github.com/fabioc-aloha/BASIC-M6502-TS)**
+
+Microsoft BASIC for 6502 microprocessor — the chip that powered Apple II, Commodore 64, and Atari. TypeScript preservation of computing history.
+
+`retrocomputing` `6502` `typescript`
 
 </td>
 </tr>
