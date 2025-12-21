@@ -34,21 +34,6 @@
 
 ---
 
-## Table of Contents
-
-1. [About Me](#about-me)
-2. [Flagship Projects](#-start-here-flagship-projects)
-3. [Repository Portfolio](#repository-portfolio)
-4. [Dialog Engineering](#research-foundation-dialog-engineering)
-5. [Automation](#-automated-portfolio-management)
-6. [Tech Stack](#tech-stack)
-7. [Expertise](#professional-expertise)
-8. [Philosophy](#technical-philosophy)
-9. [Publications](#publications--speaking)
-10. [Connect](#connect-with-me)
-
----
-
 ## About Me
 
 **Fabio Correa** — Director of Business Analytics @ Microsoft, Charlotte NC. Doctoral candidate at Touro University Worldwide researching AI consciousness, meta-cognitive systems, and human-AI partnership.
