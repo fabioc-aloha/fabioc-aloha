@@ -63,56 +63,66 @@
 
 ## 🚀 Start Here: Flagship Projects
 
-New to this portfolio? These four tracks showcase the core of my work:
+New to this portfolio? These five tracks showcase the core of my work:
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 
 ### 🎓 Research
 **[AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)**
 
-AI Readiness Scale: Validated 12-item psychometric instrument with 7-phase validation (N=362). Autonomy-centered UTAUT2 extension achieving R²=.819.
+Validated 12-item psychometric instrument. 7-phase validation (N=362). R²=.819.
 
-`psychometrics` `sem` `doctoral-research`
-
-</td>
-<td align="center" width="25%">
-
-### 📊 Applied Analytics
-**[Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)**
-
-Production-ready financial analysis with CLI, portfolio parallelization, caching, and dashboard generation. Bankruptcy prediction meets modern tooling.
-
-`financial-analytics` `risk` `dashboard`
+`psychometrics` `sem`
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 
-### 🧠 Cognitive Architecture
-**[Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)**
+### 🧒 Learning
+**[Catalyst-NEWBORN](https://github.com/fabioc-aloha/Catalyst-NEWBORN)**
 
-Advanced AI architecture with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. The hub for the Alex/Catalyst ecosystem.
+Educational baseline for Alex Cognitive Architecture. Complete learning framework.
 
-`cognitive-architecture` `copilot` `automation`
+`cognitive` `education`
 
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+
+### 🔌 Developer Tools
+**[Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In)**
+
+VS Code extension for GitHub Copilot. Meta-cognitive awareness + bootstrap learning.
+
+`typescript` `copilot`
+
+</td>
+<td align="center" width="20%">
 
 ### 🎮 Retro Computing
 **[BASIC-M6502-TS](https://github.com/fabioc-aloha/BASIC-M6502-TS)**
 
-Microsoft BASIC for 6502 microprocessor — the chip that powered Apple II, Commodore 64, and Atari. TypeScript preservation of computing history.
+Microsoft BASIC for 6502 — Apple II, C64, Atari. Computing history preserved.
 
-`retrocomputing` `6502` `typescript`
+`retrocomputing` `6502`
+
+</td>
+<td align="center" width="20%">
+
+### 📋 This Repo
+**[fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)**
+
+Self-updating portfolio template. PowerShell + GitHub Actions automation.
+
+`automation` `template`
 
 </td>
 </tr>
 </table>
 
-> **Portfolio Overview**: 56 repositories total — 48 original works + 8 community forks. 32 public, 24 private. See [REPOS.md](REPOS.md) for the complete catalog.
+> **Portfolio Overview**: 56 repositories — 48 original + 8 forks. 32 public, 24 private. **Private flagships**: Disposition_Dashboard (C# analytics), Alex-Cognitive-Architecture-Paper (academic). See [REPOS.md](REPOS.md) for complete catalog.
 
-> **🔗 Related Ecosystems**: [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) uses validated psychometrics → [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) applies findings → [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) processes interview data. [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) builds on patterns from [mcpservers](https://github.com/fabioc-aloha/mcpservers) fork.
+> **🔗 Related Ecosystems**: [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) → [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) → [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis). [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) builds on [mcpservers](https://github.com/fabioc-aloha/mcpservers) fork.
 
 ---
 
