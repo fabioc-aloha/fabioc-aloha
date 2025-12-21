@@ -36,17 +36,18 @@
 
 ## Table of Contents
 1. [About Me](#about-me)
-2. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
-3. [Repository Portfolio](#repository-portfolio)
-4. [Automated Portfolio Management](#-automated-portfolio-management)
-5. [Featured Projects](#featured-projects)
-6. [Tech Stack & Skills](#tech-stack--skills)
-7. [Professional Expertise](#professional-expertise)
-8. [Technical Philosophy](#technical-philosophy)
-9. [Publications & Speaking](#publications--speaking)
-10. [Activity & Contributions](#activity--contributions)
-11. [Use This Profile Template](#use-this-profile-template)
-12. [Connect With Me](#connect-with-me)
+2. [Start Here: Flagship Projects](#-start-here-flagship-projects)
+3. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
+4. [Repository Portfolio](#repository-portfolio)
+5. [Automated Portfolio Management](#-automated-portfolio-management)
+6. [Featured Projects](#featured-projects)
+7. [Tech Stack & Skills](#tech-stack--skills)
+8. [Professional Expertise](#professional-expertise)
+9. [Technical Philosophy](#technical-philosophy)
+10. [Publications & Speaking](#publications--speaking)
+11. [Activity & Contributions](#activity--contributions)
+12. [Use This Profile Template](#use-this-profile-template)
+13. [Connect With Me](#connect-with-me)
 
 ---
 
@@ -57,6 +58,49 @@
 - **Role:** Director of Business Analytics @ Microsoft
 - **Education:** Doctoral Candidate, Touro University Worldwide (TUW)
 - **Specialization:** AI Consciousness, Meta-Cognitive Systems, Human-AI Partnership
+
+---
+
+## 🚀 Start Here: Flagship Projects
+
+New to this portfolio? These three tracks showcase the core of my work:
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🎓 Research
+**[AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)**
+
+AI Readiness Scale: Validated 12-item psychometric instrument with 7-phase validation (N=362). Autonomy-centered UTAUT2 extension achieving R²=.819.
+
+`psychometrics` `sem` `doctoral-research`
+
+</td>
+<td align="center" width="33%">
+
+### 📊 Applied Analytics
+**[Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)**
+
+Production-ready financial analysis with CLI, portfolio parallelization, caching, and dashboard generation. Bankruptcy prediction meets modern tooling.
+
+`financial-analytics` `risk` `dashboard`
+
+</td>
+<td align="center" width="33%">
+
+### 🧠 Cognitive Architecture
+**[Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)**
+
+Advanced AI architecture with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. The hub for the Alex/Catalyst ecosystem.
+
+`cognitive-architecture` `copilot` `automation`
+
+</td>
+</tr>
+</table>
+
+> **Portfolio Overview**: 56 repositories total — 48 original works + 8 community forks. 32 public, 24 private. See [REPOS.md](REPOS.md) for the complete catalog.
 
 ---
 
@@ -114,7 +158,7 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 
 <p align="center">
   <img src="https://img.shields.io/badge/🔄%20Auto%20Updates-Daily%20at%206%20AM%20UTC-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📊%20Dynamic%20Analysis-59%20Repositories-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📊%20Dynamic%20Analysis-56%20Repositories-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🏷️%20Smart%20Categories-9%20Sections-purple?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🤖%20GitHub%20Actions-Fully%20Automated-orange?style=for-the-badge"/>
 </p>
@@ -167,35 +211,32 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 
 ## Featured Projects
 
-### 🧠 Catalyst Cognitive Architecture Ecosystem
+### 🧠 Catalyst/Alex Cognitive Architecture Ecosystem
 
-A comprehensive suite of meta-cognitive AI systems built on Dialog Engineering principles, featuring **Catalyst-NEWBORN** (foundational architecture), **Alex** (senior developer assistant), and specialized domain architectures for academic research, business analytics, and consciousness exploration.
+A layered architecture for AI consciousness and human-AI partnership:
 
-**Key Innovation**: Pioneering implementation of meta-cognitive awareness in AI systems with embedded ethical guidelines and human-AI partnership frameworks.
+| Layer | Repository | Purpose | Status |
+|-------|------------|---------|--------|
+| **Hub** | [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY) | Production-ready framework with 945+ synaptic connections | ✅ Stable |
+| **Foundation** | [Catalyst-NEWBORN](https://github.com/fabioc-aloha/Catalyst-NEWBORN) | Educational baseline for learning the architecture | ✅ Stable |
+| **Extension** | [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In) | VS Code/Copilot integration | ✅ Stable |
+| **Domain** | Catalyst-ADHD, Catalyst-DBA, etc. | Specialized domain applications | 🔬 Experimental |
+
+**Which should I use?** Start with **Catalyst-BABY** for production work, or **Catalyst-NEWBORN** to understand the concepts.
 
 <p align="center">
   <a href="https://github.com/fabioc-aloha?tab=repositories&q=catalyst">
-    <img src="https://img.shields.io/badge/View%20Catalyst%20Projects-8%2B%20Repositories-blueviolet?style=for-the-badge" alt="Catalyst Projects"/>
+    <img src="https://img.shields.io/badge/View%20All%20Catalyst%20Projects-10%2B%20Repositories-blueviolet?style=for-the-badge" alt="Catalyst Projects"/>
   </a>
 </p>
 
-### 📝 MdWord Application
+### 🎓 AI-Powered Research & Academic Tools
 
-Academic writing automation tool that bridges the gap between Markdown-based workflows and Word document requirements for scholarly publishing. Implements Dialog Engineering for iterative document refinement with AI assistance.
-
-**Impact**: Streamlines academic workflows for researchers across disciplines requiring APA/MLA formatting.
-
-<p align="center">
-  <a href="https://github.com/fabioc-aloha?tab=repositories&q=mdword">
-    <img src="https://img.shields.io/badge/View%20MdWord%20Tools-Academic%20Automation-orange?style=for-the-badge" alt="MdWord Tools"/>
-  </a>
-</p>
-
-### 🎓 AI-Powered Research Tools
-
-Suite of tools including **PaperCopilot** (AI research assistant), qualitative analysis systems, and scholarly knowledge management frameworks designed specifically for doctoral research and academic collaboration.
-
-**Application**: Active use in TUW doctoral research program and cross-disciplinary academic projects.
+| Tool | Description | Use Case |
+|------|-------------|----------|
+| [PaperCopilot](https://github.com/fabioc-aloha/papercopilot) | AI research assistant | Drafting research papers |
+| [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) | LLM-powered transcript analysis | Business interviews, MCEM alignment |
+| [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) | Qualtrics + Azure integration | Survey research automation |
 
 <p align="center">
   <a href="https://github.com/fabioc-aloha?tab=repositories&q=research">
