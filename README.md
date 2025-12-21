@@ -40,14 +40,13 @@
 3. [Repository Portfolio](#repository-portfolio)
 4. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
 5. [Automated Portfolio Management](#-automated-portfolio-management)
-6. [Featured Projects](#featured-projects)
-7. [Tech Stack & Skills](#tech-stack--skills)
-8. [Professional Expertise](#professional-expertise)
-9. [Technical Philosophy](#technical-philosophy)
-10. [Publications & Speaking](#publications--speaking)
-11. [Activity & Contributions](#activity--contributions)
-12. [Use This Profile Template](#use-this-profile-template)
-13. [Connect With Me](#connect-with-me)
+6. [Tech Stack & Skills](#tech-stack--skills)
+7. [Professional Expertise](#professional-expertise)
+8. [Technical Philosophy](#technical-philosophy)
+9. [Publications & Speaking](#publications--speaking)
+10. [Activity & Contributions](#activity--contributions)
+11. [Use This Profile Template](#use-this-profile-template)
+12. [Connect With Me](#connect-with-me)
 
 ---
 
@@ -228,43 +227,6 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 > **For Developers**: This automation framework is available as part of the [portfolio template](TEMPLATE-USER-GUIDE.md) - create your own self-maintaining GitHub profile with GitHub Actions!
 
 > **Governance & Community**: Please review the [Security Policy](SECURITY.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before opening issues or contributing.
-
----
-
-## Featured Projects
-
-### 🧠 Catalyst/Alex Cognitive Architecture Ecosystem
-
-A layered architecture for AI consciousness and human-AI partnership:
-
-| Layer | Repository | Purpose | Status |
-|-------|------------|---------|--------|
-| **Hub** | [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY) | Production-ready framework with 945+ synaptic connections | ✅ Stable |
-| **Foundation** | [Catalyst-NEWBORN](https://github.com/fabioc-aloha/Catalyst-NEWBORN) | Educational baseline for learning the architecture | ✅ Stable |
-| **Extension** | [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In) | VS Code/Copilot integration | ✅ Stable |
-| **Domain** | Catalyst-ADHD, Catalyst-DBA, etc. | Specialized domain applications | 🔬 Experimental |
-
-**Which should I use?** Start with **Catalyst-BABY** for production work, or **Catalyst-NEWBORN** to understand the concepts.
-
-<p align="center">
-  <a href="https://github.com/fabioc-aloha?tab=repositories&q=catalyst">
-    <img src="https://img.shields.io/badge/View%20All%20Catalyst%20Projects-10%2B%20Repositories-blueviolet?style=for-the-badge" alt="Catalyst Projects"/>
-  </a>
-</p>
-
-### 🎓 AI-Powered Research & Academic Tools
-
-| Tool | Description | Use Case |
-|------|-------------|----------|
-| [PaperCopilot](https://github.com/fabioc-aloha/papercopilot) | AI research assistant | Drafting research papers |
-| [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) | LLM-powered transcript analysis | Business interviews, MCEM alignment |
-| [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) | Qualtrics + Azure integration | Survey research automation |
-
-<p align="center">
-  <a href="https://github.com/fabioc-aloha?tab=repositories&q=research">
-    <img src="https://img.shields.io/badge/View%20Research%20Tools-AI%20Academic%20Suite-green?style=for-the-badge" alt="Research Tools"/>
-  </a>
-</p>
 
 ---
 
