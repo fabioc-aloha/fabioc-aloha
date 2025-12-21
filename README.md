@@ -44,9 +44,7 @@
 7. [Expertise](#professional-expertise)
 8. [Philosophy](#technical-philosophy)
 9. [Publications](#publications--speaking)
-10. [Activity](#activity--contributions)
-11. [Template](#use-this-template)
-12. [Connect](#connect-with-me)
+10. [Connect](#connect-with-me)
 
 ---
 
@@ -159,8 +157,8 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 
 ## Tech Stack
 
-**Languages**: PowerShell • Python • C# • TypeScript/JavaScript  
-**Cloud**: Azure • Microsoft Fabric • Power BI • SQL Server  
+**Languages**: PowerShell • Python • C# • TypeScript/JavaScript
+**Cloud**: Azure • Microsoft Fabric • Power BI • SQL Server
 **AI/ML**: TensorFlow • PyTorch • OpenAI APIs • Agent frameworks
 
 ---
@@ -201,29 +199,6 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 **Doctoral Research**: AI Consciousness and Meta-Cognitive Systems @ TUW
 
 **Speaking**: Available for conferences, workshops, and academic presentations on Dialog Engineering, cognitive architectures, and enterprise AI. [Schedule →](https://aka.ms/AskFabio)
-
----
-
-## Activity & Contributions
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabioc-aloha&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Graph" />
-</p>
-
----
-
-## Use This Template
-
-<p align="center">
-  <a href="https://github.com/fabioc-aloha/fabioc-aloha/generate">
-    <img src="https://img.shields.io/badge/📋%20Use%20This%20Template-Create%20Your%20Portfolio-success?style=for-the-badge" alt="Use Template"/>
-  </a>
-  <a href="TEMPLATE-USER-GUIDE.md">
-    <img src="https://img.shields.io/badge/📖%20User%20Guide-Setup%20Instructions-blue?style=for-the-badge" alt="User Guide"/>
-  </a>
-</p>
-
-Self-maintaining GitHub portfolio with PowerShell + GitHub Actions. See [TEMPLATE-USER-GUIDE.md](TEMPLATE-USER-GUIDE.md) for setup.
 
 ---
 
