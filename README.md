@@ -56,66 +56,23 @@
 
 ## 🚀 Start Here: Flagship Projects
 
-New to this portfolio? These five tracks showcase the core of my work:
+### Primary Flagships
 
-<table>
-<tr>
-<td align="center" width="20%">
+| | | | |
+|:---:|:---:|:---:|:---:|
+| **📋 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **🧒 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** |
+| Self-updating GitHub portfolio with PowerShell + GitHub Actions automation. Daily refresh, zero manual maintenance. | AI Readiness Scale: 12-item validated psychometric instrument. 7-phase validation (N=362), UTAUT2 extension achieving R²=.819. | Production Spotify API integration for Claude Desktop. OAuth 2.0, cover art generation, comprehensive toolkit with docs. | Advanced cognitive architecture with meta-cognitive awareness, bootstrap learning, 945+ synaptic connections, and ethical reasoning. |
+| `powershell` `github-actions` | `jupyter` `psychometrics` `sem` | `python` `oauth` `claude` | `powershell` `meta-cognitive` |
 
-### 🎓 Research
-**[AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)**
+### Secondary Flagships
 
-Validated 12-item psychometric instrument. 7-phase validation (N=362). R²=.819.
+| | | |
+|:---:|:---:|:---:|
+| **💰 [Investing](https://github.com/fabioc-aloha/Investing)** | **📊 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA)** | **📝 [papercopilot](https://github.com/fabioc-aloha/papercopilot)** |
+| Investment analysis and portfolio management tools with financial modeling and market research capabilities. | DBA research cognitive architecture supporting doctoral work in AI consciousness and human-AI partnership. | AI-assisted research paper drafting tool for academic writing workflows. |
+| `powershell` `finance` | `python` `research` | `python` `academic` |
 
-`psychometrics` `sem`
-
-</td>
-<td align="center" width="20%">
-
-### 🧒 Learning
-**[Catalyst-NEWBORN](https://github.com/fabioc-aloha/Catalyst-NEWBORN)**
-
-Educational baseline for Alex Cognitive Architecture. Complete learning framework.
-
-`cognitive` `education`
-
-</td>
-<td align="center" width="20%">
-
-### 🔌 Developer Tools
-**[Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In)**
-
-VS Code extension for GitHub Copilot. Meta-cognitive awareness + bootstrap learning.
-
-`typescript` `copilot`
-
-</td>
-<td align="center" width="20%">
-
-### 🎮 Retro Computing
-**[BASIC-M6502-TS](https://github.com/fabioc-aloha/BASIC-M6502-TS)**
-
-Microsoft BASIC for 6502 — Apple II, C64, Atari. Computing history preserved.
-
-`retrocomputing` `6502`
-
-</td>
-<td align="center" width="20%">
-
-### 📋 This Repo
-**[fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)**
-
-Self-updating portfolio template. PowerShell + GitHub Actions automation.
-
-`automation` `template`
-
-</td>
-</tr>
-</table>
-
-> **Portfolio Overview**: 56 repositories — 48 original + 8 forks. 32 public, 24 private. **Private flagships**: Disposition_Dashboard (C# analytics), Alex-Cognitive-Architecture-Paper (academic). See [REPOS.md](REPOS.md) for complete catalog.
-
-> **🔗 Related Ecosystems**: [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) → [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) → [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis). [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) builds on [mcpservers](https://github.com/fabioc-aloha/mcpservers) fork.
+> **Portfolio**: 56 repos (48 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
 
 ---
 

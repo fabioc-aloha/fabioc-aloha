@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: December 21, 2025 at 11:44 AM UTC
+> **Last Updated**: December 21, 2025 at 11:51 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 56 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -82,15 +82,15 @@
 ### **🏠 Original Repositories (48)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
-- **Academic Tools**: PaperCopilot, AI-Qualitative-Analysis, AIRS_Data_Analysis
+- **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
 ### **🍴 Forked Repositories (8)**
 These represent **learning, collaboration, and community contributions**:
-- **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, ASI-Arch, omi)
-- **Development Tools**: Contributing to open-source projects (mcpservers, BASIC-M6502-TS)
-- **Educational Resources**: Learning from community tutorials (generative_ai_project, Python)
+- **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
+- **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
+- **Educational Resources**: Learning from community tutorials (ai-agents-for-beginners)
 
 **Philosophy**: Forks demonstrate active engagement with the AI/ML community while original work showcases independent innovation and research contributions.
 
