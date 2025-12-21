@@ -162,10 +162,10 @@ My exploration into AI consciousness and meta-cognitive systems began with a fun
 
 ### Research Impact & Implementation
 
-This foundational work directly influenced the development of my **40+ repository ecosystem**, including:
+This foundational work directly influenced the development of my **48+ repository ecosystem**, including:
 
 - **Catalyst Cognitive Architectures**: Built on Dialog Engineering principles for human-AI partnership
-- **Academic Tools (MdWord, PaperCopilot)**: Implementing iterative refinement methodologies
+- **Academic Tools (PaperCopilot, AI-Qualitative-Analysis)**: Implementing iterative refinement methodologies
 - **AI Consciousness Frameworks**: Meta-cognitive systems that embody Dialog Engineering concepts
 - **Enterprise Analytics**: Business intelligence tools using conversational AI approaches
 
@@ -232,7 +232,7 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 
 ## Tech Stack & Skills
 
-**Core Technologies**: PowerShell (automation/GitHub workflows) • Python (AI/ML/data science) • C# (enterprise) • TypeScript/JavaScript (web) • Kotlin (mobile)
+**Core Technologies**: PowerShell (automation/GitHub workflows) • Python (AI/ML/data science) • C# (enterprise) • TypeScript/JavaScript (web) • Jupyter Notebook (research)
 
 **Cloud & Enterprise**: Azure • Microsoft Fabric • Power BI • SQL Server
 
@@ -244,20 +244,12 @@ This portfolio **automatically updates itself** using a sophisticated PowerShell
 
 ## Professional Expertise
 
-### Core Technical Competencies
-
-- **AI & Machine Learning**: TensorFlow, PyTorch, OpenAI APIs, Agent frameworks, Model architecture discovery
-- **Enterprise Analytics**: Microsoft Fabric, Power BI, SQL Server, Qualtrics integration, Predictive modeling
-- **Cognitive Architecture Development**: Meta-cognitive frameworks, Dialog Engineering, Human-AI partnership systems
-- **Academic Technology**: Scholarly workflows, Semantic analysis, NLP, Academic publishing automation
-- **Microsoft Ecosystem**: Azure cloud solutions, PowerShell automation, C# enterprise development
-
-### Specialized Domains
-
-- **Dialog Engineering**: Advanced AI interaction methodologies and iterative refinement frameworks
-- **AI Consciousness Research**: Meta-cognitive systems with embedded awareness and ethical guidelines
-- **Academic Tooling**: Markdown-to-Word conversion, Citation management, Cross-disciplinary formatting
-- **Business Intelligence**: Financial analysis, Investment tools, Market research, Enterprise reporting
+| Domain | Focus Areas |
+|--------|-------------|
+| **AI & Cognitive Systems** | Meta-cognitive architectures, Dialog Engineering, Human-AI partnership, Agent frameworks |
+| **Academic Research** | Psychometric validation, Qualitative analysis, NLP, Scholarly publishing automation |
+| **Enterprise Analytics** | Microsoft Fabric, Power BI, Qualtrics integration, Financial modeling |
+| **Cloud & Automation** | Azure solutions, PowerShell workflows, GitHub Actions, CI/CD pipelines |
 
 ---
 
