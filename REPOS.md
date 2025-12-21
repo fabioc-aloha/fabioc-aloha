@@ -82,15 +82,15 @@
 ### **🏠 Original Repositories (48)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
-- **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
+- **Academic Tools**: PaperCopilot, AI-Qualitative-Analysis, AIRS_Data_Analysis
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
 ### **🍴 Forked Repositories (8)**
 These represent **learning, collaboration, and community contributions**:
-- **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
-- **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
-- **Educational Resources**: Learning from community tutorials (ai-agents-for-beginners)
+- **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, ASI-Arch, omi)
+- **Development Tools**: Contributing to open-source projects (mcpservers, BASIC-M6502-TS)
+- **Educational Resources**: Learning from community tutorials (generative_ai_project, Python)
 
 **Philosophy**: Forks demonstrate active engagement with the AI/ML community while original work showcases independent innovation and research contributions.
 

@@ -145,7 +145,7 @@ In October 2024, I published **Dialog Engineering**—an advanced methodology fo
 
 **Key principles**: Multi-step conversational refinement over one-shot prompting • Systematic feedback loops to address AI hallucinations • Human oversight with maximized AI capabilities • Complex task decomposition for academic and business applications.
 
-This methodology underpins my **48+ repository ecosystem**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
+This methodology underpins my **48 original repositories**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
 
 ---
 
