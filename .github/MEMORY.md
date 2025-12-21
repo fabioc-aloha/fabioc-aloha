@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2025‑12‑16
+**Last updated**: 2025‑12‑21
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -36,7 +36,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Cleaner codebase**: Reduced script by ~100 lines, improved maintainability
 - **Updated documentation**: Refreshed WORKFLOW-GUIDE.md and README.md to reflect new approach
 - **Added moleculator categorization**: Categorized previously uncategorized repository
-- **Portfolio refresh**: Successfully updated 59 repositories with new workflow
+- **Portfolio refresh**: Successfully updated repositories with new workflow
 
 ## 5) Previous iteration changes (2025‑08‑11 through 2025‑08‑14)
 - **GPT-4o Workflow Simplification**: Completed major simplification from multi-LLM system to streamlined GPT-4o only
@@ -49,7 +49,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 6) Essential repo contents
 - **`README.md`**: Primary profile content with banner, badges, stats, and template CTA
-- **`REPOS.md`**: Auto-generated portfolio documentation (59 repositories)
+- **`REPOS.md`**: Auto-generated portfolio documentation (56 repositories)
 - **`TEMPLATE-USER-GUIDE.md`**: Comprehensive guide for customizing and using this as a template
 - **`.github/MEMORY.md`**: This file - project memory and decision log
 - **`.github/TODO.md`**: Prioritized tasks and acceptance checks
@@ -87,7 +87,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 11) Quick status
 - **Visibility**: Public | **Template**: Enabled | **License**: MIT
-- **Portfolio**: 59 repositories (42 original, 17 forked)
+- **Portfolio**: 56 repositories (48 original, 8 forked)
 - **Automation**: Fully operational, data-driven, hands-free (robust auto-merge + old PR cleanup)
 
 ## 12) Subsequent changes (2025‑10‑16)
@@ -134,3 +134,21 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Schema changes**: Removed bold formatting from headers (`### **Activation Patterns**` → `### Activation Patterns`) and activation triggers
 - **Broken synapse repair**: Fixed 4 synapses referencing deprecated `alex/` folder structure
 - **Neural maintenance**: Validated architecture integrity via dream protocol
+
+## 15) README Polish & Flagship Restructuring (2025-12-21)
+
+- **Flagship projects overhaul**: Restructured from 5-track HTML table to tiered system
+  - **Primary flagships (5)**: fabioc-aloha, AIRS_Data_Analysis, Altman-Z-Score, spotify-skill, Catalyst-BABY
+  - **Secondary flagships (3)**: Investing, Catalyst-DBA, papercopilot
+- **Altman-Z-Score re-elevated**: Restored as primary flagship (theory-to-tool translation, financial rigor)
+- **Audience priming**: Added "*My work spans research instrumentation, applied analytics, and production-grade integrations*"
+- **README streamlining**: Reduced from 307 to 191 lines (~38% reduction)
+  - Removed Activity & Contributions section
+  - Removed Use This Template section (redundant)
+  - Simplified About Me (5 bullets → 1 paragraph)
+  - Condensed Dialog Engineering (4 subsections → 2 blocks)
+  - Consolidated Tech Stack (4 lists → 3 lines)
+  - Streamlined Publications & Speaking (3 subsections → 3 lines)
+- **Fact-checking**: Fixed repository count references (48 original, not 40+)
+- **Lint fixes**: Added alt text to badges, fixed table alignment syntax, spacing around ToC
+- **Portfolio count verified**: 56 repos (48 original + 8 forks, 32 public + 24 private)

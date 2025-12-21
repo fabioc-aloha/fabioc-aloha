@@ -2,7 +2,26 @@
 
 A prioritized checklist of recommended improvements and completed milestones for the repository.
 
-**Last updated**: 2025-12-16
+**Last updated**: 2025-12-21
+
+## ✅ Recently Completed (2025-12-21)
+
+### README Polish & Flagship Restructuring
+
+- [x] Restructured flagship section: 5 primary + 3 secondary flagships
+- [x] Re-elevated Altman-Z-Score as primary flagship
+- [x] Added audience priming sentence (research, analytics, integrations)
+- [x] Reduced README from 307 to 191 lines (~38%)
+- [x] Removed redundant sections (Activity, Template)
+- [x] Fixed lint issues (MD060 tables, MD045 alt text, MD022/MD032 spacing)
+- [x] Fact-checked all repo counts (56 total, 48 original, 8 forks)
+- [x] Updated MEMORY.md with current session work
+
+### Remaining Action Items
+
+- [ ] Create Catalyst family status table in Catalyst-BABY README (stable/experimental/archived)
+
+---
 
 ## ✅ Recently Completed (2025-12-16)
 
