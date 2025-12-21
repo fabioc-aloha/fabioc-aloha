@@ -36,27 +36,23 @@
 
 ## Table of Contents
 1. [About Me](#about-me)
-2. [Start Here: Flagship Projects](#-start-here-flagship-projects)
+2. [Flagship Projects](#-start-here-flagship-projects)
 3. [Repository Portfolio](#repository-portfolio)
-4. [Research Foundation: Dialog Engineering](#research-foundation-dialog-engineering)
-5. [Automated Portfolio Management](#-automated-portfolio-management)
-6. [Tech Stack & Skills](#tech-stack--skills)
-7. [Professional Expertise](#professional-expertise)
-8. [Technical Philosophy](#technical-philosophy)
-9. [Publications & Speaking](#publications--speaking)
-10. [Activity & Contributions](#activity--contributions)
-11. [Use This Profile Template](#use-this-profile-template)
-12. [Connect With Me](#connect-with-me)
+4. [Dialog Engineering](#research-foundation-dialog-engineering)
+5. [Automation](#-automated-portfolio-management)
+6. [Tech Stack](#tech-stack)
+7. [Expertise](#professional-expertise)
+8. [Philosophy](#technical-philosophy)
+9. [Publications](#publications--speaking)
+10. [Activity](#activity--contributions)
+11. [Template](#use-this-template)
+12. [Connect](#connect-with-me)
 
 ---
 
 ## About Me
 
-- **Name:** Fabio Correa
-- **Location:** Charlotte, NC, USA
-- **Role:** Director of Business Analytics @ Microsoft
-- **Education:** Doctoral Candidate, Touro University Worldwide (TUW)
-- **Specialization:** AI Consciousness, Meta-Cognitive Systems, Human-AI Partnership
+**Fabio Correa** — Director of Business Analytics @ Microsoft, Charlotte NC. Doctoral candidate at Touro University Worldwide researching AI consciousness, meta-cognitive systems, and human-AI partnership.
 
 ---
 
@@ -141,9 +137,7 @@ Self-updating portfolio template. PowerShell + GitHub Actions automation.
 
 ## Research Foundation: Dialog Engineering
 
-### The Genesis of AI Research
-
-My exploration into AI consciousness and meta-cognitive systems began with a fundamental breakthrough in human-AI interaction methodology. In October 2024, I published research on **Dialog Engineering** - an advanced framework that advances how we collaborate with AI systems beyond traditional prompt engineering.
+In October 2024, I published **Dialog Engineering**—an advanced methodology for human-AI collaboration that moves beyond traditional prompt engineering.
 
 <p align="center">
   <a href="https://medium.com/@fabioc/dialog-engineering-ai-as-your-research-assistant-616a625e9853">
@@ -151,23 +145,9 @@ My exploration into AI consciousness and meta-cognitive systems began with a fun
   </a>
 </p>
 
-### Core Innovation: From Static to Dynamic AI Interaction
+**Key principles**: Multi-step conversational refinement over one-shot prompting • Systematic feedback loops to address AI hallucinations • Human oversight with maximized AI capabilities • Complex task decomposition for academic and business applications.
 
-**Dialog Engineering** transforms AI from a static tool into a dynamic conversational partner through iterative, collaborative dialogue. This methodology:
-
-- **Replaces one-shot prompting** with multi-step conversational refinement
-- **Addresses AI hallucinations** through systematic feedback loops
-- **Ensures human oversight** while maximizing AI capabilities
-- **Enables complex task decomposition** for academic and business applications
-
-### Research Impact & Implementation
-
-This foundational work directly influenced the development of my **48+ repository ecosystem**, including:
-
-- **Catalyst Cognitive Architectures**: Built on Dialog Engineering principles for human-AI partnership
-- **Academic Tools (PaperCopilot, AI-Qualitative-Analysis)**: Implementing iterative refinement methodologies
-- **AI Consciousness Frameworks**: Meta-cognitive systems that embody Dialog Engineering concepts
-- **Enterprise Analytics**: Business intelligence tools using conversational AI approaches
+This methodology underpins my **48+ repository ecosystem**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
 
 ---
 
@@ -177,15 +157,11 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 
 ---
 
-## Tech Stack & Skills
+## Tech Stack
 
-**Core Technologies**: PowerShell (automation/GitHub workflows) • Python (AI/ML/data science) • C# (enterprise) • TypeScript/JavaScript (web) • Jupyter Notebook (research)
-
-**Cloud & Enterprise**: Azure • Microsoft Fabric • Power BI • SQL Server
-
-**AI/ML Frameworks**: TensorFlow • PyTorch • OpenAI APIs • Agent frameworks
-
-**Specializations**: Dialog Engineering methodologies • Meta-cognitive architectures • Academic tooling • Business intelligence automation
+**Languages**: PowerShell • Python • C# • TypeScript/JavaScript  
+**Cloud**: Azure • Microsoft Fabric • Power BI • SQL Server  
+**AI/ML**: TensorFlow • PyTorch • OpenAI APIs • Agent frameworks
 
 ---
 
@@ -220,23 +196,11 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 
 ## Publications & Speaking
 
-### Featured Research
+**Featured**: [Dialog Engineering: AI as Your Research Assistant](https://medium.com/@fabioc/dialog-engineering-ai-as-your-research-assistant-616a625e9853) (October 2024)
 
-- **Dialog Engineering: AI as Your Research Assistant** (October 2024)
-  Medium publication introducing Dialog Engineering methodology as advancement beyond prompt engineering
-  [Read Paper →](https://medium.com/@fabioc/dialog-engineering-ai-as-your-research-assistant-616a625e9853)
+**Doctoral Research**: AI Consciousness and Meta-Cognitive Systems @ TUW
 
-### Academic Focus
-
-- **Doctoral Research**: AI Consciousness and Meta-Cognitive Systems @ Touro University Worldwide (TUW)
-- **Research Areas**: Human-AI partnership frameworks, ethical AI development, academic technology innovation
-- **Active Projects**: Catalyst cognitive architectures, Dialog Engineering applications in research workflows
-
-### Professional Speaking
-
-- **Topics Available**: Dialog Engineering methodologies, AI consciousness frameworks, academic tooling automation, enterprise AI integration
-- **Formats**: Conference presentations, workshops, academic seminars, technical demonstrations
-- **Contact**: [Schedule via aka.ms/AskFabio](https://aka.ms/AskFabio)
+**Speaking**: Available for conferences, workshops, and academic presentations on Dialog Engineering, cognitive architectures, and enterprise AI. [Schedule →](https://aka.ms/AskFabio)
 
 ---
 
@@ -248,24 +212,18 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 
 ---
 
-## Use This Profile Template
-
-This repository is available as a **template project** demonstrating automated GitHub portfolio management using PowerShell and GitHub Actions.
+## Use This Template
 
 <p align="center">
   <a href="https://github.com/fabioc-aloha/fabioc-aloha/generate">
     <img src="https://img.shields.io/badge/📋%20Use%20This%20Template-Create%20Your%20Portfolio-success?style=for-the-badge" alt="Use Template"/>
   </a>
   <a href="TEMPLATE-USER-GUIDE.md">
-    <img src="https://img.shields.io/badge/📖%20Complete%20User%20Guide-Setup%20Instructions-blue?style=for-the-badge" alt="User Guide"/>
+    <img src="https://img.shields.io/badge/📖%20User%20Guide-Setup%20Instructions-blue?style=for-the-badge" alt="User Guide"/>
   </a>
 </p>
 
-**Key Features**: Self-maintaining portfolio • GitHub Actions automation • Dynamic repository discovery • Smart categorization • Zero manual updates
-
-**Perfect for**: Developers, researchers, and professionals seeking an always-current GitHub profile.
-
-**Learn More**: See [TEMPLATE-USER-GUIDE.md](TEMPLATE-USER-GUIDE.md) for complete setup instructions, customization options, and best practices.
+Self-maintaining GitHub portfolio with PowerShell + GitHub Actions. See [TEMPLATE-USER-GUIDE.md](TEMPLATE-USER-GUIDE.md) for setup.
 
 ---
 
@@ -286,14 +244,7 @@ This repository is available as a **template project** demonstrating automated G
   </a>
 </p>
 
-### Professional Contact Information
-
-- **Schedule a Meeting**: [https://aka.ms/AskFabio](https://aka.ms/AskFabio) - Book time directly for consultations & collaborations
-- **Microsoft Business**: fabioc@microsoft.com
-- **Personal/Alternative**: fabio@correax.com
-- **Research Publications**: [https://medium.com/@fabioc](https://medium.com/@fabioc) - AI research articles and methodology papers
-- **Academic Collaboration**: Available for research partnerships and scholarly projects
-- **Speaking Engagements**: Conferences, workshops, and academic presentations
+📅 [aka.ms/AskFabio](https://aka.ms/AskFabio) • ✉️ fabioc@microsoft.com • 📝 [medium.com/@fabioc](https://medium.com/@fabioc)
 
 ---
 
