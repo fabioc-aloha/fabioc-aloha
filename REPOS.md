@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: December 20, 2025 at 06:11 AM UTC
+> **Last Updated**: December 21, 2025 at 06:11 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 60 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 56 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (48 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (24)** | **🌐 Public (36)**
+> **🏠 Original Work (48 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (24)** | **🌐 Public (32)**
 
 ---
 
@@ -40,7 +40,7 @@
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Dec 18, 2025 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 19, 2025 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | Hands-free, daily self-updating AI & academic tooling portfolio (PowerShell + GitHub Actions). | Dec 20, 2025 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -67,15 +67,11 @@
 | Repository | Visibility | Language | Description | Last Updated |
 |------------|------------|----------|-------------|--------------|
 | [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🌟 Public | - | Agent Zero AI framework | Dec 16, 2025 |
-| [**ai-agents-for-beginners**](https://github.com/fabioc-aloha/ai-agents-for-beginners) | 🌟 Public | - | 12 Lessons to Get Started Building AI Agents | Dec 16, 2025 |
 | [**ASI-Arch**](https://github.com/fabioc-aloha/ASI-Arch) | 🌟 Public | - | AlphaGo Moment for Model Architecture Discovery. | Aug 01, 2025 |
-| [**BASIC-M6502**](https://github.com/fabioc-aloha/BASIC-M6502) | 🌟 Public | - | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Sep 04, 2025 |
-| [**data-formulator**](https://github.com/fabioc-aloha/data-formulator) | 🌟 Public | - | Create rich visualizations with AI | Dec 16, 2025 |
+| [**BASIC-M6502-TS**](https://github.com/fabioc-aloha/BASIC-M6502-TS) | 🌟 Public | TypeScript | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Dec 20, 2025 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
-| [**generative-ai-for-beginners**](https://github.com/fabioc-aloha/generative-ai-for-beginners) | 🌟 Public | - | 21 Lessons, Get Started Building with Generative AI | Dec 18, 2025 |
 | [**mcpservers**](https://github.com/fabioc-aloha/mcpservers) | 🌟 Public | - | Model Context Protocol Servers | Dec 16, 2025 |
 | [**omi**](https://github.com/fabioc-aloha/omi) | 🌟 Public | - | AI wearables. Put it on, speak, transcribe, automatically | Dec 16, 2025 |
-| [**openai-build-hours**](https://github.com/fabioc-aloha/openai-build-hours) | 🌟 Public | - | Build hours code to share. | Dec 16, 2025 |
 | [**Profile-Pic**](https://github.com/fabioc-aloha/Profile-Pic) | 🌟 Public | - | Playing around with blackhole distortion | May 23, 2025 |
 | [**Python**](https://github.com/fabioc-aloha/Python) | 🌟 Public | - | All Algorithms implemented in Python | Sep 24, 2025 |
 
@@ -90,7 +86,7 @@ These represent my **independent research, development, and innovation work**:
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
-### **🍴 Forked Repositories (12)**
+### **🍴 Forked Repositories (8)**
 These represent **learning, collaboration, and community contributions**:
 - **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
 - **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
@@ -101,20 +97,20 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (60 Repos)
+pie title Programming Languages (56 Repos)
     "PowerShell" : 18
     "Python" : 10
     "Jupyter Notebook" : 6
     "C#" : 4
-    "HTML" : 2
+    "TypeScript" : 3
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (30%)**: Primary language for 18 repositories
-- **Python (16.7%)**: Primary language for 10 repositories
-- **Jupyter Notebook (10%)**: Primary language for 6 repositories
-- **C# (6.7%)**: Primary language for 4 repositories
-- **HTML (3.3%)**: Primary language for 2 repositories
+- **PowerShell (32.1%)**: Primary language for 18 repositories
+- **Python (17.9%)**: Primary language for 10 repositories
+- **Jupyter Notebook (10.7%)**: Primary language for 6 repositories
+- **C# (7.1%)**: Primary language for 4 repositories
+- **TypeScript (5.4%)**: Primary language for 3 repositories
 
 ---
 
