@@ -219,8 +219,6 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
   </a>
 </p>
 
-📅 [aka.ms/AskFabio](https://aka.ms/AskFabio) • ✉️ fabioc@microsoft.com • 📝 [medium.com/@fabioc](https://medium.com/@fabioc)
-
 ---
 
 <p align="center">
