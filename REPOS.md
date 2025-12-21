@@ -64,16 +64,18 @@
 
 ### 🔀 Forks and Collaboration
 
-| Repository | Visibility | Language | Description | Last Updated |
-|------------|------------|----------|-------------|--------------|
-| [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🌟 Public | - | Agent Zero AI framework | Dec 16, 2025 |
-| [**ASI-Arch**](https://github.com/fabioc-aloha/ASI-Arch) | 🌟 Public | - | AlphaGo Moment for Model Architecture Discovery. | Aug 01, 2025 |
-| [**BASIC-M6502-TS**](https://github.com/fabioc-aloha/BASIC-M6502-TS) | 🌟 Public | TypeScript | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Dec 20, 2025 |
-| [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
-| [**mcpservers**](https://github.com/fabioc-aloha/mcpservers) | 🌟 Public | - | Model Context Protocol Servers | Dec 16, 2025 |
-| [**omi**](https://github.com/fabioc-aloha/omi) | 🌟 Public | - | AI wearables. Put it on, speak, transcribe, automatically | Dec 16, 2025 |
-| [**Profile-Pic**](https://github.com/fabioc-aloha/Profile-Pic) | 🌟 Public | - | Playing around with blackhole distortion | May 23, 2025 |
-| [**Python**](https://github.com/fabioc-aloha/Python) | 🌟 Public | - | All Algorithms implemented in Python | Sep 24, 2025 |
+> **Why keep forks public?** Each fork serves a specific purpose: learning cutting-edge patterns, referencing implementations, or contributing back to the community. They demonstrate active engagement with the AI/ML ecosystem.
+
+| Repository | Visibility | Language | Purpose | Last Updated |
+|------------|------------|----------|---------|--------------|
+| [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🌟 Public | - | 📚 Learning: Agent framework patterns for Catalyst development | Dec 16, 2025 |
+| [**ASI-Arch**](https://github.com/fabioc-aloha/ASI-Arch) | 🌟 Public | - | 📚 Reference: Model architecture discovery research | Aug 01, 2025 |
+| [**BASIC-M6502-TS**](https://github.com/fabioc-aloha/BASIC-M6502-TS) | 🌟 Public | TypeScript | 🎮 Nostalgia: Retro computing preservation | Dec 20, 2025 |
+| [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🌟 Public | Python | 📐 Template: Structured GenAI project patterns | Jun 01, 2025 |
+| [**mcpservers**](https://github.com/fabioc-aloha/mcpservers) | 🌟 Public | - | 🔧 Reference: MCP integration for spotify-skill | Dec 16, 2025 |
+| [**omi**](https://github.com/fabioc-aloha/omi) | 🌟 Public | - | 📚 Learning: AI wearables and transcription tech | Dec 16, 2025 |
+| [**Profile-Pic**](https://github.com/fabioc-aloha/Profile-Pic) | 🌟 Public | - | 🎨 Creative: Visual effects experimentation | May 23, 2025 |
+| [**Python**](https://github.com/fabioc-aloha/Python) | 🌟 Public | - | 📚 Reference: Algorithm implementations | Sep 24, 2025 |
 
 ---
 

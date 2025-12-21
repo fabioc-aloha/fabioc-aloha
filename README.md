@@ -102,6 +102,8 @@ Advanced AI architecture with meta-cognitive awareness, bootstrap learning, and 
 
 > **Portfolio Overview**: 56 repositories total — 48 original works + 8 community forks. 32 public, 24 private. See [REPOS.md](REPOS.md) for the complete catalog.
 
+> **🔗 Related Ecosystems**: [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) uses validated psychometrics → [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) applies findings → [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) processes interview data. [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) builds on patterns from [mcpservers](https://github.com/fabioc-aloha/mcpservers) fork.
+
 ---
 
 ## Research Foundation: Dialog Engineering
