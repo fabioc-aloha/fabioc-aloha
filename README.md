@@ -56,20 +56,22 @@
 
 ## 🚀 Start Here: Flagship Projects
 
+*My work spans research instrumentation, applied analytics, and production-grade integrations.*
+
 ### Primary Flagships
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-| **📋 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **🧒 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** |
-| Self-updating GitHub portfolio with PowerShell + GitHub Actions automation. Daily refresh, zero manual maintenance. | AI Readiness Scale: 12-item validated psychometric instrument. 7-phase validation (N=362), UTAUT2 extension achieving R²=.819. | Production Spotify API integration for Claude Desktop. OAuth 2.0, cover art generation, comprehensive toolkit with docs. | Advanced cognitive architecture with meta-cognitive awareness, bootstrap learning, 945+ synaptic connections, and ethical reasoning. |
-| `powershell` `github-actions` | `jupyter` `psychometrics` `sem` | `python` `oauth` `claude` | `powershell` `meta-cognitive` |
+| | | | | |
+|:---:|:---:|:---:|:---:|:---:|
+| **🏫 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **💹 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **🧠 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** |
+| Self-updating portfolio. PowerShell + GitHub Actions, daily refresh. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | Altman Z-Score bankruptcy prediction. Theory-to-tool translation with financial rigor. | Production Spotify API for Claude Desktop. OAuth 2.0, cover art, full docs. | Cognitive architecture: meta-cognitive awareness, 945+ synapses, ethical reasoning. |
+| `powershell` `automation` | `jupyter` `psychometrics` | `html` `finance` | `python` `claude` | `powershell` `cognitive` |
 
 ### Secondary Flagships
 
 | | | |
 |:---:|:---:|:---:|
 | **💰 [Investing](https://github.com/fabioc-aloha/Investing)** | **📊 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA)** | **📝 [papercopilot](https://github.com/fabioc-aloha/papercopilot)** |
-| Investment analysis and portfolio management tools with financial modeling and market research capabilities. | DBA research cognitive architecture supporting doctoral work in AI consciousness and human-AI partnership. | AI-assisted research paper drafting tool for academic writing workflows. |
+| Investment analysis and portfolio management with financial modeling. | DBA research architecture supporting doctoral AI consciousness work. | AI-assisted research paper drafting for academic workflows. |
 | `powershell` `finance` | `python` `research` | `python` `academic` |
 
 > **Portfolio**: 56 repos (48 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
