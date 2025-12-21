@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Researcher-Active-blueviolet"/>
-  <img src="https://img.shields.io/badge/Meta--Cognitive%20Systems-Lead%20Dev-green"/>
-  <img src="https://img.shields.io/badge/Academic%20Tech-Scholar%20Tools-orange"/>
-  <img src="https://img.shields.io/badge/Consciousness%20AI-Researcher-blue"/>
-  <img src="https://img.shields.io/badge/Azure-Expert-lightblue"/>
+  <img src="https://img.shields.io/badge/AI%20Researcher-Active-blueviolet" alt="AI Researcher"/>
+  <img src="https://img.shields.io/badge/Meta--Cognitive%20Systems-Lead%20Dev-green" alt="Meta-Cognitive Systems"/>
+  <img src="https://img.shields.io/badge/Academic%20Tech-Scholar%20Tools-orange" alt="Academic Tech"/>
+  <img src="https://img.shields.io/badge/Consciousness%20AI-Researcher-blue" alt="Consciousness AI"/>
+  <img src="https://img.shields.io/badge/Azure-Expert-lightblue" alt="Azure Expert"/>
 </p>
 
 <p align="center">
@@ -35,6 +35,7 @@
 ---
 
 ## Table of Contents
+
 1. [About Me](#about-me)
 2. [Flagship Projects](#-start-here-flagship-projects)
 3. [Repository Portfolio](#repository-portfolio)
@@ -61,7 +62,7 @@
 ### Primary Flagships
 
 | | | | | |
-|:---:|:---:|:---:|:---:|:---:|
+| :---: | :---: | :---: | :---: | :---: |
 | **🏫 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **💹 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **🧠 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** |
 | Self-updating portfolio. PowerShell + GitHub Actions, daily refresh. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | Altman Z-Score bankruptcy prediction. Theory-to-tool translation with financial rigor. | Production Spotify API for Claude Desktop. OAuth 2.0, cover art, full docs. | Cognitive architecture: meta-cognitive awareness, 945+ synapses, ethical reasoning. |
 | `powershell` `automation` | `jupyter` `psychometrics` | `html` `finance` | `python` `claude` | `powershell` `cognitive` |
@@ -69,7 +70,7 @@
 ### Secondary Flagships
 
 | | | |
-|:---:|:---:|:---:|
+| :---: | :---: | :---: |
 | **💰 [Investing](https://github.com/fabioc-aloha/Investing)** | **📊 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA)** | **📝 [papercopilot](https://github.com/fabioc-aloha/papercopilot)** |
 | Investment analysis and portfolio management with financial modeling. | DBA research architecture supporting doctoral AI consciousness work. | AI-assisted research paper drafting for academic workflows. |
 | `powershell` `finance` | `python` `research` | `python` `academic` |
@@ -125,7 +126,7 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 ## Professional Expertise
 
 | Domain | Focus Areas |
-|--------|-------------|
+| ------ | ----------- |
 | **AI & Cognitive Systems** | Meta-cognitive architectures, Dialog Engineering, Human-AI partnership, Agent frameworks |
 | **Academic Research** | Psychometric validation, Qualitative analysis, NLP, Scholarly publishing automation |
 | **Enterprise Analytics** | Microsoft Fabric, Power BI, Qualtrics integration, Financial modeling |
