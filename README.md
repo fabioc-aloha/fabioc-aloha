@@ -173,60 +173,7 @@ This foundational work directly influenced the development of my **48+ repositor
 
 ## 🤖 Automated Portfolio Management
 
-### Self-Maintaining GitHub Profile
-
-This portfolio **automatically updates itself** using a sophisticated PowerShell workflow and **GitHub Actions** that maintains professional presentation without manual intervention:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🔄%20Auto%20Updates-Daily%20at%206%20AM%20UTC-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📊%20Dynamic%20Analysis-56%20Repositories-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🏷️%20Smart%20Categories-9%20Sections-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🤖%20GitHub%20Actions-Fully%20Automated-orange?style=for-the-badge"/>
-</p>
-
-### How It Works
-
-1. **🔍 Repository Discovery**: Dynamically fetches all repositories via GitHub API
-2. **📝 Live Metadata**: Pulls descriptions, languages, and update dates directly from GitHub
-3. **🏷️ Smart Categorization**: Organizes projects into logical categories (Cognitive Architecture, AI/ML, Academic Tools, etc.)
-4. **📊 Statistics Generation**: Tracks original vs. forked repositories, language distribution, and activity metrics
-5. **📄 Documentation Updates**: Regenerates [REPOS.md](REPOS.md) with current data and professional formatting
-6. **🔄 GitHub Actions**: Automatically creates PRs with updates daily at 6 AM UTC
-
-### Key Features
-
-- **✅ Zero Hardcoded Data**: All information pulled from GitHub API
-- **✅ Always Current**: Daily automated updates via GitHub Actions
-- **✅ Automatic Categorization**: Projects organized into 9 logical sections
-- **✅ Fork Detection**: Shows parent relationships and community contributions
-- **✅ Scalable Process**: Handles unlimited repositories automatically
-- **✅ Auto-Merge Enabled**: Changes automatically merged without manual review
-- **✅ Completely Hands-Free**: Zero manual intervention required
-- **✅ Manual Trigger**: Run updates on-demand from GitHub Actions tab
-
-### Local Workflow Command
-
-```powershell
-# Complete portfolio refresh (one command!)
-.\refresh-repos.ps1
-```
-
-### Automation Documentation
-
-<p align="center">
-  <a href="AUTOMATION-GUIDE.md">
-    <img src="https://img.shields.io/badge/📖%20Automation%20Guide-Setup%20%26%20Usage-blue?style=for-the-badge" alt="Automation Guide"/>
-  </a>
-  <a href="WORKFLOW-GUIDE.md">
-    <img src="https://img.shields.io/badge/📋%20Workflow%20Guide-Local%20Commands-green?style=for-the-badge" alt="Workflow Guide"/>
-  </a>
-</p>
-
-**Result**: Professional GitHub profile that maintains itself with accurate, up-to-date information directly from your repositories—completely hands-free!
-
-> **For Developers**: This automation framework is available as part of the [portfolio template](TEMPLATE-USER-GUIDE.md) - create your own self-maintaining GitHub profile with GitHub Actions!
-
-> **Governance & Community**: Please review the [Security Policy](SECURITY.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before opening issues or contributing.
+This portfolio **automatically updates itself** via GitHub Actions—daily at 6 AM UTC. See [AUTOMATION-GUIDE.md](AUTOMATION-GUIDE.md) for details.
 
 ---
 
