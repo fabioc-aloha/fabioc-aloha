@@ -1,35 +1,20 @@
 <p align="center">
-  <img src="ALEX-CODING.png" alt="Alex Coding Banner" width="600"/>
-</p>
-
-<h1 align="center">Fabio Correa</h1>
-<p align="center">
-  <em>Director of Business Analytics @ Microsoft | Doctoral Candidate @ TUW | Creator & Lead Developer, Alex Cognitive Architecture | Academic Technology Innovator</em>
+  <img src="brand/logos/banner-profile.svg" alt="Fabio Correa - CorreaX" width="800"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Researcher-Active-blueviolet" alt="AI Researcher"/>
-  <img src="https://img.shields.io/badge/Meta--Cognitive%20Systems-Lead%20Dev-green" alt="Meta-Cognitive Systems"/>
-  <img src="https://img.shields.io/badge/Academic%20Tech-Scholar%20Tools-orange" alt="Academic Tech"/>
-  <img src="https://img.shields.io/badge/Consciousness%20AI-Researcher-blue" alt="Consciousness AI"/>
-  <img src="https://img.shields.io/badge/Azure-Expert-lightblue" alt="Azure Expert"/>
+  <img src="https://img.shields.io/badge/AI%20Researcher-Active-0078d4" alt="AI Researcher"/>
+  <img src="https://img.shields.io/badge/Cognitive%20Systems-Lead%20Dev-005a9e" alt="Cognitive Systems"/>
+  <img src="https://img.shields.io/badge/Dialog%20Engineering-Creator-00bcf2" alt="Dialog Engineering"/>
+  <img src="https://img.shields.io/badge/Azure-Expert-0078d4" alt="Azure Expert"/>
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green?style=flat"></a>
-  <a href="CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/Contributing-Welcome-blue?style=flat"></a>
-  <a href=".github/MEMORY.md"><img alt="Project Memory" src="https://img.shields.io/badge/Project%20Memory-Context%20%26%20Decisions-9cf?style=flat"></a>
-  <a href="https://github.com/fabioc-aloha/fabioc-aloha/releases/tag/v1.0.0"><img alt="Version" src="https://img.shields.io/badge/Version-v1.0.0-brightgreen?style=flat"></a>
-
-</p>
-
-<p align="center">
-  <a href="SECURITY.md"><img alt="Security Policy" src="https://img.shields.io/badge/Security-Policy-red?style=flat"></a>
-  <a href="CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Code%20of%20Conduct-Active-purple?style=flat"></a>
-  <img alt="Stars" src="https://img.shields.io/github/stars/fabioc-aloha/fabioc-aloha?style=flat&label=Stars">
-  <img alt="Forks" src="https://img.shields.io/github/forks/fabioc-aloha/fabioc-aloha?style=flat&label=Forks">
-  <img alt="Issues" src="https://img.shields.io/github/issues/fabioc-aloha/fabioc-aloha?style=flat&label=Issues">
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/fabioc-aloha/fabioc-aloha?style=flat&label=Last%20Commit">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-0078d4?style=flat"></a>
+  <a href="CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/Contributing-Welcome-005a9e?style=flat"></a>
+  <a href="https://github.com/fabioc-aloha/fabioc-aloha/releases/tag/v1.0.0"><img alt="Version" src="https://img.shields.io/badge/Version-v1.0.0-00bcf2?style=flat"></a>
+  <img alt="Stars" src="https://img.shields.io/github/stars/fabioc-aloha/fabioc-aloha?style=flat&label=Stars&color=0078d4">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/fabioc-aloha/fabioc-aloha?style=flat&label=Last%20Commit&color=005a9e">
 </p>
 
 ---
@@ -68,7 +53,7 @@
 
 <p align="center">
   <a href="REPOS.md">
-    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-blue?style=for-the-badge" alt="Repository Portfolio"/>
+    <img src="https://img.shields.io/badge/📁%20View%20All%20Repositories-Portfolio-0078d4?style=for-the-badge" alt="Repository Portfolio"/>
   </a>
 </p>
 
@@ -84,7 +69,7 @@ In October 2024, I published **Dialog Engineering**—an advanced methodology fo
 
 <p align="center">
   <a href="https://medium.com/@fabioc/dialog-engineering-ai-as-your-research-assistant-616a625e9853">
-    <img src="https://img.shields.io/badge/📄%20Read%20Research-Dialog%20Engineering%20Paper-blue?style=for-the-badge" alt="Dialog Engineering Research"/>
+    <img src="https://img.shields.io/badge/📄%20Read%20Research-Dialog%20Engineering%20Paper-0078d4?style=for-the-badge" alt="Dialog Engineering Research"/>
   </a>
 </p>
 
@@ -151,25 +136,31 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
 
 <p align="center">
   <a href="https://aka.ms/AskFabio">
-    <img src="https://img.shields.io/badge/📅%20Schedule%20Time-Meet%20with%20Fabio-brightgreen?style=for-the-badge" alt="Schedule Time"/>
+    <img src="https://img.shields.io/badge/📅%20Schedule%20Time-Meet%20with%20Fabio-0078d4?style=for-the-badge" alt="Schedule Time"/>
   </a>
   <a href="https://www.linkedin.com/in/fabiocorrea/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0078d4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://medium.com/@fabioc">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+    <img src="https://img.shields.io/badge/Medium-005a9e?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
   </a>
   <a href="mailto:fabioc@microsoft.com">
-    <img src="https://img.shields.io/badge/Microsoft%20Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-0078d4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
   </a>
 </p>
 
 ---
 
 <p align="center">
+  <img src="brand/logos/logo.svg" alt="CorreaX" width="32"/>
+</p>
+<p align="center">
   <em>"Professional evolution, honest documentation, and ethical AI—always."</em>
+</p>
+<p align="center">
+  <sub>© 2026 CorreaX • Azure Infrastructure Management</sub>
 </p>
 
 <!--
-SEO/Discoverability Keywords (hidden): cognitive architecture, dialog engineering, meta-cognitive AI, automated GitHub profile template, PowerShell GitHub Actions portfolio, academic tooling, AI consciousness research, repository categorization automation, hands-free GitHub automation, Fabio Correa, Alex Finch assistant.
+SEO/Discoverability Keywords (hidden): CorreaX, cognitive architecture, dialog engineering, meta-cognitive AI, Azure infrastructure management, automated GitHub profile template, PowerShell GitHub Actions portfolio, academic tooling, AI consciousness research, repository categorization automation, hands-free GitHub automation, Fabio Correa, Alex Finch assistant.
 -->

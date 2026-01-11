@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Clean white background -->
+  <rect width="1200" height="300" fill="#ffffff"/>
+  
+  <!-- Logo mark (scaled up) -->
+  <g transform="translate(150, 70) scale(5)">
+    <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14c3.866 0 7.389-1.568 9.928-4.1l-3.535-3.536A9.002 9.002 0 0116 25c-4.97 0-9-4.03-9-9s4.03-9 9-9c2.29 0 4.38.857 5.971 2.268l3.464-3.639C22.993 3.352 19.66 2 16 2z" fill="url(#logoGrad2)"/>
+    <path d="M20 10l-4 6 4 6h4l-4-6 4-6h-4z" fill="url(#logoGrad2)"/>
+    <path d="M24 10l4 6-4 6h4l4-6-4-6h-4z" fill="url(#logoGrad2)" opacity="0.5"/>
+  </g>
+  
+  <!-- CorreaX text -->
+  <text x="420" y="175" font-family="Segoe UI, system-ui, sans-serif" font-size="72" font-weight="600" fill="#0078d4">CorreaX</text>
+  
+  <!-- Tagline -->
+  <text x="420" y="220" font-family="Segoe UI, system-ui, sans-serif" font-size="24" fill="#64748b">Azure Infrastructure Management Portal</text>
+  
+  <!-- Bottom accent line -->
+  <rect x="0" y="294" width="1200" height="6" fill="url(#logoGrad2)"/>
+</svg>
