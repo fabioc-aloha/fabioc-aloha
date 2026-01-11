@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2025‑12‑21
+**Last updated**: 2026‑01‑11
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -71,7 +71,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 ## 8) Collaborative workflow pattern
 - **Request pattern**: User says "update my repos" or similar
 - **Automated execution**: Assistant runs `refresh-repos.ps1`
-- **Documentation sync**: Script analyzes 59 repositories and updates REPOS.md
+- **Documentation sync**: Script analyzes 61 repositories and updates REPOS.md
 - **Minimal intervention**: Process maximizes automation
 - **Memory anchor**: Preferred method for ongoing repository maintenance
 
@@ -152,3 +152,21 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Fact-checking**: Fixed repository count references (48 original, not 40+)
 - **Lint fixes**: Added alt text to badges, fixed table alignment syntax, spacing around ToC
 - **Portfolio count verified**: 56 repos (48 original + 8 forks, 32 public + 24 private)
+
+## 16) CorreaX Brand Identity & Flagship Refresh (2026-01-11)
+
+- **Dual tagline strategy**: Adopted two taglines for different contexts
+  - Conceptual: "AI That Learns How to Learn" (brand identity, research, presentations)
+  - Builder: "Think. Build. Deploy." (READMEs, dev docs, products)
+- **Brand guidelines rewrite**: Complete overhaul of `brand/README.md` to industry standards
+  - Added voice & tone guidelines, WCAG accessibility, typography scale
+  - Documented logo usage rules, color palette with contrast ratios
+- **Banner updates**: Updated `banner-profile.svg` with "THINK • BUILD • DEPLOY" tagline
+- **Flagship restructuring**: New selection based on theme diversity and activity
+  - **Primary (5)**: fabioc-aloha, AIRS_Data_Analysis, Catalyst-BABY, CorreaX, KalabashDashboard
+  - **Secondary (3)**: spotify-skill, ChessCoach, maya
+- **Repository count sync**: Updated all files to 61 repos (53 original, 8 forks)
+- **GitHub metadata update**:
+  - Description: "AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy."
+  - Topics: Added correax, azure, typescript, python; removed academic-tools, self-updating-readme, repository-management
+- **Quality fixes**: Fixed corrupted 🌐 emoji, updated SEO keywords with new taglines
