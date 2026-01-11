@@ -49,7 +49,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 6) Essential repo contents
 - **`README.md`**: Primary profile content with banner, badges, stats, and template CTA
-- **`REPOS.md`**: Auto-generated portfolio documentation (56 repositories)
+- **`REPOS.md`**: Auto-generated portfolio documentation (61 repositories)
 - **`TEMPLATE-USER-GUIDE.md`**: Comprehensive guide for customizing and using this as a template
 - **`.github/MEMORY.md`**: This file - project memory and decision log
 - **`.github/TODO.md`**: Prioritized tasks and acceptance checks
@@ -87,7 +87,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 11) Quick status
 - **Visibility**: Public | **Template**: Enabled | **License**: MIT
-- **Portfolio**: 56 repositories (48 original, 8 forked)
+- **Portfolio**: 61 repositories (53 original, 8 forked)
 - **Automation**: Fully operational, data-driven, hands-free (robust auto-merge + old PR cleanup)
 
 ## 12) Subsequent changes (2025‑10‑16)

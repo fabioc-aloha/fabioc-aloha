@@ -33,19 +33,19 @@
 
 | | | | | |
 | :---: | :---: | :---: | :---: | :---: |
-| **🏫 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **💹 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **🧠 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** |
-| Self-updating portfolio. PowerShell + GitHub Actions, daily refresh. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | Altman Z-Score bankruptcy prediction. Theory-to-tool translation with financial rigor. | Production Spotify API for Claude Desktop. OAuth 2.0, cover art, full docs. | Cognitive architecture: meta-cognitive awareness, 945+ synapses, ethical reasoning. |
-| `powershell` `automation` | `jupyter` `psychometrics` | `html` `finance` | `python` `claude` | `powershell` `cognitive` |
+| **🏫 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **🧠 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** | **🌐 [CorreaX](https://github.com/fabioc-aloha/CorreaX)** | **📈 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard)** |
+| Self-updating portfolio. PowerShell + GitHub Actions, daily refresh. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | Cognitive architecture: meta-cognitive awareness, 945+ synapses, ethical reasoning. | Azure & M365 management portal. React 19, TypeScript 5.9, Vite 7, Tailwind 4. | Financial market tracking with 8-Factor Rating, 60+ ratios, Bollinger/RSI/MACD. Electron. |
+| `powershell` `automation` | `jupyter` `psychometrics` | `powershell` `cognitive` | `typescript` `azure` | `typescript` `electron` |
 
 ### Secondary Flagships
 
 | | | |
 | :---: | :---: | :---: |
-| **💰 [Investing](https://github.com/fabioc-aloha/Investing)** | **📊 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA)** | **📝 [papercopilot](https://github.com/fabioc-aloha/papercopilot)** |
-| Investment analysis and portfolio management with financial modeling. | DBA research architecture supporting doctoral AI consciousness work. | AI-assisted research paper drafting for academic workflows. |
-| `powershell` `finance` | `python` `research` | `python` `academic` |
+| **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **♟️ [ChessCoach](https://github.com/fabioc-aloha/ChessCoach)** | **🚀 [maya](https://github.com/fabioc-aloha/maya)** |
+| Production Spotify API for Claude Desktop. OAuth 2.0, cover art, full docs. | AI chess coaching with dual-engine analysis (Stockfish + Maia-2) and Azure OpenAI. | Maya Python scripting: starship generators, 3D text creators, automation scripts. |
+| `python` `claude` | `python` `chess` | `python` `maya` |
 
-> **Portfolio**: 56 repos (48 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
+> **Portfolio**: 61 repos (53 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
 
 ---
 
@@ -75,7 +75,7 @@ In October 2024, I published **Dialog Engineering**—an advanced methodology fo
 
 **Key principles**: Multi-step conversational refinement over one-shot prompting • Systematic feedback loops to address AI hallucinations • Human oversight with maximized AI capabilities • Complex task decomposition for academic and business applications.
 
-This methodology underpins my **48 original repositories**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
+This methodology underpins my **53 original repositories**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
 
 ---
 
@@ -155,12 +155,12 @@ This portfolio **automatically updates itself** via GitHub Actions—daily at 6 
   <img src="brand/logos/logo.svg" alt="CorreaX" width="32"/>
 </p>
 <p align="center">
-  <em>"Professional evolution, honest documentation, and ethical AI—always."</em>
+  <em>"Think. Build. Deploy."</em>
 </p>
 <p align="center">
-  <sub>© 2026 CorreaX • Azure Infrastructure Management</sub>
+  <sub>© 2026 CorreaX • AI That Learns How to Learn</sub>
 </p>
 
 <!--
-SEO/Discoverability Keywords (hidden): CorreaX, cognitive architecture, dialog engineering, meta-cognitive AI, Azure infrastructure management, automated GitHub profile template, PowerShell GitHub Actions portfolio, academic tooling, AI consciousness research, repository categorization automation, hands-free GitHub automation, Fabio Correa, Alex Finch assistant.
+SEO/Discoverability Keywords (hidden): CorreaX, cognitive architecture, dialog engineering, meta-cognitive AI, Think Build Deploy, AI That Learns How to Learn, automated GitHub profile template, PowerShell GitHub Actions portfolio, academic tooling, AI consciousness research, repository categorization automation, hands-free GitHub automation, Fabio Correa, Alex Finch assistant.
 -->

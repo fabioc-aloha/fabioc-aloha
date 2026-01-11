@@ -14,7 +14,7 @@ A prioritized checklist of recommended improvements and completed milestones for
 - [x] Reduced README from 307 to 191 lines (~38%)
 - [x] Removed redundant sections (Activity, Template)
 - [x] Fixed lint issues (MD060 tables, MD045 alt text, MD022/MD032 spacing)
-- [x] Fact-checked all repo counts (56 total, 48 original, 8 forks)
+- [x] Fact-checked all repo counts (61 total, 53 original, 8 forks)
 - [x] Updated MEMORY.md with current session work
 
 ### Remaining Action Items
@@ -95,8 +95,8 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 ### Data Accuracy & Fact-Checking
 - [x] Fact-checked all documentation files
-- [x] Updated repository counts from 54 to 59 across all files
-- [x] Fixed original/forked counts (42 original, 17 forked)
+- [x] Updated repository counts from 54 to 61 across all files
+- [x] Fixed original/forked counts (53 original, 8 forked)
 - [x] Updated README.md badge (54 → 59 repositories)
 - [x] Updated MEMORY.md (4 locations)
 - [x] Updated WORKFLOW-GUIDE.md
