@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- AIRS Icon Option 4: Radar/Assessment Scan -->
+  <!-- Represents scanning, evaluation, multi-dimensional assessment -->
+  <defs>
+    <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="100%" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="sweepGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00bcf2" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00bcf2" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a"/>
+  
+  <!-- Radar circles -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#0078d4" stroke-width="2" opacity="0.3"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#0078d4" stroke-width="2" opacity="0.4"/>
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#0078d4" stroke-width="2" opacity="0.5"/>
+  <circle cx="256" cy="256" r="50" fill="none" stroke="#0078d4" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Radar cross lines -->
+  <g stroke="#0078d4" stroke-width="1" opacity="0.3">
+    <line x1="56" y1="256" x2="456" y2="256"/>
+    <line x1="256" y1="56" x2="256" y2="456"/>
+    <line x1="114" y1="114" x2="398" y2="398"/>
+    <line x1="398" y1="114" x2="114" y2="398"/>
+  </g>
+  
+  <!-- Radar sweep (pie slice) -->
+  <path d="M256 256 L256 56 A200 200 0 0 1 426 156 Z" fill="url(#sweepGradient)"/>
+  
+  <!-- Assessment data points (pentagon shape - 5 dimensions) -->
+  <path d="M256 106 
+           L386 176 
+           L346 336 
+           L166 336 
+           L126 176 Z" 
+        fill="url(#radarGradient)" fill-opacity="0.3" 
+        stroke="url(#radarGradient)" stroke-width="4"/>
+  
+  <!-- Data point indicators -->
+  <g fill="#00bcf2">
+    <circle cx="256" cy="106" r="12"/>
+    <circle cx="386" cy="176" r="10"/>
+    <circle cx="346" cy="336" r="8"/>
+    <circle cx="166" cy="336" r="10"/>
+    <circle cx="126" cy="176" r="8"/>
+  </g>
+  
+  <!-- Center hub -->
+  <circle cx="256" cy="256" r="24" fill="#005a9e"/>
+  <circle cx="256" cy="256" r="16" fill="#0078d4"/>
+  <circle cx="256" cy="256" r="8" fill="#00bcf2"/>
+  
+  <!-- Sweep line -->
+  <line x1="256" y1="256" x2="426" y2="156" stroke="#00bcf2" stroke-width="3"/>
+  
+  <!-- AIRS label -->
+  <text x="256" y="420" text-anchor="middle" fill="#00bcf2" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" letter-spacing="8">AIRS</text>
+</svg>

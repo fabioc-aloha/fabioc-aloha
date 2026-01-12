@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- AIRS Icon Option 3: Shield with Checkmark -->
+  <!-- Represents readiness, preparedness, assessment validation -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+    <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#00bcf2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a"/>
+  
+  <!-- Shield shape -->
+  <path d="M256 56 
+           L416 120 
+           L416 240 
+           C416 340 340 420 256 456
+           C172 420 96 340 96 240
+           L96 120 
+           Z" 
+        fill="url(#shieldGradient)"/>
+  
+  <!-- Shield inner highlight -->
+  <path d="M256 80 
+           L392 136 
+           L392 240 
+           C392 324 328 396 256 428
+           C184 396 120 324 120 240
+           L120 136 
+           Z" 
+        fill="none" stroke="#f8fafc" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Circuit/AI pattern on shield -->
+  <g stroke="#005a9e" stroke-width="2" opacity="0.4">
+    <line x1="180" y1="180" x2="256" y2="180"/>
+    <line x1="256" y1="180" x2="332" y2="180"/>
+    <line x1="256" y1="180" x2="256" y2="140"/>
+    <circle cx="180" cy="180" r="6" fill="#005a9e"/>
+    <circle cx="332" cy="180" r="6" fill="#005a9e"/>
+    <circle cx="256" cy="140" r="6" fill="#005a9e"/>
+  </g>
+  
+  <!-- Large checkmark -->
+  <path d="M180 260 L230 320 L340 190" 
+        fill="none" stroke="url(#checkGradient)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Checkmark glow -->
+  <path d="M180 260 L230 320 L340 190" 
+        fill="none" stroke="#f8fafc" stroke-width="48" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"/>
+  
+  <!-- Small "AI" badge at top -->
+  <circle cx="256" cy="100" r="28" fill="#005a9e"/>
+  <text x="256" y="108" text-anchor="middle" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">AI</text>
+</svg>

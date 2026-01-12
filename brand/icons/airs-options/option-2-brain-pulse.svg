@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- AIRS Icon Option 2: Brain with Pulse -->
+  <!-- Represents AI readiness, neural assessment -->
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="100%" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="pulseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#005a9e"/>
+      <stop offset="50%" stop-color="#00bcf2"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a"/>
+  
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#0078d4" stroke-width="8" opacity="0.2"/>
+  
+  <!-- Stylized brain shape - left hemisphere -->
+  <path d="M180 160 
+           C140 160 110 200 110 250
+           C110 300 140 340 180 350
+           C200 355 220 350 240 340
+           C235 320 230 290 235 260
+           C230 230 235 200 240 180
+           C220 165 200 160 180 160Z" 
+        fill="url(#brainGradient)" opacity="0.9"/>
+  
+  <!-- Stylized brain shape - right hemisphere -->
+  <path d="M332 160 
+           C372 160 402 200 402 250
+           C402 300 372 340 332 350
+           C312 355 292 350 272 340
+           C277 320 282 290 277 260
+           C282 230 277 200 272 180
+           C292 165 312 160 332 160Z" 
+        fill="url(#brainGradient)" opacity="0.9"/>
+  
+  <!-- Brain center connection -->
+  <ellipse cx="256" cy="260" rx="30" ry="80" fill="#0078d4" opacity="0.7"/>
+  
+  <!-- Neural connection dots -->
+  <g fill="#00bcf2">
+    <circle cx="160" cy="220" r="8"/>
+    <circle cx="150" cy="280" r="6"/>
+    <circle cx="180" cy="310" r="7"/>
+    <circle cx="352" cy="220" r="8"/>
+    <circle cx="362" cy="280" r="6"/>
+    <circle cx="332" cy="310" r="7"/>
+    <circle cx="256" cy="200" r="10"/>
+  </g>
+  
+  <!-- Pulse/heartbeat line through the brain -->
+  <path d="M60 380 L160 380 L190 340 L220 420 L256 300 L290 420 L320 340 L350 380 L452 380" 
+        fill="none" stroke="url(#pulseGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Pulse glow -->
+  <path d="M60 380 L160 380 L190 340 L220 420 L256 300 L290 420 L320 340 L350 380 L452 380" 
+        fill="none" stroke="#00bcf2" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.2"/>
+</svg>

@@ -4,6 +4,17 @@ Official logo and banner assets for CorreaX projects.
 
 ---
 
+## ✅ Quick Rules
+
+| Rule | Spec |
+| ------ | ------ |
+| Background | White `#FFFFFF` + transparency |
+| Compatibility | Must work on white layouts |
+| Resolution | High-res exports, no pixelation |
+| Options | Create 4-6 variations for approval |
+
+---
+
 ## Logo
 
 <p align="center">
@@ -17,6 +28,7 @@ Official logo and banner assets for CorreaX projects.
 | **C Arc** | Partial circle representing Correa and Cloud |
 | **X Chevrons** | Angular marks symbolizing transformation |
 | **Gradient** | Azure Blue `#0078d4` → `#005a9e` |
+| **Background** | White/transparent — works on white layouts |
 
 ### Files
 

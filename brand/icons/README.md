@@ -4,6 +4,18 @@ PWA and application icons for CorreaX projects.
 
 ---
 
+## ✅ Quick Rules
+
+| Rule | Spec |
+| ------ | ------ |
+| Background | White `#FFFFFF` + transparency |
+| Compatibility | Must work on white layouts |
+| Favicon | 64×64 recommended (32×32 min) |
+| Format | SVG source + PNG exports at 2×/3× |
+| Safe zone | 10% padding from edges |
+
+---
+
 ## Icon Inventory
 
 | Size | File | Platform | Use Case |
@@ -21,13 +33,23 @@ PWA and application icons for CorreaX projects.
 
 ## Design Specifications
 
-| Property | Value |
-| -------- | ----- |
-| Background | Azure Blue `#0078d4` |
-| Logo | White CorreaX mark |
-| Corner Radius | 12.5% of icon size |
-| Format | SVG (vector) |
-| Safe Zone | 10% padding from edges |
+| Property | Value | Notes |
+| -------- | ----- | ----- |
+| **Background** | White `#FFFFFF` | Required for white-background layouts |
+| **Transparency** | Supported | PNG with alpha channel or SVG |
+| Logo | Azure Blue CorreaX mark | Must contrast on white |
+| Corner Radius | 12.5% of icon size | |
+| Format | SVG (vector) + PNG exports | High-DPI PNG exports required |
+| Safe Zone | 10% padding from edges | |
+
+### Favicon Requirements (Critical)
+
+| Property | Requirement | Why |
+| -------- | ----------- | --- |
+| **Minimum Size** | 32×32 PNG, 64×64 recommended | Prevents pixelation on high-DPI screens |
+| **Format** | SVG + multi-size ICO | ICO contains 16, 32, 48px sizes |
+| **Sharpness** | Pixel-aligned at small sizes | Avoids blurry edges at 16px |
+| **Export** | PNG at 2× and 3× scale | Retina/high-DPI support |
 
 ---
 
@@ -43,21 +65,26 @@ PWA and application icons for CorreaX projects.
     { "src": "/brand/icons/icon-512x512.svg", "sizes": "512x512", "type": "image/svg+xml" }
   ],
   "theme_color": "#0078d4",
-  "background_color": "#020617"
+  "background_color": "#ffffff"
 }
 ```
 
 ### HTML Head
 
 ```html
-<!-- Favicon -->
+<!-- High-Resolution Favicon (recommended: 64x64 for crispness) -->
 <link rel="icon" type="image/svg+xml" href="/brand/logos/favicon.svg">
+<link rel="icon" type="image/png" sizes="64x64" href="/brand/icons/favicon-64x64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/icons/favicon-32x32.png">
 
-<!-- Apple Touch Icon -->
-<link rel="apple-touch-icon" href="/brand/icons/icon-192x192.svg">
+<!-- Apple Touch Icon (high-res) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/brand/icons/apple-touch-icon.png">
 
 <!-- Theme Color -->
 <meta name="theme-color" content="#0078d4">
+
+<!-- Background Color (use white for compatibility) -->
+<meta name="background-color" content="#ffffff">
 ```
 
 ---

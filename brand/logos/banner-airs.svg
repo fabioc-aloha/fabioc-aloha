@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    
+    <!-- Logo gradient with glow -->
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+    
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    
+    <!-- Accent text gradient -->
+    <linearGradient id="accentTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#00bcf2"/>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Strong glow for logo -->
+    <filter id="logoGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="16" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Radial glow behind logo -->
+    <radialGradient id="logoBackGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0078d4" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#0078d4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0078d4" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Animated shimmer -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="40%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="60%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    
+    <!-- Dot pattern -->
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="#0078d4" opacity="0.2"/>
+    </pattern>
+    
+    <!-- Gradient for accent line -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#005a9e"/>
+      <stop offset="25%" stop-color="#0078d4"/>
+      <stop offset="50%" stop-color="#00bcf2"/>
+      <stop offset="75%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  
+  <!-- Dot pattern overlay -->
+  <rect width="1200" height="300" fill="url(#dots)" opacity="0.5"/>
+  
+  <!-- Large decorative orbs -->
+  <circle cx="200" cy="150" r="200" fill="url(#logoBackGlow)"/>
+  <circle cx="1050" cy="80" r="150" fill="#0078d4" opacity="0.05"/>
+  <circle cx="1150" cy="280" r="180" fill="#00bcf2" opacity="0.03"/>
+  <circle cx="50" cy="250" r="100" fill="#005a9e" opacity="0.08"/>
+  
+  <!-- Floating particles -->
+  <circle cx="100" cy="50" r="2" fill="#00bcf2" opacity="0.6"/>
+  <circle cx="350" cy="30" r="1.5" fill="#0078d4" opacity="0.5"/>
+  <circle cx="500" cy="70" r="2" fill="#00bcf2" opacity="0.4"/>
+  <circle cx="750" cy="25" r="1" fill="#0078d4" opacity="0.6"/>
+  <circle cx="900" cy="60" r="2.5" fill="#00bcf2" opacity="0.3"/>
+  <circle cx="1100" cy="40" r="1.5" fill="#0078d4" opacity="0.5"/>
+  <circle cx="150" cy="270" r="2" fill="#00bcf2" opacity="0.4"/>
+  <circle cx="600" cy="260" r="1.5" fill="#0078d4" opacity="0.5"/>
+  <circle cx="850" cy="275" r="2" fill="#00bcf2" opacity="0.3"/>
+  <circle cx="1000" cy="250" r="1" fill="#0078d4" opacity="0.6"/>
+  
+  <!-- Connecting lines -->
+  <line x1="100" y1="50" x2="350" y2="30" stroke="#0078d4" stroke-width="0.5" opacity="0.2"/>
+  <line x1="350" y1="30" x2="500" y2="70" stroke="#0078d4" stroke-width="0.5" opacity="0.15"/>
+  <line x1="750" y1="25" x2="900" y2="60" stroke="#0078d4" stroke-width="0.5" opacity="0.2"/>
+  <line x1="600" y1="260" x2="850" y2="275" stroke="#0078d4" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Logo glow backdrop -->
+  <ellipse cx="200" cy="150" rx="150" ry="130" fill="url(#logoBackGlow)"/>
+  
+  <!-- Logo mark (scaled up) with glow -->
+  <g transform="translate(85, 38) scale(7)" filter="url(#logoGlow)">
+    <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14c3.866 0 7.389-1.568 9.928-4.1l-3.535-3.536A9.002 9.002 0 0116 25c-4.97 0-9-4.03-9-9s4.03-9 9-9c2.29 0 4.38.857 5.971 2.268l3.464-3.639C22.993 3.352 19.66 2 16 2z" fill="url(#logoGrad)"/>
+    <path d="M20 10l-4 6 4 6h4l-4-6 4-6h-4z" fill="url(#logoGrad)"/>
+    <path d="M24 10l4 6-4 6h4l4-6-4-6h-4z" fill="url(#logoGrad)" opacity="0.6"/>
+  </g>
+  
+  <!-- AIRS Enterprise text with glow -->
+  <text x="320" y="135" font-family="Segoe UI, system-ui, sans-serif" font-size="72" font-weight="700" fill="url(#nameGrad)" filter="url(#glow)">AIRS Enterprise</text>
+  
+  <!-- Subtitle -->
+  <text x="320" y="180" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#94a3b8" letter-spacing="1">AI Readiness Scale Assessment Platform</text>
+  
+  <!-- Keywords -->
+  <text x="320" y="220" font-family="Segoe UI, system-ui, sans-serif" font-size="18" fill="url(#accentTextGrad)" letter-spacing="1.5">AZURE • N=523 VALIDATED • 94.5% ACCURACY</text>
+  
+  <!-- Decorative lines around subtitle -->
+  <line x1="320" y1="240" x2="780" y2="240" stroke="#334155" stroke-width="1"/>
+  <line x1="320" y1="243" x2="600" y2="243" stroke="#0078d4" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Tech circuit decorations on right -->
+  <g opacity="0.3">
+    <path d="M950 100 h100 v50 h50" stroke="#0078d4" stroke-width="1.5" fill="none"/>
+    <circle cx="950" cy="100" r="3" fill="#0078d4"/>
+    <circle cx="1100" cy="150" r="4" fill="#00bcf2"/>
+    <path d="M980 180 h80 v-30 h40" stroke="#00bcf2" stroke-width="1" fill="none"/>
+    <circle cx="980" cy="180" r="2" fill="#00bcf2"/>
+  </g>
+  
+  <!-- Bottom accent bar with glow -->
+  <rect x="0" y="290" width="1200" height="10" fill="url(#accentGrad)" filter="url(#glow)"/>
+  
+  <!-- Shimmer overlay -->
+  <rect width="1200" height="300" fill="url(#shimmer)" opacity="0.3"/>
+</svg>

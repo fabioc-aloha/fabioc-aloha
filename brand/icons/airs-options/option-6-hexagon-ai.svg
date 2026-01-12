@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- AIRS Icon Option 6: Hexagon with AI Circuit -->
+  <!-- Modern tech aesthetic, represents interconnected assessment -->
+  <defs>
+    <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+    <linearGradient id="innerHexGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a"/>
+  
+  <!-- Outer hexagon -->
+  <path d="M256 36 L436 126 L436 306 L256 396 L76 306 L76 126 Z" 
+        fill="url(#hexGradient)"/>
+  
+  <!-- Inner hexagon -->
+  <path d="M256 76 L396 146 L396 286 L256 356 L116 286 L116 146 Z" 
+        fill="url(#innerHexGradient)"/>
+  
+  <!-- Circuit pattern -->
+  <g stroke="#0078d4" stroke-width="3" fill="none" opacity="0.6">
+    <!-- Horizontal lines -->
+    <line x1="140" y1="216" x2="200" y2="216"/>
+    <line x1="312" y1="216" x2="372" y2="216"/>
+    <!-- Vertical connections -->
+    <line x1="200" y1="176" x2="200" y2="256"/>
+    <line x1="312" y1="176" x2="312" y2="256"/>
+    <!-- Center connections -->
+    <line x1="200" y1="216" x2="256" y2="216"/>
+    <line x1="256" y1="216" x2="312" y2="216"/>
+    <line x1="256" y1="176" x2="256" y2="256"/>
+  </g>
+  
+  <!-- Circuit nodes -->
+  <g fill="#00bcf2">
+    <circle cx="140" cy="216" r="8"/>
+    <circle cx="372" cy="216" r="8"/>
+    <circle cx="200" cy="176" r="6"/>
+    <circle cx="200" cy="256" r="6"/>
+    <circle cx="312" cy="176" r="6"/>
+    <circle cx="312" cy="256" r="6"/>
+  </g>
+  
+  <!-- Central AI indicator -->
+  <circle cx="256" cy="216" r="48" fill="#005a9e"/>
+  <circle cx="256" cy="216" r="36" fill="#0078d4"/>
+  
+  <!-- "A" letter stylized -->
+  <path d="M236 244 L256 180 L276 244 M242 228 L270 228" 
+        fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Scanning rings animation effect -->
+  <circle cx="256" cy="216" r="60" fill="none" stroke="#00bcf2" stroke-width="2" opacity="0.4"/>
+  <circle cx="256" cy="216" r="80" fill="none" stroke="#00bcf2" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Bottom label area -->
+  <text x="256" y="320" text-anchor="middle" fill="#00bcf2" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600">AIRS</text>
+</svg>
