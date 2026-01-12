@@ -278,6 +278,80 @@ src/public/
 - [ ] App name on icons ≥180px
 - [ ] PNG exports at 2×/3×
 
+### SVG to PNG/ICO Conversion (Post-Approval)
+
+After an SVG icon design is **approved**, convert it to PNG and ICO formats for app use.
+
+#### Required Export Formats
+
+| Format | Sizes | Use Case |
+| ------ | ----- | -------- |
+| **PNG** | 16, 32, 48, 64, 128, 192, 256, 512 | Web, PWA, mobile, documentation |
+| **ICO** | Multi-resolution (16, 32, 48, 256) | Windows desktop apps, .exe icons |
+
+#### Conversion Methods
+
+**Option 1: Inkscape CLI (Recommended)**
+
+```powershell
+# Install Inkscape if needed: winget install Inkscape.Inkscape
+
+# Export PNG at multiple sizes
+$sizes = @(16, 32, 48, 64, 128, 192, 256, 512)
+$svgFile = "icon.svg"
+$baseName = [System.IO.Path]::GetFileNameWithoutExtension($svgFile)
+
+foreach ($size in $sizes) {
+    inkscape $svgFile --export-filename="${baseName}-${size}.png" -w $size -h $size
+}
+```
+
+**Option 2: ImageMagick (for ICO)**
+
+```powershell
+# Install ImageMagick if needed: winget install ImageMagick.ImageMagick
+
+# Create multi-resolution ICO from PNGs
+magick convert icon-16.png icon-32.png icon-48.png icon-256.png icon.ico
+
+# Or directly from SVG (requires Inkscape installed)
+magick convert -background transparent -density 256 icon.svg -define icon:auto-resize=256,48,32,16 icon.ico
+```
+
+**Option 3: Online Tools**
+
+| Tool | URL | Best For |
+| ---- | --- | -------- |
+| CloudConvert | cloudconvert.com | Batch PNG exports |
+| RealFaviconGenerator | realfavicongenerator.net | Complete favicon package |
+| ICO Convert | icoconvert.com | Multi-resolution ICO files |
+
+#### Output File Structure
+
+After conversion, place files in the app's `public/` folder:
+
+```text
+src/public/
+├── favicon.svg          # Source SVG (keep for reference)
+├── favicon.ico          # Windows favicon (16, 32, 48, 256)
+├── favicon-16x16.png    # Browser tab (standard)
+├── favicon-32x32.png    # Browser tab (high-DPI)
+├── icon-192.png         # PWA manifest
+├── icon-512.png         # PWA manifest (large)
+├── apple-touch-icon.png # iOS home screen (180px)
+└── android-chrome-*.png # Android PWA icons
+```
+
+#### Conversion Checklist
+
+- [ ] SVG design approved by stakeholder
+- [ ] Exported PNG at all required sizes (16 through 512)
+- [ ] Created multi-resolution ICO file
+- [ ] Verified transparency preserved in all exports
+- [ ] Tested ICO displays correctly in Windows Explorer
+- [ ] Updated `manifest.json` with new icon paths
+- [ ] Verified favicon displays in browser tabs
+
 ### AIRS Icon Implementation Details
 
 The AIRS Enterprise application uses a **radar/assessment scan** design:
