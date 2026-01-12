@@ -6,6 +6,18 @@ A prioritized checklist of recommended improvements and completed milestones for
 
 ## ✅ Recently Completed (2026-01-11)
 
+### Brand Guidelines Major Revision
+
+- [x] Established 5 Golden Rules (white bg, transparency, 64px favicons, 4-6 variations, placement hierarchy)
+- [x] Documented two-brand system (CorreaX company vs App-specific)
+- [x] Updated color scheme to light-first approach (Azure tones on white/slate-50)
+- [x] Added Repository Presentation Standards (GH description, topics, README structure)
+- [x] Simplified all brand READMEs with "Quick Rules" tables
+- [x] Created 6 AIRS icon design variations for approval workflow
+- [x] Fixed markdown lint issues across brand docs
+- [x] Tagged release as `new-branding` (commit 23bfce0)
+- [x] Verified fabioc-aloha compliance with brand guidelines
+
 ### CorreaX Brand Identity & Flagship Refresh
 
 - [x] Created dual-tagline brand strategy (conceptual vs builder contexts)

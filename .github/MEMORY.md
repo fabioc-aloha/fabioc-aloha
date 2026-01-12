@@ -170,3 +170,15 @@ A living summary of the repository's purpose, key decisions, notable changes, an
   - Description: "AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy."
   - Topics: Added correax, azure, typescript, python; removed academic-tools, self-updating-readme, repository-management
 - **Quality fixes**: Fixed corrupted 🌐 emoji, updated SEO keywords with new taglines
+
+## 17) Brand Guidelines Major Revision (2026-01-11)
+
+- **5 Golden Rules established**: White backgrounds, transparency, high-res favicons (64px), design variations (4-6), placement hierarchy
+- **Two-brand system documented**: CorreaX/CX (company) at footer/about vs App icons at header/favicon
+- **Light-first color palette**: Azure Blue `#0078d4`, Azure Dark `#005a9e`, Azure Light `#00bcf2` on white/slate-50 backgrounds
+- **Repository Presentation Standards added**: GitHub description format (50-100 chars, action verb), required `correax` topic, README structure guidelines
+- **Simplified documentation**: All brand READMEs converted to "Quick Rules" table format for scanability
+- **AIRS icon options**: Created 6 SVG design variations for user approval workflow
+- **Markdown lint cleanup**: Fixed MD033, MD060, MD032, MD040, MD036, MD022 issues across brand docs
+- **Git tagged**: `new-branding` tag applied to commit `23bfce0`
+- **Compliance verified**: fabioc-aloha project confirmed compliant with all brand guidelines
