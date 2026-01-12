@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2026‑01‑11
+**Last updated**: 2026‑01‑12
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -49,7 +49,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 6) Essential repo contents
 - **`README.md`**: Primary profile content with banner, badges, stats, and template CTA
-- **`REPOS.md`**: Auto-generated portfolio documentation (61 repositories)
+- **`REPOS.md`**: Auto-generated portfolio documentation (62 repositories)
 - **`TEMPLATE-USER-GUIDE.md`**: Comprehensive guide for customizing and using this as a template
 - **`.github/MEMORY.md`**: This file - project memory and decision log
 - **`.github/TODO.md`**: Prioritized tasks and acceptance checks
@@ -71,7 +71,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 ## 8) Collaborative workflow pattern
 - **Request pattern**: User says "update my repos" or similar
 - **Automated execution**: Assistant runs `refresh-repos.ps1`
-- **Documentation sync**: Script analyzes 61 repositories and updates REPOS.md
+- **Documentation sync**: Script analyzes 62 repositories and updates REPOS.md
 - **Minimal intervention**: Process maximizes automation
 - **Memory anchor**: Preferred method for ongoing repository maintenance
 
@@ -87,7 +87,7 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 
 ## 11) Quick status
 - **Visibility**: Public | **Template**: Enabled | **License**: MIT
-- **Portfolio**: 61 repositories (53 original, 8 forked)
+- **Portfolio**: 62 repositories (54 original, 8 forked)
 - **Automation**: Fully operational, data-driven, hands-free (robust auto-merge + old PR cleanup)
 
 ## 12) Subsequent changes (2025‑10‑16)
@@ -182,3 +182,17 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Markdown lint cleanup**: Fixed MD033, MD060, MD032, MD040, MD036, MD022 issues across brand docs
 - **Git tagged**: `new-branding` tag applied to commit `23bfce0`
 - **Compliance verified**: fabioc-aloha project confirmed compliant with all brand guidelines
+
+## 18) SVG Conversion & Flagship Refresh (2026-01-12)
+
+- **SVG to PNG/ICO conversion instructions**: Added comprehensive post-approval workflow to `brand/README.md`
+  - Inkscape CLI and ImageMagick PowerShell scripts
+  - Multi-resolution ICO generation (16, 32, 48, 256)
+  - PNG export at 8 sizes (16 through 512)
+  - Conversion checklist for quality assurance
+- **Flagship restructuring**: Revised featured projects for maximum impact
+  - **Primary (5)**: Alex_Plug_In, AIRS_Data_Analysis, airs-enterprise, CorreaX, spotify-skill
+  - **Secondary (3)**: ChessCoach, Disposition_Dashboard, AlexQ_Template
+  - Removed: fabioc-aloha (meta/self-referential), KalabashDashboard, maya, Catalyst-BABY (Alex_Plug_In equivalent)
+- **Repository count sync**: Updated to 62 repos (54 original, 8 forks) across all files
+- **Last updated**: 2026-01-12

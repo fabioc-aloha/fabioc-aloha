@@ -33,19 +33,19 @@
 
 | | | | | |
 | :---: | :---: | :---: | :---: | :---: |
-| **🏫 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **🧠 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY)** | **🌐 [CorreaX](https://github.com/fabioc-aloha/CorreaX)** | **📈 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard)** |
-| Self-updating portfolio. PowerShell + GitHub Actions, daily refresh. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | Cognitive architecture: meta-cognitive awareness, 945+ synapses, ethical reasoning. | Azure & M365 management portal. React 19, TypeScript 5.9, Vite 7, Tailwind 4. | Financial market tracking with 8-Factor Rating, 60+ ratios, Bollinger/RSI/MACD. Electron. |
-| `powershell` `automation` | `jupyter` `psychometrics` | `powershell` `cognitive` | `typescript` `azure` | `typescript` `electron` |
+| **🧠 [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In)** | **🎓 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis)** | **📊 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise)** | **🌐 [CorreaX](https://github.com/fabioc-aloha/CorreaX)** | **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** |
+| VS Code extension: meta-cognitive AI with bootstrap learning, 945+ synapses, neural maintenance. | AI Readiness Scale: 12-item validated instrument. 7-phase validation (N=362), R²=.819. | AIRS-16 enterprise platform. Next.js, Azure, Prisma, research-backed (N=523). | Azure & M365 management portal. React 19, TypeScript 5.9, Vite 7, Tailwind 4. | Production Spotify API for Claude Desktop. OAuth 2.0, 4 stars, full docs. |
+| `typescript` `vscode` | `jupyter` `psychometrics` | `nextjs` `azure` | `typescript` `azure` | `python` `claude` |
 
 ### Secondary Flagships
 
 | | | |
 | :---: | :---: | :---: |
-| **🎵 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill)** | **♟️ [ChessCoach](https://github.com/fabioc-aloha/ChessCoach)** | **🚀 [maya](https://github.com/fabioc-aloha/maya)** |
-| Production Spotify API for Claude Desktop. OAuth 2.0, cover art, full docs. | AI chess coaching with dual-engine analysis (Stockfish + Maia-2) and Azure OpenAI. | Maya Python scripting: starship generators, 3D text creators, automation scripts. |
-| `python` `claude` | `python` `chess` | `python` `maya` |
+| **♟️ [ChessCoach](https://github.com/fabioc-aloha/ChessCoach)** | **📈 [Disposition_Dashboard](https://github.com/fabioc-aloha/Disposition_Dashboard)** | **🔬 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template)** |
+| AI chess coaching with dual-engine analysis (Stockfish + Maia-2) and Azure OpenAI. | Qualtrics + Azure Cosmos DB real-time survey analytics with behavior tracking. | Universal Qualtrics + Azure integration template. 140+ API endpoints documented. |
+| `python` `chess` | `csharp` `cosmos-db` | `powershell` `azure` |
 
-> **Portfolio**: 61 repos (53 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
+> **Portfolio**: 62 repos (54 original + 8 forks). See [REPOS.md](REPOS.md) for complete catalog.
 
 ---
 
@@ -75,7 +75,7 @@ In October 2024, I published **Dialog Engineering**—an advanced methodology fo
 
 **Key principles**: Multi-step conversational refinement over one-shot prompting • Systematic feedback loops to address AI hallucinations • Human oversight with maximized AI capabilities • Complex task decomposition for academic and business applications.
 
-This methodology underpins my **53 original repositories**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
+This methodology underpins my **54 original repositories**—from Catalyst cognitive architectures to academic tools like PaperCopilot and AI-Qualitative-Analysis.
 
 ---
 

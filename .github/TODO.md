@@ -2,7 +2,22 @@
 
 A prioritized checklist of recommended improvements and completed milestones for the repository.
 
-**Last updated**: 2026-01-11
+**Last updated**: 2026-01-12
+
+## ✅ Recently Completed (2026-01-12)
+
+### SVG Conversion & Flagship Refresh
+
+- [x] Added SVG to PNG/ICO conversion instructions to `brand/README.md`
+- [x] Documented Inkscape CLI and ImageMagick PowerShell scripts
+- [x] Added conversion checklist for post-approval workflow
+- [x] Restructured flagship projects (Alex_Plug_In replaces Catalyst-BABY)
+- [x] Updated primary flagships: Alex_Plug_In, AIRS_Data_Analysis, airs-enterprise, CorreaX, spotify-skill
+- [x] Updated secondary flagships: ChessCoach, Disposition_Dashboard, AlexQ_Template
+- [x] Synced repo counts to 62 repos (54 original, 8 forks) across all files
+- [x] Updated MEMORY.md with session work
+
+---
 
 ## ✅ Recently Completed (2026-01-11)
 
