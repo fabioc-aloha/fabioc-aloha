@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: January 12, 2026 at 09:39 AM UTC
+> **Last Updated**: January 13, 2026 at 06:13 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 62 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 63 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (54 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (29)** | **🌐 Public (33)**
+> **🏠 Original Work (55 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (29)** | **🌐 Public (34)**
 
 ---
 
@@ -22,6 +22,7 @@
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | HTML | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
 | [**Altman-Z-Score**](https://github.com/fabioc-aloha/Altman-Z-Score) | 🌟 Public | HTML | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 04, 2025 |
+| [**amazfit-watchfaces**](https://github.com/fabioc-aloha/amazfit-watchfaces) | 🌟 Public | JavaScript | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 13, 2026 |
 | [**Bing-Wallpaper-Fetcher**](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | 🔒 Private | C# | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 04, 2025 |
 | [**BRD**](https://github.com/fabioc-aloha/BRD) | 🔒 Private | - | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 04, 2025 |
 | [**Catalyst**](https://github.com/fabioc-aloha/Catalyst) | 🔒 Private | PowerShell | Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration | Sep 04, 2025 |
@@ -42,8 +43,8 @@
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 09, 2026 |
-| [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | - | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 12, 2026 |
+| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 12, 2026 |
+| [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
 | [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Jan 12, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Oct 30, 2025 |
@@ -85,7 +86,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (54)**
+### **🏠 Original Repositories (55)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -103,20 +104,20 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (62 Repos)
+pie title Programming Languages (63 Repos)
     "PowerShell" : 18
     "Python" : 12
     "Jupyter Notebook" : 6
-    "TypeScript" : 5
+    "TypeScript" : 6
     "C#" : 4
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (29%)**: Primary language for 18 repositories
-- **Python (19.4%)**: Primary language for 12 repositories
-- **Jupyter Notebook (9.7%)**: Primary language for 6 repositories
-- **TypeScript (8.1%)**: Primary language for 5 repositories
-- **C# (6.5%)**: Primary language for 4 repositories
+- **PowerShell (28.6%)**: Primary language for 18 repositories
+- **Python (19%)**: Primary language for 12 repositories
+- **Jupyter Notebook (9.5%)**: Primary language for 6 repositories
+- **TypeScript (9.5%)**: Primary language for 6 repositories
+- **C# (6.3%)**: Primary language for 4 repositories
 
 ---
 
