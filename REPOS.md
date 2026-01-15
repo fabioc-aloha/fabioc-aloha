@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: January 14, 2026 at 06:13 AM UTC
+> **Last Updated**: January 15, 2026 at 06:13 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 63 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 64 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (55 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (29)** | **🌐 Public (34)**
+> **🏠 Original Work (56 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (30)** | **🌐 Public (34)**
 
 ---
 
@@ -43,10 +43,10 @@
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 12, 2026 |
+| [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 14, 2026 |
 | [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Jan 13, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Jan 14, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -56,6 +56,7 @@
 | [**LogoScraper**](https://github.com/fabioc-aloha/LogoScraper) | 🌟 Public | Python | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
 | [**maya**](https://github.com/fabioc-aloha/maya) | 🌟 Public | Python | Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | [**papercopilot**](https://github.com/fabioc-aloha/papercopilot) | 🌟 Public | Python | A Copilot for drafting research papers. | Aug 03, 2025 |
+| [**Project-Fishbowl**](https://github.com/fabioc-aloha/Project-Fishbowl) | 🔒 Private | C# | Project Fishbowl - Survey Flight Controller | Real-time Qualtrics analytics dashboard with distribution monitoring, respondent experience insights, and email notifications | Azure Container Apps + Cosmos DB + MSAL.js | Jan 15, 2026 |
 | [**PythonClass**](https://github.com/fabioc-aloha/PythonClass) | 🔒 Private | Jupyter Notebook | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 04, 2025 |
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |
@@ -86,7 +87,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (55)**
+### **🏠 Original Repositories (56)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -104,20 +105,20 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (63 Repos)
+pie title Programming Languages (64 Repos)
     "PowerShell" : 18
     "Python" : 12
     "Jupyter Notebook" : 6
     "TypeScript" : 6
-    "C#" : 4
+    "C#" : 5
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (28.6%)**: Primary language for 18 repositories
-- **Python (19%)**: Primary language for 12 repositories
-- **Jupyter Notebook (9.5%)**: Primary language for 6 repositories
-- **TypeScript (9.5%)**: Primary language for 6 repositories
-- **C# (6.3%)**: Primary language for 4 repositories
+- **PowerShell (28.1%)**: Primary language for 18 repositories
+- **Python (18.8%)**: Primary language for 12 repositories
+- **Jupyter Notebook (9.4%)**: Primary language for 6 repositories
+- **TypeScript (9.4%)**: Primary language for 6 repositories
+- **C# (7.8%)**: Primary language for 5 repositories
 
 ---
 
