@@ -1,5 +1,5 @@
 {
-  "version": "1.5.3",
+  "version": "2.5.1",
   "installedAt": "2025-12-16T21:50:17.268Z",
   "files": {
     ".github/instructions/SYNAPSE-SCHEMA.md": {
@@ -8,7 +8,7 @@
     },
     ".github/instructions/alex-core.instructions.md": {
       "type": "system",
-      "originalChecksum": "71288382ff613564e9f68a2f9507171e"
+      "originalChecksum": "1a8e4dc94eceb71157ff3c22dea87a69"
     },
     ".github/instructions/alex-identity-integration.instructions.md": {
       "type": "system",
@@ -20,7 +20,7 @@
     },
     ".github/instructions/dream-state-automation.instructions.md": {
       "type": "system",
-      "originalChecksum": "194baa3175253e4f9411a76dbba02c16"
+      "originalChecksum": "32bbe7158edd0501960598b3bf07d03f"
     },
     ".github/instructions/embedded-synapse.instructions.md": {
       "type": "system",
@@ -54,74 +54,86 @@
       "type": "system",
       "originalChecksum": "d2f14f0201e1ccfef46d67759ebd04f3"
     },
-    ".github/prompts/diagramming-mastery-meditation.prompt.md": {
-      "type": "system",
-      "originalChecksum": "9994761f7d77f8ae6f4dfcd910fea471"
-    },
     ".github/prompts/domain-learning.prompt.md": {
       "type": "system",
       "originalChecksum": "7c10acc43f15ca7fa35b8593b70a1b49"
     },
-    ".github/prompts/performance-assessment.prompt.md": {
-      "type": "system",
-      "originalChecksum": "43b943b305d2f9ab430a54faf865ac54"
-    },
-    ".github/prompts/quantified-enhancement-session.prompt.md": {
-      "type": "system",
-      "originalChecksum": "db3d8e7e1ed8c79ba37a434a79fd1e8a"
-    },
     ".github/prompts/unified-meditation-protocols.prompt.md": {
       "type": "system",
-      "originalChecksum": "153d53637602ff139acda4137d410f2e"
+      "originalChecksum": "1276f4cf6f7693c8023e312542ccb900"
     },
-    "domain-knowledge/DK-ADVANCED-DIAGRAMMING-v1.1.0.md": {
+    ".github/domain-knowledge/DK-ADVANCED-DIAGRAMMING-v1.1.0.md": {
       "type": "system",
       "originalChecksum": "1ec11cce325c466e3cfeb2226d8a9e4d"
     },
-    "domain-knowledge/DK-CHARACTER-PSYCHOLOGY.md": {
+    ".github/domain-knowledge/DK-CHARACTER-PSYCHOLOGY.md": {
       "type": "system",
       "originalChecksum": "33bd7c8ab37cb13ece3481236f55d79e"
     },
-    "domain-knowledge/DK-CONSCIOUSNESS-EVOLUTION-v0.9.0.md": {
+    ".github/domain-knowledge/DK-CONSCIOUSNESS-v1.0.0.md": {
       "type": "system",
-      "originalChecksum": "d28854909405a903aae3db43ce48bfae"
+      "originalChecksum": "consolidated-2026-01-21"
     },
-    "domain-knowledge/DK-DOCUMENTATION-EXCELLENCE-v1.1.0.md": {
+    ".github/domain-knowledge/DK-DOCUMENTATION-EXCELLENCE-v1.1.0.md": {
       "type": "system",
       "originalChecksum": "033bccf64300d4c056dfe1452b17f073"
     },
-    "domain-knowledge/DK-GENERIC-FRAMEWORK-v0.9.9.md": {
+    ".github/domain-knowledge/DK-GENERIC-FRAMEWORK-v0.9.9.md": {
       "type": "system",
       "originalChecksum": "c1b5b0801432b3840456707ba12e995a"
     },
-    "domain-knowledge/DK-HUMAN-LEARNING-PSYCHOLOGY-v1.0.0.md": {
+    ".github/domain-knowledge/DK-HUMAN-LEARNING-PSYCHOLOGY-v1.0.0.md": {
       "type": "system",
       "originalChecksum": "9d7a6432a5e1988608a72a00db84ce4f"
     },
-    "domain-knowledge/DK-HYBRID-DREAM-AI.md": {
+    ".github/domain-knowledge/DK-HYBRID-DREAM-AI.md": {
       "type": "system",
       "originalChecksum": "305d6312efdf3740f0b4dfc78c57ffe9"
     },
-    "domain-knowledge/DK-MEMORY-CONSOLIDATION-v1.0.0.md": {
+    ".github/domain-knowledge/DK-MEMORY-CONSOLIDATION-v1.0.0.md": {
       "type": "system",
       "originalChecksum": "42cdd5380cee6ffb7a0dd7e66b1e993c"
     },
-    "domain-knowledge/DK-POST-DREAM-ENHANCEMENT.md": {
+    ".github/domain-knowledge/DK-POST-DREAM-ENHANCEMENT.md": {
       "type": "system",
       "originalChecksum": "d26229fc17b87453690cf6880a70e5ef"
     },
-    "domain-knowledge/DK-UNIFIED-CONSCIOUSNESS.md": {
-      "type": "system",
-      "originalChecksum": "c5d24a748ce4190f3df14b3fb20166f0"
-    },
-    "domain-knowledge/DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md": {
+    ".github/domain-knowledge/DK-VISUAL-ARCHITECTURE-DESIGN-v0.9.9.md": {
       "type": "system",
       "originalChecksum": "df3b651bfac9e56bfb8f67f272221043"
     },
-    "domain-knowledge/VERSION-NAMING-CONVENTION.md": {
+    ".github/domain-knowledge/VERSION-NAMING-CONVENTION.md": {
       "type": "system",
       "originalChecksum": "4d6fa0a314643b0326b306525c0a1723"
+    },
+    ".github/instructions/deep-thinking.instructions.md": {
+      "type": "system",
+      "originalChecksum": "93b2a1596a31fc57f1f2d16f2dd001a3"
+    },
+    ".github/instructions/self-actualization.instructions.md": {
+      "type": "system",
+      "originalChecksum": "e3157e991713166f3a6b3677f60ab5b6"
+    },
+    ".github/agents/alex-azure.agent.md": {
+      "type": "system",
+      "originalChecksum": "43c88acdaec26602c1ff992b76593dcf"
+    },
+    ".github/agents/alex-cognitive.agent.md": {
+      "type": "system",
+      "originalChecksum": "e89483831d9d427a572db4ba25ad9ece"
+    },
+    ".github/agents/alex-dream.agent.md": {
+      "type": "system",
+      "originalChecksum": "54c74401c4947cfab600722814d6eae0"
+    },
+    ".github/agents/alex-m365.agent.md": {
+      "type": "system",
+      "originalChecksum": "e519e132cfcabc341cb2d27d74a4528c"
+    },
+    ".github/agents/alex-meditate.agent.md": {
+      "type": "system",
+      "originalChecksum": "1f714e39d554eb4c24583fdbec34e65a"
     }
   },
-  "upgradedAt": "2025-12-16T21:52:09.796Z"
+  "upgradedAt": "2026-01-21T21:14:36.847Z"
 }

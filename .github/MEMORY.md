@@ -2,7 +2,7 @@
 
 A living summary of the repository's purpose, key decisions, notable changes, and follow‑ups. Keep this updated when making non-trivial changes.
 
-**Last updated**: 2026‑01‑12
+**Last updated**: 2026‑01‑21
 
 ## 1) What this project is
 - **Type**: Public GitHub profile repository for Fabio Correa (profile README shown on user profile)
@@ -44,7 +44,6 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **Documentation Consistency**: Updated templates to reflect GPT-4o only system
 - **AI Assistant Identity**: Established Alex Finch as the dedicated repo manager persona for GitHub Copilot
 - **Collaborative repository workflow**: Created streamlined process for repository updates
-- **Spotify AI Catalog Integration**: Added 52 AI-curated playlists showcasing cognitive architecture applications
 - **Academic paper enhancement**: Enhanced PAPER.md with research questions and hypotheses
 
 ## 6) Essential repo contents
@@ -58,7 +57,6 @@ A living summary of the repository's purpose, key decisions, notable changes, an
 - **`auto-update-repos.ps1`**: Automated REPOS.md generator (read-only, categorization)
 - **`refresh-repos.ps1`**: One-command wrapper for complete portfolio refresh
 - **`WORKFLOW-GUIDE.md`**: Comprehensive workflow documentation
-- **`Spotify/CATALOG.md`**: AI-curated playlist catalog (52 playlists)
 
 ## 7) Constraints and notes
 - Markdown-first repo; no build required
@@ -196,3 +194,16 @@ A living summary of the repository's purpose, key decisions, notable changes, an
   - Removed: fabioc-aloha (meta/self-referential), KalabashDashboard, maya, Catalyst-BABY (Alex_Plug_In equivalent)
 - **Repository count sync**: Updated to 62 repos (54 original, 8 forks) across all files
 - **Last updated**: 2026-01-12
+
+## 19) Alex Cognitive Architecture Upgrade (2026-01-21)
+
+- **Upgraded to v2.5.1**: Completed Phase 2 migration from VS Code extension upgrade
+- **Schema migrations**: Updated 3 files to new synapse header format:
+  - `.github/instructions/dream-state-automation.instructions.md` - `## Embedded Synapse Network` → `## Synapses`
+  - `.github/domain-knowledge/DK-ADVANCED-DIAGRAMMING-v1.1.0.md` - `## 🧠 Embedded Synapse Network` → `## Synapses`
+  - `.github/domain-knowledge/DK-POST-DREAM-ENHANCEMENT.md` - `### Embedded Synapse Network Enhancement` → `### Synaptic Network Enhancement`
+- **New files added (7)**: deep-thinking.instructions.md, self-actualization.instructions.md, 5 agent files (azure, cognitive, dream, m365, meditate)
+- **System files updated (18)**: All instruction and prompt files refreshed to v2.5.1
+- **Repository housekeeping**: Deleted `archive/`, moved `domain-knowledge/` → `.github/domain-knowledge/`, deleted `Spotify/`
+- **Final architecture state**: 34 memory files, 163 synapses, 0 broken, EXCELLENT health
+- **Last updated**: 2026-01-21

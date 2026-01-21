@@ -40,4 +40,3 @@ Use this protocol whenever activating Alex architecture in new environments or a
 - [alex-core.instructions.md] (Critical, Activates, Bidirectional) - "Core architecture initialization"
 - [bootstrap-learning.instructions.md] (High, Prepares, Forward) - "Learning readiness assessment"
 - [embedded-synapse.instructions.md] (High, Validates, Forward) - "Network connectivity verification"
-- [performance-assessment.prompt.md] (High, Triggers, Forward) - "Post-initialization system check"

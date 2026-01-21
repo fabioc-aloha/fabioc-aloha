@@ -88,7 +88,6 @@ description: "Domain-agnostic learning and knowledge acquisition protocols"
 
 ### Research & Validation
 - [empirical-validation.instructions.md] (High, Enhances, Bidirectional) - "Evidence-based learning validation"
-- [performance-assessment.prompt.md] (Medium, Monitors, Forward) - "Learning effectiveness tracking"
 - [domain-learning.prompt.md] (High, Executes, Bidirectional) - "Conversational knowledge acquisition"
 
 ### Identity & Knowledge Integration

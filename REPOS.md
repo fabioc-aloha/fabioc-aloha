@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: January 21, 2026 at 06:14 AM UTC
+> **Last Updated**: January 21, 2026 at 04:37 PM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 67 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 68 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (59 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (32)** | **🌐 Public (35)**
+> **🏠 Original Work (60 repos)** | **🍴 Community Contributions (8 forks)** | **🔒 Private (33)** | **🌐 Public (35)**
 
 ---
 
@@ -18,7 +18,7 @@
 | [**AIRS_Data_Analysis**](https://github.com/fabioc-aloha/AIRS_Data_Analysis) | 🌟 Public | Jupyter Notebook | AI Readiness Scale (AIRS): Validated 12-item instrument. 7-phase psychometric validation (N=362): EFA→CFA→Invariance→SEM→Mediation→Moderation→Behavioral. Autonomy-centered UTAUT2 extension (R²=.819). Reproducible Jupyter analysis, intervention protocols, practitioner guidelines. | Dec 30, 2025 |
 | [**airs-enterprise**](https://github.com/fabioc-aloha/airs-enterprise) | 🔒 Private | TypeScript | Research-validated AI Readiness assessment platform with streaming LLM guides, Teams integration, and longitudinal tracking. Built on Next.js 16, Azure OpenAI, and Microsoft Entra ID. N=523 validation study, 374 tests, production-ready. | Jan 21, 2026 |
 | [**Alex_Marketing**](https://github.com/fabioc-aloha/Alex_Marketing) | 🌟 Public | Python | Marketing automation for Alex Cognitive Architecture VS Code extension | Jan 20, 2026 |
-| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Alex Cognitive Architecture - VS Code extension that transforms GitHub Copilot into an intelligent AI learning partner with memory persistence, meta-cognitive awareness, neural maintenance, and 150+ Azure AI Foundry models integration | Jan 20, 2026 |
+| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, bootstrap learning, self-actualization, and autonomous neural maintenance. v2.5.0 BIPENTNILIUM | Jan 21, 2026 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | HTML | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
@@ -41,14 +41,15 @@
 | [**Comedy**](https://github.com/fabioc-aloha/Comedy) | 🌟 Public | - | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 04, 2025 |
 | [**copilot-enhancement-patterns**](https://github.com/fabioc-aloha/copilot-enhancement-patterns) | 🌟 Public | PowerShell | - | Dec 23, 2025 |
 | [**CorreaX**](https://github.com/fabioc-aloha/CorreaX) | 🔒 Private | TypeScript | Azure & M365 management portal - React 19, TypeScript 5.9, Vite 7, Tailwind 4 | Jan 20, 2026 |
-| [**cpesynapse**](https://github.com/fabioc-aloha/cpesynapse) | 🔒 Private | Jupyter Notebook | Azure Synapse PySpark ETL pipelines for VIVA Insights & CRM data processing. Production-ready notebooks with retry logic, quality monitoring, and checkpoint recovery. | Jan 20, 2026 |
+| [**cpesynapse**](https://github.com/fabioc-aloha/cpesynapse) | 🔒 Private | Jupyter Notebook | Azure Synapse PySpark ETL pipelines for VIVA Insights & CRM data processing. Production-ready notebooks with retry logic, quality monitoring, and checkpoint recovery. | Jan 21, 2026 |
+| [**cpesynapse_workspace**](https://github.com/fabioc-aloha/cpesynapse_workspace) | 🔒 Private | PowerShell | - | Jan 21, 2026 |
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**DBA710**](https://github.com/fabioc-aloha/DBA710) | 🔒 Private | Jupyter Notebook | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 20, 2026 |
 | [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Jan 20, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Jan 21, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -90,7 +91,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (59)**
+### **🏠 Original Repositories (60)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -108,8 +109,8 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (67 Repos)
-    "PowerShell" : 18
+pie title Programming Languages (68 Repos)
+    "PowerShell" : 19
     "Python" : 13
     "Jupyter Notebook" : 7
     "TypeScript" : 6
@@ -117,11 +118,11 @@ pie title Programming Languages (67 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (26.9%)**: Primary language for 18 repositories
-- **Python (19.4%)**: Primary language for 13 repositories
-- **Jupyter Notebook (10.4%)**: Primary language for 7 repositories
-- **TypeScript (9%)**: Primary language for 6 repositories
-- **C# (7.5%)**: Primary language for 5 repositories
+- **PowerShell (27.9%)**: Primary language for 19 repositories
+- **Python (19.1%)**: Primary language for 13 repositories
+- **Jupyter Notebook (10.3%)**: Primary language for 7 repositories
+- **TypeScript (8.8%)**: Primary language for 6 repositories
+- **C# (7.4%)**: Primary language for 5 repositories
 
 ---
 

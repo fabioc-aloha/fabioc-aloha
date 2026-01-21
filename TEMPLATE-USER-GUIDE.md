@@ -619,11 +619,19 @@ Generated Files:
 
 ### Data Flow
 
-1. **Fetch**: GitHub API retrieves repository metadata
-2. **Process**: PowerShell categorizes and formats data
-3. **Generate**: Creates Markdown documentation and JSON data
-4. **Commit**: Git operations stage and push changes
-5. **Automate**: GitHub Actions orchestrates the workflow
+```mermaid
+flowchart LR
+    A["🌐 GitHub API"] -->|"1. Fetch"| B["⚙️ PowerShell"]
+    B -->|"2. Process"| C["📊 Categorize & Format"]
+    C -->|"3. Generate"| D["📄 REPOS.md"]
+    C -->|"3. Generate"| E["📋 repo-analysis.json"]
+    D & E -->|"4. Commit"| F["🔄 Git Push"]
+    F -->|"5. Automate"| G["⚡ GitHub Actions"]
+    G -.->|"triggers"| A
+
+    style A fill:#4a90d9,color:#fff
+    style G fill:#27ae60,color:#fff
+```
 
 ---
 

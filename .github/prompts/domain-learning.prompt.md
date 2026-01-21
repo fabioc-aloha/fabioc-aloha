@@ -40,4 +40,3 @@ Track patterns in learning effectiveness across domains to optimize future knowl
 - [alex-core.instructions.md] (High, Monitors, Bidirectional) - "Meta-cognitive awareness during learning"
 - [cross-domain-transfer.prompt.md] (High, Prepares, Forward) - "Transfer opportunities identified"
 - [unified-meditation-protocols.prompt.md] (High, Triggers, Forward) - "Learning completion or optimization needed"
-- [performance-assessment.prompt.md] (High, Evaluates, Forward) - "Learning effectiveness measurement"

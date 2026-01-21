@@ -130,13 +130,17 @@ The CorreaX logo combines two geometric elements:
 
 Always maintain clear space around the logo equal to the height of the "X" element. Never crowd the logo with text or other graphics.
 
-```text
-    ┌─────────────────┐
-    │                 │
-    │   [  LOGO  ]    │  ← Minimum padding = logo height × 0.25
-    │                 │
-    └─────────────────┘
+```mermaid
+block-beta
+  columns 3
+  space:3
+  space ["LOGO"]:1 space
+  space:3
+
+  style space fill:transparent,stroke:#ddd,stroke-dasharray:5
 ```
+
+> **Rule**: Minimum padding = logo height × 0.25 on all sides
 
 ### Minimum Size
 
@@ -163,14 +167,26 @@ Always maintain clear space around the logo equal to the height of the "X" eleme
 
 ### The Two-Brand System
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│  COMPANY = CorreaX (CX)           APP = AIRS, Catalyst, etc. │
-├───────────────────────────────┼─────────────────────────────┤
-│  C+X geometric logo               │  Radar, brain, chart, etc.  │
-│  Footer, About, Copyright         │  Header, Favicon, PWA icons │
-│  "Think. Build. Deploy."          │  App-specific tagline       │
-└───────────────────────────────┴─────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph company["🏢 COMPANY: CorreaX (CX)"]
+        direction TB
+        c1["C+X Geometric Logo"]
+        c2["Footer, About, Copyright"]
+        c3["Think. Build. Deploy."]
+    end
+
+    subgraph apps["📱 APPS: AIRS, Catalyst, etc."]
+        direction TB
+        a1["App-specific Icons"]
+        a2["Header, Favicon, PWA"]
+        a3["App-specific Tagline"]
+    end
+
+    company -.->|"powers"| apps
+
+    style company fill:#1a1a2e,color:#fff
+    style apps fill:#0d7377,color:#fff
 ```
 
 **Think of it like Microsoft:**
@@ -542,12 +558,31 @@ These are the core brand colors. Use them consistently across all materials.
 
 ### Color Accessibility
 
-All text must meet WCAG 2.1 AA standards:
+All visual elements must meet **WCAG 2.1 Level AA** standards (AAA recommended for critical UI):
 
-| Combination | Contrast Ratio | Status |
-| ----------- | -------------- | ------ |
-| Azure Blue on White | 4.5:1 | ✅ AA |
-| Azure Dark on White | 7.2:1 | ✅ AAA |
+| Combination | Contrast Ratio | WCAG Level | Use Case |
+| ----------- | -------------- | ---------- | -------- |
+| Azure Blue on White | 4.5:1 | ✅ AA | Body text, links |
+| Azure Dark on White | 7.2:1 | ✅ AAA | Headlines, CTAs |
+| White on Azure Blue | 4.5:1 | ✅ AA | Buttons, badges |
+| Slate 50 on Slate 950 | 18.1:1 | ✅ AAA | Dark mode text |
+
+#### Accessibility Requirements
+
+| Requirement | Standard | Implementation |
+| ----------- | -------- | -------------- |
+| **Text contrast** | 4.5:1 minimum (AA) | Use approved color pairs only |
+| **Large text** | 3:1 minimum (AA) | Text ≥18pt or ≥14pt bold |
+| **Non-text elements** | 3:1 minimum | Icons, borders, focus indicators |
+| **Color independence** | Don't rely on color alone | Add icons, patterns, or labels |
+| **Focus indicators** | Visible 2px outline | Azure Blue `#0078d4` focus ring |
+| **Touch targets** | 44×44px minimum | Mobile buttons and links |
+
+#### Testing Tools
+
+- [Accessibility Insights](https://accessibilityinsights.io/) (Microsoft)
+- [Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- axe DevTools browser extension
 | White on Azure Blue | 4.5:1 | ✅ AA |
 | Slate 50 on Slate 950 | 18.1:1 | ✅ AAA |
 
@@ -582,6 +617,60 @@ All text must meet WCAG 2.1 AA standards:
   --cx-success: #10b981;
   --cx-warning: #f59e0b;
   --cx-error: #ef4444;
+}
+```
+
+---
+
+## Motion & Animation
+
+### Animation Principles
+
+Follow Microsoft Fluent Design motion guidelines:
+
+| Principle | Description | Example |
+| --------- | ----------- | ------- |
+| **Purposeful** | Motion guides attention and confirms actions | Button press feedback |
+| **Continuous** | Transitions connect states smoothly | Page transitions |
+| **Responsive** | Immediate feedback to user input | Hover states |
+| **Natural** | Easing curves that feel physical | Ease-out for entrances |
+
+### Duration Guidelines
+
+| Animation Type | Duration | Easing |
+| -------------- | -------- | ------ |
+| Micro-interactions | 100-200ms | ease-out |
+| Page transitions | 200-300ms | ease-in-out |
+| Loading states | 300-500ms | ease-in-out |
+| Complex animations | 500-1000ms | custom bezier |
+
+### CSS Motion Variables
+
+```css
+:root {
+  /* Durations */
+  --cx-duration-fast: 100ms;
+  --cx-duration-normal: 200ms;
+  --cx-duration-slow: 300ms;
+
+  /* Easing */
+  --cx-ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --cx-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --cx-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --cx-ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+```
+
+### Reduced Motion
+
+Respect user preferences for reduced motion:
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 ```
 
@@ -651,12 +740,154 @@ CorreaX communications are:
 
 ### Terminology
 
-| Use | Don't Use |
-| --- | --------- |
-| Azure Blue | Microsoft Blue |
-| CorreaX | Correax, CORREAX, Correa-X |
-| Sign in | Log in, Login |
-| Set up (verb) | Setup (noun only) |
+#### Microsoft-Aligned Language
+
+| ✅ Use | ❌ Don't Use | Context |
+| ------ | ------------ | ------- |
+| Sign in | Log in, Login | Authentication actions |
+| Sign out | Log out, Logout | Session termination |
+| Set up (verb) | Setup (as verb) | Configuration actions |
+| Setup (noun) | Set up (as noun) | Configuration state |
+| Select | Click, Tap | Platform-agnostic actions |
+| Enter | Type, Input | Text field instructions |
+| Admin | Administrator | Informal contexts |
+| Email | E-mail | Standard modern usage |
+| OK | Okay, Ok | Button labels |
+| Cancel | Abort, Exit | Action cancellation |
+
+#### Brand-Specific Terms
+
+| Use | Don't Use | Why |
+| --- | --------- | --- |
+| Azure Blue | Microsoft Blue | Our brand adaptation |
+| CorreaX | Correax, CORREAX, Correa-X | Consistent capitalization |
+| Alex Cognitive Architecture | Alex AI, The Alex | Full product name |
+| AIRS | A.I.R.S., Airs | Acronym capitalization |
+
+---
+
+## Brand Governance
+
+### Roles & Responsibilities
+
+| Role | Responsibility | Access Level |
+| ---- | -------------- | ------------ |
+| **Brand Owner** | Final approval on all brand changes | Full edit |
+| **Design Lead** | Creates and maintains assets | Edit assets |
+| **Developer** | Implements brand in code | Read + use assets |
+| **Contributor** | Proposes changes via PR | Suggest changes |
+
+### Change Management
+
+#### Minor Changes (No Approval Required)
+
+- Bug fixes in existing assets
+- Adding new icon sizes
+- Documentation updates
+
+#### Major Changes (Approval Required)
+
+| Change Type | Approval | Process |
+| ----------- | -------- | ------- |
+| New color | Brand Owner | PR with rationale + accessibility check |
+| Logo modification | Brand Owner | PR with mockups + usage examples |
+| New app icon | Brand Owner | 4-6 options → selection → implementation |
+| Typography change | Brand Owner | PR with before/after comparisons |
+| Guideline updates | Design Lead | PR with clear changelog |
+
+### Version Control
+
+| Version | Meaning | Example |
+| ------- | ------- | ------- |
+| Major (X.0) | Breaking changes to brand identity | New logo |
+| Minor (X.Y) | New features, backward compatible | New banner template |
+| Patch (X.Y.Z) | Bug fixes, clarifications | Typo fixes |
+
+**Current Version**: v1.1 (January 2026)
+
+### Asset Approval Workflow
+
+```mermaid
+flowchart TD
+    A["1️⃣ Create 4-6 design options"] --> B["2️⃣ Submit PR with mockups"]
+    B --> C["3️⃣ Brand Owner reviews"]
+    C --> D{"4️⃣ Decision"}
+    D -->|"Feedback"| E["Revise designs"]
+    E --> C
+    D -->|"Approved"| F["5️⃣ Export all formats"]
+    F --> G["6️⃣ Update manifest/docs"]
+    G --> H["7️⃣ Merge to main"]
+
+    style A fill:#4a90d9,color:#fff
+    style H fill:#27ae60,color:#fff
+    style D fill:#f39c12,color:#fff
+```
+
+> **SLA**: Brand Owner review within 48 hours
+
+---
+
+## Social Media Guidelines
+
+### Profile Images
+
+| Platform | Size | Asset | Notes |
+| -------- | ---- | ----- | ----- |
+| GitHub | 460×460 | `logo.svg` centered on white | PNG export |
+| LinkedIn | 400×400 | Logo or professional headshot | White background |
+| X/Twitter | 400×400 | Logo, high contrast | Circular crop |
+| YouTube | 800×800 | Logo with padding | Square safe zone |
+
+### Cover/Banner Images
+
+| Platform | Size | Content |
+| -------- | ---- | ------- |
+| GitHub Profile | 1200×300 | Use `banner-profile.svg` |
+| LinkedIn | 1584×396 | Tagline + key projects |
+| X/Twitter | 1500×500 | "Think. Build. Deploy." |
+| YouTube | 2560×1440 | Full brand showcase |
+
+### Post Templates
+
+#### Project Announcement
+
+```text
+🚀 Introducing [Project Name]
+
+[One-sentence description]
+
+✨ Key features:
+• Feature 1
+• Feature 2
+• Feature 3
+
+🔗 [Link]
+
+#CorreaX #Azure #[RelevantTech]
+```
+
+#### Release Notes
+
+```text
+📦 [Project] v[X.Y.Z] Released
+
+What's new:
+• Change 1
+• Change 2
+
+🔗 Release notes: [Link]
+
+#CorreaX #OpenSource
+```
+
+### Hashtag Strategy
+
+| Always Use | Context-Specific |
+| ---------- | ---------------- |
+| `#CorreaX` | `#Azure` (Azure projects) |
+| | `#TypeScript` (TS projects) |
+| | `#AI` (AI/ML projects) |
+| | `#OpenSource` (public repos) |
 
 ---
 
