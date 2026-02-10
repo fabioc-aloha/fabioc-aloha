@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: February 09, 2026 at 06:34 AM UTC
+> **Last Updated**: February 10, 2026 at 06:34 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 84 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 86 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (74 repos)** | **🍴 Community Contributions (10 forks)** | **🔒 Private (39)** | **🌐 Public (45)**
+> **🏠 Original Work (75 repos)** | **🍴 Community Contributions (11 forks)** | **🔒 Private (40)** | **🌐 Public (46)**
 
 ---
 
@@ -18,11 +18,11 @@
 | [**AIRS_Data_Analysis**](https://github.com/fabioc-aloha/AIRS_Data_Analysis) | 🌟 Public | Jupyter Notebook | AI Readiness Scale (AIRS): Validated 12-item instrument. 7-phase psychometric validation (N=362): EFA→CFA→Invariance→SEM→Mediation→Moderation→Behavioral. Autonomy-centered UTAUT2 extension (R²=.819). Reproducible Jupyter analysis, intervention protocols, practitioner guidelines. | Jan 28, 2026 |
 | [**airs-enterprise**](https://github.com/fabioc-aloha/airs-enterprise) | 🔒 Private | TypeScript | Research-validated AI Readiness assessment platform (N=523, CFI=.975). 5-minute assessment with personalized AI guides in 29 languages. Built on Next.js 16, Azure OpenAI, multi-provider auth. Live at airs.correax.com | Feb 09, 2026 |
 | [**Alex_Marketing**](https://github.com/fabioc-aloha/Alex_Marketing) | 🌟 Public | Python | Marketing automation for Alex Cognitive Architecture VS Code extension | Jan 20, 2026 |
-| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Feb 08, 2026 |
+| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Feb 10, 2026 |
 | [**Alex_Sandbox**](https://github.com/fabioc-aloha/Alex_Sandbox) | 🌟 Public | - | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 01, 2026 |
 | [**alex-articles**](https://github.com/fabioc-aloha/alex-articles) | 🔒 Private | Python | Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
-| [**Alex-Global-Knowledge**](https://github.com/fabioc-aloha/Alex-Global-Knowledge) | 🔒 Private | - | Alex Cognitive Architecture - Global Knowledge Base | Feb 08, 2026 |
+| [**Alex-Global-Knowledge**](https://github.com/fabioc-aloha/Alex-Global-Knowledge) | 🔒 Private | - | Alex Cognitive Architecture - Global Knowledge Base | Feb 10, 2026 |
 | [**AlexCook**](https://github.com/fabioc-aloha/AlexCook) | 🌟 Public | JavaScript | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Feb 04, 2026 |
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | HTML | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
@@ -53,13 +53,14 @@
 | [**Disposition_Dashboard**](https://github.com/fabioc-aloha/Disposition_Dashboard) | 🔒 Private | C# | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 20, 2026 |
 | [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 08, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 09, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
-| [**FishbowlGovernance**](https://github.com/fabioc-aloha/FishbowlGovernance) | 🔒 Private | Python | Microsoft Fabric governance documentation and monitoring system for Fishbowl workspace - medallion architecture, permission compliance pipelines, workspace inventory | Feb 08, 2026 |
+| [**FishbowlGovernance**](https://github.com/fabioc-aloha/FishbowlGovernance) | 🔒 Private | Python | Microsoft Fabric governance documentation and monitoring system for Fishbowl workspace - medallion architecture, permission compliance pipelines, workspace inventory | Feb 09, 2026 |
 | [**github-redirect**](https://github.com/fabioc-aloha/github-redirect) | 🌟 Public | HTML | Redirect github.correax.com to GitHub profile | Feb 08, 2026 |
 | [**headstart-practice-manager**](https://github.com/fabioc-aloha/headstart-practice-manager) | 🔒 Private | HTML | HIPAA-compliant practice management platform for mental health professionals. Multi-clinic financial tracking, payment reconciliation, AI-assisted clinical documentation. | Feb 09, 2026 |
+| [**HomeAutomation**](https://github.com/fabioc-aloha/HomeAutomation) | 🔒 Private | Python | Smart home research, tooling, and network intelligence platform — Python/FastAPI + React/Next.js + MQTT + Docker + Azure | Feb 10, 2026 |
 | [**ideas**](https://github.com/fabioc-aloha/ideas) | 🔒 Private | - | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
 | [**Investing**](https://github.com/fabioc-aloha/Investing) | 🌟 Public | PowerShell | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 04, 2025 |
 | [**KalabashDashboard**](https://github.com/fabioc-aloha/KalabashDashboard) | 🔒 Private | TypeScript | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
@@ -73,7 +74,7 @@
 | [**ProjectPlans**](https://github.com/fabioc-aloha/ProjectPlans) | 🔒 Private | TypeScript | Project planning and ADO-Planner sync tools | Feb 03, 2026 |
 | [**PythonClass**](https://github.com/fabioc-aloha/PythonClass) | 🔒 Private | Jupyter Notebook | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 04, 2025 |
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
-| [**roomba-control**](https://github.com/fabioc-aloha/roomba-control) | 🔒 Private | TypeScript | - | Feb 08, 2026 |
+| [**roomba-control**](https://github.com/fabioc-aloha/roomba-control) | 🔒 Private | TypeScript | VS Code extension for controlling iRobot Roomba vacuums via MQTT - real-time status, cleaning maps, scheduling, and multi-robot support | Feb 10, 2026 |
 | [**Self-Learning-Vibe-Coding**](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) | 🔒 Private | - | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 01, 2025 |
 | [**SendToQualtricsTool**](https://github.com/fabioc-aloha/SendToQualtricsTool) | 🔒 Private | C# | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 04, 2025 |
 | [**Spotify**](https://github.com/fabioc-aloha/Spotify) | 🔒 Private | Python | Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts | Oct 29, 2025 |
@@ -95,6 +96,7 @@
 | [**agent-zero**](https://github.com/fabioc-aloha/agent-zero) | 🌟 Public | - | Agent Zero AI framework | Dec 16, 2025 |
 | [**ASI-Arch**](https://github.com/fabioc-aloha/ASI-Arch) | 🌟 Public | - | AlphaGo Moment for Model Architecture Discovery. | Aug 01, 2025 |
 | [**BASIC-M6502-TS**](https://github.com/fabioc-aloha/BASIC-M6502-TS) | 🌟 Public | TypeScript | Microsoft BASIC for 6502 Microprocessor - Version 1.1 | Dec 20, 2025 |
+| [**dorita980**](https://github.com/fabioc-aloha/dorita980) | 🌟 Public | JavaScript | Unofficial iRobot Roomba and Braava (i7/i7+, 980, 960, 900, e5, 690, 675, m6, etc) node.js library (SDK) to control your robot | Feb 10, 2026 |
 | [**gastown**](https://github.com/fabioc-aloha/gastown) | 🌟 Public | - | Gas Town - multi-agent workspace manager | Feb 04, 2026 |
 | [**generative_ai_project**](https://github.com/fabioc-aloha/generative_ai_project) | 🌟 Public | Python | A structured template for building robust generative AI applications | Jun 01, 2025 |
 | [**mcpservers**](https://github.com/fabioc-aloha/mcpservers) | 🌟 Public | - | Model Context Protocol Servers | Dec 16, 2025 |
@@ -107,14 +109,14 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (74)**
+### **🏠 Original Repositories (75)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
 - **Business Intelligence**: Financial analysis, enterprise analytics, Microsoft integrations
 - **Creative Projects**: Entertainment apps, development utilities, personal tools
 
-### **🍴 Forked Repositories (10)**
+### **🍴 Forked Repositories (11)**
 These represent **learning, collaboration, and community contributions**:
 - **AI/ML Research**: Exploring cutting-edge frameworks (agent-zero, chatterbox, omi)
 - **Development Tools**: Contributing to open-source projects (mcpservers, Profile-Pic)
@@ -125,20 +127,20 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (84 Repos)
+pie title Programming Languages (86 Repos)
     "PowerShell" : 20
-    "Python" : 15
+    "Python" : 16
     "TypeScript" : 10
     "Jupyter Notebook" : 7
     "C#" : 5
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (23.8%)**: Primary language for 20 repositories
-- **Python (17.9%)**: Primary language for 15 repositories
-- **TypeScript (11.9%)**: Primary language for 10 repositories
-- **Jupyter Notebook (8.3%)**: Primary language for 7 repositories
-- **C# (6%)**: Primary language for 5 repositories
+- **PowerShell (23.3%)**: Primary language for 20 repositories
+- **Python (18.6%)**: Primary language for 16 repositories
+- **TypeScript (11.6%)**: Primary language for 10 repositories
+- **Jupyter Notebook (8.1%)**: Primary language for 7 repositories
+- **C# (5.8%)**: Primary language for 5 repositories
 
 ---
 
