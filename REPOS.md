@@ -1,11 +1,11 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: February 14, 2026 at 06:21 AM UTC
+> **Last Updated**: February 15, 2026 at 06:26 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
-> Comprehensive overview of 91 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
+> Comprehensive overview of 93 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
 >
-> **🏠 Original Work (79 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (44)** | **🌐 Public (47)**
+> **🏠 Original Work (81 repos)** | **🍴 Community Contributions (12 forks)** | **🔒 Private (44)** | **🌐 Public (49)**
 
 ---
 
@@ -24,6 +24,8 @@
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**alex-editor**](https://github.com/fabioc-aloha/alex-editor) | 🔒 Private | - | HBR publication pipeline and Alex cognitive architecture workspace | Feb 12, 2026 |
 | [**Alex-Global-Knowledge**](https://github.com/fabioc-aloha/Alex-Global-Knowledge) | 🔒 Private | PowerShell | Alex Cognitive Architecture - Global Knowledge Base | Feb 14, 2026 |
+| [**alex-in-wonderland**](https://github.com/fabioc-aloha/alex-in-wonderland) | 🌟 Public | - | Mystery game narrative - middle-grade detective adventure inspired by Dead Letters Mystery | Feb 15, 2026 |
+| [**alex-sandbox**](https://github.com/fabioc-aloha/alex-sandbox) | 🌟 Public | - | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | [**AlexCook**](https://github.com/fabioc-aloha/AlexCook) | 🌟 Public | JavaScript | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Feb 04, 2026 |
 | [**AlexQ_Template**](https://github.com/fabioc-aloha/AlexQ_Template) | 🌟 Public | PowerShell | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | [**AlexSFI**](https://github.com/fabioc-aloha/AlexSFI) | 🔒 Private | HTML | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
@@ -55,7 +57,7 @@
 | [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**Everest**](https://github.com/fabioc-aloha/Everest) | 🔒 Private | Python | Email deliverability services for GCX Data Operations - validation, reputation monitoring, blocklist tracking | Feb 12, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 13, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 14, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -114,7 +116,7 @@
 
 ## 🏠 Original Work vs 🍴 Community Contributions
 
-### **🏠 Original Repositories (79)**
+### **🏠 Original Repositories (81)**
 These represent my **independent research, development, and innovation work**:
 - **Core Cognitive Architectures**: Catalyst suite, Alex framework, NEWBORN system
 - **Academic Tools**: MdWord, PaperCopilot, AI-Qualitative-Analysis
@@ -132,7 +134,7 @@ These represent **learning, collaboration, and community contributions**:
 ## 📈 Language Distribution
 
 ```mermaid
-pie title Programming Languages (91 Repos)
+pie title Programming Languages (93 Repos)
     "PowerShell" : 21
     "Python" : 17
     "TypeScript" : 10
@@ -141,11 +143,11 @@ pie title Programming Languages (91 Repos)
 ```
 
 ### 💻 **Top Languages Summary**
-- **PowerShell (23.1%)**: Primary language for 21 repositories
-- **Python (18.7%)**: Primary language for 17 repositories
-- **TypeScript (11%)**: Primary language for 10 repositories
-- **Jupyter Notebook (7.7%)**: Primary language for 7 repositories
-- **C# (5.5%)**: Primary language for 5 repositories
+- **PowerShell (22.6%)**: Primary language for 21 repositories
+- **Python (18.3%)**: Primary language for 17 repositories
+- **TypeScript (10.8%)**: Primary language for 10 repositories
+- **Jupyter Notebook (7.5%)**: Primary language for 7 repositories
+- **C# (5.4%)**: Primary language for 5 repositories
 
 ---
 
