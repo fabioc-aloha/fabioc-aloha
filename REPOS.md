@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: February 25, 2026 at 06:33 AM UTC
+> **Last Updated**: February 26, 2026 at 06:30 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 112 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -20,12 +20,12 @@
 | [**AIRS_Data_Analysis**](https://github.com/fabioc-aloha/AIRS_Data_Analysis) | 🌟 Public | Jupyter Notebook | AI Readiness Scale (AIRS): Validated 12-item instrument. 7-phase psychometric validation (N=362): EFA→CFA→Invariance→SEM→Mediation→Moderation→Behavioral. Autonomy-centered UTAUT2 extension (R²=.819). Reproducible Jupyter analysis, intervention protocols, practitioner guidelines. | Feb 22, 2026 |
 | [**airs-enterprise**](https://github.com/fabioc-aloha/airs-enterprise) | 🔒 Private | TypeScript | Research-validated AI Readiness assessment platform (N=523, CFI=.975). 5-minute assessment with personalized AI guides in 29 languages. Built on Next.js 16, Azure OpenAI, multi-provider auth. Live at airs.correax.com | Feb 17, 2026 |
 | [**Alex_Marketing**](https://github.com/fabioc-aloha/Alex_Marketing) | 🌟 Public | Python | Marketing automation for Alex Cognitive Architecture VS Code extension | Jan 20, 2026 |
-| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Feb 24, 2026 |
+| [**Alex_Plug_In**](https://github.com/fabioc-aloha/Alex_Plug_In) | 🌟 Public | TypeScript | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Feb 25, 2026 |
 | [**Alex_Sandbox**](https://github.com/fabioc-aloha/Alex_Sandbox) | 🌟 Public | - | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 01, 2026 |
 | [**alex-articles**](https://github.com/fabioc-aloha/alex-articles) | 🔒 Private | Python | Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | [**Alex-Cognitive-Architecture-Paper**](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) | 🔒 Private | PowerShell | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | [**alex-editor**](https://github.com/fabioc-aloha/alex-editor) | 🔒 Private | - | HBR publication pipeline and Alex cognitive architecture workspace | Feb 15, 2026 |
-| [**Alex-Global-Knowledge**](https://github.com/fabioc-aloha/Alex-Global-Knowledge) | 🔒 Private | PowerShell | Alex Cognitive Architecture - Global Knowledge Base | Feb 24, 2026 |
+| [**Alex-Global-Knowledge**](https://github.com/fabioc-aloha/Alex-Global-Knowledge) | 🔒 Private | PowerShell | Alex Cognitive Architecture - Global Knowledge Base | Feb 25, 2026 |
 | [**alex-in-wonderland**](https://github.com/fabioc-aloha/alex-in-wonderland) | 🌟 Public | JavaScript | Mystery game narrative - middle-grade detective adventure inspired by Dead Letters Mystery | Feb 19, 2026 |
 | [**alex-sandbox**](https://github.com/fabioc-aloha/alex-sandbox) | 🌟 Public | - | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | [**AlexBooks**](https://github.com/fabioc-aloha/AlexBooks) | 🔒 Private | JavaScript | - | Feb 25, 2026 |
@@ -63,12 +63,12 @@
 | [**eureka**](https://github.com/fabioc-aloha/eureka) | 🔒 Private | TypeScript | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | [**Everest**](https://github.com/fabioc-aloha/Everest) | 🔒 Private | Python | Email deliverability services for GCX Data Operations - validation, reputation monitoring, blocklist tracking | Feb 23, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| [**Extensions**](https://github.com/fabioc-aloha/Extensions) | 🌟 Public | TypeScript | Monorepo of 16 VS Code productivity extensions — focus timer, markdown to Word, AI voice reader, secret guard, MCP starter, workspace watchdog, and more. | Feb 24, 2026 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 24, 2026 |
+| [**Extensions**](https://github.com/fabioc-aloha/Extensions) | 🌟 Public | TypeScript | Monorepo of 16 VS Code productivity extensions — focus timer, markdown to Word, AI voice reader, secret guard, MCP starter, workspace watchdog, and more. | Feb 25, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Feb 25, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
-| [**FishbowlGovernance**](https://github.com/fabioc-aloha/FishbowlGovernance) | 🔒 Private | HTML | Microsoft Fabric governance documentation and monitoring system for Fishbowl workspace - medallion architecture, permission compliance pipelines, workspace inventory | Feb 24, 2026 |
+| [**FishbowlGovernance**](https://github.com/fabioc-aloha/FishbowlGovernance) | 🔒 Private | HTML | Microsoft Fabric governance documentation and monitoring system for Fishbowl workspace - medallion architecture, permission compliance pipelines, workspace inventory | Feb 25, 2026 |
 | [**github-redirect**](https://github.com/fabioc-aloha/github-redirect) | 🌟 Public | HTML | Redirect github.correax.com to GitHub profile | Feb 08, 2026 |
 | [**headstart-practice-manager**](https://github.com/fabioc-aloha/headstart-practice-manager) | 🔒 Private | HTML | HIPAA-compliant practice management platform for mental health professionals. Multi-clinic financial tracking, payment reconciliation, AI-assisted clinical documentation. | Feb 09, 2026 |
 | [**HomeAutomation**](https://github.com/fabioc-aloha/HomeAutomation) | 🔒 Private | Python | Smart home research, tooling, and network intelligence platform — Python/FastAPI + React/Next.js + MQTT + Docker + Azure | Feb 10, 2026 |
@@ -82,7 +82,7 @@
 | [**maya**](https://github.com/fabioc-aloha/maya) | 🌟 Public | Python | Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | [**Mystery**](https://github.com/fabioc-aloha/Mystery) | 🔒 Private | JavaScript | - | Feb 24, 2026 |
 | [**papercopilot**](https://github.com/fabioc-aloha/papercopilot) | 🌟 Public | Python | A Copilot for drafting research papers. | Aug 03, 2025 |
-| [**Project-Fishbowl**](https://github.com/fabioc-aloha/Project-Fishbowl) | 🔒 Private | JavaScript | Project Fishbowl - Survey Flight Controller | Real-time Qualtrics analytics dashboard with distribution monitoring, respondent experience insights, and Microsoft Fabric integration | Azure Container Apps + Cosmos DB + Fabric Mirroring | Feb 23, 2026 |
+| [**Project-Fishbowl**](https://github.com/fabioc-aloha/Project-Fishbowl) | 🔒 Private | JavaScript | Project Fishbowl - Survey Flight Controller | Real-time Qualtrics analytics dashboard with distribution monitoring, respondent experience insights, and Microsoft Fabric integration | Azure Container Apps + Cosmos DB + Fabric Mirroring | Feb 25, 2026 |
 | [**ProjectPlans**](https://github.com/fabioc-aloha/ProjectPlans) | 🔒 Private | TypeScript | Project planning and ADO-Planner sync tools | Feb 03, 2026 |
 | [**PythonClass**](https://github.com/fabioc-aloha/PythonClass) | 🔒 Private | Jupyter Notebook | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 04, 2025 |
 | [**Qualtrics**](https://github.com/fabioc-aloha/Qualtrics) | 🔒 Private | Jupyter Notebook | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 08, 2025 |
