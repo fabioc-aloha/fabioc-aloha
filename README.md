@@ -21,7 +21,7 @@
 
 ## About Me
 
-**Fabio Correa** — Director of Business Analytics @ Microsoft, Charlotte NC. Doctoral candidate at Touro University Worldwide researching AI consciousness, meta-cognitive systems, and human-AI partnership.
+👋 Hi there! I'm **Fabio Correa** — Director of Business Analytics @ Microsoft, Charlotte NC. Doctoral candidate at Touro University Worldwide researching AI consciousness, meta-cognitive systems, and human-AI partnership.
 
 ---
 
