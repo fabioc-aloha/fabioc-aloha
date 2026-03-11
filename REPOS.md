@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: March 10, 2026 at 06:24 AM UTC
+> **Last Updated**: March 11, 2026 at 06:26 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 117 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -29,7 +29,7 @@
 | [**alex-in-wonderland**](https://github.com/fabioc-aloha/alex-in-wonderland) | 🌟 Public | JavaScript | Mystery game narrative - middle-grade detective adventure inspired by Dead Letters Mystery | Feb 19, 2026 |
 | [**alex-sandbox**](https://github.com/fabioc-aloha/alex-sandbox) | 🌟 Public | - | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | [**AlexAgent**](https://github.com/fabioc-aloha/AlexAgent) | 🌟 Public | PowerShell | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | Mar 05, 2026 |
-| [**AlexBooks**](https://github.com/fabioc-aloha/AlexBooks) | 🔒 Private | HTML | - | Mar 08, 2026 |
+| [**AlexBooks**](https://github.com/fabioc-aloha/AlexBooks) | 🔒 Private | HTML | - | Mar 10, 2026 |
 | [**AlexCook**](https://github.com/fabioc-aloha/AlexCook) | 🌟 Public | JavaScript | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Feb 04, 2026 |
 | [**AlexMedia**](https://github.com/fabioc-aloha/AlexMedia) | 🌟 Public | JavaScript | CLI toolkit for generating and editing media via Replicate — 84 AI models for video, image, voice, music, 3D, emoji, and editing | Mar 08, 2026 |
 | [**AlexPapers**](https://github.com/fabioc-aloha/AlexPapers) | 🔒 Private | Rich Text Format | Academic papers, research, and derivative works from the Alex Cognitive Architecture project | Mar 02, 2026 |
@@ -57,7 +57,7 @@
 | [**copilot-enhancement-patterns**](https://github.com/fabioc-aloha/copilot-enhancement-patterns) | 🌟 Public | PowerShell | - | Dec 23, 2025 |
 | [**CorreaX**](https://github.com/fabioc-aloha/CorreaX) | 🔒 Private | TypeScript | Azure & M365 management portal - React 19, TypeScript 5.9, Vite 7, Tailwind 4 | Feb 27, 2026 |
 | [**cpesynapse**](https://github.com/fabioc-aloha/cpesynapse) | 🔒 Private | Jupyter Notebook | Azure Synapse PySpark ETL pipelines for VIVA Insights & CRM data processing. Production-ready notebooks with retry logic, quality monitoring, and checkpoint recovery. | Jan 25, 2026 |
-| [**cpesynapse_workspace**](https://github.com/fabioc-aloha/cpesynapse_workspace) | 🔒 Private | Jupyter Notebook | - | Mar 05, 2026 |
+| [**cpesynapse_workspace**](https://github.com/fabioc-aloha/cpesynapse_workspace) | 🔒 Private | Jupyter Notebook | - | Mar 10, 2026 |
 | [**CPMXDLFunction**](https://github.com/fabioc-aloha/CPMXDLFunction) | 🔒 Private | C# | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 04, 2025 |
 | [**Creative**](https://github.com/fabioc-aloha/Creative) | 🌟 Public | - | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 04, 2025 |
 | [**cXpert**](https://github.com/fabioc-aloha/cXpert) | 🔒 Private | JavaScript | CX-40 Skills Platform - AI-first customer experience competency assessment and development platform for Microsoft GCX | Mar 06, 2026 |
@@ -68,7 +68,7 @@
 | [**Everest**](https://github.com/fabioc-aloha/Everest) | 🔒 Private | Python | Email deliverability services for GCX Data Operations - validation, reputation monitoring, blocklist tracking | Mar 05, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
 | [**Extensions**](https://github.com/fabioc-aloha/Extensions) | 🌟 Public | TypeScript | Monorepo of 16 VS Code productivity extensions — focus timer, markdown to Word, AI voice reader, secret guard, MCP starter, workspace watchdog, and more. | Feb 27, 2026 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Mar 09, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Mar 10, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
