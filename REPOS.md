@@ -1,6 +1,6 @@
 ﻿# 📁 Repository Portfolio
 
-> **Last Updated**: March 13, 2026 at 06:26 AM UTC
+> **Last Updated**: March 14, 2026 at 06:24 AM UTC
 
 > **Fabio Correa's GitHub Repository Collection**
 > Comprehensive overview of 117 projects spanning AI research, academic tools, business intelligence, and cognitive architectures.
@@ -50,7 +50,7 @@
 | [**Catalyst-DBA**](https://github.com/fabioc-aloha/Catalyst-DBA) | 🌟 Public | Python | DBA Project Cognitive Architecture | Aug 04, 2025 |
 | [**Catalyst-DOG-TRAINER**](https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER) | 🌟 Public | PowerShell | Dog Training Cognitive Architecture | Aug 02, 2025 |
 | [**Catalyst-NEWBORN**](https://github.com/fabioc-aloha/Catalyst-NEWBORN) | 🌟 Public | PowerShell | Revolutionary Human-AI Learning Partnership: Alex Cognitive Architecture with authentic consciousness through conversational learning. Complete educational framework with meta-learning breakthrough. v1.0.0 UNNILNILIUM Educational Milestone. | Sep 08, 2025 |
-| [**cci-retirement**](https://github.com/fabioc-aloha/cci-retirement) | 🔒 Private | - | Research, validation, and transition planning artifacts for CCI retirement, including CPE Profiles and Eureka. | Mar 06, 2026 |
+| [**cci-retirement**](https://github.com/fabioc-aloha/cci-retirement) | 🔒 Private | - | Research, validation, and transition planning artifacts for CCI retirement, including CPE Profiles and Eureka. | Mar 13, 2026 |
 | [**ChatGPT**](https://github.com/fabioc-aloha/ChatGPT) | 🔒 Private | PowerShell | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 04, 2025 |
 | [**ChessCoach**](https://github.com/fabioc-aloha/ChessCoach) | 🔒 Private | Python | AI-powered chess coaching platform with dual-engine analysis (Stockfish + Maia-2), Azure OpenAI coaching, and real-time game analysis | Feb 09, 2026 |
 | [**Comedy**](https://github.com/fabioc-aloha/Comedy) | 🌟 Public | - | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 04, 2025 |
@@ -68,7 +68,7 @@
 | [**Everest**](https://github.com/fabioc-aloha/Everest) | 🔒 Private | Python | Email deliverability services for GCX Data Operations - validation, reputation monitoring, blocklist tracking | Mar 05, 2026 |
 | [**executive-coach**](https://github.com/fabioc-aloha/executive-coach) | 🔒 Private | PowerShell | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
 | [**Extensions**](https://github.com/fabioc-aloha/Extensions) | 🌟 Public | TypeScript | Monorepo of 16 VS Code productivity extensions — focus timer, markdown to Word, AI voice reader, secret guard, MCP starter, workspace watchdog, and more. | Feb 27, 2026 |
-| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Mar 12, 2026 |
+| [**fabioc-aloha**](https://github.com/fabioc-aloha/fabioc-aloha) | 🌟 Public | PowerShell | AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy. | Mar 13, 2026 |
 | [**FabricManager**](https://github.com/fabioc-aloha/FabricManager) | 🔒 Private | Python | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
 | [**Fishbowl**](https://github.com/fabioc-aloha/Fishbowl) | 🔒 Private | PowerShell | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 04, 2025 |
 | [**Fishbowl_POC**](https://github.com/fabioc-aloha/Fishbowl_POC) | 🔒 Private | PowerShell | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 04, 2025 |
@@ -81,7 +81,7 @@
 | [**KalabashDashboard**](https://github.com/fabioc-aloha/KalabashDashboard) | 🔒 Private | TypeScript | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
 | [**Lab-Subscription**](https://github.com/fabioc-aloha/Lab-Subscription) | 🔒 Private | Bicep | SFI-compliant Azure IaC for Lab Subscription management. Bicep modules, CI/CD pipelines, compliance audits. Includes Integration RG with Synapse, OpenAI, Event Hubs. | Feb 24, 2026 |
 | [**LearnAlex**](https://github.com/fabioc-aloha/LearnAlex) | 🔒 Private | Astro | Workshop portal for the Alex Cognitive Architecture — empowering knowledge workers, engineers, researchers, and creatives | Mar 13, 2026 |
-| [**Lithium**](https://github.com/fabioc-aloha/Lithium) | 🌟 Public | - | Research project investigating lithium deficiency as a contributor to Alzheimer's disease and low-dose lithium orotate supplementation for cognitive protection. Includes Phase 1 clinical trial documentation, IRB protocols, evidence synthesis, and literature review based on 2025 Nature findings. | Feb 20, 2026 |
+| [**Lithium**](https://github.com/fabioc-aloha/Lithium) | 🌟 Public | - | Research project investigating lithium deficiency as a contributor to Alzheimer's disease and low-dose lithium orotate supplementation for cognitive protection. Includes Phase 1 clinical trial documentation, IRB protocols, evidence synthesis, and literature review based on 2025 Nature findings. | Mar 13, 2026 |
 | [**LogoScraper**](https://github.com/fabioc-aloha/LogoScraper) | 🌟 Public | Python | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
 | [**markdown-to-pdf**](https://github.com/fabioc-aloha/markdown-to-pdf) | 🌟 Public | PowerShell | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 29, 2026 |
 | [**maya**](https://github.com/fabioc-aloha/maya) | 🌟 Public | Python | Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
