@@ -91,7 +91,7 @@ The honest answer most organizations have today is "nothing, we ship it and hope
 
 Before we get into the how, here is the what. This is the live portfolio as it renders on [github.com/fabioc-aloha](https://github.com/fabioc-aloha) the morning after a clean pipeline run, banner and treemap and KPIs and executive summary and RAI badge all stitched into a single SVG, plus the curated flagship lineup underneath:
 
-![Live portfolio screenshot from github.com/fabioc-aloha](docs/Screenshot_25-4-2026_105318_github.com.jpeg)
+![Live portfolio screenshot from github.com/fabioc-aloha](Screenshot_25-4-2026_105318_github.com.jpeg)
 
 Everything below this point is how that image gets built, every day, at 6 AM Eastern, without me touching it.
 
