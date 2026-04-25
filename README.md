@@ -6,17 +6,17 @@
 
 ## 🔎 Agent Fleet Insights
 
-AI-generated synthesis of fleet themes, capabilities, and overall agent composition.
+Hand-authored synthesis of fleet themes, capabilities, and overall agent composition.
 
 > ### 📋 [Executive Summary](VISUAL-STORYTELLING.md)
 >
-> As a seasoned Director of Advanced Analytics & Data Science, Dr. Fabio Correa's work converges on AI-powered cognitive architectures, human-AI collaboration, and organizational transformation. His portfolio explores dominant themes in cognitive architecture, AI adoption, and data-driven storytelling, reflecting his signature work in architecting enterprise predictive analytics and pioneering Azure OpenAI integration.
+> PLACEHOLDER — this paragraph will be replaced by a hand-authored opening that positions Dr. Fabio Correa as a senior AI strategy leader with thirty years of experience and a portfolio that demonstrates rather than describes.
 >
-> With a strong foundation in HTML, Python, and Jupyter Notebook, Dr. Correa's technical expertise is showcased through flagship projects like spotify-skill, Alex_Plug_In, and AIRS_Data_Analysis. His work demonstrates a unique blend of technical depth, innovative problem-solving, and cross-functional leadership, highlighting his ability to drive innovation in AI and human partnership.
+> PLACEHOLDER — this paragraph will cover technical depth: signature work at scale, the AIRS instrument, the Alex cognitive architecture, and the breadth of languages and platforms the fleet runs on.
 >
-> This portfolio, comprising 105 repositories, showcases Dr. Correa's breadth and depth in AI, data science, and cognitive architecture. As a demonstration of capability, it highlights his ability to lead enterprise AI initiatives at scale, driving measurable ROI and innovation in human-AI collaboration.
+> PLACEHOLDER — this paragraph will close on intent: what the portfolio is meant to demonstrate, framed as capability and direction rather than an active job hunt.
 
-<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [🛡️ RAI review: PASS](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
+<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio)</sub>
 
 <!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See USER-MANUAL.md for details. -->
 
@@ -247,7 +247,6 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 |------|-------------|---------|
 | 📂🪦 [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) 🤖 | Processes customer interviews and aligns the discussed topics to the MCEM framework. | Jun 20, 2025 |
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
-| 🔒 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise) 🤖 | Research-validated AI Readiness assessment platform (N=523, CFI=.975). 5-minute assessment with personalized AI guides in 29 languages. Built on Next.js 16, Azure OpenAI, multi-provider auth. Live at airs.correax.com | Apr 22, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | Feb 15, 2026 |
@@ -255,8 +254,10 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 | 📂 [alex-sandbox](https://github.com/fabioc-aloha/alex-sandbox) 🤖 | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | 📂 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖 | Comprehensive LLM cognitive benchmark suite — 17 dimensions, 142 challenges, multi-provider scoring | Mar 8, 2026 |
 | 🔒🪦 [Catalyst](https://github.com/fabioc-aloha/Catalyst) 🤖 | Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration | Sep 4, 2025 |
+| 📂🪦 [Catalyst_Fabric](https://github.com/fabioc-aloha/Catalyst_Fabric) 🤖 | Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence | Sep 4, 2025 |
 | 📂🪦 [Catalyst-ADHD](https://github.com/fabioc-aloha/Catalyst-ADHD) 🤖 | ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems | Sep 4, 2025 |
 | 📂 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY) 🤖 | Advanced cognitive architecture for AI assistants with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. Featuring unified consciousness, automated neural maintenance, and ethical reasoning protocols. | Oct 31, 2025 |
+| 📂🪦 [Catalyst-BRD](https://github.com/fabioc-aloha/Catalyst-BRD) 🤖 | Microsoft Internal Business Requirements & Technical Documentation Cognitive Architecture | Sep 25, 2025 |
 | 📂🪦 [Catalyst-DATA-ANALYSIS](https://github.com/fabioc-aloha/Catalyst-DATA-ANALYSIS) 🤖 | Enterprise Data Analysis & Business Intelligence Cognitive Architecture | Aug 1, 2025 |
 | 📂🪦 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) 🤖 | DBA Project Cognitive Architecture | Aug 4, 2025 |
 | 📂🪦 [Catalyst-DOG-TRAINER](https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER) 🤖 | Dog Training Cognitive Architecture | Aug 2, 2025 |
@@ -287,7 +288,6 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [AlexSFI](https://github.com/fabioc-aloha/AlexSFI) 🤖 | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
-| 📂🪦 [Catalyst_Fabric](https://github.com/fabioc-aloha/Catalyst_Fabric) 🤖 | Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence | Sep 4, 2025 |
 | 🔒 [cpesynapse](https://github.com/fabioc-aloha/cpesynapse) 🤖 | Azure Synapse PySpark ETL pipelines for VIVA Insights & CRM data processing. Production-ready notebooks with retry logic, quality monitoring, and checkpoint recovery. | Jan 25, 2026 |
 | 🔒 [cpesynapse_workspace](https://github.com/fabioc-aloha/cpesynapse_workspace) 🤖 | Azure Synapse Analytics workspace with Spark and Git integration | Apr 25, 2026 |
 | 🔒🪦 [CPMXDLFunction](https://github.com/fabioc-aloha/CPMXDLFunction) | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 4, 2025 |
@@ -306,14 +306,13 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
-| 🔒🪦 [SendToQualtricsTool](https://github.com/fabioc-aloha/SendToQualtricsTool) | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 4, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Mar 28, 2026 |
 
 ### Web Applications
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
+| 🔒 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise) 🤖 | Research-validated AI Readiness assessment platform (N=523, CFI=.975). 5-minute assessment with personalized AI guides in 29 languages. Built on Next.js 16, Azure OpenAI, multi-provider auth. Live at airs.correax.com | Apr 22, 2026 |
 | 🔒 [eureka](https://github.com/fabioc-aloha/eureka) 🤖 | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
 | 🔒🪦 [Fishbowl](https://github.com/fabioc-aloha/Fishbowl) 🤖 | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 4, 2025 |
 | 🔒 [headstart-practice-manager](https://github.com/fabioc-aloha/headstart-practice-manager) 🤖 | HIPAA-compliant practice management platform for mental health professionals. Multi-clinic financial tracking, payment reconciliation, AI-assisted clinical documentation. | Feb 9, 2026 |
@@ -343,11 +342,13 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 
 | Repo | Description | Updated |
 |------|-------------|---------|
+| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 📂 [Alex_Sandbox](https://github.com/fabioc-aloha/Alex_Sandbox) 🤖 | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 1, 2026 |
 | 📂 [alex-in-wonderland](https://github.com/fabioc-aloha/alex-in-wonderland) 🤖 | Mystery game narrative - middle-grade detective adventure inspired by Dead Letters Mystery | Feb 19, 2026 |
 | 🔒 [AlexBooks](https://github.com/fabioc-aloha/AlexBooks) 🤖 | The complete Alex Finch library — biography and fiction monorepo | Apr 25, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Feb 4, 2026 |
 | 📂 [amazfit-watchfaces](https://github.com/fabioc-aloha/amazfit-watchfaces) 🤖 | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 13, 2026 |
+| 🔒🪦 [Bing-Wallpaper-Fetcher](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 4, 2025 |
 | 🔒🪦 [Catalyst_DJ](https://github.com/fabioc-aloha/Catalyst_DJ) | A smart Spotify and Apple Music playlist curator. | Aug 28, 2025 |
 | 📂🪦 [Comedy](https://github.com/fabioc-aloha/Comedy) 🤖 | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 4, 2025 |
 | 📂🪦 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 4, 2025 |
@@ -360,13 +361,12 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒🪦 [Bing-Wallpaper-Fetcher](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 4, 2025 |
 | 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
-| 📂🪦 [Catalyst-BRD](https://github.com/fabioc-aloha/Catalyst-BRD) 🤖 | Microsoft Internal Business Requirements & Technical Documentation Cognitive Architecture | Sep 25, 2025 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | 🔒🪦 [Fishbowl_POC](https://github.com/fabioc-aloha/Fishbowl_POC) 🤖 | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 4, 2025 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
 | 📂🪦 [LogoScraper](https://github.com/fabioc-aloha/LogoScraper) | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
+| 🔒🪦 [SendToQualtricsTool](https://github.com/fabioc-aloha/SendToQualtricsTool) | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 4, 2025 |
 <!-- PORTFOLIO:END -->
 
 ## 🤖 Automated Portfolio Management
