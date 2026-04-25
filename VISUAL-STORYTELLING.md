@@ -30,7 +30,7 @@ One more thing. The AI assistant who paired with me on this entire system, who c
 
 The dashboard's executive summary is LLM-authored. Shipping that prose straight to a public README without independent review would be irresponsible. So a second LLM, a different model with a different role and a deterministic temperature, evaluates the first LLM's output before anything publishes. The AI that *makes* the claims is not the AI that *approves* them.
 
-> 📌 **A confession from inside the workshop.** The RAI stage you are about to read about did not exist when I started writing this section. I told my AI partner *"and we are applying RAI by having an LLM evaluate the LLM output and flagging risks"*, fully expecting to mark it as a planned next step. By the time I finished the sentence, Alex had already drafted [`scripts/rai-review.mjs`](scripts/rai-review.mjs), wired it into the pipeline after `generate-summary`, designed the seven-dimension rubric, computed a deterministic verdict-rollup so quality issues warn but only safety issues block, and surfaced the verdict as a badge under the executive summary card. We then iterated together on the rubric, hardened the evidence rules, and bumped the reviewer to a more capable model. That is not an anecdote about a clever prompt. It is the demonstration. *A genuinely useful AI partner anticipates the ask, ships the implementation, and explains the choices, all in the same conversation.* This document is being co-authored by the same loop.
+> 📌 **A confession from inside the workshop.** The RAI stage you are about to read about did not exist when I started writing this section. I told my AI partner *"and we are applying RAI by having an LLM evaluate the LLM output and flagging risks"*, fully expecting to mark it as a planned next step. By the time I finished the sentence, Alex had already drafted [`scripts/rai-review.mjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs), wired it into the pipeline after `generate-summary`, designed the seven-dimension rubric, computed a deterministic verdict-rollup so quality issues warn but only safety issues block, and surfaced the verdict as a badge under the executive summary card. We then iterated together on the rubric, hardened the evidence rules, and bumped the reviewer to a more capable model. That is not an anecdote about a clever prompt. It is the demonstration. *A genuinely useful AI partner anticipates the ask, ships the implementation, and explains the choices, all in the same conversation.* This document is being co-authored by the same loop.
 
 ### The pattern
 
@@ -77,7 +77,7 @@ A few decisions worth calling out, because they show up in real enterprise RAI p
 - **Evidence-required FAILs.** The rubric tells the reviewer that every FAIL must quote the exact offending phrase from the summary. No "implies", no "suggests", no vibes. *If you cannot quote it, the check passes.* This single rule eliminated most of the false positives we saw during development.
 - **Verdict rollup is deterministic.** The LLM judges per dimension; the script counts the failures and routes them through the safety/quality split. Letting the LLM pick its own overall verdict produced inconsistent rollups, the same "let the model narrate, not count" principle the summary stage already follows.
 - **Cache by hash.** Like every other LLM stage, the RAI call is hash-cached on `(summary + objectives + portfolio facts)`. A clean run with no upstream change costs zero RAI tokens.
-- **Publish the receipt.** The verdict appears as a badge under the executive summary card in the README, linked back to this section. The reader sees the review happened. Full per-check JSON lives in [`repos/rai-review.json`](repos/rai-review.json), diffable across daily runs.
+- **Publish the receipt.** The verdict appears as a badge under the executive summary card in the README, linked back to this section. The reader sees the review happened. Full per-check JSON lives in [`repos/rai-review.json`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/repos/rai-review.json), diffable across daily runs.
 
 ### What this proves
 
@@ -135,7 +135,7 @@ Each stage writes a JSON artifact and reads only the previous stage's output. Th
 - **Replay-ability.** Any stage can be re-run on yesterday's data without re-fetching. Great for prompt iteration.
 - **Failure isolation.** A single failed stage doesn't poison the rest. Cluster failures fall back to cached clusters; summary failures render the README without the prose block.
 
-The orchestrator is [scripts/refresh.mjs](scripts/refresh.mjs). It runs the stages, gates on `review-content.mjs`, and exits non-zero on regression so the GitHub Action never publishes a broken artifact.
+The orchestrator is [scripts/refresh.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/refresh.mjs). It runs the stages, gates on `review-content.mjs`, and exits non-zero on regression so the GitHub Action never publishes a broken artifact.
 
 ---
 
@@ -153,7 +153,7 @@ The fetch stage has no LLM and no business logic. Its only job is to be **determ
 
 Source: `repo-analysis.json`. Output: `repos/repo-classification.json`. Model: **`gpt-4o-mini`** via GitHub Models.
 
-Each repo gets a category (from a 10-item taxonomy: AI, Data, Infrastructure, Web Apps, Developer Tools, …) and a tier (`flagship` / `notable` / `standard` / `archived`). The taxonomy is hand-curated in [scripts/classify-repos.mjs](scripts/classify-repos.mjs); the LLM only assigns repos to existing buckets.
+Each repo gets a category (from a 10-item taxonomy: AI, Data, Infrastructure, Web Apps, Developer Tools, …) and a tier (`flagship` / `notable` / `standard` / `archived`). The taxonomy is hand-curated in [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs); the LLM only assigns repos to existing buckets.
 
 ### Why `gpt-4o-mini`
 
@@ -215,7 +215,7 @@ The prompt has explicit JSON schema, hard caps on cluster count, and a validatio
 - Re-tries up to 3 times if "Other" exceeds 10%, keeping the run with the smallest "Other"
 - Adds any topics the model dropped to "Other" so the assignment is total
 
-The full system prompt lives in [scripts/cluster-topics.mjs](scripts/cluster-topics.mjs) and is reproduced in the appendix below.
+The full system prompt lives in [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) and is reproduced in the appendix below.
 
 ### Tagline generation
 
@@ -242,7 +242,7 @@ The summary is three short paragraphs, each with a defined job:
 2. **`strengths`**, technical signal, citing specific repos and languages
 3. **`shape`**, overall composition, active/archived ratio, breadth vs. depth
 
-We feed the LLM a token-efficient compaction of all three upstream artifacts (see `buildPayload` in [scripts/generate-summary.mjs](scripts/generate-summary.mjs)): totals, top-12 flagships *with descriptions*, language shares, top clusters with sample topics. Roughly 2K tokens in.
+We feed the LLM a token-efficient compaction of all three upstream artifacts (see `buildPayload` in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs)): totals, top-12 flagships *with descriptions*, language shares, top clusters with sample topics. Roughly 2K tokens in.
 
 The output is a constrained JSON with three string fields, each capped at 320 chars. Example from this run:
 
@@ -274,9 +274,9 @@ fetch-popular-topics →  repos/popular-topics.json
   (GitHub search API)    (popularity-ranked database with portfolio attribution)
 ```
 
-**[`seo-curate.cjs`](.github/muscles/seo-curate.cjs)** — for each non-fork repo, sends `gpt-4o` the portfolio context (audience, voice, goal from `portfolio.config.json`), the repo facts (name, language, current description, current topics, README excerpt, private/public flag), and asks for four things back: a verdict on whether the current description is already good enough to keep, a rewritten description if not, an optional longer portfolio-side override, and a candidate topic list. The model is prompted with explicit two-audience framing (description = business value for executives; topics = technical slugs for developers) and explicit private-repo safety rules (no client names, no regulated-entity details, generic capability framing only). Modes: `--pinned` for the six flagship repos, `--all` for the full non-fork set, `--repo OWNER/NAME` for a single repo, `--dry-run` to plan without API calls. Each proposal is hash-cached for 30 days against the repo's content plus the portfolio context, so re-running after a portfolio edit only regenerates the proposals that actually need it.
+**[`seo-curate.cjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/seo-curate.cjs)** — for each non-fork repo, sends `gpt-4o` the portfolio context (audience, voice, goal from `portfolio.config.json`), the repo facts (name, language, current description, current topics, README excerpt, private/public flag), and asks for four things back: a verdict on whether the current description is already good enough to keep, a rewritten description if not, an optional longer portfolio-side override, and a candidate topic list. The model is prompted with explicit two-audience framing (description = business value for executives; topics = technical slugs for developers) and explicit private-repo safety rules (no client names, no regulated-entity details, generic capability framing only). Modes: `--pinned` for the six flagship repos, `--all` for the full non-fork set, `--repo OWNER/NAME` for a single repo, `--dry-run` to plan without API calls. Each proposal is hash-cached for 30 days against the repo's content plus the portfolio context, so re-running after a portfolio edit only regenerates the proposals that actually need it.
 
-**[`fetch-popular-topics.cjs`](.github/muscles/fetch-popular-topics.cjs)** — builds a popularity-ranked topic database keyed off the portfolio. Phase 1 harvests every topic already in use across the portfolio with per-repo attribution. Phase 2 pulls candidate topics from `seo-proposals.json` for repos under-tagged below the floor. Phase 3 queries GitHub's search API for `topic:X` repo counts as the popularity proxy and tiers them: massive (50k+ public repos), mainstream (10k–50k), discoverable (1k–10k), specialty (100–1k), low (<100). The catalog carries `fetchedAt` / `expiresAt` and a per-topic 7-day TTL, so subsequent runs only re-query stale entries. The point of the database is to spend search-API calls on topics the portfolio actually uses or is being proposed to use — not on a fixed seed list whether or not it overlaps with the work.
+**[`fetch-popular-topics.cjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/fetch-popular-topics.cjs)** — builds a popularity-ranked topic database keyed off the portfolio. Phase 1 harvests every topic already in use across the portfolio with per-repo attribution. Phase 2 pulls candidate topics from `seo-proposals.json` for repos under-tagged below the floor. Phase 3 queries GitHub's search API for `topic:X` repo counts as the popularity proxy and tiers them: massive (50k+ public repos), mainstream (10k–50k), discoverable (1k–10k), specialty (100–1k), low (<100). The catalog carries `fetchedAt` / `expiresAt` and a per-topic 7-day TTL, so subsequent runs only re-query stale entries. The point of the database is to spend search-API calls on topics the portfolio actually uses or is being proposed to use — not on a fixed seed list whether or not it overlaps with the work.
 
 **The split matters.** Description-quality is judgment work for an LLM with the right context. Popularity ranking is mechanical work for an HTTP API. Mixing them in one muscle would either burn LLM tokens on numbers a search count already gives us, or burn API quota on topics no one in the portfolio is even considering.
 
@@ -297,7 +297,7 @@ The premise behind Stage 4.5 \u2014 that better descriptions and tighter topics 
 
 GitHub gives every repo a small but real traffic API: views, unique visitors, clones, top referrers, top paths. The catch is that **only the last 14 days are retained**. To measure impact over weeks or months, we have to snapshot it ourselves.
 
-**[`traffic-snapshot.cjs`](.github/muscles/traffic-snapshot.cjs)** \u2014 walks every non-fork repo, calls `/repos/{owner}/{repo}/traffic/{views,clones,popular/referrers,popular/paths}`, and appends a full snapshot to `repos/traffic-history.json` with a flat `repos/traffic-latest.json` for quick reads. Each per-repo record carries the SEO state at capture time (description length, topic count, language) alongside the traffic numbers \u2014 so a future analysis can correlate `topicCount: 2 \u2192 9` against `views14d: 4 \u2192 31` for the same repo, not just look at portfolio aggregates.
+**[`traffic-snapshot.cjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/traffic-snapshot.cjs)** \u2014 walks every non-fork repo, calls `/repos/{owner}/{repo}/traffic/{views,clones,popular/referrers,popular/paths}`, and appends a full snapshot to `repos/traffic-history.json` with a flat `repos/traffic-latest.json` for quick reads. Each per-repo record carries the SEO state at capture time (description length, topic count, language) alongside the traffic numbers \u2014 so a future analysis can correlate `topicCount: 2 \u2192 9` against `views14d: 4 \u2192 31` for the same repo, not just look at portfolio aggregates.
 
 The first run (April 25, 2026) was tagged `--baseline` and gives us the reference point against which every later snapshot is diffed:
 
@@ -310,7 +310,7 @@ The metric that actually matters for the SEO curation work is the **organic-sear
 
 Modes: default captures all non-forks, `--pinned` for flagships only, `--repo OWNER/NAME` for a single repo, `--public-only` to exclude private repos, `--baseline` to tag the snapshot, `--dry-run` for a no-API-call plan.
 
-The snapshot runs on its own schedule, separate from the daily README refresh: a weekly GitHub Actions workflow ([.github/workflows/traffic-snapshot.yml](.github/workflows/traffic-snapshot.yml)) fires every Sunday at 09:00 UTC (5 AM Eastern), captures the snapshot, commits the updated history files, and pushes. Weekly is the right cadence — the underlying API already returns a 14-day rolling window, so daily snapshots would mostly capture overlapping data, while weekly gives clean, non-trivial deltas without burning CI minutes. The workflow uses `PORTFOLIO_PAT` (the same scoped token the daily refresh uses for `fetch-repos`) because the traffic API requires push access on each repo, which the default `GITHUB_TOKEN` does not provide. To keep the workflow honest, the muscle aborts with a non-zero exit if more than half of the repos return errors — better a failed run than a snapshot full of zeros poisoning the trend line.
+The snapshot runs on its own schedule, separate from the daily README refresh: a weekly GitHub Actions workflow ([.github/workflows/traffic-snapshot.yml](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/workflows/traffic-snapshot.yml)) fires every Sunday at 09:00 UTC (5 AM Eastern), captures the snapshot, commits the updated history files, and pushes. Weekly is the right cadence — the underlying API already returns a 14-day rolling window, so daily snapshots would mostly capture overlapping data, while weekly gives clean, non-trivial deltas without burning CI minutes. The workflow uses `PORTFOLIO_PAT` (the same scoped token the daily refresh uses for `fetch-repos`) because the traffic API requires push access on each repo, which the default `GITHUB_TOKEN` does not provide. To keep the workflow honest, the muscle aborts with a non-zero exit if more than half of the repos return errors — better a failed run than a snapshot full of zeros poisoning the trend line.
 
 ### What gets counted, what doesn't, and how to keep the data clean
 
@@ -363,7 +363,7 @@ The win: every fragment can be developed and previewed independently. Open `port
 
 ### The shared panel primitive
 
-Every block (Top Languages, Tier & Activity, Top Themes, every cluster in the treemap) is built from one helper in [scripts/svg-panel.mjs](scripts/svg-panel.mjs):
+Every block (Top Languages, Tier & Activity, Top Themes, every cluster in the treemap) is built from one helper in [scripts/svg-panel.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/svg-panel.mjs):
 
 ```js
 panel({ x, y, w, h, title, subtitle, color })
@@ -389,9 +389,9 @@ Two layout choices are non-obvious:
 
 ### The banner: ultra-customization
 
-The banner is the most customized fragment because it has to do quadruple duty: brand mark, name, role line, dynamic update stamp. Source file: [docs/brand/logos/banner-profile.svg](docs/brand/logos/banner-profile.svg), a static design.
+The banner is the most customized fragment because it has to do quadruple duty: brand mark, name, role line, dynamic update stamp. Source file: [docs/brand/logos/banner-profile.svg](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/docs/brand/logos/banner-profile.svg), a static design.
 
-We **never modify the source file** during the build. Instead, [scripts/generate-readme.mjs](scripts/generate-readme.mjs) reads it as a string and runs four scoped regex replacements before stitching:
+We **never modify the source file** during the build. Instead, [scripts/generate-readme.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-readme.mjs) reads it as a string and runs four scoped regex replacements before stitching:
 
 ```js
 bannerSvg = bannerSrc
@@ -423,7 +423,7 @@ The stat line used to be a separate `<p align="center">` block of HTML below the
 
 ## Stage 6: Review (the safety net)
 
-[scripts/review-content.mjs](scripts/review-content.mjs) runs after every regeneration. It is a defensive script:
+[scripts/review-content.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/review-content.mjs) runs after every regeneration. It is a defensive script:
 
 - Counts categories and repos from the rendered README and asserts they match the JSON
 - Verifies the portfolio markers (`<!-- PORTFOLIO:START -->` / `END -->`) are intact
@@ -554,7 +554,7 @@ Validation checklist before responding:
 - Tagline is one sentence and ≤120 characters.
 ```
 
-(Full prompt in [scripts/cluster-topics.mjs](scripts/cluster-topics.mjs).)
+(Full prompt in [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs).)
 
 **User payload.** Two clearly-labeled blocks. Topics first (numbered, with frequency counts so the model can prioritize dominant themes), then up to 30 repository descriptions for disambiguation context.
 
@@ -611,7 +611,7 @@ Hard rules:
 - Schema: { "themes": "...", "strengths": "...", "shape": "..." }
 ```
 
-(Full prompt in [scripts/generate-summary.mjs](scripts/generate-summary.mjs).)
+(Full prompt in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs).)
 
 **User payload.** A single pre-counted, pre-aggregated JSON object. The script does the math (totals, percentages, top-N selection); the model does the prose. This is the central design principle of stage 4: never ask the LLM to count or rank, only to narrate.
 
@@ -668,7 +668,7 @@ PORTFOLIO DATA:
 }
 ```
 
-The payload is built by `buildPayload()` in [scripts/generate-summary.mjs](scripts/generate-summary.mjs). A few specific shaping decisions:
+The payload is built by `buildPayload()` in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs). A few specific shaping decisions:
 
 - **Top-12 flagships, not all 18.** A long list dilutes the model's attention and burns tokens. 12 is enough to give it specific names to cite without crowding the prompt.
 - **Full descriptions on flagships only.** Categories and clusters get just counts and names. The descriptions are the highest-signal content for the *strengths* paragraph and they're concentrated in the flagships.
@@ -684,17 +684,17 @@ At ~2K tokens in and ~300 tokens out, the call costs about $0.001 with the 405B 
 
 | File | Purpose |
 | --- | --- |
-| [scripts/refresh.mjs](scripts/refresh.mjs) | Pipeline orchestrator |
-| [scripts/fetch-repos.mjs](scripts/fetch-repos.mjs) | Stage 1, GitHub API fetch |
-| [scripts/classify-repos.mjs](scripts/classify-repos.mjs) | Stage 2, LLM classification |
-| [scripts/cluster-topics.mjs](scripts/cluster-topics.mjs) | Stage 3, clustering + tagline |
-| [scripts/generate-summary.mjs](scripts/generate-summary.mjs) | Stage 4, executive summary |
-| [scripts/generate-readme.mjs](scripts/generate-readme.mjs) | Stage 5, README + SVG composition |
-| [scripts/generate-topic-viz.mjs](scripts/generate-topic-viz.mjs) | Treemap renderer |
-| [scripts/generate-glance-svg.mjs](scripts/generate-glance-svg.mjs) | KPI row renderer |
-| [scripts/generate-dashboard-svg.mjs](scripts/generate-dashboard-svg.mjs) | Multi-fragment combiner |
-| [scripts/svg-panel.mjs](scripts/svg-panel.mjs) | Shared panel primitive |
-| [scripts/review-content.mjs](scripts/review-content.mjs) | Stage 6, output gates |
-| [docs/brand/logos/banner-profile.svg](docs/brand/logos/banner-profile.svg) | Banner template |
-| [portfolio.config.json](portfolio.config.json) | Profile, taxonomy, overrides |
+| [scripts/refresh.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/refresh.mjs) | Pipeline orchestrator |
+| [scripts/fetch-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/fetch-repos.mjs) | Stage 1, GitHub API fetch |
+| [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs) | Stage 2, LLM classification |
+| [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) | Stage 3, clustering + tagline |
+| [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs) | Stage 4, executive summary |
+| [scripts/generate-readme.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-readme.mjs) | Stage 5, README + SVG composition |
+| [scripts/generate-topic-viz.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-topic-viz.mjs) | Treemap renderer |
+| [scripts/generate-glance-svg.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-glance-svg.mjs) | KPI row renderer |
+| [scripts/generate-dashboard-svg.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-dashboard-svg.mjs) | Multi-fragment combiner |
+| [scripts/svg-panel.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/svg-panel.mjs) | Shared panel primitive |
+| [scripts/review-content.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/review-content.mjs) | Stage 6, output gates |
+| [docs/brand/logos/banner-profile.svg](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/docs/brand/logos/banner-profile.svg) | Banner template |
+| [portfolio.config.json](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/portfolio.config.json) | Profile, taxonomy, overrides |
 | [portfolio.svg](portfolio.svg) | Final dashboard artifact |
