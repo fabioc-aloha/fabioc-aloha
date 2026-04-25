@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 947" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Portfolio">
+<title>Portfolio</title>
+<g transform="translate(0, 0) scale(0.683333)">
+<defs>
+    <!-- Background gradient - deep space theme -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Logo gradient with Azure blue -->
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Accent text gradient -->
+    <linearGradient id="accentTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00bcf2"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#00bcf2"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong glow for logo -->
+    <filter id="logoGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Radial glow behind logo -->
+    <radialGradient id="logoBackGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0078d4" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#0078d4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0078d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+
+    <!-- Dot pattern -->
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="#0078d4" opacity="0.2"/>
+    </pattern>
+
+    <!-- Gradient for accent line -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#005a9e"/>
+      <stop offset="25%" stop-color="#0078d4"/>
+      <stop offset="50%" stop-color="#00bcf2"/>
+      <stop offset="75%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+
+    <!-- Neural network gradient -->
+    <linearGradient id="neuralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#00bcf2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Dot pattern overlay -->
+  <rect width="1200" height="300" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- Large decorative orbs -->
+  <circle cx="150" cy="150" r="180" fill="url(#logoBackGlow)"/>
+  <circle cx="1050" cy="80" r="150" fill="#0078d4" opacity="0.05"/>
+  <circle cx="1150" cy="280" r="180" fill="#00bcf2" opacity="0.03"/>
+  <circle cx="50" cy="250" r="100" fill="#7c3aed" opacity="0.06"/>
+
+  <!-- Neural network nodes - cognitive theme -->
+  <g opacity="0.4">
+    <!-- Left side neural cluster -->
+    <circle cx="80" cy="60" r="4" fill="#7c3aed"/>
+    <circle cx="120" cy="40" r="3" fill="#0078d4"/>
+    <circle cx="60" cy="100" r="3" fill="#00bcf2"/>
+    <circle cx="140" cy="90" r="2" fill="#7c3aed"/>
+    <line x1="80" y1="60" x2="120" y2="40" stroke="#7c3aed" stroke-width="1"/>
+    <line x1="80" y1="60" x2="60" y2="100" stroke="#0078d4" stroke-width="1"/>
+    <line x1="120" y1="40" x2="140" y2="90" stroke="#00bcf2" stroke-width="0.5"/>
+
+    <!-- Right side neural cluster -->
+    <circle cx="1100" cy="70" r="3" fill="#00bcf2"/>
+    <circle cx="1140" cy="50" r="2" fill="#0078d4"/>
+    <circle cx="1080" cy="100" r="4" fill="#7c3aed"/>
+    <circle cx="1120" cy="120" r="2" fill="#0078d4"/>
+    <line x1="1100" y1="70" x2="1140" y2="50" stroke="#00bcf2" stroke-width="0.5"/>
+    <line x1="1100" y1="70" x2="1080" y2="100" stroke="#7c3aed" stroke-width="1"/>
+    <line x1="1080" y1="100" x2="1120" y2="120" stroke="#0078d4" stroke-width="0.5"/>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="300" cy="30" r="1.5" fill="#0078d4" opacity="0.5"/>
+  <circle cx="500" cy="50" r="2" fill="#00bcf2" opacity="0.4"/>
+  <circle cx="750" cy="25" r="1" fill="#7c3aed" opacity="0.6"/>
+  <circle cx="950" cy="45" r="2.5" fill="#00bcf2" opacity="0.3"/>
+  <circle cx="400" cy="270" r="2" fill="#00bcf2" opacity="0.4"/>
+  <circle cx="700" cy="260" r="1.5" fill="#0078d4" opacity="0.5"/>
+  <circle cx="900" cy="275" r="2" fill="#7c3aed" opacity="0.3"/>
+  <circle cx="1050" cy="250" r="1" fill="#0078d4" opacity="0.6"/>
+
+  <!-- Logo glow backdrop -->
+  <ellipse cx="150" cy="150" rx="120" ry="110" fill="url(#logoBackGlow)"/>
+
+  <!-- Logo mark (scaled) with glow -->
+  <g transform="translate(55, 58) scale(6)" filter="url(#logoGlow)">
+    <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14c3.866 0 7.389-1.568 9.928-4.1l-3.535-3.536A9.002 9.002 0 0116 25c-4.97 0-9-4.03-9-9s4.03-9 9-9c2.29 0 4.38.857 5.971 2.268l3.464-3.639C22.993 3.352 19.66 2 16 2z" fill="url(#logoGrad)"/>
+    <path d="M20 10l-4 6 4 6h4l-4-6 4-6h-4z" fill="url(#logoGrad)"/>
+    <path d="M24 10l4 6-4 6h4l4-6-4-6h-4z" fill="url(#logoGrad)" opacity="0.6"/>
+  </g>
+
+  <text x="320" y="54" font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" letter-spacing="3">AUTOMATIC REPOSITORY PORTFOLIO FOR</text>
+  <!-- Main name -->
+  <text x="320" y="135" font-family="Segoe UI, system-ui, sans-serif" font-size="74" font-weight="700" fill="url(#nameGrad)" filter="url(#glow)">Dr. Fabio Correa, DBA</text>
+
+  <!-- Title line -->
+  <text x="320" y="180" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#94a3b8" letter-spacing="1" textLength="800" lengthAdjust="spacingAndGlyphs">Building AI-powered cognitive architectures for human-AI collaboration and organizational intelligence.</text>
+
+  <!-- Tagline with accent -->
+  <text x="320" y="220" font-family="Segoe UI, system-ui, sans-serif" font-size="18" fill="url(#accentTextGrad)" letter-spacing="1.5">THINK • BUILD • DEPLOY</text>
+
+  <!-- Decorative accent line -->
+  <line x1="320" y1="240" x2="850" y2="240" stroke="#334155" stroke-width="1"/>
+  <line x1="320" y1="243" x2="600" y2="243" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+
+  <!-- CorreaX branding badge -->
+  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">Apr 25 2026 15:38 EDT</text></g>
+
+  <!-- Tech circuit decorations on right -->
+  <g opacity="0.25">
+    <path d="M1000 140 h80 v40 h40" stroke="#0078d4" stroke-width="1.5" fill="none"/>
+    <circle cx="1000" cy="140" r="3" fill="#0078d4"/>
+    <circle cx="1120" cy="180" r="4" fill="#00bcf2"/>
+    <path d="M1020 200 h60 v-25 h30" stroke="#7c3aed" stroke-width="1" fill="none"/>
+    <circle cx="1020" cy="200" r="2" fill="#7c3aed"/>
+    <path d="M980 100 h50 l20 20 h40" stroke="#00bcf2" stroke-width="1" fill="none"/>
+    <circle cx="980" cy="100" r="2" fill="#00bcf2"/>
+  </g>
+
+  <!-- Bottom accent bar with glow -->
+  <rect x="0" y="290" width="1200" height="10" fill="url(#accentGrad)" filter="url(#glow)"/>
+</g>
+<g transform="translate(0, 217)">
+<rect width="820" height="416" fill="none"/>
+  <rect x="3" y="3" width="207.74407582938392" height="202" rx="6" fill="#57606a" opacity="0.15" stroke="#57606a" stroke-width="1.5"/><path d="M9,3 h195.74407582938392 a6,6 0 0 1 6,6 v16 h-207.74407582938392 v-16 a6,6 0 0 1 6,-6 z" fill="#57606a" opacity="0.1"/><line x1="3" y1="25" x2="210.74407582938392" y2="25" stroke="#57606a" stroke-width="0.75" opacity="0.45"/><text x="11" y="19" font-size="12" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Other</text>
+  <rect x="4" y="27" width="30.20401270843505" height="176" rx="3" fill="#57606a" opacity="0.31"/>
+  <text x="19.102006354217526" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,19.102006354217526,115)">python</text>
+  <rect x="35.20401270843505" y="27" width="27.572365145970984" height="176" rx="3" fill="#57606a" opacity="0.30"/>
+  <text x="48.99019528142054" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,48.99019528142054,115)">skills</text>
+  <rect x="63.776377854406036" y="27" width="27.572365145970984" height="176" rx="3" fill="#57606a" opacity="0.30"/>
+  <text x="77.56256042739153" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,77.56256042739153,115)">microsoft</text>
+  <rect x="92.34874300037703" y="27" width="24.66147310673481" height="176" rx="3" fill="#57606a" opacity="0.28"/>
+  <text x="104.67947955374443" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,104.67947955374443,115)">developer tools</text>
+  <rect x="118.01021610711183" y="27" width="24.66147310673481" height="176" rx="3" fill="#57606a" opacity="0.28"/>
+  <text x="130.34095266047925" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,130.34095266047925,115)">mcp</text>
+  <rect x="143.67168921384663" y="27" width="21.357462205179086" height="176" rx="3" fill="#57606a" opacity="0.27"/>
+  <text x="154.35042031643619" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,154.35042031643619,115)">prompt engineering</text>
+  <rect x="166.0291514190257" y="27" width="21.357462205179086" height="176" rx="3" fill="#57606a" opacity="0.27"/>
+  <text x="176.70788252161526" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,176.70788252161526,115)">dashboard</text>
+  <rect x="188.38661362420478" y="27" width="21.357462205179132" height="176" rx="3" fill="#57606a" opacity="0.27"/>
+  <text x="199.06534472679436" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,199.06534472679436,115)">msal</text>
+  <rect x="216.74407582938392" y="3" width="180.54028436018956" height="202" rx="6" fill="#4e79a7" opacity="0.15" stroke="#4e79a7" stroke-width="1.5"/><path d="M222.74407582938392,3 h168.54028436018956 a6,6 0 0 1 6,6 v16 h-180.54028436018956 v-16 a6,6 0 0 1 6,-6 z" fill="#4e79a7" opacity="0.1"/><line x1="216.74407582938392" y1="25" x2="397.2843601895735" y2="25" stroke="#4e79a7" stroke-width="0.75" opacity="0.45"/><text x="224.74407582938392" y="19" font-size="12" fill="#4e79a7" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">AI &amp; Copilot</text>
+  <rect x="217.74407582938392" y="27" width="30.889144960576175" height="176" rx="3" fill="#4e79a7" opacity="0.36"/>
+  <text x="233.188648309672" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,233.188648309672,115)">github copilot</text>
+  <rect x="249.6332207899601" y="27" width="30.889144960576175" height="176" rx="3" fill="#4e79a7" opacity="0.36"/>
+  <text x="265.0777932702482" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,265.0777932702482,115)">ai</text>
+  <rect x="281.52236575053627" y="27" width="25.220881248091345" height="176" rx="3" fill="#4e79a7" opacity="0.31"/>
+  <text x="294.13280637458195" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,294.13280637458195,115)">ai assistant</text>
+  <rect x="307.7432469986276" y="27" width="23.023409299564467" height="176" rx="3" fill="#4e79a7" opacity="0.30"/>
+  <text x="319.2549516484099" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,319.2549516484099,115)">copilot</text>
+  <rect x="331.7666562981921" y="27" width="17.833856158026023" height="176" rx="3" fill="#4e79a7" opacity="0.27"/>
+  <text x="340.68358437720514" y="115" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,340.68358437720514,115)">ai adoption</text>
+  <rect x="350.60051245621815" y="27" width="14.561282577785125" height="176" rx="3" fill="#4e79a7" opacity="0.25"/>
+  <text x="357.88115374511074" y="115" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,357.88115374511074,115)">ai coding</text>
+  <rect x="366.16179503400326" y="27" width="14.561282577785125" height="176" rx="3" fill="#4e79a7" opacity="0.25"/>
+  <text x="373.44243632289584" y="115" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,373.44243632289584,115)">ai research</text>
+  <rect x="381.72307761178837" y="27" width="14.561282577785107" height="176" rx="3" fill="#4e79a7" opacity="0.25"/>
+  <text x="389.00371890068095" y="115" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,389.00371890068095,115)">copilot extensions</text>
+  <rect x="403.2843601895735" y="3" width="153.33649289099526" height="202" rx="6" fill="#59a14f" opacity="0.15" stroke="#59a14f" stroke-width="1.5"/><path d="M409.2843601895735,3 h141.33649289099526 a6,6 0 0 1 6,6 v16 h-153.33649289099526 v-16 a6,6 0 0 1 6,-6 z" fill="#59a14f" opacity="0.1"/><line x1="403.2843601895735" y1="25" x2="556.6208530805687" y2="25" stroke="#59a14f" stroke-width="0.75" opacity="0.45"/><text x="411.2843601895735" y="19" font-size="12" fill="#59a14f" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Developer Tools</text>
+  <rect x="404.2843601895735" y="27" width="26.8983253093261" height="176" rx="3" fill="#59a14f" opacity="0.37"/>
+  <text x="417.7335228442365" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,417.7335228442365,115)">typescript</text>
+  <rect x="432.18268549889956" y="27" width="24.05859354902249" height="176" rx="3" fill="#59a14f" opacity="0.34"/>
+  <text x="444.2119822734108" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,444.2119822734108,115)">vscode</text>
+  <rect x="457.24127904792203" y="27" width="20.835353192777887" height="176" rx="3" fill="#59a14f" opacity="0.31"/>
+  <text x="467.658955644311" y="115" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,467.658955644311,115)">vscode extension</text>
+  <rect x="479.07663224069995" y="27" width="19.019988228786225" height="176" rx="3" fill="#59a14f" opacity="0.30"/>
+  <text x="488.5866263550931" y="115" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,488.5866263550931,115)">react</text>
+  <rect x="499.0966204694862" y="27" width="14.732819531030028" height="176" rx="3" fill="#59a14f" opacity="0.27"/>
+  <text x="506.4630302350012" y="115" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,506.4630302350012,115)">javascript</text>
+  <rect x="514.8294400005162" y="27" width="14.732819531030028" height="176" rx="3" fill="#59a14f" opacity="0.27"/>
+  <text x="522.1958497660312" y="115" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,522.1958497660312,115)">nodejs</text>
+  <rect x="530.5622595315463" y="27" width="12.029296774511245" height="176" rx="3" fill="#59a14f" opacity="0.25"/>
+  <text x="536.5769079188019" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,536.5769079188019,115)">markdown</text>
+  <rect x="543.5915563060576" y="27" width="12.029296774511181" height="176" rx="3" fill="#59a14f" opacity="0.25"/>
+  <text x="549.6062046933132" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#59a14f" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,549.6062046933132,115)">vite</text>
+  <rect x="562.6208530805687" y="3" width="126.13270142180096" height="202" rx="6" fill="#f28e2b" opacity="0.15" stroke="#f28e2b" stroke-width="1.5"/><path d="M568.6208530805687,3 h114.13270142180096 a6,6 0 0 1 6,6 v16 h-126.13270142180096 v-16 a6,6 0 0 1 6,-6 z" fill="#f28e2b" opacity="0.1"/><line x1="562.6208530805687" y1="25" x2="688.7535545023698" y2="25" stroke="#f28e2b" stroke-width="0.75" opacity="0.45"/><text x="570.6208530805687" y="19" font-size="12" fill="#f28e2b" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Cognitive Archit…</text>
+  <rect x="563.6208530805687" y="27" width="28.369957169017233" height="176" rx="3" fill="#f28e2b" opacity="0.43"/>
+  <text x="577.8058316650773" y="115" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,577.8058316650773,115)">cognitive architecture</text>
+  <rect x="592.9908102495859" y="27" width="15.164379971987666" height="176" rx="3" fill="#f28e2b" opacity="0.28"/>
+  <text x="600.5730002355798" y="115" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,600.5730002355798,115)">human ai collaboration</text>
+  <rect x="609.1551902215735" y="27" width="15.164379971987666" height="176" rx="3" fill="#f28e2b" opacity="0.28"/>
+  <text x="616.7373802075674" y="115" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,616.7373802075674,115)">meta cognition</text>
+  <rect x="625.3195701935612" y="27" width="13.132738288381272" height="176" rx="3" fill="#f28e2b" opacity="0.27"/>
+  <text x="631.8859393377518" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,631.8859393377518,115)">cognitive science</text>
+  <rect x="639.4523084819424" y="27" width="13.132738288381272" height="176" rx="3" fill="#f28e2b" opacity="0.27"/>
+  <text x="646.018677626133" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,646.018677626133,115)">model context protocol</text>
+  <rect x="653.5850467703236" y="27" width="10.722835910681948" height="176" rx="3" fill="#f28e2b" opacity="0.25"/>
+  <text x="658.9464647256646" y="115" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,658.9464647256646,115)">neuroscience</text>
+  <rect x="665.3078826810056" y="27" width="10.722835910681948" height="176" rx="3" fill="#f28e2b" opacity="0.25"/>
+  <text x="670.6693006363465" y="115" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,670.6693006363465,115)">memory systems</text>
+  <rect x="677.0307185916876" y="27" width="10.722835910682193" height="176" rx="3" fill="#f28e2b" opacity="0.25"/>
+  <text x="682.3921365470287" y="115" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#f28e2b" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,682.3921365470287,115)">meta learning</text>
+  <rect x="694.7535545023698" y="3" width="122.24644549763025" height="202" rx="6" fill="#e15759" opacity="0.15" stroke="#e15759" stroke-width="1.5"/><path d="M700.7535545023698,3 h110.24644549763025 a6,6 0 0 1 6,6 v16 h-122.24644549763025 v-16 a6,6 0 0 1 6,-6 z" fill="#e15759" opacity="0.1"/><line x1="694.7535545023698" y1="25" x2="817" y2="25" stroke="#e15759" stroke-width="0.75" opacity="0.45"/><text x="702.7535545023698" y="19" font-size="12" fill="#e15759" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Cloud &amp; Azure</text>
+  <rect x="695.7535545023698" y="27" width="29.154921134376654" height="176" rx="3" fill="#e15759" opacity="0.45"/>
+  <text x="710.3310150695581" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#e15759" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,710.3310150695581,115)">azure</text>
+  <rect x="725.9084756367464" y="27" width="13.038477107022295" height="176" rx="3" fill="#e15759" opacity="0.27"/>
+  <text x="732.4277141902576" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,732.4277141902576,115)">azure openai</text>
+  <rect x="739.9469527437687" y="27" width="13.038477107022295" height="176" rx="3" fill="#e15759" opacity="0.27"/>
+  <text x="746.4661912972799" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,746.4661912972799,115)">azure functions</text>
+  <rect x="753.9854298507911" y="27" width="13.038477107022295" height="176" rx="3" fill="#e15759" opacity="0.27"/>
+  <text x="760.5046684043023" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,760.5046684043023,115)">azure static web apps</text>
+  <rect x="768.0239069578134" y="27" width="13.038477107022295" height="176" rx="3" fill="#e15759" opacity="0.27"/>
+  <text x="774.5431455113246" y="115" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,774.5431455113246,115)">dotnet</text>
+  <rect x="782.0623840648358" y="27" width="10.645871978388135" height="176" rx="3" fill="#e15759" opacity="0.25"/>
+  <text x="787.3853200540299" y="115" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,787.3853200540299,115)">infrastructure management</text>
+  <rect x="793.708256043224" y="27" width="10.645871978388135" height="176" rx="3" fill="#e15759" opacity="0.25"/>
+  <text x="799.0311920324181" y="115" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,799.0311920324181,115)">microsoft internal</text>
+  <rect x="805.3541280216122" y="27" width="10.645871978387845" height="176" rx="3" fill="#e15759" opacity="0.25"/>
+  <text x="810.6770640108061" y="115" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#e15759" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,810.6770640108061,115)">sfi</text>
+  <rect x="3" y="211" width="232.54545454545453" height="202" rx="6" fill="#ff9da7" opacity="0.15" stroke="#ff9da7" stroke-width="1.5"/><path d="M9,211 h220.54545454545453 a6,6 0 0 1 6,6 v16 h-232.54545454545453 v-16 a6,6 0 0 1 6,-6 z" fill="#ff9da7" opacity="0.1"/><line x1="3" y1="233" x2="235.54545454545453" y2="233" stroke="#ff9da7" stroke-width="0.75" opacity="0.45"/><text x="11" y="227" font-size="12" fill="#ff9da7" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Productivity &amp; Automation</text>
+  <rect x="4" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="17.971590909090907" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,17.971590909090907,323)">homebrew</text>
+  <rect x="32.94318181818181" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="46.91477272727272" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,46.91477272727272,323)">macos</text>
+  <rect x="61.886363636363626" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="75.85795454545453" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,75.85795454545453,323)">power user</text>
+  <rect x="90.82954545454544" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="104.80113636363635" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,104.80113636363635,323)">setup guide</text>
+  <rect x="119.77272727272725" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="133.74431818181816" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,133.74431818181816,323)">adaptive cards</text>
+  <rect x="148.71590909090907" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="162.68749999999997" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,162.68749999999997,323)">automation</text>
+  <rect x="177.65909090909088" y="235" width="27.943181818181813" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="191.63068181818178" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,191.63068181818178,323)">productivity</text>
+  <rect x="206.6022727272727" y="235" width="27.94318181818184" height="176" rx="3" fill="#ff9da7" opacity="0.25"/>
+  <text x="220.57386363636363" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#ff9da7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,220.57386363636363,323)">windows</text>
+  <rect x="241.54545454545453" y="211" width="232.54545454545453" height="202" rx="6" fill="#edc948" opacity="0.15" stroke="#edc948" stroke-width="1.5"/><path d="M247.54545454545453,211 h220.54545454545453 a6,6 0 0 1 6,6 v16 h-232.54545454545453 v-16 a6,6 0 0 1 6,-6 z" fill="#edc948" opacity="0.1"/><line x1="241.54545454545453" y1="233" x2="474.09090909090907" y2="233" stroke="#edc948" stroke-width="0.75" opacity="0.45"/><text x="249.54545454545453" y="227" font-size="12" fill="#edc948" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Data Engineering</text>
+  <rect x="242.54545454545453" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="256.51704545454544" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,256.51704545454544,323)">data visualization</text>
+  <rect x="271.4886363636364" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="285.46022727272725" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,285.46022727272725,323)">youtube api</text>
+  <rect x="300.4318181818182" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="314.4034090909091" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,314.4034090909091,323)">spotify api</text>
+  <rect x="329.375" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="343.3465909090909" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,343.3465909090909,323)">real time</text>
+  <rect x="358.3181818181818" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="372.28977272727275" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,372.28977272727275,323)">survey analytics</text>
+  <rect x="387.2613636363636" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="401.2329545454545" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,401.2329545454545,323)">data engineering</text>
+  <rect x="416.20454545454544" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="430.1761363636364" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,430.1761363636364,323)">pyspark</text>
+  <rect x="445.14772727272725" y="235" width="27.943181818181813" height="176" rx="3" fill="#edc948" opacity="0.25"/>
+  <text x="459.11931818181813" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#edc948" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,459.11931818181813,323)">cosmos db</text>
+  <rect x="480.09090909090907" y="211" width="217.63636363636363" height="202" rx="6" fill="#76b7b2" opacity="0.15" stroke="#76b7b2" stroke-width="1.5"/><path d="M486.09090909090907,211 h205.63636363636363 a6,6 0 0 1 6,6 v16 h-217.63636363636363 v-16 a6,6 0 0 1 6,-6 z" fill="#76b7b2" opacity="0.1"/><line x1="480.09090909090907" y1="233" x2="697.7272727272727" y2="233" stroke="#76b7b2" stroke-width="0.75" opacity="0.45"/><text x="488.09090909090907" y="227" font-size="12" fill="#76b7b2" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Learning &amp; Research</text>
+  <rect x="481.09090909090907" y="235" width="35.53773396725698" height="176" rx="3" fill="#76b7b2" opacity="0.27"/>
+  <text x="498.85977607453754" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,498.85977607453754,323)">academic research</text>
+  <rect x="517.6286430581661" y="235" width="29.01643827818444" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="532.1368621972583" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,532.1368621972583,323)">jupyter notebook</text>
+  <rect x="547.6450813363505" y="235" width="29.01643827818444" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="562.1533004754427" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,562.1533004754427,323)">dissertation</text>
+  <rect x="577.6615196145349" y="235" width="29.01643827818444" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="592.1697387536271" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,592.1697387536271,323)">utaut2</text>
+  <rect x="607.6779578927193" y="235" width="29.01643827818444" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="622.1861770318116" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,622.1861770318116,323)">flashcards</text>
+  <rect x="637.6943961709037" y="235" width="29.01643827818444" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="652.202615309996" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,652.202615309996,323)">learning</text>
+  <rect x="667.7108344490881" y="235" width="29.016438278184637" height="176" rx="3" fill="#76b7b2" opacity="0.25"/>
+  <text x="682.2190535881805" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#76b7b2" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,682.2190535881805,323)">tutorial</text>
+  <rect x="703.7272727272727" y="211" width="113.27272727272725" height="202" rx="6" fill="#b07aa1" opacity="0.15" stroke="#b07aa1" stroke-width="1.5"/><path d="M709.7272727272727,211 h101.27272727272725 a6,6 0 0 1 6,6 v16 h-113.27272727272725 v-16 a6,6 0 0 1 6,-6 z" fill="#b07aa1" opacity="0.1"/><line x1="703.7272727272727" y1="233" x2="817" y2="233" stroke="#b07aa1" stroke-width="0.75" opacity="0.45"/><text x="711.7272727272727" y="227" font-size="12" fill="#b07aa1" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Healthcare &amp; S…</text>
+  <rect x="704.7272727272727" y="235" width="45.26224563386002" height="176" rx="3" fill="#b07aa1" opacity="0.28"/>
+  <text x="727.3583955442027" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#b07aa1" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,727.3583955442027,323)">qualtrics</text>
+  <rect x="750.9895183611328" y="235" width="32.005240819433624" height="176" rx="3" fill="#b07aa1" opacity="0.25"/>
+  <text x="766.9921387708496" y="323" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b07aa1" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,766.9921387708496,323)">customer experience</text>
+  <rect x="783.9947591805665" y="235" width="32.00524081943354" height="176" rx="3" fill="#b07aa1" opacity="0.25"/>
+  <text x="799.9973795902832" y="323" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#b07aa1" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,799.9973795902832,323)">healthcare</text>
+</g>
+<g transform="translate(0, 639)">
+<title>Portfolio at a Glance</title>
+<rect width="820" height="270" fill="none"/>
+<rect x="3" y="3" width="328.82" height="264" rx="6" fill="#0969da" opacity="0.15" stroke="#0969da" stroke-width="1.5"/><path d="M9,3 h316.82 a6,6 0 0 1 6,6 v26 h-328.82 v-26 a6,6 0 0 1 6,-6 z" fill="#0969da" opacity="0.1"/><line x1="3" y1="35" x2="331.82" y2="35" stroke="#0969da" stroke-width="0.75" opacity="0.45"/><text x="11" y="19" font-size="12" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Top Languages</text><text x="11" y="31" font-size="9" fill="#0969da" opacity="0.95" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">By lines of code</text>
+<g transform="translate(11, 41)">
+<text x="4" y="28" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Python</text><rect x="137.3844" y="15" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="15" width="102" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="244.3844" y="28" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">58.2%</text><text x="4" y="62" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Jupyter Notebook</text><rect x="137.3844" y="49" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="49" width="47" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="189.3844" y="62" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">26.8%</text><text x="4" y="96" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">TypeScript</text><rect x="137.3844" y="83" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="83" width="9" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="151.3844" y="96" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">5.0%</text><text x="4" y="130" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">JavaScript</text><rect x="137.3844" y="117" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="117" width="7" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="149.3844" y="130" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">4.0%</text><text x="4" y="164" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">PowerShell</text><rect x="137.3844" y="151" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="151" width="3" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="145.3844" y="164" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">2.0%</text><text x="4" y="198" font-size="11" fill="#0969da" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Cython</text><rect x="137.3844" y="185" width="175.4356" height="18" rx="3" fill="#0969da" opacity="0.12"/><rect x="137.3844" y="185" width="2" height="18" rx="3" fill="#0969da" opacity="0.55"/><text x="144.3844" y="198" font-size="10" fill="#0969da" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">1.3%</text>
+</g>
+<rect x="337.82" y="3" width="144.35999999999999" height="264" rx="6" fill="#9a6700" opacity="0.15" stroke="#9a6700" stroke-width="1.5"/><path d="M343.82,3 h132.35999999999999 a6,6 0 0 1 6,6 v26 h-144.35999999999999 v-26 a6,6 0 0 1 6,-6 z" fill="#9a6700" opacity="0.1"/><line x1="337.82" y1="35" x2="482.17999999999995" y2="35" stroke="#9a6700" stroke-width="0.75" opacity="0.45"/><text x="345.82" y="19" font-size="12" fill="#9a6700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Tier &amp; Activity</text><text x="345.82" y="31" font-size="9" fill="#9a6700" opacity="0.95" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Portfolio composition</text>
+<text x="345.82" y="52" font-size="9" font-weight="700" fill="#9a6700" opacity="0.7" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">TIERS</text>
+<g><text x="345.82" y="69" font-size="11">🏆</text><text x="365.82" y="69" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Flagship</text><text x="470.17999999999995" y="69" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">18</text><text x="345.82" y="91" font-size="11">⭐</text><text x="365.82" y="91" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Notable</text><text x="470.17999999999995" y="91" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">54</text><text x="345.82" y="113" font-size="11">🤖</text><text x="365.82" y="113" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Agents</text><text x="470.17999999999995" y="113" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">97</text><text x="345.82" y="135" font-size="11">🪦</text><text x="365.82" y="135" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Archived</text><text x="470.17999999999995" y="135" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">35</text></g>
+<text x="345.82" y="162" font-size="9" font-weight="700" fill="#9a6700" opacity="0.7" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">ACTIVITY</text>
+<g><text x="345.82" y="179" font-size="11">⭐</text><text x="365.82" y="179" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Stars</text><text x="470.17999999999995" y="179" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">24</text><text x="345.82" y="201" font-size="11">🚀</text><text x="365.82" y="201" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Active &lt;30d</text><text x="470.17999999999995" y="201" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">36</text><text x="345.82" y="223" font-size="11">📂</text><text x="365.82" y="223" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Public</text><text x="470.17999999999995" y="223" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">49</text><text x="345.82" y="245" font-size="11">🔒</text><text x="365.82" y="245" font-size="11" fill="#9a6700" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Private</text><text x="470.17999999999995" y="245" font-size="12" fill="#9a6700" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="end">58</text></g>
+<rect x="488.17999999999995" y="3" width="328.82" height="264" rx="6" fill="#8250df" opacity="0.15" stroke="#8250df" stroke-width="1.5"/><path d="M494.17999999999995,3 h316.82 a6,6 0 0 1 6,6 v26 h-328.82 v-26 a6,6 0 0 1 6,-6 z" fill="#8250df" opacity="0.1"/><line x1="488.17999999999995" y1="35" x2="817" y2="35" stroke="#8250df" stroke-width="0.75" opacity="0.45"/><text x="496.17999999999995" y="19" font-size="12" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Top Themes</text><text x="496.17999999999995" y="31" font-size="9" fill="#8250df" opacity="0.95" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Topic clusters</text>
+<g transform="translate(496.17999999999995, 41)">
+<text x="4" y="28" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">AI &amp; Copilot</text><rect x="137.3844" y="15" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="15" width="102" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="244.3844" y="28" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">25</text><text x="4" y="62" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Developer Tools</text><rect x="137.3844" y="49" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="49" width="98" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="240.3844" y="62" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">24</text><text x="4" y="90" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Cognitive<tspan x="4" dy="12">Architecture</tspan></text><rect x="137.3844" y="83" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="83" width="74" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="216.3844" y="96" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">18</text><text x="4" y="130" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Cloud &amp; Azure</text><rect x="137.3844" y="117" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="117" width="69" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="211.3844" y="130" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">17</text><text x="4" y="164" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Data Engineering</text><rect x="137.3844" y="151" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="151" width="53" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="195.3844" y="164" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">13</text><text x="4" y="198" font-size="11" fill="#8250df" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Learning &amp; Research</text><rect x="137.3844" y="185" width="175.4356" height="18" rx="3" fill="#8250df" opacity="0.12"/><rect x="137.3844" y="185" width="41" height="18" rx="3" fill="#8250df" opacity="0.55"/><text x="183.3844" y="198" font-size="10" fill="#8250df" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">10</text>
+</g>
+</g>
+<text x="410" y="935" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="13"><tspan font-weight="700" fill="#1f2328" >107</tspan><tspan fill="#64748b" dx="4">repositories across 10 categories</tspan><tspan fill="#64748b" dx="6">·</tspan><tspan font-weight="700" fill="#1f2328" dx="6">72</tspan><tspan fill="#64748b" dx="4">actively maintained</tspan><tspan fill="#64748b" dx="6">·</tspan><tspan font-weight="700" fill="#1f2328" dx="6">18</tspan><tspan fill="#64748b" dx="4">flagships</tspan></text>
+</svg>

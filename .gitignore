@@ -1,0 +1,10 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor noise
+*.bak
+*.tmp
+*.swp
+.history/
