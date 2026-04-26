@@ -235,6 +235,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - **It synthesizes across videos.** Compare how five videos explain the same concept, get back consensus points, controversies, and unique insights with citations. Multi-video research is a first-class verb, not something the agent has to compose by hand.
 > - **It extracts structure, not just text.** Concept extraction with difficulty levels and prerequisites, smart chunking that respects sentence boundaries, semantic search with vector embeddings. The transcript becomes a knowledge object the agent can reason about.
 > - **It runs production-clean.** Quota-aware rate limiting, LRU caching with TTL, Zod input validation, secure logging that redacts API keys, graceful shutdown. The kind of thing an MCP server has to do to be trusted in real workflows, done up front.
+> - **It exposes ~40 tools, not endpoints.** Every capability — search, transcript extraction, multi-video synthesis, concept mining, channel analysis — is a discrete MCP tool with typed inputs and outputs. The agent gets a verb-rich palette to compose from, which is the difference between an MCP server designed for agents and a REST API wearing an MCP costume.
 >
 > **Why it earns its pin**
 >
