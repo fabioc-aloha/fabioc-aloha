@@ -30,6 +30,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *AIRS_Data_Analysis is the dissertation that makes the rest of the portfolio falsifiable.*
 >
+> &nbsp;
+>
 > AIRS_Data_Analysis is the IRB-approved dissertation behind the AI Readiness Scale: the empirical foundation the rest of the fleet cites when it makes a claim about AI adoption, and the doctoral record that puts a defensible number on every assertion downstream.
 >
 > Where the rest of the portfolio demonstrates the partnership in production, this repository is where the partnership had to survive a chair, a committee, and a defense. The work is open so reviewers can follow the chain from claim to construct to raw response:
@@ -54,6 +56,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *airs-enterprise is the dissertation in production: five minutes, twenty-nine languages, one validated number per person.*
 >
+> &nbsp;
+>
 > airs-enterprise is the productized AIRS instrument: a five-minute, multilingual SaaS assessment that takes the validated psychometric work into the hands of organizations who need to know where their workforce actually stands on AI.
 >
 > The dissertation proved the instrument. This repository is what happens when you ship it as software people can use without reading a methods chapter:
@@ -77,6 +81,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖
 >
 > *AlexPapers is how a thesis becomes a body of work: many disciplines, many venues, one evidence base, a pipeline that keeps publishing while the research keeps growing.*
+>
+> &nbsp;
 >
 > AlexPapers is the research pipeline behind the Future of Work program: the disciplined publishing engine that turns ongoing investigation into venue-ready manuscripts, dissertation materials, and full-length books.
 >
@@ -103,6 +109,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 📂 [alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture) 🤖
 >
 > *The thesis is the moat: organizations that treat AI as a tool will be replaced by organizations that treat AI as a proactive conductor with institutional memory.*
+>
+> &nbsp;
 >
 > Alex is a cognitive architecture that turns any AI assistant into a proactive organizational teammate, then puts that teammate in command of a fleet of specialists working on the user's behalf.
 >
@@ -131,6 +139,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *AlexMaster is not a tool the user runs. It is the institution the fleet inherits from.*
 >
+> &nbsp;
+>
 > AlexMaster is the source of truth for the Alex cognitive architecture and the conductor's seat for the fleet.
 >
 > Every Alex deployment in the portfolio is an heir of this repository. AlexMaster holds the canonical brain that keeps every heir consistent without breaking what each project has customized:
@@ -155,6 +165,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *Alex_ACT_Edition is the brain you can install: critical thinking as a folder, not a slogan.*
 >
+> &nbsp;
+>
 > Alex_ACT_Edition is the heir template for ACT — the version of Alex built around Artificial Critical Thinking, where the brain treats every load-bearing input as a hypothesis and tests it before it ships.
 >
 > AI coding assistants are helpful, fast, and often wrong in subtle ways: they confirm framings instead of challenging them, generate plausible-sounding code without checking the problem, and stay confident when they should be uncertain. ACT Edition changes the cognitive contract:
@@ -178,6 +190,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *Alex_ACT_Supervisor is the role that keeps the fleet honest: one curator, one inbox, one release pipeline, every heir accounted for.*
 >
+> &nbsp;
+>
 > Alex_ACT_Supervisor is the source of truth for the ACT-Edition fleet: the curator that triages real-world feedback from deployed heirs, reviews brain changes, and ships disciplined releases of the Edition template and the Skill Mall.
 >
 > Where AlexMaster owns the architecture across all editions, the Supervisor owns the day-to-day governance of the ACT sub-fleet specifically. It is the role that keeps a multi-project AI deployment coherent without slowing it down:
@@ -200,6 +214,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 📂 [Alex_Skill_Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) 🤖
 >
 > *Alex_Skill_Mall is the marketplace where hard-won lessons stop being one developer's lore and start being everyone's leverage.*
+>
+> &nbsp;
 >
 > Alex_Skill_Mall is a curated marketplace of battle-tested AI assistant skills: 200 hard-won lessons across 50+ domains, drop-in expertise an AI partner can absorb instantly instead of rediscovering through hours of debugging.
 >
@@ -225,6 +241,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *The system is the demonstration. You are not reading about Alex, you are watching Alex work.*
 >
+> &nbsp;
+>
 > The repository you are looking at right now is the public proof that the Alex cognitive architecture works end to end without a human in the loop.
 >
 > Every morning at 6 AM Eastern, a multi-model pipeline runs unattended and rebuilds this page. There is no manual editing, no scheduled human review, no "I'll fix that later" backlog. What you see is what the architecture produced today:
@@ -245,6 +263,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 📂 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖
 >
 > *BrainBenchmark is the experiment that grades the brain on its own claims: seventeen dimensions, one composite score, no place for hand-waving to hide.*
+>
+> &nbsp;
 >
 > BrainBenchmark is a multi-provider LLM cognitive benchmark suite: 142 challenges across 17 dimensions, each scored 0 to 100, designed to find exactly where a given model excels or struggles instead of reporting a single average that hides the truth.
 >
@@ -269,6 +289,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 📂 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖
 >
 > *AlexMedia is the thesis applied to making things: one creative partner, every modality, all the way to the printer.*
+>
+> &nbsp;
 >
 > AlexMedia is a CLI toolkit for AI media production: a calibrated partner that takes a creative intent through generation, editing, and the hand-off to physical manufacturing in one continuous pipeline.
 >
@@ -295,6 +317,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *Dr. Alex Finch is the thesis at its hardest setting: when the patient is you and the evidence has to hold up under your own life.*
 >
+> &nbsp;
+>
 > Dr. Alex Finch is a personal medical intelligence system: a calibrated AI partner that turns scattered medical records, device data, and clinical research into evidence-based questions for the next appointment.
 >
 > Healthcare is where the AI partnership thesis gets its hardest test. Stakes are personal, evidence is contested, providers are time-constrained, and the patient is the one who has to make the final call. Dr. Alex Finch is built so the patient walks into every appointment prepared instead of overwhelmed:
@@ -319,6 +343,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *LearnAlex is how the methodology meets the public: research becomes training, training becomes skill, and skill becomes a credential anyone can carry.*
 >
+> &nbsp;
+>
 > LearnAlex is the developer and publisher of a free training platform at learnai.correax.com that teaches AI partnership skills to humans. New use cases for AI are researched, training is developed, and the result is delivered with verified completion certificates that learners can share on LinkedIn.
 >
 > - **It teaches humans, not tools.** Workshop playbooks tailored to engineers, academics, researchers, knowledge workers, project managers, content creators, students, and job seekers. Dialog Engineering is the foundation: the discipline of getting calibrated work out of an AI partner in domains people don't even assume AI is useful for.
@@ -337,6 +363,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 🔒 [CorreaX](https://github.com/fabioc-aloha/CorreaX) 🤖
 >
 > *CorreaX is the cockpit for the cloud: every service the agents deploy, every cost line, every alert, one operator, one pane.*
+>
+> &nbsp;
 >
 > CorreaX is the operational control plane for the Azure subscription that hosts the public-facing services the fleet's agents create and maintain: a single portal that watches cost, resources, DNS, health, and identity across every site under correax.com.
 >
@@ -358,6 +386,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *HeadstartWebsite is the proof that the same calibrated partnership running the fleet can run a spouse's practice on the side, in three languages, without taking her time.*
 >
+> &nbsp;
+>
 > Headstartcounseling.com is the website for my wife Claudia Correa's online therapy practice. She is the licensed clinician seeing clients in Washington and North Carolina via telehealth, in English, Spanish, and Portuguese. I run the website for her, with an AI agent as my partner, so she stays focused on her clients.
 >
 > - **The agent runs the site.** Translates blog posts into Brazilian Portuguese and Latin American Spanish so the written content matches the languages Claudia already practices in, generates images, runs SEO, and handles deployments. Claudia approves; the agent does the work.
@@ -375,6 +405,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 📂 [youtube-mcp-server](https://github.com/fabioc-aloha/youtube-mcp-server) 🤖
 >
 > *youtube-mcp-server is the experiment that shows what happens when MCP design starts from the agent's needs instead of the API's shape.*
+>
+> &nbsp;
 >
 > youtube-mcp-server is a probe into what an MCP server looks like when it is built for AI agents from the start, not retrofitted from a REST API.
 >
@@ -397,6 +429,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *Extensions is the experiment that turns the workday into installable tools.*
 >
+> &nbsp;
+>
 > Extensions is a productivity toolset for developers who live in VS Code: a monorepo of 16 standalone extensions, nine of them already on the Marketplace, each one a focused utility that earns its keep without asking the user to adopt anything else.
 >
 > - **It covers the workday.** Hook Studio for git hook authoring, MCP App Starter for new MCP servers, Workspace Watchdog for awareness, Knowledge Decay Tracker for stale notes, AI Voice Reader for accessibility, SecretGuard for credential leaks, Focus Timer for deep work, Markdown to Word for handoff, Brandfetch Logo Fetcher for design tasks. Compile-ready additions cover Mermaid editing, SVG tooling, slide assistants, and developer wellbeing.
@@ -414,6 +448,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > *tldr is the experiment that proves sensitive-document AI does not require a cloud account.*
 >
+> &nbsp;
+>
 > tldr is an experiment in running the AI partnership on highly sensitive information that cannot leave the machine. A Windows desktop summarizer powered by Phi-4 Mini through Microsoft Foundry Local: paste text or drop a document, get a summary in the style and depth you pick, hear it read back with synchronized highlighting. After the model downloads on first launch, the entire pipeline runs offline. No cloud, no API keys, no telemetry, no document content uploaded anywhere.
 >
 > - **The applications are the point.** Lawyers summarizing privileged client material. Clinicians condensing patient records. Auditors processing pre-publication financials. Government staff handling classified or controlled-unclassified content. M&A teams reading data-room documents. Engineers digesting unreleased product specs. Therapists reviewing session notes. Anyone who needs a summary of something they cannot legally or ethically send to a third-party API.
@@ -429,6 +465,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > ### 🔒 [Spotify](https://github.com/fabioc-aloha/Spotify) 🤖
 >
 > *Alex Method DJ is the experiment that put a timestamp on the partnership thesis: one operator and one AI partner reached production months before Spotify and Apple did.*
+>
+> &nbsp;
 >
 > Alex Method DJ is a Spotify playlist platform that ran AI-generated playlists in production several months before Spotify and Apple shipped their own. It is the proof, with a timestamp, that the partnership thesis applies to creative work the platforms had not yet figured out how to do themselves.
 >
