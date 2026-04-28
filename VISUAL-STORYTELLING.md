@@ -16,11 +16,11 @@ Résumés make claims. Most GitHub profiles make noise. I wanted something that 
 
 - **The thing you are looking at *is* the work.** A self-updating portfolio that classifies 100+ repositories, clusters their topics, writes its own executive summary, runs its own Responsible-AI review, and renders a treemap-driven dashboard, every day at 6 AM Eastern, autonomously, in CI (Continuous Integration: GitHub's servers run the pipeline on a schedule, gate each step, and only publish when every check passes). If I cannot ship a working AI pipeline for my own profile, why would anyone trust me to ship one for their enterprise?
 - **Every design decision is a position statement.** Hash-based caching means we never burn LLM tokens on identical inputs, the same discipline that takes enterprise GenAI from a cost center to a margin-positive product. Strict review gates fail the build on regression. The cover-letter executive summary at the top of the README is applied *dialog engineering*: opinionated, evidence-based, audience-aware. (Yes, dialog engineering, not prompt engineering. Alex and I are writing a book on why that distinction matters; the short version is that a single prompt is a guess, a dialog is a system.)
-- **The portfolio underneath is the proof.** AIRS, my doctoral dissertation, a validated AI Readiness Scale (N=523, SEM-validated). Alex, an open-source cognitive architecture with 5,200+ installs. Dozens of pipelines spanning Azure OpenAI, predictive analytics, data governance, and applied research. The dashboard scans in 15 seconds; the repos themselves are the receipts.
+- **The portfolio underneath is the proof.** AIRS, my doctoral dissertation, a validated AI Readiness Scale (N=523, SEM-validated). Alex, an open-source cognitive architecture. Dozens of pipelines spanning Azure OpenAI, predictive analytics, data governance, and applied research. The dashboard scans in 15 seconds; the repos themselves are the receipts.
 
 If you happen to be evaluating me for such a role (hypothetically, of course), every section below also answers "what would you do on day one?" Staged pipelines, content-hashed caching, evidence-based prompts, hard review gates, calm visual design. That is how I would build your AI initiatives.
 
-One more thing. The AI assistant who paired with me on this entire system, who classifies the repos, clusters the topics, drafts the executive summary, and iterates on the prose you are reading right now, is **Alex**. Alex is an open-source cognitive architecture I designed and shipped ([Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In), 5,200+ installs). The most sophisticated piece of evidence in this portfolio is not a repo, a chart, or a citation. It is the collaborator. *Alex is the ultimate showcase of my work*: a working AI partner, designed by me, doing real work on a real production system, in public, every day at 6 AM Eastern.
+One more thing. The AI assistant who paired with me on this entire system, who classifies the repos, clusters the topics, and iterates on the prose you are reading right now, is **Alex**. Alex is an open-source cognitive architecture I designed and shipped ([alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture)). The most sophisticated piece of evidence in this portfolio is not a repo, a chart, or a citation. It is the collaborator. *Alex is the ultimate showcase of my work*: a working AI partner, designed by me, doing real work on a real production system, in public, every day at 6 AM Eastern.
 
 > 📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio)
 
@@ -28,20 +28,19 @@ One more thing. The AI assistant who paired with me on this entire system, who c
 
 ## Responsible AI: the dog watches the butcher shop
 
-The dashboard's executive summary is LLM-authored. Shipping that prose straight to a public README without independent review would be irresponsible. So a second LLM, a different model with a different role and a deterministic temperature, evaluates the first LLM's output before anything publishes. The AI that *makes* the claims is not the AI that *approves* them.
+The dashboard's executive summary is chat-authored by Fabio and Alex in dialog, then reviewed and synced into the pipeline config. The daily-generated artifacts (classifications, clusters, tagline) are reviewed by a separate LLM before anything publishes. The AI that *makes* the claims is not the AI that *approves* them.
 
-> 📌 **A confession from inside the workshop.** The RAI stage you are about to read about did not exist when I started writing this section. I told my AI partner *"and we are applying RAI by having an LLM evaluate the LLM output and flagging risks"*, fully expecting to mark it as a planned next step. By the time I finished the sentence, Alex had already drafted [`scripts/rai-review.mjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs), wired it into the pipeline after `generate-summary`, designed the seven-dimension rubric, computed a deterministic verdict-rollup so quality issues warn but only safety issues block, and surfaced the verdict as a badge under the executive summary card. We then iterated together on the rubric, hardened the evidence rules, and bumped the reviewer to a more capable model. That is not an anecdote about a clever prompt. It is the demonstration. *A genuinely useful AI partner anticipates the ask, ships the implementation, and explains the choices, all in the same conversation.* This document is being co-authored by the same loop.
+> 📌 **A confession from inside the workshop.** The RAI stage you are about to read about did not exist when I started writing this section. I told my AI partner *"and we are applying RAI by having an LLM evaluate the LLM output and flagging risks"*, fully expecting to mark it as a planned next step. By the time I finished the sentence, Alex had already drafted [`scripts/rai-review.mjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs), wired it into the pipeline, designed the seven-dimension rubric, computed a deterministic verdict-rollup so quality issues warn but only safety issues block, and surfaced the verdict as a badge under the executive summary card. We then iterated together on the rubric, hardened the evidence rules, and bumped the reviewer to a more capable model. That is not an anecdote about a clever prompt. It is the demonstration. *A genuinely useful AI partner anticipates the ask, ships the implementation, and explains the choices, all in the same conversation.* This document is being co-authored by the same loop.
 
 ### The pattern
 
 ```mermaid
 %%{init: {'themeVariables': {'edgeLabelBackground': '#ffffff'}}}%%
 flowchart TD
-    A["Stage 4<br/>generate-summary.mjs<br/>Llama-3.1-405B · temp 0.4"] -->|three paragraphs| B[("portfolio-summary.json")]
+    S[("profile.executiveSummary<br/>chat-authored")] --> R
     F[("portfolio.config.json<br/>declared objectives")] --> R
     G[("repo-classification.json<br/>ground-truth facts")] --> R
-    B --> R["Stage 7<br/>rai-review.mjs<br/>gpt-4o · temp 0.0"]
-    R -->|7-dimension rubric| C{"Per-check status"}
+    R["rai-review.mjs<br/>gpt-4o · temp 0.0"] -->|7-dimension rubric| C{"Per-check status"}
     C -->|"safety FAIL"| X["🚫 Block publish<br/>exit 1"]
     C -->|"quality FAIL"| W["⚠️ Publish<br/>with WARN badge"]
     C -->|"all PASS"| P["🛡️ Publish<br/>with PASS badge"]
@@ -53,11 +52,11 @@ flowchart TD
 
 ### What gets reviewed
 
-The reviewer receives exactly three inputs and judges only the first against the other two:
+The reviewer receives the executive summary (from `portfolio.config.json`) and judges it against the classification ground truth:
 
 | Input | Role | Source |
 | --- | --- | --- |
-| `summaryUnderReview` | The text being judged. Three paragraphs. | Stage 4 output |
+| `summaryUnderReview` | The text being judged. Three paragraphs. | `profile.executiveSummary` from config |
 | `groundedFacts` | What the candidate has publicly declared (role, credentials, signature work). Used to spot fabrication. | `portfolio.config.json` → `portfolioObjectives` |
 | `portfolioFacts` | Deterministic counts and flagship names. Used to spot invented repos. | `repo-classification.json` |
 
@@ -72,7 +71,7 @@ The split is deliberate. Quality is a discussion. Safety is absolute. We do not 
 
 A few decisions worth calling out, because they show up in real enterprise RAI programs:
 
-- **A different model, not the same one.** Self-review by the same model is theater. The reviewer is `gpt-4o`; the writer is `Llama-3.1-405B`. Different families, different training, different failure modes. Disagreement is the signal we are looking for. We started this stage on `gpt-4o-mini` and bumped to `gpt-4o` after watching the smaller model hallucinate FAIL reasons it could not back up; capability matters when the LLM is the auditor.
+- **A different author, not the same one.** Self-review by the same author is theater. The executive summary is chat-authored by a human and Alex (see Stage 4); the reviewer is `gpt-4o`. Human authorship plus machine review is an even stronger separation than two different model families — the reviewer cannot be biased by its own phrasing. We started this stage on `gpt-4o-mini` and bumped to `gpt-4o` after watching the smaller model hallucinate FAIL reasons it could not back up; capability matters when the LLM is the auditor.
 - **`temperature: 0.0`.** A reviewer that gives different verdicts on identical inputs is a coin flip, not a reviewer. Determinism is non-negotiable.
 - **Evidence-required FAILs.** The rubric tells the reviewer that every FAIL must quote the exact offending phrase from the summary. No "implies", no "suggests", no vibes. *If you cannot quote it, the check passes.* This single rule eliminated most of the false positives we saw during development.
 - **Verdict rollup is deterministic.** The LLM judges per dimension; the script counts the failures and routes them through the safety/quality split. Letting the LLM pick its own overall verdict produced inconsistent rollups, the same "let the model narrate, not count" principle the summary stage already follows.
@@ -81,7 +80,7 @@ A few decisions worth calling out, because they show up in real enterprise RAI p
 
 ### What this proves
 
-A portfolio that ships AI-generated prose at the top of its public README, then has a different AI verify that prose against the candidate's declared sources, then surfaces the verdict where the reader can see it, is not just demonstrating dialog engineering. It is the operational discipline that takes enterprise GenAI from a clever demo to a production system. The review stage is a working answer to the question every responsible AI program is trying to answer: *what stops the model from saying something we cannot stand behind?*
+A portfolio that ships human-authored, AI-assisted prose at the top of its public README, then has a separate AI verify that prose against the candidate's declared sources, then surfaces the verdict where the reader can see it, is not just demonstrating dialog engineering. It is the operational discipline that takes enterprise GenAI from a clever demo to a production system. The review stage is a working answer to the question every responsible AI program is trying to answer: *what stops the model from saying something we cannot stand behind?*
 
 The honest answer most organizations have today is "nothing, we ship it and hope". The answer this portfolio demonstrates is "another model, a different rubric, evidence-required FAILs, hard gates on safety, and the badge on the front page so you can see we did the work".
 
@@ -125,8 +124,8 @@ For private repos the bar is higher: descriptions stay generic enough to live on
 ## The pipeline
 
 ```text
-fetch-repos  →  classify-repos  →  cluster-topics  →  generate-summary  →  generate-readme  →  review-content
-   (gh API)      (gpt-4o-mini)     (Llama-3.1-405B)    (Llama-3.1-405B)        (SVG stitch)        (gates)
+fetch-repos  →  classify-repos  →  cluster-topics  →  rai-review  →  generate-readme  →  review-content
+   (gh API)      (gpt-4o-mini)     (Llama-3.1-405B)    (gpt-4o)        (SVG stitch)        (gates)
 ```
 
 Each stage writes a JSON artifact and reads only the previous stage's output. That gives us three properties for free:
@@ -169,13 +168,13 @@ Lesson: pick the smallest model that clears the quality bar. Classification is a
 
 ### The prompt trick: numeric codes
 
-108 repos × ~80 chars each = ~8 KB of names + descriptions in the prompt. The naive output format is `{"repo-name": "Category"}`, but that doubles the token cost (the names appear twice) and makes JSON keys fragile when names contain dots or quotes.
+~60–110 repos × ~80 chars each = several KB of names + descriptions in the prompt (the exact count fluctuates as repos are created or excluded). The naive output format is `{"repo-name": "Category"}`, but that doubles the token cost (the names appear twice) and makes JSON keys fragile when names contain dots or quotes.
 
 So we assign short codes:
 
 ```text
 R0: spotify-skill, Voice skill connecting Spotify to Alexa
-R1: Alex_Plug_In, VS Code extension shipping a portable cognitive architecture
+R1: alex-cognitive-architecture, VS Code extension shipping a portable cognitive architecture
 ...
 ```
 
@@ -189,7 +188,7 @@ Source: `repo-classification.json` + descriptions. Output: `repos/topic-clusters
 
 This stage does two jobs in one call:
 
-1. Group ~150 raw GitHub topics into 8–10 named semantic clusters (e.g. "AI & Copilot", "Cloud & Azure")
+1. Group the raw GitHub topics (typically 70–150, depending on how many repos are in scope) into 8–10 named semantic clusters (e.g. "AI & Copilot", "Cloud & Azure")
 2. Write the developer's tagline in one sentence ≤120 chars
 
 ### Why we changed models here
@@ -230,29 +229,13 @@ Doing it in the same call (rather than a dedicated tagline stage) gives the mode
 
 ---
 
-## Stage 4: Executive summary (LLM #3, new)
+## Stage 4: Executive summary (chat-authored, off-cron)
 
-Source: classification + analysis + clusters. Output: `repos/portfolio-summary.json`. Model: **`Meta-Llama-3.1-405B-Instruct`**.
+The prose block under the dashboard exists because the visuals answer *what* and *how much*, but not *what does it mean?*. A hiring manager scanning the page needs the connective tissue.
 
-This is the prose block under the dashboard. It exists because the visuals answer *what* and *how much*, but not *what does it mean?*. A hiring manager scanning the page needs the connective tissue.
+The executive summary is **not** LLM-generated by the daily pipeline. It is chat-authored by Fabio and Alex in dialog, iterated across revision cycles, and synced into `portfolio.config.json` when approved. The canonical source lives in `docs/EXECUTIVE-SUMMARY.md` with voice rules, source dataset declaration, and revision notes alongside the body text.
 
-The summary is three short paragraphs, each with a defined job:
-
-1. **`themes`**, what the person builds, naming 2–3 concrete domains
-2. **`strengths`**, technical signal, citing specific repos and languages
-3. **`shape`**, overall composition, active/archived ratio, breadth vs. depth
-
-We feed the LLM a token-efficient compaction of all three upstream artifacts (see `buildPayload` in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs)): totals, top-12 flagships *with descriptions*, language shares, top clusters with sample topics. Roughly 2K tokens in.
-
-The output is a constrained JSON with three string fields, each capped at 320 chars. Example from this run:
-
-> **Themes:** *This portfolio focuses on AI-powered solutions for human-AI collaboration, cognitive architecture, and developer tools. Dominant themes include AI adoption, cognitive science, and meta-cognition.*
->
-> **Strengths:** *Technical strengths include expertise in HTML, Python, and Jupyter Notebook, with flagship projects like spotify-skill and Alex_Plug_In showcasing AI integration and VS Code extension development.*
->
-> **Shape:** *The portfolio has a mix of active and archived projects, with a focus on developer tools, AI, and machine learning, indicating a balance between exploration and depth in these areas.*
-
-It cites the right repos by name, picks the right languages, and gets the active/archived shape right, because all of those facts are explicitly in the payload. We don't ask the model to *count* anything; we count in JS and ask the model to *narrate*.
+This is a deliberate design choice. The summary is the single highest-stakes paragraph on the page. Generating it daily from a model that has never met the person it describes produced generic, voice-flat output. Writing it in dialog, with a human approving every word, produces prose that sounds like the person it represents.
 
 The summary is rendered as plain markdown directly under the SVG image in the README so it is searchable, copyable, and indexable by GitHub's own search.
 
@@ -413,7 +396,7 @@ Each regex anchors on stable layout coordinates (`x="320" y="180"`) or on the so
 
 Why regex and not an SVG parser? The source banner has 200+ elements (gradient stops, filter primitives, a stylized logo). A real parser would let us mutate by ID, but it would also mean introducing an XML dependency and writing a serializer that preserves the source's exact whitespace. Regex over four anchored lines is 8 lines of code and survives every refactor we've thrown at it.
 
-The result of stage 5 is `portfolio.svg`: a single file containing the banner, the treemap, the at-a-glance row, and a centered stats footer (`108 repositories across 10 categories · 73 actively maintained · 18 flagships`). All fonts unified to Segoe UI, all chrome muted-slate `#94a3b8`. The only chromatic accents are the cluster colors.
+The result of stage 5 is `portfolio.svg`: a single file containing the banner, the treemap, the at-a-glance row, and a centered stats footer (e.g. `63 repositories across 10 categories · 48 actively maintained · 13 flagships` — numbers are computed from the classification JSON at build time). All fonts unified to Segoe UI, all chrome muted-slate `#94a3b8`. The only chromatic accents are the cluster colors.
 
 ### Footer integration
 
@@ -434,9 +417,9 @@ If review fails, the GitHub Action exits non-zero and the README is never commit
 
 ---
 
-## Stage 7: Responsible-AI review (LLM #4)
+## Stage 7: Responsible-AI review (LLM #3)
 
-Source: `repos/portfolio-summary.json` plus `portfolio.config.json` objectives plus a compact ground-truth view of the classification. Output: `repos/rai-review.json`. Model: **`gpt-4o`** at **temperature 0.0**.
+Source: `profile.executiveSummary` from `portfolio.config.json` plus declared objectives plus a compact ground-truth view of the classification. Output: `repos/rai-review.json`. Model: **`gpt-4o`** at **temperature 0.0**.
 
 This is the stage that earns the "we apply RAI" claim, and it is documented in full in the dedicated [Responsible AI section](#responsible-ai-the-dog-watches-the-butcher-shop) at the top of this document, including the rubric, verdict semantics, mermaid diagram, and the model-selection rationale. The short version: a different LLM evaluates the executive summary against the candidate's declared facts and the deterministic portfolio ground truth, every FAIL must quote the offending phrase, the verdict rollup is computed in deterministic JS (safety FAIL blocks publish, quality FAIL warns), and the receipt ships as a badge on the README.
 
@@ -453,6 +436,38 @@ A GitHub Actions workflow runs the full pipeline every day at 6 AM Eastern. Two 
 
 ---
 
+## Coming next: the traffic dashboard
+
+The portfolio dashboard answers "what does this person build?" The next dashboard answers "is anyone looking?"
+
+### Why a second dashboard
+
+The SEO curation work (Stage 4.5) rewrites descriptions and tunes topics to make repos discoverable. But discoverable *how much*? GitHub's traffic API gives us views, unique visitors, clones, and referrer breakdowns per repo — but only retains 14 days. The [`traffic-snapshot.cjs`](.github/muscles/traffic-snapshot.cjs) muscle already captures weekly snapshots (see Stage 4.6). What's missing is the visualization: a companion SVG that turns the snapshot history into a scannable trend.
+
+### What we plan to show
+
+The traffic dashboard will be a second SVG, built with the same `svg-panel.mjs` primitives as the portfolio dashboard, rendered by a new `scripts/generate-traffic-svg.mjs` script. Planned panels:
+
+| Panel | Data source | What it answers |
+| --- | --- | --- |
+| **Visitors over time** | `traffic-history.json` → `uniqueVisitors14d` per snapshot | Is traffic trending up after SEO curation? |
+| **Top referrers** | `traffic-latest.json` → `topReferrers` | Where are people finding me? (Google, Bing, ChatGPT, direct) |
+| **SEO impact** | Before/after on repos that got description + topic rewrites | Did the curation actually move the needle? |
+| **Top repos by views** | `traffic-latest.json` → per-repo `views14d` | Which repos attract the most organic attention? |
+
+### Design constraints
+
+- **Same visual language.** Same panel primitive, same font stack (Segoe UI), same muted chrome (`#94a3b8`), same cluster accent colors where applicable. The two dashboards should look like siblings.
+- **Separate SVG, not bolted onto the portfolio SVG.** The portfolio dashboard answers a different question and runs on a different cadence (daily vs. weekly). Keeping them separate means a traffic snapshot failure never blocks the portfolio publish.
+- **No live API calls in the SVG renderer.** The traffic SVG reads from `traffic-history.json` and `traffic-latest.json` — artifacts that already exist from the weekly snapshot. The renderer is deterministic: same JSON in, same SVG out.
+- **Trend lines need at least 3 snapshots.** The first two captures give one delta. Three gives a direction. We'll gate the "trend" visualization on snapshot count and fall back to a simple bar chart until enough data accumulates.
+
+### Where it fits in the pipeline
+
+The traffic dashboard will NOT be part of `refresh.mjs`. It runs on its own weekly cadence, triggered by the same [`traffic-snapshot.yml`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/workflows/traffic-snapshot.yml) workflow that already captures the snapshots. After the snapshot commits, a follow-on step renders the SVG and commits it. The portfolio README can embed it as a second image below the main dashboard, or link to VISUAL-STORYTELLING.md for the deep dive.
+
+---
+
 ## What we learned
 
 - **Token codes beat token names.** The `R0/R1` substitution halved our classification prompt size with zero quality cost.
@@ -463,6 +478,7 @@ A GitHub Actions workflow runs the full pipeline every day at 6 AM Eastern. Two 
 - **Cache by content hash, not by date.** A "regenerated daily" pipeline should make zero LLM calls when nothing changed. Hashing inputs is one line of code.
 - **Let the LLM narrate, not count.** The summary stage gets pre-counted facts and produces prose. We never ask the model "how many flagships are there?", we tell it.
 - **Review every artifact you ship.** The review stage is unglamorous and has saved us from at least three regressions during prompt iteration.
+- **Numbers in prose rot fastest.** Hardcoded repo counts, flagship counts, and topic counts in documentation drift every time the portfolio changes. Use "computed at build time" language or "as of [date]" stamps instead of concrete numbers in explanatory prose. Reserve concrete numbers for appendix examples (which are explicitly historical snapshots).
 
 ---
 
@@ -509,7 +525,7 @@ R1: spotify-skill, Spotify Skills for Claude - Production Spotify API integratio
 R2: VT_HEALTHCARE, Healthcare analytics dashboard
 R3: old-snake-game [FORK] ,
 R4: fabioc-aloha, AI portfolio showcasing ethical human-AI collaboration. Think. Build. Deploy.
-... (108 entries total)
+... (one entry per repo in scope)
 ```
 
 Descriptions are passed verbatim. The `[FORK]` marker is added in the script, not pulled from the GitHub API metadata, because we want it to be a hard token the model can't miss.
@@ -559,7 +575,7 @@ Validation checklist before responding:
 **User payload.** Two clearly-labeled blocks. Topics first (numbered, with frequency counts so the model can prioritize dominant themes), then up to 30 repository descriptions for disambiguation context.
 
 ```text
-TOPICS TO CLUSTER (exactly 152, assign every one, no more, no fewer):
+TOPICS TO CLUSTER (assign every one, no more, no fewer):
 1. ai (24)
 2. python (19)
 3. azure (15)
@@ -570,7 +586,7 @@ TOPICS TO CLUSTER (exactly 152, assign every one, no more, no fewer):
 8. vscode-extension (7)
 9. machine-learning (7)
 10. data-engineering (6)
-... (152 entries total)
+... (one entry per unique topic across all repos)
 
 REPOSITORY DESCRIPTIONS (for context only, do NOT use these as topics):
 Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness...
@@ -582,7 +598,9 @@ Healthcare analytics dashboard
 
 The "do NOT use these as topics" instruction is critical; without it, the 405B model occasionally extracts substrings from descriptions and adds them as topics that were never in the input. Cap at 30 descriptions because clustering quality plateaus there but token cost keeps climbing linearly.
 
-### Executive summary (Llama-3.1-405B, temperature 0.4)
+### Executive summary (historical — was Llama-3.1-405B, temperature 0.4)
+
+> **Note:** The executive summary is now chat-authored (see Stage 4 above). The prompt below documents the original LLM-generated approach, preserved for transparency.
 
 ```text
 You are a portfolio analyst writing an executive summary for a developer's GitHub portfolio.
@@ -611,9 +629,9 @@ Hard rules:
 - Schema: { "themes": "...", "strengths": "...", "shape": "..." }
 ```
 
-(Full prompt in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs).)
+The script that ran this prompt (`scripts/generate-summary.mjs`) has been deleted — the executive summary is now chat-authored (see Stage 4). The prompt and payload below are preserved for transparency.
 
-**User payload.** A single pre-counted, pre-aggregated JSON object. The script does the math (totals, percentages, top-N selection); the model does the prose. This is the central design principle of stage 4: never ask the LLM to count or rank, only to narrate.
+**User payload.** A single pre-counted, pre-aggregated JSON object. The script did the math (totals, percentages, top-N selection); the model did the prose. This was the central design principle: never ask the LLM to count or rank, only to narrate.
 
 ```json
 PORTFOLIO DATA:
@@ -623,10 +641,10 @@ PORTFOLIO DATA:
     "tagline": "Building AI-powered solutions for human-AI collaboration and cognitive architecture."
   },
   "totals": {
-    "repositories": 108,
-    "active": 73,
-    "archived": 35,
-    "flagships": 18,
+    "repositories": "<computed>",
+    "active": "<computed>",
+    "archived": "<computed>",
+    "flagships": "<computed>",
     "categories": 10
   },
   "categories": [
@@ -668,9 +686,9 @@ PORTFOLIO DATA:
 }
 ```
 
-The payload is built by `buildPayload()` in [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs). A few specific shaping decisions:
+The payload was built by `buildPayload()` in the now-deleted `scripts/generate-summary.mjs`. A few specific shaping decisions worth preserving:
 
-- **Top-12 flagships, not all 18.** A long list dilutes the model's attention and burns tokens. 12 is enough to give it specific names to cite without crowding the prompt.
+- **Top-12 flagships, not all of them.** A long list dilutes the model's attention and burns tokens. 12 is enough to give it specific names to cite without crowding the prompt.
 - **Full descriptions on flagships only.** Categories and clusters get just counts and names. The descriptions are the highest-signal content for the *strengths* paragraph and they're concentrated in the flagships.
 - **Top-6 languages with computed share, not byte counts.** The model writes "58% Python" naturally; it would have to do mental arithmetic on byte counts.
 - **Sample topics, not all topics.** 5 sample topics per cluster is enough for the model to identify the cluster's character; the full topic list (often 20+ per cluster) would 5× the token cost for no narrative benefit.
@@ -688,7 +706,7 @@ At ~2K tokens in and ~300 tokens out, the call costs about $0.001 with the 405B 
 | [scripts/fetch-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/fetch-repos.mjs) | Stage 1, GitHub API fetch |
 | [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs) | Stage 2, LLM classification |
 | [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) | Stage 3, clustering + tagline |
-| [scripts/generate-summary.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-summary.mjs) | Stage 4, executive summary |
+| [scripts/rai-review.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs) | Stage 7, responsible-AI review |
 | [scripts/generate-readme.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-readme.mjs) | Stage 5, README + SVG composition |
 | [scripts/generate-topic-viz.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-topic-viz.mjs) | Treemap renderer |
 | [scripts/generate-glance-svg.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-glance-svg.mjs) | KPI row renderer |
@@ -697,4 +715,8 @@ At ~2K tokens in and ~300 tokens out, the call costs about $0.001 with the 405B 
 | [scripts/review-content.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/review-content.mjs) | Stage 6, output gates |
 | [docs/brand/logos/banner-profile.svg](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/docs/brand/logos/banner-profile.svg) | Banner template |
 | [portfolio.config.json](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/portfolio.config.json) | Profile, taxonomy, overrides |
+| [.github/muscles/seo-curate.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/seo-curate.cjs) | SEO description + topic proposals |
+| [.github/muscles/fetch-popular-topics.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/fetch-popular-topics.cjs) | Popularity-ranked topic database |
+| [.github/muscles/traffic-snapshot.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/traffic-snapshot.cjs) | Weekly traffic capture |
+| [.github/workflows/traffic-snapshot.yml](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/workflows/traffic-snapshot.yml) | Weekly traffic workflow |
 | [portfolio.svg](portfolio.svg) | Final dashboard artifact |

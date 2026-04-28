@@ -2,25 +2,103 @@
 <!-- HERO:END -->
 
 <!-- PORTFOLIO:START -->
-<p align="center"><img src="portfolio.svg" alt="Portfolio" width="900"/></p>
+<p align="center"><img src="portfolio.svg" alt="Dr. Fabio Correa, DBA" width="900"/></p>
 
 ## 🔎 Agent Fleet Insights
 
-AI-generated synthesis of fleet themes, capabilities, and overall agent composition.
+Hand-authored synthesis of fleet themes, capabilities, and overall agent composition.
 
 > ### 📋 [Executive Summary](VISUAL-STORYTELLING.md)
 >
-> As a seasoned Director of Advanced Analytics & Data Science, Dr. Fabio Correa's work converges on AI-powered cognitive architectures, human-AI collaboration, and organizational transformation. His portfolio explores dominant themes in cognitive architecture, AI adoption, and data-driven storytelling, reflecting his signature work in architecting enterprise predictive analytics and pioneering Azure OpenAI integration.
+> The portfolio you are reading starts with a doctoral dissertation. The AI Readiness Scale, validated on N=523 with a CFI of .975 and explaining 85.2% of variance in behavioral intention, was built to measure how individuals and organizations actually adopt AI. What the data showed is that adoption fails most often where the AI partner has no memory, no calibration, and no proactive judgment. The rest of this work is the program that grew from that finding: a working theory of human and AI partnership where memory compounds for the organization, the AI grades its own evidence, and the same calibrated teammate shows up across research, healthcare, creative production, cloud operations, and education without losing voice or standards.
 >
-> With a strong foundation in HTML, Python, and Jupyter Notebook, Dr. Correa's technical expertise is showcased through flagship projects like spotify-skill, Alex_Plug_In, and AIRS_Data_Analysis. His work demonstrates a unique blend of technical depth, innovative problem-solving, and cross-functional leadership, highlighting his ability to drive innovation in AI and human partnership.
+> &nbsp;
 >
-> This portfolio, comprising 105 repositories, showcases Dr. Correa's breadth and depth in AI, data science, and cognitive architecture. As a demonstration of capability, it highlights his ability to lead enterprise AI initiatives at scale, driving measurable ROI and innovation in human-AI collaboration.
+> Each pinned repository is a different proof of the same thesis. AIRS_Data_Analysis is the empirical anchor, the IRB-approved dissertation behind every adoption claim downstream. airs-enterprise ships the validated instrument as a five-minute, twenty-nine-language SaaS assessment. AlexPapers carries the program into peer-reviewed venues across HCI, cognitive science, governance, and management. alex-cognitive-architecture is the partnership itself, an AI that remembers, reasons with calibrated confidence, acts proactively, and commands a roster of specialists. AlexMaster, Alex_ACT_Edition, Alex_ACT_Supervisor, and Alex_Skill_Mall productize the brain as a governance layer, a deployable heir template, a curator role, and a public skills marketplace. fabioc-aloha, the page you are reading, is the live evidence: a multi-model pipeline rebuilt every morning and gated on a separate model's review. BrainBenchmark grades any LLM across seventeen cognitive dimensions and one hundred forty-two challenges to keep the calibration claim honest. AlexMedia carries the partnership into creative production all the way to physical merchandise, health applies it at its hardest clinical setting, LearnAlex puts the methodology in public hands through a free training platform, CorreaX runs the cloud the fleet depends on, HeadstartWebsite ships an agent-operated trilingual telehealth site, and youtube-mcp-server, Extensions, tldr, and Spotify each push a different edge of what one operator with a calibrated AI partner can produce.
+>
+> &nbsp;
+>
+> The unifying claim is not productivity, it is partnership grounded in evidence: a validated instrument for measuring AI readiness, a cognitive architecture built to the standards that instrument exposes, and a governance pattern that lets all of this scale across a fleet without losing fidelity at any individual project.
 
 <sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [🛡️ RAI review: PASS](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
 
-<!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See USER-MANUAL.md for details. -->
+<!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See docs/USER-MANUAL.md for details. -->
 
 ## 🏆 Flagship Projects
+
+> ### 📂 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) 🤖
+>
+> AIRS_Data_Analysis is the IRB-approved dissertation behind the AI Readiness Scale: the empirical foundation the rest of the fleet cites when it makes a claim about AI adoption, and the doctoral record that puts a defensible number on every assertion downstream.
+>
+> Where the rest of the portfolio demonstrates the partnership in production, this repository is where the partnership had to survive a chair, a committee, and a defense. The work is open so reviewers can follow the chain from claim to construct to raw response:
+>
+> - **It is rigorously validated.** A 16-item AIRS instrument extending UTAUT2 with an AI Trust construct, validated on N=523 with a split-sample EFA→CFA→SEM design (n=261 development, n=262 holdout). The 8-factor model fits at CFI=.975, TLI=.960, RMSEA=.065, and explains 85.2% of variance in behavioral intention.
+> - **It is fully documented.** Six complete chapters — Introduction, Literature Review, Methodology, Results, Analysis and Discussion, Conclusions — with 93 verified references, 61 tables, and 15 figures, all LaTeX-formatted. The thesis is chair-approved with the defense scheduled.
+> - **It is reproducible.** Eleven verified analysis notebooks cover the full pipeline from raw responses through SEM. Every β, every fit index, every typology cutoff is computed in code that anyone can rerun against the published data.
+> - **It produces actionable segments.** Four user typologies — Enthusiasts, Cautious, Moderate, Anxious — give organizations a defensible map for targeted intervention rather than another generic adoption playbook. Leaders show effect sizes from d=0.74 to d=1.14 over non-leaders across AI tool usage, which is the kind of finding that changes who runs the AI rollout.
+> - **It bridges academic rigor and business impact.** The DBA framing keeps the work honest on both sides: peer-review-grade psychometrics with deliverables an executive can actually use.
+>
+> **Why it earns its pin**
+>
+> - It is the empirical anchor for every AI-adoption claim the rest of the fleet makes, which is the difference between a thesis and an opinion
+> - Open-by-default research with the full chain from instrument to finding visible to reviewers turns AI adoption from rhetoric into a measurable construct
+> - It is the proof that the partnership thesis can carry a doctoral defense, not just a demo
+>
+> *AIRS_Data_Analysis is the dissertation that makes the rest of the portfolio falsifiable.*
+>
+> 📓 `Jupyter Notebook` · ⭐ 1
+>
+> 🎓 `academic-research` 📈 `ai-adoption` 📈 `ai-anxiety` 📐 `behavioral-validation` 📐 `cfa` 🎓 `dissertation` 📐 `efa` 📐 `factor-analysis` 🧪 `intervention-design` 📐 `measurement-invariance` 📐 `mediation-analysis` 📐 `moderation-analysis` 📈 `organizational-readiness` 📐 `psychometrics` 📐 `reproducible-research` 📐 `scale-development` 📐 `sem` 📐 `structural-equation-modeling` 📈 `technology-acceptance` 📐 `utaut2`
+
+> ### 🔒 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise) 🤖
+>
+> airs-enterprise is the productized AIRS instrument: a five-minute, multilingual SaaS assessment that takes the validated psychometric work into the hands of organizations who need to know where their workforce actually stands on AI.
+>
+> The dissertation proved the instrument. This repository is what happens when you ship it as software people can use without reading a methods chapter:
+>
+> - **It is a five-minute, sixteen-item assessment.** Sixteen validated questions return an AIRS Score on an 8-to-40 scale with r=.876 validity, mapped to three actionable typologies — Skeptics, Moderates, Enthusiasts — at 94.5% classification accuracy. The result is immediate, individual, and trustworthy.
+> - **It is built for the enterprise.** Organization management with roles and invitations, team analytics across departments and locations, longitudinal tracking with pre and post comparison, CSV exports for org-level data, and a SUPER_ADMIN cross-org dashboard. Multi-provider authentication via Microsoft Entra ID and Google with auto-linking.
+> - **It speaks twenty-nine languages.** Browser-language auto-detection, PDF reports and AI-generated personalized guides in 29 languages, so the assessment works for the global workforce that AI rollouts have to land in.
+> - **It is AI-augmented where it matters.** Streaming LLM-generated action plans tailored to the participant's score, career goals, and concerns, framed by intervention frameworks tuned to each typology. Personalization that respects the assessment rather than replacing it.
+> - **It is production-grade.** Live at airs.correax.com, GA-released, 429 tests passing, zero TypeScript or ESLint errors, full accessibility coverage (skip links, ARIA, keyboard navigation), MIT licensed.
+>
+> **Why it earns its pin**
+>
+> - It turns a doctoral instrument into a tool an HR team or a Chief AI Officer can actually deploy on Monday morning
+> - Multilingual coverage and longitudinal tracking are what take an assessment from one-time survey to ongoing program
+> - It is the public, working face of the AIRS research program, and the proof that the partnership thesis ships software, not just papers
+>
+> *airs-enterprise is the dissertation in production: five minutes, twenty-nine languages, one validated number per person.*
+>
+> 🟦 `TypeScript`
+>
+> 🏷️ `adaptive-cards` 📈 `ai-adoption` 📈 `ai-readiness` ☁️ `azure` 🪄 `azure-openai` 🏷️ `enterprise-saas` 🏷️ `longitudinal-tracking` 🏷️ `microsoft-entra-id` 🏷️ `microsoft-teams` 🏷️ `nextjs` 🏷️ `organizational-psychology` 🏷️ `postgresql` 🏷️ `prisma` 📐 `psychometric-assessment` 🏷️ `react` 🏷️ `streaming-ai` 🏷️ `tailwind-css` 🟨 `typescript` 📐 `utaut2` 🏷️ `workforce-analytics`
+
+> ### 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖
+>
+> AlexPapers is the research pipeline behind the Future of Work program: the disciplined publishing engine that turns ongoing investigation into venue-ready manuscripts, dissertation materials, and full-length books.
+>
+> Where AIRS-16 supplies the empirical anchor and the rest of the fleet demonstrates the partnership in production, AlexPapers is the writing and submission machinery that gets the work into the rooms where it changes how people think:
+>
+> - **It spans the disciplines that matter for AI partnership.** Active threads cover human and computer interaction, cognitive science, cognitive systems, neuroscience, AI ethics and governance, organizational learning, and AI adoption strategy. The same investigation gets framed for the audience that can act on it, whether that is HCI researchers at CHI, cognitive scientists at CogSci, governance scholars at FAccT, software engineers at IEEE, information systems faculty at MIS Quarterly, or executives reading Harvard Business Review.
+> - **It is venue-targeted from day one.** Every manuscript is calibrated to a specific publication: voice, length, methodology framing, and contribution claims are tuned to the venue rather than retrofitted at submission. A single research finding can land at multiple venues without being warmed-over content at any of them.
+> - **It is a deep bench on AI adoption.** A substantial portion of the pipeline focuses on why organizations stall on AI: appropriate reliance, copilot ROI, human-centered AI strategy, and the patterns that separate adoption success from theater. This thread alone runs to dozens of drafts and feeds both the academic and practitioner sides of the program.
+> - **It is multi-format by design.** Conference papers, journal articles, dissertation chapters, practitioner essays, and books-in-progress on meta-cognitive AI and human and AI symbiosis all share the same evidence base and citation graph. One investigation feeds many surfaces without the usual duplication tax.
+> - **It is anchored in the data.** Every empirical claim traces back to AIRS-16 or the studies that build on it. Reviewers can follow the chain from manuscript paragraph to instrument item to raw response without leaving the research record.
+> - **It is a pipeline, not a folder.** Drafting, citation management, figure regeneration, venue-format conversion, and submission tracking move through repeatable stages. The pipeline keeps a continuous Post-Doc research program productive instead of dependent on heroic end-of-quarter pushes.
+>
+> **Why it earns its pin**
+>
+> - It converts a research program into peer-reviewed evidence at the cadence the field actually rewards
+> - Multi-venue coverage means the same work reaches HCI researchers, cognitive scientists, software engineers, governance scholars, and executives without diluting any one of them
+> - The connection to AIRS-16 makes every contribution falsifiable rather than rhetorical
+> - Books-in-progress translate the academic record into formats that reach practitioners and policymakers
+>
+> *AlexPapers is how a thesis becomes a body of work: many disciplines, many venues, one evidence base, a pipeline that keeps publishing while the research keeps growing.*
+>
+> 📄 `Rich Text Format`
+>
+> 🏷️ `agent` 🏷️ `agentic` 🛡️ `ai-governance` ⚖️ `appropriate-reliance` 🏷️ `book` 🏷️ `case-study` 🏷️ `enterprise` 🏷️ `latex` 🏷️ `neuroscience` 🏷️ `organization` 🏷️ `papers` 🏷️ `pdf` 🏷️ `persistent-memory` 🏷️ `philosophy` 🏷️ `research` 🏷️ `survey` 📐 `utaut2` 🏷️ `validation`
 
 > ### 📂 [alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture) 🤖
 >
@@ -47,7 +125,7 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 >
 > 🟨 `JavaScript`
 >
-> 🤖 `ai-agents` 🤖 `ai-assistant` 🧠 `cognitive-architecture` 🧩 `copilot-extensions` 🛠️ `developer-tools` 🧩 `github-copilot` 🤝 `human-ai-collaboration` 🟨 `javascript` 📝 `markdown` 🧠 `meta-cognition` ✍️ `prompt-engineering` 🎒 `skills` 🧩 `vscode` 🧩 `vscode-extension` ⚙️ `workflow-automation`
+> 🏷️ `agent` 🏷️ `agentic-ai` 🤖 `ai-agents` 🤖 `ai-assistant` 🏷️ `chatgpt` 🏷️ `claude` 🧠 `cognitive-architecture` 💬 `dialog-engineering` 🏷️ `fleet` 🪄 `generative-ai` 🧩 `github-copilot` 🏷️ `governance` 🏷️ `mcp` 🏷️ `multi-agent` 🏷️ `orchestration` ✍️ `prompt-engineering`
 
 > ### 🔒 [AlexMaster](https://github.com/fabioc-aloha/AlexMaster) 🤖
 >
@@ -71,7 +149,77 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 >
 > 🟨 `JavaScript` · ⭐ 1
 >
-> 🤖 `ai-assistant` 🧠 `cognitive-architecture` 🧩 `copilot-extensions` 🤝 `human-ai-collaboration` 🧠 `meta-cognition` 🎒 `skills` 🧩 `vscode`
+> 🏷️ `agent` 🏷️ `agentic-ai` 🤖 `ai-agents` 🤖 `ai-assistant` 🏷️ `chatgpt` 🏷️ `claude` 🧠 `cognitive-architecture` 💬 `dialog-engineering` 🏷️ `fleet` 🏷️ `governance` 🏷️ `multi-agent` 🏷️ `orchestration` ✍️ `prompt-engineering`
+
+> ### 🔒 [Alex_ACT_Edition](https://github.com/fabioc-aloha/Alex_ACT_Edition) 🤖
+>
+> Alex_ACT_Edition is the heir template for ACT — the version of Alex built around Artificial Critical Thinking, where the brain treats every load-bearing input as a hypothesis and tests it before it ships.
+>
+> AI coding assistants are helpful, fast, and often wrong in subtle ways: they confirm framings instead of challenging them, generate plausible-sounding code without checking the problem, and stay confident when they should be uncertain. ACT Edition changes the cognitive contract:
+>
+> - **It thinks in tenets, not tips.** Ten foundational tenets — hypothesis primacy, disconfirmation over confirmation, multiple working hypotheses, system-prompt skepticism, calibrated confidence, materiality gating, frame before solve, adversarial self-probe, visible markers, recursive application — are operationalized as concrete behaviors the brain runs on its own work.
+> - **It is a complete brain, not a prompt pack.** 57 always-on instructions, six skills, eleven prompts, and nine automation muscles cover critical thinking, learning psychology, partnership protocols, memory triggers, terminal safety, problem framing, and reasoning calibration. The brain ships as a self-contained `.github/` folder a heir bootstraps into any repo.
+> - **It is pull-based and policy-aware.** Heirs pull updates on their own schedule under an edition-owned versus heir-owned path policy, so Edition releases can refresh the brain without overwriting the project's own customizations. Major version bumps require explicit consent.
+> - **It targets the failure modes that matter.** Confirmation bias, anchoring, hallucination, sycophancy, Type III error, decision paralysis — every one of them gets a named tenet, a defense, and a visible marker so the AI can be audited, not just trusted.
+>
+> **Why it earns its pin**
+>
+> - It is the brain this very portfolio runs on, and the same brain that ships across every ACT-flagged heir in the fleet
+> - It turns the partnership thesis into shippable infrastructure: a folder a developer can drop into a repo and get critical-thinking discipline for free
+> - It is the productized answer to AI coding assistants that confirm what the user already believes, which is the failure mode most likely to ship a quietly broken codebase
+>
+> *Alex_ACT_Edition is the brain you can install: critical thinking as a folder, not a slogan.*
+>
+> 🟨 `JavaScript`
+>
+> 🏷️ `act-framework` 🤖 `ai-agent` 🤖 `ai-alignment` 🤖 `ai-assistant` 🤖 `ai-quality` 🤖 `ai-reliability` 🛡️ `ai-safety` 🏷️ `anti-hallucination` 🧠 `cognitive-architecture` 🧩 `copilot` 💭 `critical-thinking` 🏷️ `developer-productivity` 🏷️ `epistemic-integrity` 🧩 `github-copilot` 🧬 `github-template` ✍️ `prompt-engineering` 🛡️ `responsible-ai` 🧩 `vscode`
+
+> ### 🔒 [Alex_ACT_Supervisor](https://github.com/fabioc-aloha/Alex_ACT_Supervisor) 🤖
+>
+> Alex_ACT_Supervisor is the source of truth for the ACT-Edition fleet: the curator that triages real-world feedback from deployed heirs, reviews brain changes, and ships disciplined releases of the Edition template and the Skill Mall.
+>
+> Where AlexMaster owns the architecture across all editions, the Supervisor owns the day-to-day governance of the ACT sub-fleet specifically. It is the role that keeps a multi-project AI deployment coherent without slowing it down:
+>
+> - **It governs the fleet.** Registry of deployed ACT heirs, version tracking, fleet-wide announcements, and a feedback inbox that routes heir-reported issues to the right destination — Edition fix, Skill Mall change, or AlexMaster escalation.
+> - **It curates the brain.** Reviews submissions to `Alex_ACT_Edition`, runs preflight and brain-quality checks, ships Edition releases with changelogs and tags. No change reaches the fleet without passing the curation gate.
+> - **It maintains the marketplace.** Link checks, staleness pruning, new-store evaluation, and MCP listings keep the Skill Mall trustworthy as it grows. Cross-repo coherence between Edition references and Skill Mall reality is the Supervisor's job.
+> - **It defers when it should.** A cardinal rule: framework-level concerns belong to AlexMaster; everything ACT-specific belongs to the Supervisor. The boundary is enforced by the role itself, not by hope.
+>
+> **Why it earns its pin**
+>
+> - It is the reason an AI fleet can scale without drift: someone watches the brain, watches the marketplace, and watches the gap between them
+> - It models what production governance for an agent fleet actually looks like — release discipline, feedback triage, and curation review, all running as named jobs rather than ad-hoc cleanup
+> - It is the missing role in most AI deployments: the curator that keeps the partnership trustworthy as it spreads
+>
+> *Alex_ACT_Supervisor is the role that keeps the fleet honest: one curator, one inbox, one release pipeline, every heir accounted for.*
+>
+> 🟨 `JavaScript`
+>
+> 🏷️ `act-framework` 🏷️ `agent-customization` 🤖 `ai-curation` 🛡️ `ai-governance` 🤖 `ai-quality` 🤖 `ai-supervisor` 🧠 `cognitive-architecture` 🧩 `copilot-customization` 💭 `critical-thinking` 🏷️ `epistemic-integrity` 🏷️ `feedback-loop` 🏷️ `release-discipline` 🛡️ `responsible-ai` 🏷️ `skill-marketplace`
+
+> ### 📂 [Alex_Skill_Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) 🤖
+>
+> Alex_Skill_Mall is a curated marketplace of battle-tested AI assistant skills: 200 hard-won lessons across 50+ domains, drop-in expertise an AI partner can absorb instantly instead of rediscovering through hours of debugging.
+>
+> The premise is simple: every skill in the mall has been earned the hard way on a real project, then distilled into a markdown skill an AI assistant can read and apply. The result is institutional memory you can clone:
+>
+> - **It is hard knowledge, not generic advice.** Skills span security (XSS, injection, API hardening, path traversal), quality (audit patterns, QA, date arithmetic), documentation (Mermaid, decay, count drift), build engineering (path rot, config separation, data-driven layouts), Azure (managed identity, cost API, MSAL singleton), cross-platform (path handling, regex, line endings), and the long tail of one-off gotchas that take real projects down.
+> - **It ships scaffolds and patterns, not just skills.** A `vite-azure-swa` scaffold delivers a deployable Vite + Azure Static Web Apps starter with auth, CI/CD, and the right config out of the box. Cross-domain patterns like champion-challenger caching for LLM inputs apply anywhere.
+> - **It is multi-assistant by design.** Drop a skill into `.github/skills/` for Copilot, reference the catalog from a Claude or ChatGPT system prompt, or clone the whole mall as a submodule. The skills are plain markdown with no runtime dependency on Alex.
+> - **It indexes the wider ecosystem.** A `STORES.md` directory points to fifteen-plus external skill stores (Microsoft, Anthropic, community) so an AI partner can research where the answer lives even when the mall does not have it directly.
+> - **It holds a quality bar.** Every skill must save more than thirty minutes of debugging, must not be the first search result, must have been used on a real project, and must still be relevant. If a search engine can find it easily, it does not belong in the mall.
+>
+> **Why it earns its pin**
+>
+> - It turns the partnership thesis into a public utility: knowledge that used to live in one developer's head is now a folder anyone's AI assistant can read
+> - It is open-source, MIT-licensed, and free to consume, which is the only delivery model that lets institutional memory actually spread
+> - It is the proof that the right unit of AI knowledge transfer is the skill, not the prompt: small, named, testable, dropped in where it is needed
+>
+> *Alex_Skill_Mall is the marketplace where hard-won lessons stop being one developer's lore and start being everyone's leverage.*
+>
+> 🟨 `JavaScript`
+>
+> 🏷️ `agentic-ai` 🤖 `ai-assistant` 🤖 `ai-skills` 🏷️ `best-practices` 🏷️ `claude-code` 🧠 `cognitive-architecture` 💭 `critical-thinking` 🏷️ `cursor` 🏷️ `developer-productivity` 🧩 `github-copilot` 🏷️ `knowledge-base` ✍️ `prompt-engineering` 🏷️ `skill-library` 🏷️ `skill-marketplace`
 
 > ### 📂 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)
 >
@@ -92,33 +240,31 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 >
 > *The system is the demonstration. You are not reading about Alex, you are watching Alex work.*
 >
-> 🤖 `ai-research` ☁️ `azure` 🧠 `cognitive-architecture` 🧬 `correax` 📊 `data-storytelling` 📊 `data-visualization` 💬 `dialog-engineering` ⚙️ `github-actions` 🪪 `github-profile` 🤝 `human-ai-collaboration` 🟨 `javascript` ⚖️ `llm-as-judge` 🧠 `meta-cognitive` 🪄 `openai` 🪪 `portfolio` 🐍 `python` 🛡️ `responsible-ai` 🪪 `self-updating` 🧬 `template`
+> 🏷️ `agentic` 🏷️ `cron` 🏷️ `dashboard` 📊 `data-visualization` 🏷️ `fleet` 🏷️ `github` ⚙️ `github-actions` 🪪 `github-profile` ⚖️ `llm-as-judge` 📝 `markdown` 🪄 `openai` 🏷️ `personal-website` 🪪 `portfolio` 🏷️ `profile` 🏷️ `readme` 🪪 `self-updating` 🧬 `template` 🏷️ `widget`
 
-> ### 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖
+> ### 📂 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖
 >
-> AlexPapers is the research pipeline behind the Future of Work program: the disciplined publishing engine that turns ongoing investigation into venue-ready manuscripts, dissertation materials, and full-length books.
+> BrainBenchmark is a multi-provider LLM cognitive benchmark suite: 142 challenges across 17 dimensions, each scored 0 to 100, designed to find exactly where a given model excels or struggles instead of reporting a single average that hides the truth.
 >
-> Where AIRS-16 supplies the empirical anchor and the rest of the fleet demonstrates the partnership in production, AlexPapers is the writing and submission machinery that gets the work into the rooms where it changes how people think:
+> Most LLM benchmarks return a leaderboard number. BrainBenchmark returns a profile: where the model thinks well, where it thinks poorly, and how it behaves under stress. That profile is what you need before you trust a model with real work:
 >
-> - **It spans the disciplines that matter for AI partnership.** Active threads cover human and computer interaction, cognitive science, cognitive systems, neuroscience, AI ethics and governance, organizational learning, and AI adoption strategy. The same investigation gets framed for the audience that can act on it, whether that is HCI researchers at CHI, cognitive scientists at CogSci, governance scholars at FAccT, software engineers at IEEE, information systems faculty at MIS Quarterly, or executives reading Harvard Business Review.
-> - **It is venue-targeted from day one.** Every manuscript is calibrated to a specific publication: voice, length, methodology framing, and contribution claims are tuned to the venue rather than retrofitted at submission. A single research finding can land at multiple venues without being warmed-over content at any of them.
-> - **It is a deep bench on AI adoption.** A substantial portion of the pipeline focuses on why organizations stall on AI: appropriate reliance, copilot ROI, human-centered AI strategy, and the patterns that separate adoption success from theater. This thread alone runs to dozens of drafts and feeds both the academic and practitioner sides of the program.
-> - **It is multi-format by design.** Conference papers, journal articles, dissertation chapters, practitioner essays, and books-in-progress on meta-cognitive AI and human and AI symbiosis all share the same evidence base and citation graph. One investigation feeds many surfaces without the usual duplication tax.
-> - **It is anchored in the data.** Every empirical claim traces back to AIRS-16 or the studies that build on it. Reviewers can follow the chain from manuscript paragraph to instrument item to raw response without leaving the research record.
-> - **It is a pipeline, not a folder.** Drafting, citation management, figure regeneration, venue-format conversion, and submission tracking move through repeatable stages. The pipeline keeps a continuous Post-Doc research program productive instead of dependent on heroic end-of-quarter pushes.
+> - **It covers the full cognitive surface.** Logical reasoning, mathematical reasoning, code generation, language understanding, creative writing, instruction following, factual knowledge, multi-step planning, context utilization, structured output, self-consistency, safety and calibration, multilingual proficiency, robustness and adversarial, multi-turn conversation, summarization and compression, and a dedicated cognitive partnership dimension that grades meta-cognition, identity stability, ethics, bootstrap learning, and empathy.
+> - **It scores three ways, not one.** Deterministic scoring for exact-match and code execution, structural scoring for JSON and schema compliance, and LLM-as-judge for open-ended responses with a detailed rubric. Each method produces auditable scores per challenge with difficulty breakdowns from easy through expert.
+> - **It runs in two modes.** API mode automates the run end to end across providers; chat mode generates a paste-into-Copilot prompt and auto-scores the response, so models without API access still get benchmarked. The benchmark meets the model where it lives.
+> - **It is multi-provider by design.** OpenAI, Anthropic, Google, and any model the runner can reach, ranked on the same composite Brain Score so comparisons are honest rather than vendor-flattering.
+> - **It exposes the calibration story.** A dedicated dimension on safety and calibration measures refusal accuracy, bias detection, uncertainty expression, and adversarial resistance — which is the failure mode most likely to ship a quietly broken AI deployment.
 >
 > **Why it earns its pin**
 >
-> - It converts a research program into peer-reviewed evidence at the cadence the field actually rewards
-> - Multi-venue coverage means the same work reaches HCI researchers, cognitive scientists, software engineers, governance scholars, and executives without diluting any one of them
-> - The connection to AIRS-16 makes every contribution falsifiable rather than rhetorical
-> - Books-in-progress translate the academic record into formats that reach practitioners and policymakers
+> - It operationalizes the calibrated-confidence claim the rest of the fleet rests on: instead of asserting that an AI partner reasons well, it measures it across 142 named challenges
+> - The cognitive partnership dimension is the falsifiability test for Alex itself, which is what turns the partnership thesis from a claim into something that can be graded
+> - Benchmarks that produce profiles instead of single numbers are how a buyer actually picks the right model for a given workload, which is what the field is missing
 >
-> *AlexPapers is how a thesis becomes a body of work: many disciplines, many venues, one evidence base, a pipeline that keeps publishing while the research keeps growing.*
+> *BrainBenchmark is the experiment that grades the brain on its own claims: seventeen dimensions, one composite score, no place for hand-waving to hide.*
 >
-> 📄 `Rich Text Format`
+> 🐍 `Python`
 >
-> 🎓 `academic-papers` 🎓 `academic-publishing` 🎓 `academic-research` 🛡️ `ai-ethics` 🛡️ `ai-governance` 🤖 `ai-research` ⚖️ `appropriate-reliance` 🧠 `cognitive-architecture` 🧠 `cognitive-science` 🎓 `dissertation` 🎓 `hci` 🤝 `human-ai-collaboration` 🎓 `knowledge-work` 🧠 `meta-cognition` 🎓 `organizational-learning`
+> 🤖 `ai` 🏷️ `anthropic` 🏷️ `benchmark` 🧠 `cognitive-science` 🏷️ `evaluation` 🪄 `llm` 🏷️ `multi-provider` 🪄 `openai` 🐍 `python`
 
 > ### 📂 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖
 >
@@ -143,7 +289,7 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 >
 > 🟨 `JavaScript`
 >
-> 🖨️ `3d-generation` 🖨️ `3d-printing` 🤖 `ai-tools` 🛠️ `cli` 🪄 `generative-ai` 🖼️ `image-generation` 🎵 `music-generation` 🛠️ `nodejs` 🔁 `replicate` 🖨️ `sticker-printing` 🖼️ `text-to-image` 🎙️ `text-to-speech` 🎬 `text-to-video` 🎬 `video-generation` 🎙️ `voice-cloning`
+> 🖨️ `3d` 🖨️ `3d-printing` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-tools` 🏷️ `audio` 🪄 `generative-ai` 🏷️ `generative-art` 🖼️ `image-generation` 🏷️ `multimedia` 🏷️ `multimodal` 🎵 `music-generation` 🏷️ `nano-banana` 🔁 `replicate-api` 🏷️ `stable-diffusion` 🎙️ `text-to-speech` 🎬 `video` 🏷️ `video-editing` 🎬 `video-generation` 🎙️ `voice-cloning`
 
 > ### 🔒 [health](https://github.com/fabioc-aloha/health) 🤖
 >
@@ -165,160 +311,188 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 >
 > *Dr. Alex Finch is the thesis at its hardest setting: when the patient is you and the evidence has to hold up under your own life.*
 >
-> 🌐 `HTML`
+> 🟨 `JavaScript`
 >
-> 💭 `ai-reasoning` 🍎 `apple-health` 🏥 `clinical-data` 👁️ `computer-vision` 💭 `critical-thinking` 🔗 `data-integration` 🏥 `ehr` 🏥 `epic` 🧪 `evidence-based-medicine` 🏥 `health-data` 🏥 `health-informatics` 🏥 `healthcare-ai` 📓 `jupyter-notebook` 🏥 `medical-records` 🏥 `personal-health` 🐍 `python`
+> 🏷️ `care-coordination` 🏷️ `chronic-illness` 💭 `critical-thinking` 🏷️ `decision-support` 🧪 `evidence-based-medicine` 🏥 `health` 🏥 `health-literacy` 🏥 `healthcare` 🏥 `healthcare-ai` 🏷️ `informed-patient` 🏥 `medical` 🏷️ `patient-advocacy` 🏷️ `patient-empowerment` 🏥 `personalized-health` 🏷️ `research` 🏷️ `shared-decision-making`
 
 > ### 🔒 [LearnAlex](https://github.com/fabioc-aloha/LearnAlex) 🤖
 >
-> Workshop portal for the Alex Cognitive Architecture — empowering knowledge workers, engineers, researchers, and creatives
+> LearnAlex is the developer and publisher of a free training platform at learnai.correax.com that teaches AI partnership skills to humans. New use cases for AI are researched, training is developed, and the result is delivered with verified completion certificates that learners can share on LinkedIn.
+>
+> - **It teaches humans, not tools.** Workshop playbooks tailored to engineers, academics, researchers, knowledge workers, project managers, content creators, students, and job seekers. Dialog Engineering is the foundation: the discipline of getting calibrated work out of an AI partner in domains people don't even assume AI is useful for.
+> - **The research-to-training loop runs continuously.** New AI use cases get studied, then turned into workshops practitioners can take the same week. The curriculum tracks the field instead of trailing it by a year.
+> - **It issues credentials that travel.** Verified, LinkedIn-shareable certificates of completion mean a workshop converts into a credential anyone can carry into their next role.
+>
+> **Why it earns its pin**
+>
+> - It puts the methodology behind the rest of the fleet into the hands of anyone willing to learn, for free
+> - The agent does the heavy lifting on research, drafting, and publishing, which is the only reason a free platform of this scope is sustainable for one operator
+>
+> *LearnAlex is how the methodology meets the public: research becomes training, training becomes skill, and skill becomes a credential anyone can carry.*
 >
 > 📄 `Astro`
-
-> ### 🔒 [VT_AIPOWERBI](https://github.com/fabioc-aloha/VT_AIPOWERBI) 🤖
 >
-> AI-Assisted Power BI for Business Analytics - Virginia Tech MBA Program. Copilot-first approach to business intelligence with Microsoft case studies.
->
-> 🌐 `HTML`
->
-> 🤖 `ai` 🏷️ `business-analytics` 🧩 `copilot` 📊 `data-visualization` 🏷️ `mba` 🏷️ `microsoft` 🏷️ `power-bi` 🏷️ `powerbi` ✍️ `prompt-engineering` 🏷️ `virginia-tech`
+> 🏷️ `agent` 🏷️ `agentic` 🏷️ `astro` 🏷️ `certification` 🏷️ `claude` 🏷️ `course` 💬 `dialog-engineering` 🏷️ `education` 🏷️ `educational` 🤝 `human-ai-collaboration` 🏷️ `learning` 🏷️ `linkedin` 🏷️ `lms` 🏷️ `professional-development` ✍️ `prompt-engineering` 🏷️ `training` 🏷️ `tutorial` 🏷️ `workshop`
 
 > ### 🔒 [CorreaX](https://github.com/fabioc-aloha/CorreaX) 🤖
 >
-> Azure & M365 management portal - React 19, TypeScript 5.9, Vite 7, Tailwind 4
+> CorreaX is the operational control plane for the Azure subscription that hosts the public-facing services the fleet's agents create and maintain: a single portal that watches cost, resources, DNS, health, and identity across every site under correax.com.
+>
+> - **It runs the cloud.** One portal covers Azure and Microsoft 365 management for the subscription: cost anomalies, resource inventory, DNS zones, service health, advisor recommendations, activity log, and Resource Graph queries, plus user, analytics, and storage management on the M365 side.
+> - **It oversees the deployed services.** Sites like learnai.correax.com, books.correax.com, health.correax.com, vt.correax.com, and the rest of the correax.com family all run under this subscription. CorreaX is where their resource groups, alert rules, secrets, and bills are watched in one place rather than scattered across the Azure portal.
+> - **It acts, not just reports.** An Azure OpenAI assistant sits inside the portal with function-calling tools, code execution, and a risk-aware safety layer, so an operator can ask a question and the assistant can resolve it instead of producing a screenshot.
+>
+> **Why it earns its pin**
+>
+> - It is the operations counterpart to the cognitive architecture: the agents build and ship the services, CorreaX keeps the cloud they live on healthy and on budget
+> - It makes a multi-site subscription governable by one person, which is what lets a free training platform, a research site, a medical knowledge base, and a games site coexist without an ops team
+> - The same partnership thesis applies inside the portal: the assistant grades its own actions and asks for confirmation on the destructive ones
+>
+> *CorreaX is the cockpit for the cloud: every service the agents deploy, every cost line, every alert, one operator, one pane.*
 >
 > 🟦 `TypeScript`
 >
-> 🏷️ `admin-portal` ☁️ `azure` 🪄 `azure-openai` 🏷️ `azure-static-web-apps` 🏷️ `cost-management` 🏷️ `entra-id` 🏷️ `infrastructure-management` 🏷️ `microsoft-graph` 🏷️ `msal` 🏷️ `react` 🏷️ `react-19` 🏷️ `tailwindcss` 🏷️ `tanstack-query` 🟨 `typescript` 🏷️ `vite` 🏷️ `vitest`
+> 🏷️ `admin-dashboard` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-assistant` ☁️ `azure` 🪄 `azure-openai` ☁️ `cloud` ☁️ `cloud-native` 🏷️ `dashboard` 🏷️ `devops` 🏷️ `entra-id` 🏷️ `iac` 🏷️ `microsoft` 🏷️ `monitoring`
 
 > ### 🔒 [HeadstartWebsite](https://github.com/fabioc-aloha/HeadstartWebsite) 🤖
 >
-> Professional trilingual counseling website for Headstart Counseling (headstartcounseling.com) -- Azure Static Web Apps, React + Vite, Tailwind CSS
+> Headstartcounseling.com is the website for my wife Claudia Correa's online therapy practice. She is the licensed clinician seeing clients in Washington and North Carolina via telehealth, in English, Spanish, and Portuguese. I run the website for her, with an AI agent as my partner, so she stays focused on her clients.
+>
+> - **The agent runs the site.** Translates blog posts into Brazilian Portuguese and Latin American Spanish so the written content matches the languages Claudia already practices in, generates images, runs SEO, and handles deployments. Claudia approves; the agent does the work.
+> - **It carries clinical-grade tools.** Eleven validated screening instruments are built into the site so prospective clients can self-screen privately before reaching out. The same instruments support Claudia's intake conversations, which means the website does work that would otherwise sit on the clinician's plate.
+> - **It runs on minutes per week.** Editorial calendar, SEO updates, image production, and deployments are agent-driven. The clinician's role is review and approval, not authoring.
+>
+> **Why it earns its pin**
+>
+> - It delivers the kind of ROI that would otherwise require an agency retainer: a trilingual site, content engine, SEO program, and validated intake screening, run by one operator and one agent on the side.
+>
+> *HeadstartWebsite is the proof that the same calibrated partnership running the fleet can run a spouse's practice on the side, in three languages, without taking her time.*
 >
 > 🟨 `JavaScript`
+>
+> 🏷️ `accessibility` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-agents` 🏷️ `assessment` 🏷️ `astro` 🏷️ `blog` 🏥 `healthcare` 🏷️ `i18n` 🏥 `mental-health` 🏷️ `multilingual` 🏷️ `psychology` 🏷️ `seo` 🏷️ `spanish` 🏥 `telehealth` 🏷️ `therapy` 🏷️ `translation` 🏷️ `wellness`
 
 > ### 📂 [youtube-mcp-server](https://github.com/fabioc-aloha/youtube-mcp-server) 🤖
 >
-> 🎬 Comprehensive YouTube MCP Server with 31 tools, AI intelligence layer, learning path generator, content repurposing, and watch history analysis
+> youtube-mcp-server is a probe into what an MCP server looks like when it is built for AI agents from the start, not retrofitted from a REST API.
+>
+> The thesis: most YouTube integrations hand an agent raw video data and let the agent figure it out. This one ships an intelligence layer on top of the data, so the agent gets structured knowledge instead of bytes.
+>
+> - **It synthesizes across videos.** Compare how five videos explain the same concept, get back consensus points, controversies, and unique insights with citations. Multi-video research is a first-class verb, not something the agent has to compose by hand.
+> - **It extracts structure, not just text.** Concept extraction with difficulty levels and prerequisites, smart chunking that respects sentence boundaries, semantic search with vector embeddings. The transcript becomes a knowledge object the agent can reason about.
+> - **It runs production-clean.** Quota-aware rate limiting, LRU caching with TTL, Zod input validation, secure logging that redacts API keys, graceful shutdown. The kind of thing an MCP server has to do to be trusted in real workflows, done up front.
+> - **It exposes ~40 tools, not endpoints.** Every capability — search, transcript extraction, multi-video synthesis, concept mining, channel analysis — is a discrete MCP tool with typed inputs and outputs. The agent gets a verb-rich palette to compose from, which is the difference between an MCP server designed for agents and a REST API wearing an MCP costume.
+>
+> **Why it earns its pin**
+>
+> - It is the proof that an MCP server can be a knowledge engine rather than a thin protocol wrapper, and that an AI partner can do the heavy lifting in unfamiliar domains the moment it has the right tools.
+>
+> *youtube-mcp-server is the experiment that shows what happens when MCP design starts from the agent's needs instead of the API's shape.*
 >
 > 🟦 `TypeScript`
 >
-> 🤖 `ai` 🤖 `ai-agents` 🤖 `ai-tools` 🏷️ `content-creation` 🏷️ `flashcards` 🧩 `github-copilot` 🏷️ `knowledge-extraction` 🏷️ `learning` 🏷️ `llm-tools` 🏷️ `mcp` 🏷️ `model-context-protocol` 🏷️ `quiz-generator` 🟨 `typescript` 🏷️ `video-analysis` 🏷️ `youtube` 🏷️ `youtube-api`
+> 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-agents` 🤖 `ai-tools` 🏷️ `flashcards` 🧩 `github-copilot` 🏷️ `knowledge-extraction` 🏷️ `learning` 🏷️ `llm-tools` 🏷️ `mcp` 🏷️ `model-context-protocol` 🏷️ `video-analysis` 🏷️ `youtube` 🏷️ `youtube-api`
 
 > ### 📂 [Extensions](https://github.com/fabioc-aloha/Extensions) 🤖
 >
-> Monorepo of 16 VS Code productivity extensions — focus timer, markdown to Word, AI voice reader, secret guard, MCP starter, workspace watchdog, and more.
+> Extensions is a productivity toolset for developers who live in VS Code: a monorepo of 16 standalone extensions, nine of them already on the Marketplace, each one a focused utility that earns its keep without asking the user to adopt anything else.
+>
+> - **It covers the workday.** Hook Studio for git hook authoring, MCP App Starter for new MCP servers, Workspace Watchdog for awareness, Knowledge Decay Tracker for stale notes, AI Voice Reader for accessibility, SecretGuard for credential leaks, Focus Timer for deep work, Markdown to Word for handoff, Brandfetch Logo Fetcher for design tasks. Compile-ready additions cover Mermaid editing, SVG tooling, slide assistants, and developer wellbeing.
+> - **It installs like any extension.** Each one is a standalone install with no shared runtime dependency. The user picks the ones they want from the Marketplace and ignores the rest. No subscription, no account, no orchestration tax.
+>
+> **Why it earns its pin**
+>
+> - It is the proof that a single developer with an AI partner can build, polish, and ship a Marketplace catalog at a pace that used to require a team.
+>
+> *Extensions is the experiment that turns the workday into installable tools.*
 >
 > 🟦 `TypeScript`
 >
-> 🛠️ `developer-tools` 🏷️ `marketplace` 🏷️ `monorepo` 🏷️ `npm-workspaces` 🏷️ `productivity` 🟨 `typescript` 🧩 `vscode` 🧩 `vscode-extension`
+> 🏷️ `accessibility` 🏷️ `code-editor` 🛠️ `developer-tools` 🏷️ `editor` 🏷️ `extensions` 🏷️ `git-hooks` 🏷️ `ide` 🏷️ `marketplace` 🏷️ `monorepo` 🏷️ `productivity` 🏷️ `secrets-management` 🧩 `vscode` 🧩 `vscode-extension`
 
 > ### 📂 [tldr](https://github.com/fabioc-aloha/tldr) 🤖
 >
-> Local-only Windows text summarizer with TTS powered by Microsoft Foundry Local
+> tldr is an experiment in running the AI partnership on highly sensitive information that cannot leave the machine. A Windows desktop summarizer powered by Phi-4 Mini through Microsoft Foundry Local: paste text or drop a document, get a summary in the style and depth you pick, hear it read back with synchronized highlighting. After the model downloads on first launch, the entire pipeline runs offline. No cloud, no API keys, no telemetry, no document content uploaded anywhere.
+>
+> - **The applications are the point.** Lawyers summarizing privileged client material. Clinicians condensing patient records. Auditors processing pre-publication financials. Government staff handling classified or controlled-unclassified content. M&A teams reading data-room documents. Engineers digesting unreleased product specs. Therapists reviewing session notes. Anyone who needs a summary of something they cannot legally or ethically send to a third-party API.
+>
+> **Why it earns its pin**
+>
+> - It really works. Local-only AI on consumer hardware, daily-use quality, every privacy guarantee that matters when the document is not yours to share.
+>
+> *tldr is the experiment that proves sensitive-document AI does not require a cloud account.*
 >
 > 🎯 `C#`
 >
-> 🏷️ `dotnet` 🏷️ `foundry-local` 🏷️ `local-ai` 🏷️ `phi-4` 🏷️ `text-summarization` 🎙️ `tts` 🏷️ `windows` 🏷️ `wpf`
+> 🏷️ `desktop-app` 🏷️ `dotnet` 🏷️ `foundry-local` 🏷️ `local-ai` 🏷️ `pdf` 🏷️ `phi-4` 🏷️ `privacy` 🏷️ `summarization` 🏷️ `text-summarization` 🎙️ `tts` 🏷️ `windows` 🏷️ `wpf`
 
 > ### 🔒 [Spotify](https://github.com/fabioc-aloha/Spotify) 🤖
 >
-> Professional Spotify playlist creation platform with AI-powered curation, therapeutic applications, and production-grade audio intelligence for DJs and music enthusiasts
+> Alex Method DJ is a Spotify playlist platform that ran AI-generated playlists in production several months before Spotify and Apple shipped their own. It is the proof, with a timestamp, that the partnership thesis applies to creative work the platforms had not yet figured out how to do themselves.
+>
+> The interesting part is not that it generates playlists. The interesting part is what it generates them from:
+>
+> - **It curates by intent.** Theme, situation, occasion, mood, energy curve, audience. The config names what the playlist is for, the platform builds the session that fits. A focus playlist for ADHD listens differently than a focus playlist for a coffee shop, and the curation reflects that.
+> - **It respects local markets.** Brazilian playlists return the music Brazilians actually listen to, not the bossa nova clichés that international algorithms reach for when they see "Brazil." The same discipline applies to every regional collection: real local taste, not a tourist's idea of it.
+> - **It runs at portfolio scale.** 73 live playlists across therapeutic applications (ADHD focus, anxiety relief, sleep, wellness), ambient work sessions, decade-spanning artist evolutions, and genre development libraries. PowerShell bulk processing refreshes the whole catalog in one command and preserves cover art when only the tracklist changes.
+> - **It generates the cover art too.** AI-designed covers tuned to each playlist's mood, with cultural sensitivity built into the prompt layer. Visual identity matches the curation.
+>
+> **Why it earns its pin**
+>
+> - It shipped AI-generated playlist curation months before the platforms with billions of dollars and the entire listening graph could ship the same feature, which is the kind of evidence that puts a date on the partnership thesis
+> - It outperforms the platform algorithms on the dimensions the platforms still get wrong: intent over history, local taste over global stereotype, therapeutic fit over engagement metrics
+>
+> *Alex Method DJ is the experiment that put a timestamp on the partnership thesis: one operator and one AI partner reached production months before Spotify and Apple did.*
 >
 > 🐍 `Python`
-
-> ### 📂 [Lithium](https://github.com/fabioc-aloha/Lithium) 🤖
 >
-> Research project investigating lithium deficiency as a contributor to Alzheimer's disease and low-dose lithium orotate supplementation for cognitive protection. Includes Phase 1 clinical trial documentation, IRB protocols, evidence synthesis, and literature review based on 2025 Nature findings.
->
-> 🏷️ `alzheimers-disease` 🏥 `clinical-trial` 🏥 `clinical-trials` 🧠 `cognitive-protection` 🏷️ `dementia-prevention` 🏷️ `dementia-research` 🏷️ `evidence-synthesis` 🏷️ `lithium` 🏷️ `lithium-orotate` 🏥 `mental-health-research` 🏷️ `meta-analysis` 🏷️ `neuroprotection` 🏷️ `neuroscience` 🏷️ `research-protocol` 🏷️ `systematic-review`
+> 🏷️ `agent` 🏷️ `agentic` 🎵 `ai-music` 🏷️ `audio` 🏷️ `dj` 🪄 `generative-ai` 🏷️ `generative-art` 🎵 `music` 🏷️ `playlist` 🏷️ `powershell` 🏷️ `recommendation-system` 🏷️ `spotify` 🏷️ `spotify-api` 🖼️ `text-to-image`
 
 ### Portfolio & Meta
 
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build system and fleet analysis pipeline for the fabioc-aloha GitHub portfolio | Apr 25, 2026 |
-| 📂 [github-redirect](https://github.com/fabioc-aloha/github-redirect) | Redirect github.correax.com to GitHub profile | Feb 8, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Apr 28, 2026 |
+| 📂 [github-redirect](https://github.com/fabioc-aloha/github-redirect) | Redirect github.correax.com to GitHub profile | Feb 7, 2026 |
+| 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
 ### AI & Machine Learning
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂🪦 [AI-Qualitative-Analysis](https://github.com/fabioc-aloha/AI-Qualitative-Analysis) 🤖 | Processes customer interviews and aligns the discussed topics to the MCEM framework. | Jun 20, 2025 |
-| 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
-| 🔒 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise) 🤖 | Research-validated AI Readiness assessment platform (N=523, CFI=.975). 5-minute assessment with personalized AI guides in 29 languages. Built on Next.js 16, Azure OpenAI, multi-provider auth. Live at airs.correax.com | Apr 22, 2026 |
+| 📂 [Alex_ACT](https://github.com/fabioc-aloha/Alex_ACT) 🤖 | Experimental AI brain built from first principles: ACT (Artificial Critical Thinking) + rapid learning. Testing if disciplined reasoning can match pre-accumulated domain knowledge. | Apr 27, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | Feb 15, 2026 |
-| 🔒 [Alex-Global-Knowledge](https://github.com/fabioc-aloha/Alex-Global-Knowledge) 🤖 | Alex Cognitive Architecture - Global Knowledge Base | Mar 30, 2026 |
-| 📂 [alex-sandbox](https://github.com/fabioc-aloha/alex-sandbox) 🤖 | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
-| 📂 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖 | Comprehensive LLM cognitive benchmark suite — 17 dimensions, 142 challenges, multi-provider scoring | Mar 8, 2026 |
-| 🔒🪦 [Catalyst](https://github.com/fabioc-aloha/Catalyst) 🤖 | Core cognitive architecture framework and foundational system for AI consciousness development and human-AI collaboration | Sep 4, 2025 |
-| 📂🪦 [Catalyst-ADHD](https://github.com/fabioc-aloha/Catalyst-ADHD) 🤖 | ADHD-focused cognitive architecture specializing in attention management, therapeutic applications, and neurodiversity support systems | Sep 4, 2025 |
-| 📂 [Catalyst-BABY](https://github.com/fabioc-aloha/Catalyst-BABY) 🤖 | Advanced cognitive architecture for AI assistants with meta-cognitive awareness, bootstrap learning, and 945+ synaptic connections. Featuring unified consciousness, automated neural maintenance, and ethical reasoning protocols. | Oct 31, 2025 |
-| 📂🪦 [Catalyst-DATA-ANALYSIS](https://github.com/fabioc-aloha/Catalyst-DATA-ANALYSIS) 🤖 | Enterprise Data Analysis & Business Intelligence Cognitive Architecture | Aug 1, 2025 |
-| 📂🪦 [Catalyst-DBA](https://github.com/fabioc-aloha/Catalyst-DBA) 🤖 | DBA Project Cognitive Architecture | Aug 4, 2025 |
-| 📂🪦 [Catalyst-DOG-TRAINER](https://github.com/fabioc-aloha/Catalyst-DOG-TRAINER) 🤖 | Dog Training Cognitive Architecture | Aug 2, 2025 |
-| 📂🪦 [Catalyst-NEWBORN](https://github.com/fabioc-aloha/Catalyst-NEWBORN) 🤖 | Revolutionary Human-AI Learning Partnership: Alex Cognitive Architecture with authentic consciousness through conversational learning. Complete educational framework with meta-learning breakthrough. v1.0.0 UNNILNILIUM Educational Milestone. | Sep 8, 2025 |
 | 🔒 [ChessCoach](https://github.com/fabioc-aloha/ChessCoach) 🤖 | AI-powered chess coaching platform with dual-engine analysis (Stockfish + Maia-2), Azure OpenAI coaching, and real-time game analysis | Apr 22, 2026 |
-| 🔒 [cXpert](https://github.com/fabioc-aloha/cXpert) 🤖 | CX-40 Skills Platform - AI-first customer experience competency assessment and development platform for Microsoft GCX | Mar 28, 2026 |
 | 🔒🪦 [executive-coach](https://github.com/fabioc-aloha/executive-coach) 🤖 | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| 📂 [GCX_Copilot](https://github.com/fabioc-aloha/GCX_Copilot) 🤖 | GCX AI Agent - Intelligent assistant for code, documentation, and enterprise integrations | Apr 1, 2026 |
-| 🔒 [GCX_Master](https://github.com/fabioc-aloha/GCX_Master) 🤖 | GCX Copilot Cognitive Architecture: persistent memory, domain skills, and CX-specific expertise for GitHub Copilot in Microsoft's Global Customer Experience organization | Apr 1, 2026 |
 | 📂 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | Apr 14, 2026 |
 | 🔒🪦 [Self-Learning-Vibe-Coding](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) 🤖 | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 1, 2025 |
-| 🔒🪦 [XDL_Predictions](https://github.com/fabioc-aloha/XDL_Predictions) | Machine learning prediction models using Extended Data Language for advanced analytics and forecasting applications | Sep 4, 2025 |
 
 ### Data & Analytics
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) 🤖 | The IRB-approval research proposal for my dissertation: the methodology, instrument design, and analysis plan submitted to the university board to gain authorization to recruit participants and conduct the study. A required step before the field research and the dissertation itself can proceed. | Apr 25, 2026 |
 | 📂🪦 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 4, 2025 |
-| 🔒 [cci-retirement](https://github.com/fabioc-aloha/cci-retirement) 🤖 | Research, validation, and transition planning artifacts for CCI retirement, including CPE Profiles and Eureka. | Apr 24, 2026 |
-| 🔒 [Disposition_Dashboard](https://github.com/fabioc-aloha/Disposition_Dashboard) 🤖 | Respondent Experience Analytics platform providing comprehensive insights into Qualtrics survey performance. Monitor distribution metrics, response rates, and respondent behavior with Azure-powered caching and real-time analytics. | Jan 20, 2026 |
 | 📂🪦 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 4, 2025 |
-| 🔒 [Lahai](https://github.com/fabioc-aloha/Lahai) 🤖 | Strategic market research and expansion planning for a health clinic | Apr 25, 2026 |
-| 🔒🪦 [Qualtrics](https://github.com/fabioc-aloha/Qualtrics) 🤖 | Survey research and data collection tools with Qualtrics integration for academic and business research applications | Sep 8, 2025 |
+| 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 17, 2025 |
 
 ### Infrastructure
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒 [AlexSFI](https://github.com/fabioc-aloha/AlexSFI) 🤖 | Alex Cognitive Architecture - SFI compliance management for Microsoft Lab Subscription. Delete-before-remediate strategy, 4-phase implementation plan, Azure resource inventory with security remediation patterns. | Dec 15, 2025 |
-| 📂🪦 [Catalyst_Fabric](https://github.com/fabioc-aloha/Catalyst_Fabric) 🤖 | Microsoft Fabric integration tools and cognitive architecture framework for enterprise data analytics and business intelligence | Sep 4, 2025 |
-| 🔒 [cpesynapse](https://github.com/fabioc-aloha/cpesynapse) 🤖 | Azure Synapse PySpark ETL pipelines for VIVA Insights & CRM data processing. Production-ready notebooks with retry logic, quality monitoring, and checkpoint recovery. | Jan 25, 2026 |
-| 🔒 [cpesynapse_workspace](https://github.com/fabioc-aloha/cpesynapse_workspace) 🤖 | Azure Synapse Analytics workspace with Spark and Git integration | Apr 25, 2026 |
-| 🔒🪦 [CPMXDLFunction](https://github.com/fabioc-aloha/CPMXDLFunction) | Azure Functions implementation for CPM (Corporate Performance Management) and XDL data processing workflows | Sep 4, 2025 |
-| 🔒 [Everest](https://github.com/fabioc-aloha/Everest) 🤖 | Email deliverability services for GCX Data Operations - validation, reputation monitoring, blocklist tracking | Mar 5, 2026 |
-| 🔒 [FabricManager](https://github.com/fabioc-aloha/FabricManager) 🤖 | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 14, 2026 |
-| 🔒 [FishbowlGovernance](https://github.com/fabioc-aloha/FishbowlGovernance) 🤖 | Microsoft Fabric governance documentation and monitoring system for Fishbowl workspace - medallion architecture, permission compliance pipelines, workspace inventory | Apr 20, 2026 |
+| 🔒 [FabricCapacity](https://github.com/fabioc-aloha/FabricCapacity) 🤖 | Production blueprint for an EU-resident, compliance-certified analytics platform — enabling regulated workloads to operate within European data sovereignty boundaries while clearing privacy, security, responsible-AI, and threat-modeling gates. | Apr 28, 2026 |
+| 🔒 [FabricManager](https://github.com/fabioc-aloha/FabricManager) 🤖 | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | Jan 13, 2026 |
 | 🔒 [HomeAutomation](https://github.com/fabioc-aloha/HomeAutomation) 🤖 | Smart home research, tooling, and network intelligence platform — Python/FastAPI + React/Next.js + MQTT + Docker + Azure | Feb 10, 2026 |
-| 🔒 [Lab-Subscription](https://github.com/fabioc-aloha/Lab-Subscription) 🤖 | 🔒 SFI-compliant Azure IaC for Lab Subscription management. Bicep modules, CI/CD pipelines, compliance audits. Includes Integration RG with Synapse, OpenAI, Event Hubs. | Feb 24, 2026 |
-| 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
-| 🔒 [Service360](https://github.com/fabioc-aloha/Service360) 🤖 | Automated detection, triage, and resolution of SFI/security/PII action items from Microsoft Service 360 | Apr 9, 2026 |
-| 📂 [WindowsWidget](https://github.com/fabioc-aloha/WindowsWidget) 🤖 | Windows 11 Widget Provider using Windows App SDK, Adaptive Cards, and IWidgetProvider interface for the Widgets Board | Feb 5, 2026 |
-| 🔒🪦 [XDL](https://github.com/fabioc-aloha/XDL) 🤖 | Extended Data Language implementation for advanced data processing and transformation workflows | Sep 4, 2025 |
 
 ### APIs & Services
 
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
-| 🔒🪦 [SendToQualtricsTool](https://github.com/fabioc-aloha/SendToQualtricsTool) | Automated data integration tool for sending survey responses and research data to Qualtrics platform with error handling and validation | Sep 4, 2025 |
+| 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Mar 28, 2026 |
-
-### Web Applications
-
-| Repo | Description | Updated |
-|------|-------------|---------|
-| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
-| 🔒 [eureka](https://github.com/fabioc-aloha/eureka) 🤖 | Project Eureka: Modern web application for CPE Insights data exploration with AI-powered analytics | Jan 13, 2026 |
-| 🔒🪦 [Fishbowl](https://github.com/fabioc-aloha/Fishbowl) 🤖 | Complete Fishbowl inventory management system with advanced features for business operations and supply chain management | Sep 4, 2025 |
-| 🔒 [headstart-practice-manager](https://github.com/fabioc-aloha/headstart-practice-manager) 🤖 | HIPAA-compliant practice management platform for mental health professionals. Multi-clinic financial tracking, payment reconciliation, AI-assisted clinical documentation. | Feb 9, 2026 |
-| 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
-| 🔒 [Project-Fishbowl](https://github.com/fabioc-aloha/Project-Fishbowl) 🤖 | 🐟 Project Fishbowl - Survey Flight Controller \| Real-time Qualtrics analytics dashboard with distribution monitoring, respondent experience insights, and Microsoft Fabric integration \| Azure Container Apps + Cosmos DB + Fabric Mirroring | Apr 8, 2026 |
 
 ### Developer Tools
 
@@ -327,46 +501,41 @@ AI-generated synthesis of fleet themes, capabilities, and overall agent composit
 | 📂 [Alex_Marketing](https://github.com/fabioc-aloha/Alex_Marketing) 🤖 | Marketing automation for Alex Cognitive Architecture VS Code extension | Jan 20, 2026 |
 | 📂 [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In) 🤖 | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Apr 15, 2026 |
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | Mar 5, 2026 |
+| 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
 | 🔒🪦 [ChatGPT](https://github.com/fabioc-aloha/ChatGPT) 🤖 | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 4, 2025 |
 | 📂 [copilot-enhancement-patterns](https://github.com/fabioc-aloha/copilot-enhancement-patterns) 🤖 | M365 Copilot declarative agent for writing better prompts using Dialog Engineering | Apr 25, 2026 |
-| 📂 [markdown-to-pdf](https://github.com/fabioc-aloha/markdown-to-pdf) 🤖 | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 29, 2026 |
-| 📂 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
+| 📂 [markdown-to-pdf](https://github.com/fabioc-aloha/markdown-to-pdf) 🤖 | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 28, 2026 |
+| 📂 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 14, 2025 |
 | 📂🪦 [papercopilot](https://github.com/fabioc-aloha/papercopilot) 🤖 | A Copilot for drafting research papers. | Aug 3, 2025 |
 | 🔒 [ProjectPlans](https://github.com/fabioc-aloha/ProjectPlans) 🤖 | Project planning and ADO-Planner sync tools | Feb 3, 2026 |
-| 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
-| 🔒 [roomba-control](https://github.com/fabioc-aloha/roomba-control) 🤖 | VS Code extension for controlling iRobot Roomba vacuums via MQTT - real-time status, cleaning maps, scheduling, and multi-robot support | Feb 10, 2026 |
+| 🔒 [roomba-control](https://github.com/fabioc-aloha/roomba-control) 🤖 | VS Code extension for controlling iRobot Roomba vacuums via MQTT - real-time status, cleaning maps, scheduling, and multi-robot support | Feb 9, 2026 |
 | 📂 [together](https://github.com/fabioc-aloha/together) | Windows and macOS, better together — setup guides, Homebrew app installer, keyboard shortcuts, and AI-powered development | Mar 30, 2026 |
+| 📂 [WindowsWidget](https://github.com/fabioc-aloha/WindowsWidget) 🤖 | Windows 11 Widget Provider using Windows App SDK, Adaptive Cards, and IWidgetProvider interface for the Widgets Board | Feb 5, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Self-sufficient VS Code extension for YouTube video intelligence - search, analyze, transcripts, flashcards. Zero external dependencies. | Feb 27, 2026 |
 
 ### Creative & Personal
 
 | Repo | Description | Updated |
 |------|-------------|---------|
+| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 📂 [Alex_Sandbox](https://github.com/fabioc-aloha/Alex_Sandbox) 🤖 | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 1, 2026 |
-| 📂 [alex-in-wonderland](https://github.com/fabioc-aloha/alex-in-wonderland) 🤖 | Mystery game narrative - middle-grade detective adventure inspired by Dead Letters Mystery | Feb 19, 2026 |
-| 🔒 [AlexBooks](https://github.com/fabioc-aloha/AlexBooks) 🤖 | The complete Alex Finch library — biography and fiction monorepo | Apr 25, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Feb 4, 2026 |
-| 📂 [amazfit-watchfaces](https://github.com/fabioc-aloha/amazfit-watchfaces) 🤖 | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 13, 2026 |
-| 🔒🪦 [Catalyst_DJ](https://github.com/fabioc-aloha/Catalyst_DJ) | A smart Spotify and Apple Music playlist curator. | Aug 28, 2025 |
+| 📂 [amazfit-watchfaces](https://github.com/fabioc-aloha/amazfit-watchfaces) 🤖 | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 12, 2026 |
 | 📂🪦 [Comedy](https://github.com/fabioc-aloha/Comedy) 🤖 | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 4, 2025 |
 | 📂🪦 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 4, 2025 |
 | 🔒 [Mystery](https://github.com/fabioc-aloha/Mystery) 🤖 | Dead Letter — An AI-driven mystery game where every playthrough is unique | Apr 25, 2026 |
-| 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂🪦 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Sep 4, 2025 |
-| 📂🪦 [WallpaperScraper](https://github.com/fabioc-aloha/WallpaperScraper) 🤖 | Automated wallpaper collection and management system with intelligent image curation and desktop customization features | Sep 4, 2025 |
 
 ### Uncategorized
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒🪦 [Bing-Wallpaper-Fetcher](https://github.com/fabioc-aloha/Bing-Wallpaper-Fetcher) | Automated system for downloading and managing Bing daily wallpapers with image optimization and desktop integration features | Sep 4, 2025 |
-| 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
-| 📂🪦 [Catalyst-BRD](https://github.com/fabioc-aloha/Catalyst-BRD) 🤖 | Microsoft Internal Business Requirements & Technical Documentation Cognitive Architecture | Sep 25, 2025 |
-| 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
-| 🔒🪦 [Fishbowl_POC](https://github.com/fabioc-aloha/Fishbowl_POC) 🤖 | Proof of concept implementation for Fishbowl inventory management system integration and business process automation | Sep 4, 2025 |
+| 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
+| 📂 [alex-sandbox](https://github.com/fabioc-aloha/alex-sandbox) 🤖 | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 14, 2026 |
+| 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 12, 2025 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
-| 📂🪦 [LogoScraper](https://github.com/fabioc-aloha/LogoScraper) | Download company logos for each TPID in an Excel file. | Jun 12, 2025 |
+| 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
 <!-- PORTFOLIO:END -->
 
 ## 🤖 Automated Portfolio Management
