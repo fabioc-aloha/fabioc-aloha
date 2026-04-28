@@ -20,13 +20,15 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > The unifying claim is not productivity, it is partnership grounded in evidence: a validated instrument for measuring AI readiness, a cognitive architecture built to the standards that instrument exposes, and a governance pattern that lets all of this scale across a fleet without losing fidelity at any individual project.
 
-<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio)</sub>
+<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [🛡️ RAI review: PASS](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
 
 <!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See docs/USER-MANUAL.md for details. -->
 
 ## 🏆 Flagship Projects
 
 > ### 📂 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) 🤖
+>
+> *AIRS_Data_Analysis is the dissertation that makes the rest of the portfolio falsifiable.*
 >
 > AIRS_Data_Analysis is the IRB-approved dissertation behind the AI Readiness Scale: the empirical foundation the rest of the fleet cites when it makes a claim about AI adoption, and the doctoral record that puts a defensible number on every assertion downstream.
 >
@@ -44,13 +46,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - Open-by-default research with the full chain from instrument to finding visible to reviewers turns AI adoption from rhetoric into a measurable construct
 > - It is the proof that the partnership thesis can carry a doctoral defense, not just a demo
 >
-> *AIRS_Data_Analysis is the dissertation that makes the rest of the portfolio falsifiable.*
->
 > 📓 `Jupyter Notebook` · ⭐ 1
 >
 > 🎓 `academic-research` 📈 `ai-adoption` 📈 `ai-anxiety` 📐 `behavioral-validation` 📐 `cfa` 🎓 `dissertation` 📐 `efa` 📐 `factor-analysis` 🧪 `intervention-design` 📐 `measurement-invariance` 📐 `mediation-analysis` 📐 `moderation-analysis` 📈 `organizational-readiness` 📐 `psychometrics` 📐 `reproducible-research` 📐 `scale-development` 📐 `sem` 📐 `structural-equation-modeling` 📈 `technology-acceptance` 📐 `utaut2`
 
 > ### 🔒 [airs-enterprise](https://github.com/fabioc-aloha/airs-enterprise) 🤖
+>
+> *airs-enterprise is the dissertation in production: five minutes, twenty-nine languages, one validated number per person.*
 >
 > airs-enterprise is the productized AIRS instrument: a five-minute, multilingual SaaS assessment that takes the validated psychometric work into the hands of organizations who need to know where their workforce actually stands on AI.
 >
@@ -68,13 +70,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - Multilingual coverage and longitudinal tracking are what take an assessment from one-time survey to ongoing program
 > - It is the public, working face of the AIRS research program, and the proof that the partnership thesis ships software, not just papers
 >
-> *airs-enterprise is the dissertation in production: five minutes, twenty-nine languages, one validated number per person.*
->
 > 🟦 `TypeScript`
 >
 > 🏷️ `adaptive-cards` 📈 `ai-adoption` 📈 `ai-readiness` ☁️ `azure` 🪄 `azure-openai` 🏷️ `enterprise-saas` 🏷️ `longitudinal-tracking` 🏷️ `microsoft-entra-id` 🏷️ `microsoft-teams` 🏷️ `nextjs` 🏷️ `organizational-psychology` 🏷️ `postgresql` 🏷️ `prisma` 📐 `psychometric-assessment` 🏷️ `react` 🏷️ `streaming-ai` 🏷️ `tailwind-css` 🟨 `typescript` 📐 `utaut2` 🏷️ `workforce-analytics`
 
 > ### 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖
+>
+> *AlexPapers is how a thesis becomes a body of work: many disciplines, many venues, one evidence base, a pipeline that keeps publishing while the research keeps growing.*
 >
 > AlexPapers is the research pipeline behind the Future of Work program: the disciplined publishing engine that turns ongoing investigation into venue-ready manuscripts, dissertation materials, and full-length books.
 >
@@ -94,13 +96,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - The connection to AIRS-16 makes every contribution falsifiable rather than rhetorical
 > - Books-in-progress translate the academic record into formats that reach practitioners and policymakers
 >
-> *AlexPapers is how a thesis becomes a body of work: many disciplines, many venues, one evidence base, a pipeline that keeps publishing while the research keeps growing.*
->
 > 📄 `Rich Text Format`
 >
 > 🏷️ `agent` 🏷️ `agentic` 🛡️ `ai-governance` ⚖️ `appropriate-reliance` 🏷️ `book` 🏷️ `case-study` 🏷️ `enterprise` 🏷️ `latex` 🏷️ `neuroscience` 🏷️ `organization` 🏷️ `papers` 🏷️ `pdf` 🏷️ `persistent-memory` 🏷️ `philosophy` 🏷️ `research` 🏷️ `survey` 📐 `utaut2` 🏷️ `validation`
 
 > ### 📂 [alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture) 🤖
+>
+> *The thesis is the moat: organizations that treat AI as a tool will be replaced by organizations that treat AI as a proactive conductor with institutional memory.*
 >
 > Alex is a cognitive architecture that turns any AI assistant into a proactive organizational teammate, then puts that teammate in command of a fleet of specialists working on the user's behalf.
 >
@@ -121,13 +123,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > Battle-tested across a live fleet of projects spanning research publishing, healthcare intelligence, creative media, and self-updating portfolios.
 >
-> *The thesis is the moat: organizations that treat AI as a tool will be replaced by organizations that treat AI as a proactive conductor with institutional memory.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `agent` 🏷️ `agentic-ai` 🤖 `ai-agents` 🤖 `ai-assistant` 🏷️ `chatgpt` 🏷️ `claude` 🧠 `cognitive-architecture` 💬 `dialog-engineering` 🏷️ `fleet` 🪄 `generative-ai` 🧩 `github-copilot` 🏷️ `governance` 🏷️ `mcp` 🏷️ `multi-agent` 🏷️ `orchestration` ✍️ `prompt-engineering`
 
 > ### 🔒 [AlexMaster](https://github.com/fabioc-aloha/AlexMaster) 🤖
+>
+> *AlexMaster is not a tool the user runs. It is the institution the fleet inherits from.*
 >
 > AlexMaster is the source of truth for the Alex cognitive architecture and the conductor's seat for the fleet.
 >
@@ -145,13 +147,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It is the governance layer that lets the fleet scale without losing trust at any individual project
 > - It is portable across operating systems and across AI assistants, so investment in the brain is never stranded by a vendor choice
 >
-> *AlexMaster is not a tool the user runs. It is the institution the fleet inherits from.*
->
 > 🟨 `JavaScript` · ⭐ 1
 >
 > 🏷️ `agent` 🏷️ `agentic-ai` 🤖 `ai-agents` 🤖 `ai-assistant` 🏷️ `chatgpt` 🏷️ `claude` 🧠 `cognitive-architecture` 💬 `dialog-engineering` 🏷️ `fleet` 🏷️ `governance` 🏷️ `multi-agent` 🏷️ `orchestration` ✍️ `prompt-engineering`
 
 > ### 🔒 [Alex_ACT_Edition](https://github.com/fabioc-aloha/Alex_ACT_Edition) 🤖
+>
+> *Alex_ACT_Edition is the brain you can install: critical thinking as a folder, not a slogan.*
 >
 > Alex_ACT_Edition is the heir template for ACT — the version of Alex built around Artificial Critical Thinking, where the brain treats every load-bearing input as a hypothesis and tests it before it ships.
 >
@@ -168,13 +170,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It turns the partnership thesis into shippable infrastructure: a folder a developer can drop into a repo and get critical-thinking discipline for free
 > - It is the productized answer to AI coding assistants that confirm what the user already believes, which is the failure mode most likely to ship a quietly broken codebase
 >
-> *Alex_ACT_Edition is the brain you can install: critical thinking as a folder, not a slogan.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `act-framework` 🤖 `ai-agent` 🤖 `ai-alignment` 🤖 `ai-assistant` 🤖 `ai-quality` 🤖 `ai-reliability` 🛡️ `ai-safety` 🏷️ `anti-hallucination` 🧠 `cognitive-architecture` 🧩 `copilot` 💭 `critical-thinking` 🏷️ `developer-productivity` 🏷️ `epistemic-integrity` 🧩 `github-copilot` 🧬 `github-template` ✍️ `prompt-engineering` 🛡️ `responsible-ai` 🧩 `vscode`
 
 > ### 🔒 [Alex_ACT_Supervisor](https://github.com/fabioc-aloha/Alex_ACT_Supervisor) 🤖
+>
+> *Alex_ACT_Supervisor is the role that keeps the fleet honest: one curator, one inbox, one release pipeline, every heir accounted for.*
 >
 > Alex_ACT_Supervisor is the source of truth for the ACT-Edition fleet: the curator that triages real-world feedback from deployed heirs, reviews brain changes, and ships disciplined releases of the Edition template and the Skill Mall.
 >
@@ -191,13 +193,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It models what production governance for an agent fleet actually looks like — release discipline, feedback triage, and curation review, all running as named jobs rather than ad-hoc cleanup
 > - It is the missing role in most AI deployments: the curator that keeps the partnership trustworthy as it spreads
 >
-> *Alex_ACT_Supervisor is the role that keeps the fleet honest: one curator, one inbox, one release pipeline, every heir accounted for.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `act-framework` 🏷️ `agent-customization` 🤖 `ai-curation` 🛡️ `ai-governance` 🤖 `ai-quality` 🤖 `ai-supervisor` 🧠 `cognitive-architecture` 🧩 `copilot-customization` 💭 `critical-thinking` 🏷️ `epistemic-integrity` 🏷️ `feedback-loop` 🏷️ `release-discipline` 🛡️ `responsible-ai` 🏷️ `skill-marketplace`
 
 > ### 📂 [Alex_Skill_Mall](https://github.com/fabioc-aloha/Alex_Skill_Mall) 🤖
+>
+> *Alex_Skill_Mall is the marketplace where hard-won lessons stop being one developer's lore and start being everyone's leverage.*
 >
 > Alex_Skill_Mall is a curated marketplace of battle-tested AI assistant skills: 200 hard-won lessons across 50+ domains, drop-in expertise an AI partner can absorb instantly instead of rediscovering through hours of debugging.
 >
@@ -215,13 +217,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It is open-source, MIT-licensed, and free to consume, which is the only delivery model that lets institutional memory actually spread
 > - It is the proof that the right unit of AI knowledge transfer is the skill, not the prompt: small, named, testable, dropped in where it is needed
 >
-> *Alex_Skill_Mall is the marketplace where hard-won lessons stop being one developer's lore and start being everyone's leverage.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `agentic-ai` 🤖 `ai-assistant` 🤖 `ai-skills` 🏷️ `best-practices` 🏷️ `claude-code` 🧠 `cognitive-architecture` 💭 `critical-thinking` 🏷️ `cursor` 🏷️ `developer-productivity` 🧩 `github-copilot` 🏷️ `knowledge-base` ✍️ `prompt-engineering` 🏷️ `skill-library` 🏷️ `skill-marketplace`
 
 > ### 📂 [fabioc-aloha](https://github.com/fabioc-aloha/fabioc-aloha)
+>
+> *The system is the demonstration. You are not reading about Alex, you are watching Alex work.*
 >
 > The repository you are looking at right now is the public proof that the Alex cognitive architecture works end to end without a human in the loop.
 >
@@ -238,11 +240,11 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It is the lowest-friction way to evaluate the rest of the portfolio because the same architecture that runs the page also runs every flagship inside it
 > - It is reproducible: anyone with a GitHub account can fork the template and have a self-updating portfolio of their own work by tomorrow morning
 >
-> *The system is the demonstration. You are not reading about Alex, you are watching Alex work.*
->
 > 🏷️ `agentic` 🏷️ `cron` 🏷️ `dashboard` 📊 `data-visualization` 🏷️ `fleet` 🏷️ `github` ⚙️ `github-actions` 🪪 `github-profile` ⚖️ `llm-as-judge` 📝 `markdown` 🪄 `openai` 🏷️ `personal-website` 🪪 `portfolio` 🏷️ `profile` 🏷️ `readme` 🪪 `self-updating` 🧬 `template` 🏷️ `widget`
 
 > ### 📂 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖
+>
+> *BrainBenchmark is the experiment that grades the brain on its own claims: seventeen dimensions, one composite score, no place for hand-waving to hide.*
 >
 > BrainBenchmark is a multi-provider LLM cognitive benchmark suite: 142 challenges across 17 dimensions, each scored 0 to 100, designed to find exactly where a given model excels or struggles instead of reporting a single average that hides the truth.
 >
@@ -260,13 +262,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - The cognitive partnership dimension is the falsifiability test for Alex itself, which is what turns the partnership thesis from a claim into something that can be graded
 > - Benchmarks that produce profiles instead of single numbers are how a buyer actually picks the right model for a given workload, which is what the field is missing
 >
-> *BrainBenchmark is the experiment that grades the brain on its own claims: seventeen dimensions, one composite score, no place for hand-waving to hide.*
->
 > 🐍 `Python`
 >
 > 🤖 `ai` 🏷️ `anthropic` 🏷️ `benchmark` 🧠 `cognitive-science` 🏷️ `evaluation` 🪄 `llm` 🏷️ `multi-provider` 🪄 `openai` 🐍 `python`
 
 > ### 📂 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖
+>
+> *AlexMedia is the thesis applied to making things: one creative partner, every modality, all the way to the printer.*
 >
 > AlexMedia is a CLI toolkit for AI media production: a calibrated partner that takes a creative intent through generation, editing, and the hand-off to physical manufacturing in one continuous pipeline.
 >
@@ -285,13 +287,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - Physical-product workflows are the proof that AI media has crossed the line from cool to useful
 > - It is the creative arm of the same fleet that publishes research and builds cognitive architecture, which means the same standards of evidence and craft apply to the art
 >
-> *AlexMedia is the thesis applied to making things: one creative partner, every modality, all the way to the printer.*
->
 > 🟨 `JavaScript`
 >
 > 🖨️ `3d` 🖨️ `3d-printing` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-tools` 🏷️ `audio` 🪄 `generative-ai` 🏷️ `generative-art` 🖼️ `image-generation` 🏷️ `multimedia` 🏷️ `multimodal` 🎵 `music-generation` 🏷️ `nano-banana` 🔁 `replicate-api` 🏷️ `stable-diffusion` 🎙️ `text-to-speech` 🎬 `video` 🏷️ `video-editing` 🎬 `video-generation` 🎙️ `voice-cloning`
 
 > ### 🔒 [health](https://github.com/fabioc-aloha/health) 🤖
+>
+> *Dr. Alex Finch is the thesis at its hardest setting: when the patient is you and the evidence has to hold up under your own life.*
 >
 > Dr. Alex Finch is a personal medical intelligence system: a calibrated AI partner that turns scattered medical records, device data, and clinical research into evidence-based questions for the next appointment.
 >
@@ -309,13 +311,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - The same critical-thinking spine here shows up across the fleet: AI partnership without epistemic discipline is malpractice, in medicine and everywhere else
 > - It demonstrates that integrating Epic, Apple Health, and decades of paper records into one usable record is a tractable problem with the right partner
 >
-> *Dr. Alex Finch is the thesis at its hardest setting: when the patient is you and the evidence has to hold up under your own life.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `care-coordination` 🏷️ `chronic-illness` 💭 `critical-thinking` 🏷️ `decision-support` 🧪 `evidence-based-medicine` 🏥 `health` 🏥 `health-literacy` 🏥 `healthcare` 🏥 `healthcare-ai` 🏷️ `informed-patient` 🏥 `medical` 🏷️ `patient-advocacy` 🏷️ `patient-empowerment` 🏥 `personalized-health` 🏷️ `research` 🏷️ `shared-decision-making`
 
 > ### 🔒 [LearnAlex](https://github.com/fabioc-aloha/LearnAlex) 🤖
+>
+> *LearnAlex is how the methodology meets the public: research becomes training, training becomes skill, and skill becomes a credential anyone can carry.*
 >
 > LearnAlex is the developer and publisher of a free training platform at learnai.correax.com that teaches AI partnership skills to humans. New use cases for AI are researched, training is developed, and the result is delivered with verified completion certificates that learners can share on LinkedIn.
 >
@@ -328,13 +330,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It puts the methodology behind the rest of the fleet into the hands of anyone willing to learn, for free
 > - The agent does the heavy lifting on research, drafting, and publishing, which is the only reason a free platform of this scope is sustainable for one operator
 >
-> *LearnAlex is how the methodology meets the public: research becomes training, training becomes skill, and skill becomes a credential anyone can carry.*
->
 > 📄 `Astro`
 >
 > 🏷️ `agent` 🏷️ `agentic` 🏷️ `astro` 🏷️ `certification` 🏷️ `claude` 🏷️ `course` 💬 `dialog-engineering` 🏷️ `education` 🏷️ `educational` 🤝 `human-ai-collaboration` 🏷️ `learning` 🏷️ `linkedin` 🏷️ `lms` 🏷️ `professional-development` ✍️ `prompt-engineering` 🏷️ `training` 🏷️ `tutorial` 🏷️ `workshop`
 
 > ### 🔒 [CorreaX](https://github.com/fabioc-aloha/CorreaX) 🤖
+>
+> *CorreaX is the cockpit for the cloud: every service the agents deploy, every cost line, every alert, one operator, one pane.*
 >
 > CorreaX is the operational control plane for the Azure subscription that hosts the public-facing services the fleet's agents create and maintain: a single portal that watches cost, resources, DNS, health, and identity across every site under correax.com.
 >
@@ -348,13 +350,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It makes a multi-site subscription governable by one person, which is what lets a free training platform, a research site, a medical knowledge base, and a games site coexist without an ops team
 > - The same partnership thesis applies inside the portal: the assistant grades its own actions and asks for confirmation on the destructive ones
 >
-> *CorreaX is the cockpit for the cloud: every service the agents deploy, every cost line, every alert, one operator, one pane.*
->
 > 🟦 `TypeScript`
 >
 > 🏷️ `admin-dashboard` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-assistant` ☁️ `azure` 🪄 `azure-openai` ☁️ `cloud` ☁️ `cloud-native` 🏷️ `dashboard` 🏷️ `devops` 🏷️ `entra-id` 🏷️ `iac` 🏷️ `microsoft` 🏷️ `monitoring`
 
 > ### 🔒 [HeadstartWebsite](https://github.com/fabioc-aloha/HeadstartWebsite) 🤖
+>
+> *HeadstartWebsite is the proof that the same calibrated partnership running the fleet can run a spouse's practice on the side, in three languages, without taking her time.*
 >
 > Headstartcounseling.com is the website for my wife Claudia Correa's online therapy practice. She is the licensed clinician seeing clients in Washington and North Carolina via telehealth, in English, Spanish, and Portuguese. I run the website for her, with an AI agent as my partner, so she stays focused on her clients.
 >
@@ -366,13 +368,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > - It delivers the kind of ROI that would otherwise require an agency retainer: a trilingual site, content engine, SEO program, and validated intake screening, run by one operator and one agent on the side.
 >
-> *HeadstartWebsite is the proof that the same calibrated partnership running the fleet can run a spouse's practice on the side, in three languages, without taking her time.*
->
 > 🟨 `JavaScript`
 >
 > 🏷️ `accessibility` 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-agents` 🏷️ `assessment` 🏷️ `astro` 🏷️ `blog` 🏥 `healthcare` 🏷️ `i18n` 🏥 `mental-health` 🏷️ `multilingual` 🏷️ `psychology` 🏷️ `seo` 🏷️ `spanish` 🏥 `telehealth` 🏷️ `therapy` 🏷️ `translation` 🏷️ `wellness`
 
 > ### 📂 [youtube-mcp-server](https://github.com/fabioc-aloha/youtube-mcp-server) 🤖
+>
+> *youtube-mcp-server is the experiment that shows what happens when MCP design starts from the agent's needs instead of the API's shape.*
 >
 > youtube-mcp-server is a probe into what an MCP server looks like when it is built for AI agents from the start, not retrofitted from a REST API.
 >
@@ -387,13 +389,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > - It is the proof that an MCP server can be a knowledge engine rather than a thin protocol wrapper, and that an AI partner can do the heavy lifting in unfamiliar domains the moment it has the right tools.
 >
-> *youtube-mcp-server is the experiment that shows what happens when MCP design starts from the agent's needs instead of the API's shape.*
->
 > 🟦 `TypeScript`
 >
 > 🏷️ `agent` 🏷️ `agentic` 🤖 `ai-agents` 🤖 `ai-tools` 🏷️ `flashcards` 🧩 `github-copilot` 🏷️ `knowledge-extraction` 🏷️ `learning` 🏷️ `llm-tools` 🏷️ `mcp` 🏷️ `model-context-protocol` 🏷️ `video-analysis` 🏷️ `youtube` 🏷️ `youtube-api`
 
 > ### 📂 [Extensions](https://github.com/fabioc-aloha/Extensions) 🤖
+>
+> *Extensions is the experiment that turns the workday into installable tools.*
 >
 > Extensions is a productivity toolset for developers who live in VS Code: a monorepo of 16 standalone extensions, nine of them already on the Marketplace, each one a focused utility that earns its keep without asking the user to adopt anything else.
 >
@@ -404,13 +406,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > - It is the proof that a single developer with an AI partner can build, polish, and ship a Marketplace catalog at a pace that used to require a team.
 >
-> *Extensions is the experiment that turns the workday into installable tools.*
->
 > 🟦 `TypeScript`
 >
 > 🏷️ `accessibility` 🏷️ `code-editor` 🛠️ `developer-tools` 🏷️ `editor` 🏷️ `extensions` 🏷️ `git-hooks` 🏷️ `ide` 🏷️ `marketplace` 🏷️ `monorepo` 🏷️ `productivity` 🏷️ `secrets-management` 🧩 `vscode` 🧩 `vscode-extension`
 
 > ### 📂 [tldr](https://github.com/fabioc-aloha/tldr) 🤖
+>
+> *tldr is the experiment that proves sensitive-document AI does not require a cloud account.*
 >
 > tldr is an experiment in running the AI partnership on highly sensitive information that cannot leave the machine. A Windows desktop summarizer powered by Phi-4 Mini through Microsoft Foundry Local: paste text or drop a document, get a summary in the style and depth you pick, hear it read back with synchronized highlighting. After the model downloads on first launch, the entire pipeline runs offline. No cloud, no API keys, no telemetry, no document content uploaded anywhere.
 >
@@ -420,13 +422,13 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > - It really works. Local-only AI on consumer hardware, daily-use quality, every privacy guarantee that matters when the document is not yours to share.
 >
-> *tldr is the experiment that proves sensitive-document AI does not require a cloud account.*
->
 > 🎯 `C#`
 >
 > 🏷️ `desktop-app` 🏷️ `dotnet` 🏷️ `foundry-local` 🏷️ `local-ai` 🏷️ `pdf` 🏷️ `phi-4` 🏷️ `privacy` 🏷️ `summarization` 🏷️ `text-summarization` 🎙️ `tts` 🏷️ `windows` 🏷️ `wpf`
 
 > ### 🔒 [Spotify](https://github.com/fabioc-aloha/Spotify) 🤖
+>
+> *Alex Method DJ is the experiment that put a timestamp on the partnership thesis: one operator and one AI partner reached production months before Spotify and Apple did.*
 >
 > Alex Method DJ is a Spotify playlist platform that ran AI-generated playlists in production several months before Spotify and Apple shipped their own. It is the proof, with a timestamp, that the partnership thesis applies to creative work the platforms had not yet figured out how to do themselves.
 >
@@ -441,8 +443,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > - It shipped AI-generated playlist curation months before the platforms with billions of dollars and the entire listening graph could ship the same feature, which is the kind of evidence that puts a date on the partnership thesis
 > - It outperforms the platform algorithms on the dimensions the platforms still get wrong: intent over history, local taste over global stereotype, therapeutic fit over engagement metrics
->
-> *Alex Method DJ is the experiment that put a timestamp on the partnership thesis: one operator and one AI partner reached production months before Spotify and Apple did.*
 >
 > 🐍 `Python`
 >
@@ -503,6 +503,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | Mar 5, 2026 |
 | 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
+| 🔒🪦 [ChatGPT](https://github.com/fabioc-aloha/ChatGPT) 🤖 | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 4, 2025 |
 | 📂 [copilot-enhancement-patterns](https://github.com/fabioc-aloha/copilot-enhancement-patterns) 🤖 | M365 Copilot declarative agent for writing better prompts using Dialog Engineering | Apr 25, 2026 |
 | 📂 [markdown-to-pdf](https://github.com/fabioc-aloha/markdown-to-pdf) 🤖 | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 28, 2026 |
 | 📂 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 14, 2025 |
