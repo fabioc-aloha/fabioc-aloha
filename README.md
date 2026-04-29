@@ -550,7 +550,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [roomba-control](https://github.com/fabioc-aloha/roomba-control) 🤖 | VS Code extension for controlling iRobot Roomba vacuums via MQTT - real-time status, cleaning maps, scheduling, and multi-robot support | Feb 10, 2026 |
 | 📂 [together](https://github.com/fabioc-aloha/together) | Windows and macOS, better together — setup guides, Homebrew app installer, keyboard shortcuts, and AI-powered development | Mar 30, 2026 |
 | 📂 [WindowsWidget](https://github.com/fabioc-aloha/WindowsWidget) 🤖 | Windows 11 Widget Provider using Windows App SDK, Adaptive Cards, and IWidgetProvider interface for the Widgets Board | Feb 5, 2026 |
-| 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Self-sufficient VS Code extension for YouTube video intelligence - search, analyze, transcripts, flashcards. Zero external dependencies. | Feb 27, 2026 |
+| 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Self-sufficient VS Code extension for YouTube video intelligence - search, analyze, transcripts, flashcards. Zero external dependencies. | Apr 29, 2026 |
 
 ### Creative & Personal
 
@@ -573,6 +573,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [alex-sandbox](https://github.com/fabioc-aloha/alex-sandbox) 🤖 | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
+| 🔒 [job](https://github.com/fabioc-aloha/job) 🤖 | Career planning workspace - private | Apr 29, 2026 |
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
 <!-- PORTFOLIO:END -->
 
