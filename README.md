@@ -20,7 +20,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > The unifying claim is not productivity, it is partnership grounded in evidence: a validated instrument for measuring AI readiness, a cognitive architecture built to the standards that instrument exposes, and a governance pattern that lets all of this scale across a fleet without losing fidelity at any individual project.
 
-<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [🛡️ RAI review: PASS](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
+<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [⚠️ RAI review: WARN](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
 
 <!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See docs/USER-MANUAL.md for details. -->
 
@@ -491,7 +491,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Apr 28, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Apr 29, 2026 |
 | 📂 [github-redirect](https://github.com/fabioc-aloha/github-redirect) | Redirect github.correax.com to GitHub profile | Feb 8, 2026 |
 | 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
