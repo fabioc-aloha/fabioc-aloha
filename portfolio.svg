@@ -155,7 +155,7 @@
   <line x1="320" y1="243" x2="600" y2="243" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
 
   <!-- CorreaX branding badge -->
-  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">May 05 2026 19:25 EDT</text></g>
+  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">May 05 2026 19:33 EDT</text></g>
 
   <!-- Tech circuit decorations on right -->
   <g opacity="0.25">
