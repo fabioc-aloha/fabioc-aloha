@@ -20,7 +20,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > The unifying claim is not productivity, it is partnership grounded in evidence: a validated instrument for measuring AI readiness, a cognitive architecture built to the standards that instrument exposes, and a governance pattern that lets all of this scale across a fleet without losing fidelity at any individual project.
 
-<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [🛡️ RAI review: PASS](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
+<sub>📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio) · [⚠️ RAI review: WARN](VISUAL-STORYTELLING.md#stage-7-responsible-ai-review-llm-4)</sub>
 
 <!-- Auto-generated section. Do not edit by hand — overwritten on next pipeline run. See docs/USER-MANUAL.md for details. -->
 
@@ -465,7 +465,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 7, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 8, 2026 |
 | 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
 ### AI & Machine Learning
@@ -536,6 +536,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
+| 🔒 [Alex_Dog_Lover](https://github.com/fabioc-aloha/Alex_Dog_Lover) 🤖 | Personal home for managing two dogs (Freddy & Jolly): breed-aware health tracking, behavior plans, vet records, and training notes. Built on the Alex ACT Edition cognitive architecture. | May 8, 2026 |
 | 📂 [Alex_Sandbox](https://github.com/fabioc-aloha/Alex_Sandbox) 🤖 | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 1, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | May 5, 2026 |
 | 📂 [amazfit-watchfaces](https://github.com/fabioc-aloha/amazfit-watchfaces) 🤖 | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 13, 2026 |
