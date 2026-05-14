@@ -155,7 +155,7 @@
   <line x1="320" y1="243" x2="600" y2="243" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
 
   <!-- CorreaX branding badge -->
-  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">May 13 2026 06:51 EDT</text></g>
+  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">May 14 2026 06:48 EDT</text></g>
 
   <!-- Tech circuit decorations on right -->
   <g opacity="0.25">
@@ -185,11 +185,11 @@
   <rect x="159.26603133830486" y="27" width="28.412278639446395" height="176" rx="3" fill="#4e79a7" opacity="0.29"/>
   <text x="173.47217065802806" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,173.47217065802806,115)">ai agents</text>
   <rect x="188.67830997775124" y="27" width="24.605755081162542" height="176" rx="3" fill="#4e79a7" opacity="0.27"/>
-  <text x="200.98118751833252" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,200.98118751833252,115)">ai adoption</text>
+  <text x="200.98118751833252" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,200.98118751833252,115)">agent skills</text>
   <rect x="214.28406505891377" y="27" width="24.605755081162542" height="176" rx="3" fill="#4e79a7" opacity="0.27"/>
-  <text x="226.58694259949505" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,226.58694259949505,115)">azure openai</text>
+  <text x="226.58694259949505" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,226.58694259949505,115)">ai agent</text>
   <rect x="239.88982014007632" y="27" width="24.605755081162613" height="176" rx="3" fill="#4e79a7" opacity="0.27"/>
-  <text x="252.19269768065763" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,252.19269768065763,115)">agent skills</text>
+  <text x="252.19269768065763" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#4e79a7" font-family="system-ui,sans-serif" font-weight="400" transform="rotate(-90,252.19269768065763,115)">ai governance</text>
   <rect x="271.49557522123894" y="3" width="229.84070796460176" height="202" rx="6" fill="#57606a" opacity="0.15" stroke="#57606a" stroke-width="1.5"/><path d="M277.49557522123894,3 h217.84070796460176 a6,6 0 0 1 6,6 v16 h-229.84070796460176 v-16 a6,6 0 0 1 6,-6 z" fill="#57606a" opacity="0.1"/><line x1="271.49557522123894" y1="25" x2="501.33628318584067" y2="25" stroke="#57606a" stroke-width="0.75" opacity="0.45"/><text x="279.49557522123894" y="19" font-size="12" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-weight="700">Other</text>
   <rect x="272.49557522123894" y="27" width="38.584636568754306" height="176" rx="3" fill="#57606a" opacity="0.43"/>
   <text x="291.78789350561607" y="115" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#57606a" font-family="system-ui,sans-serif" font-weight="600" transform="rotate(-90,291.78789350561607,115)">agent</text>
