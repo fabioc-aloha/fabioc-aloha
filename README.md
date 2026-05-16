@@ -460,11 +460,58 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > 🏷️ `agent` 🏷️ `agentic` 🎵 `ai-music` 🏷️ `audio` 🏷️ `dj` 🪄 `generative-ai` 🏷️ `generative-art` 🎵 `music` 🏷️ `playlist` 🏷️ `powershell` 🏷️ `recommendation-system` 🏷️ `spotify` 🏷️ `spotify-api` 🖼️ `text-to-image`
 
+> ### 📂 [ChessCoach](https://github.com/fabioc-aloha/ChessCoach) 🤖
+>
+> *ChessCoach is where two engines disagree and a language model turns the disagreement into a lesson.*
+>
+> &nbsp;
+>
+> ChessCoach is a full-stack AI chess coaching platform that pairs two engines with fundamentally different philosophies and lets a language model explain what they see.
+>
+> The insight behind ChessCoach is that strong chess analysis and good chess coaching are different problems. Stockfish finds the objectively best move but cannot explain why a human missed it. Maia-2 predicts the move a human would actually play but cannot say whether it is good. Azure OpenAI can explain anything but has no chess engine behind it. ChessCoach wires all three together so the coaching conversation is grounded in real analysis:
+>
+> - **It runs dual-engine analysis.** Stockfish provides the objective evaluation; Maia-2 (the Microsoft/University of Toronto neural network trained on millions of human games) predicts what the player would likely play. The gap between the two is where the coaching lives: not "the best move is Nf3" but "you probably considered Bg5 — here is why Nf3 is stronger in this structure."
+> - **It coaches in natural language.** Azure OpenAI receives both engine evaluations, the board state, and the player's rating context, then produces explanations calibrated to the player's level. A 1200-rated player gets different language than a 2000-rated player for the same position.
+> - **It is a production full-stack app.** React/TypeScript frontend with Vite, FastAPI Python backend, PostgreSQL for game storage, Azure deployment with Bicep IaC. Real-time board interaction, game import, and position analysis in a single interface.
+>
+> **Why it earns its pin**
+>
+> - It is the proof that the AI partnership thesis applies to domains where the AI has to coordinate multiple specialist engines, not just generate text
+> - The dual-engine approach is the chess-specific version of the same pattern the fleet uses everywhere: combine tools with different strengths and let the AI partner synthesize across them
+>
+> 🟨 `JavaScript`
+>
+> 🤖 `ai-coaching` ☁️ `azure` 🪄 `azure-openai` 🏷️ `chess` 🏷️ `chess-engine` 🏷️ `fastapi` 🏷️ `maia` 🐍 `python` 🏷️ `react` 🏷️ `stockfish` 🟨 `typescript` 🏷️ `vite`
+
+> ### 📂 [executive-coach](https://github.com/fabioc-aloha/executive-coach) 🤖
+>
+> *executive-coach is the partnership thesis applied to leadership: the AI that asks better questions than it answers.*
+>
+> &nbsp;
+>
+> executive-coach is a human-AI learning partnership built for executive coaching and leadership development through conversational methodology.
+>
+> The premise: executive coaching is expensive, scarce, and hard to scale. The best coaches ask the right questions at the right moment, remember the executive's history, and adapt to their learning style over time. Those are exactly the capabilities the Alex cognitive architecture was built to provide:
+>
+> - **It coaches through conversation, not content.** The methodology is conversational learning — the AI partner asks questions, listens, challenges assumptions, and guides the executive toward their own insights rather than delivering prepackaged advice. The same dialog engineering that powers the rest of the fleet is applied to leadership development.
+> - **It remembers the arc.** Persistent memory tracks the executive's goals, past reflections, recurring patterns, and growth trajectory across sessions. Each conversation builds on the last rather than starting from zero.
+> - **It specializes in leadership.** Executive presence, strategic thinking, team dynamics, stakeholder management, decision-making under uncertainty — the coaching domains are scoped to what leaders actually struggle with, not generic self-help.
+>
+> **Why it earns its pin**
+>
+> - It applies the partnership thesis to one of the highest-value human development domains: the kind of coaching that Fortune 500 executives pay thousands per hour for, delivered through a calibrated AI partner
+> - It is the proof that conversational learning methodology works for soft-skill development, not just technical domains
+>
+> 💠 `PowerShell`
+>
+> 🤖 `ai-coaching` 🪄 `azure-openai` 🏷️ `conversational-learning` 🧩 `copilot` 🏷️ `executive-coaching` 🤝 `human-ai-collaboration` 🏷️ `leadership-development` 🏷️ `professional-development`
+
 ### Portfolio & Meta
 
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
+| 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
 | 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 16, 2026 |
 | 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
@@ -472,14 +519,11 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 | Repo | Description | Updated |
 |------|-------------|---------|
+| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 📂 [Alex_ACT](https://github.com/fabioc-aloha/Alex_ACT) 🤖 | Experimental AI brain built from first principles: ACT (Artificial Critical Thinking) + rapid learning. Testing if disciplined reasoning can match pre-accumulated domain knowledge. | Apr 27, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
-| 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [ChessCoach](https://github.com/fabioc-aloha/ChessCoach) 🤖 | AI-powered chess coaching platform with dual-engine analysis (Stockfish + Maia-2), Azure OpenAI coaching, and real-time game analysis | May 5, 2026 |
-| 🔒🪦 [executive-coach](https://github.com/fabioc-aloha/executive-coach) 🤖 | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Sep 19, 2025 |
-| 📂 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | May 6, 2026 |
-| 🔒🪦 [Self-Learning-Vibe-Coding](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) 🤖 | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 1, 2025 |
+| 🔒 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | May 16, 2026 |
 
 ### Data & Analytics
 
@@ -494,52 +538,51 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [FabricCapacity](https://github.com/fabioc-aloha/FabricCapacity) 🤖 | Production blueprint for an EU-resident, compliance-certified analytics platform — enabling regulated workloads to operate within European data sovereignty boundaries while clearing privacy, security, responsible-AI, and threat-modeling gates. | May 12, 2026 |
-| 🔒 [FabricManager](https://github.com/fabioc-aloha/FabricManager) 🤖 | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | May 6, 2026 |
 | 🔒 [HomeAutomation](https://github.com/fabioc-aloha/HomeAutomation) 🤖 | Smart home research, tooling, and network intelligence platform — Python/FastAPI + React/Next.js + MQTT + Docker + Azure | May 5, 2026 |
 
 ### APIs & Services
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
+| 📂🪦 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Mar 28, 2026 |
+
+### Web Applications
+
+| Repo | Description | Updated |
+|------|-------------|---------|
+| 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
 
 ### Developer Tools
 
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [Alex_ACT_Extension](https://github.com/fabioc-aloha/Alex_ACT_Extension) 🤖 | VS Code extension for Alex ACT Edition -- Artificial Critical Thinking for GitHub Copilot. One-click brain bootstrap, upgrade, status, and Plugin Mall search. | May 13, 2026 |
+| 📂 [Alex_ACT_Visual_Storytelling](https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling) 🤖 | Visual storytelling plugin factory for the ACT fleet. Develops, tests, and publishes modular plugins (chart selection, data prep, datasource connectors, delivery targets) to Alex_ACT_Plugin_Mall. | May 6, 2026 |
 | 📂 [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In) 🤖 | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Apr 15, 2026 |
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
 | 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
-| 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
 | 🔒🪦 [ChatGPT](https://github.com/fabioc-aloha/ChatGPT) 🤖 | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 4, 2025 |
 | 📂 [copilot-enhancement-patterns](https://github.com/fabioc-aloha/copilot-enhancement-patterns) 🤖 | M365 Copilot declarative agent for writing better prompts using Dialog Engineering | Apr 25, 2026 |
+| 🔒 [FabricManager](https://github.com/fabioc-aloha/FabricManager) 🤖 | Python toolkit for Azure Synapse to Microsoft Fabric migration - authentication, workspace management, OneLake shortcuts, and Delta table creation for enterprise data platform modernization | May 6, 2026 |
 | 📂 [markdown-to-pdf](https://github.com/fabioc-aloha/markdown-to-pdf) 🤖 | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 29, 2026 |
 | 📂 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | 📂🪦 [papercopilot](https://github.com/fabioc-aloha/papercopilot) 🤖 | A Copilot for drafting research papers. | Aug 3, 2025 |
+| 🔒 [pbi-test](https://github.com/fabioc-aloha/pbi-test) 🤖 | Test harness for PBI Visual Assistant extension — Contoso e-commerce star schema with deliberate quality issues | May 6, 2026 |
 | 🔒 [ProjectPlans](https://github.com/fabioc-aloha/ProjectPlans) 🤖 | Project planning and ADO-Planner sync tools | May 5, 2026 |
 | 🔒 [roomba-control](https://github.com/fabioc-aloha/roomba-control) 🤖 | VS Code extension for controlling iRobot Roomba vacuums via MQTT - real-time status, cleaning maps, scheduling, and multi-robot support | May 5, 2026 |
+| 🔒🪦 [Self-Learning-Vibe-Coding](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) 🤖 | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 1, 2025 |
 | 🔒 [together](https://github.com/fabioc-aloha/together) | Windows and macOS, better together — setup guides, Homebrew app installer, keyboard shortcuts, and AI-powered development | May 5, 2026 |
-| 📂 [WindowsWidget](https://github.com/fabioc-aloha/WindowsWidget) 🤖 | Windows 11 Widget Provider using Windows App SDK, Adaptive Cards, and IWidgetProvider interface for the Widgets Board | Feb 5, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Self-sufficient VS Code extension for YouTube video intelligence - search, analyze, transcripts, flashcards. Zero external dependencies. | May 6, 2026 |
-
-### Libraries & Packages
-
-| Repo | Description | Updated |
-|------|-------------|---------|
-| 📂 [Alex_ACT_Visual_Storytelling](https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling) 🤖 | Visual storytelling plugin factory for the ACT fleet. Develops, tests, and publishes modular plugins (chart selection, data prep, datasource connectors, delivery targets) to Alex_ACT_Plugin_Mall. | May 6, 2026 |
 
 ### Creative & Personal
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 🔒 [Alex_Dog_Lover](https://github.com/fabioc-aloha/Alex_Dog_Lover) 🤖 | Personal home for managing two dogs (Freddy & Jolly): breed-aware health tracking, behavior plans, vet records, and training notes. Built on the Alex ACT Edition cognitive architecture. | May 8, 2026 |
 | 📂 [Alex_Sandbox](https://github.com/fabioc-aloha/Alex_Sandbox) 🤖 | Creative writing sandbox: 'A Farinha do Mar' - a dramatic script about the 2001 cocaine incident in localized versions (Azorean Portuguese, Manezinho/Florianópolis, Greek with English subtitles) | Feb 1, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | May 5, 2026 |
-| 📂 [amazfit-watchfaces](https://github.com/fabioc-aloha/amazfit-watchfaces) 🤖 | Custom watchfaces for Amazfit Active Max and Active line devices (ZeppOS) | Jan 13, 2026 |
 | 📂🪦 [Comedy](https://github.com/fabioc-aloha/Comedy) 🤖 | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 4, 2025 |
 | 📂🪦 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 4, 2025 |
 | 🔒 [Mystery](https://github.com/fabioc-aloha/Mystery) 🤖 | Dead Letter — An AI-driven mystery game where every playthrough is unique | Apr 25, 2026 |
@@ -550,14 +593,12 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
-| 📂 [alex-sandbox](https://github.com/fabioc-aloha/alex-sandbox) 🤖 | Alex Cognitive Architecture v5.7.1 - Workspace with .github cognitive system and fiction projects | Feb 15, 2026 |
 | 🔒 [Alexa_Director](https://github.com/fabioc-aloha/Alexa_Director) 🤖 | — | May 16, 2026 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | May 11, 2026 |
 | 🔒 [health-articles](https://github.com/fabioc-aloha/health-articles) 🤖 | Health research articles -- exercise, longevity, nutrition, mental health, recovery, sleep | May 5, 2026 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
-| 🔒 [pbi-test](https://github.com/fabioc-aloha/pbi-test) 🤖 | Test harness for PBI Visual Assistant extension — Contoso e-commerce star schema with deliberate quality issues | May 6, 2026 |
 <!-- PORTFOLIO:END -->
 
 ## 🤖 Automated Portfolio Management
