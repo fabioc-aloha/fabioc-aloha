@@ -512,7 +512,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 16, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 17, 2026 |
 | 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
 ### AI & Machine Learning
@@ -546,7 +546,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 📂🪦 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
-| 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Mar 28, 2026 |
+| 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | May 17, 2026 |
 
 ### Web Applications
 
