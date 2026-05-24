@@ -479,7 +479,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > - It is the proof that the AI partnership thesis applies to domains where the AI has to coordinate multiple specialist engines, not just generate text
 > - The dual-engine approach is the chess-specific version of the same pattern the fleet uses everywhere: combine tools with different strengths and let the AI partner synthesize across them
 >
-> 🟨 `JavaScript`
+> 🟨 `JavaScript` · ⭐ 1
 >
 > 🤖 `ai-coaching` ☁️ `azure` 🪄 `azure-openai` 🏷️ `chess` 🏷️ `chess-engine` 🏷️ `fastapi` 🏷️ `maia` 🐍 `python` 🏷️ `react` 🏷️ `stockfish` 🟨 `typescript` 🏷️ `vite`
 
@@ -512,7 +512,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 22, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | May 23, 2026 |
+| 🔒 [Alyva_Master](https://github.com/fabioc-aloha/Alyva_Master) 🤖 | — | May 24, 2026 |
 | 🔒🪦 [PythonClass](https://github.com/fabioc-aloha/PythonClass) 🤖 | Educational Python programming resources, tutorials, and class materials for teaching and learning Python development fundamentals | Sep 4, 2025 |
 
 ### AI & Machine Learning
@@ -524,6 +525,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [Alex_ACT_Edition_v2](https://github.com/fabioc-aloha/Alex_ACT_Edition_v2) 🤖 | Token-optimized v2 of Alex_ACT_Edition. Scratch workspace applying lazy-load patterns (scoped semantic instructions + Markdown-linked docs) to reduce always-on context cost ~25-30% while preserving full heir capability. Ships back to Alex_ACT_Edition as v2.0.0 major bump when complete. | May 19, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
+| 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | May 24, 2026 |
 | 🔒 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | May 16, 2026 |
 
 ### Data & Analytics
@@ -546,6 +548,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂🪦 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
+| 🔒 [Alyva_Mall](https://github.com/fabioc-aloha/Alyva_Mall) | Plugin marketplace for Alyva_Assistant heirs and ACT agents | May 23, 2026 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | May 17, 2026 |
 
@@ -593,8 +596,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
-| 🔒 [Alexa_Director](https://github.com/fabioc-aloha/Alexa_Director) 🤖 | — | May 23, 2026 |
-| 🔒 [Alexa_Vamp](https://github.com/fabioc-aloha/Alexa_Vamp) 🤖 | — | May 23, 2026 |
+| 🔒 [Alexa_Director](https://github.com/fabioc-aloha/Alexa_Director) 🤖 | — | May 24, 2026 |
+| 🔒 [Alyva_Assistant](https://github.com/fabioc-aloha/Alyva_Assistant) 🤖 | Alexa_Edition heir template - successor of Alex_ACT_Edition v2.0.5, mothered by Alexa Vamp (Queen of the fleet, Supervisor v3.0.0). Codename pending PIVOT-PLAN section 1 finalization. | May 24, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | May 23, 2026 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | May 11, 2026 |
