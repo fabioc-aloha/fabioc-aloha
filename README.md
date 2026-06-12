@@ -514,7 +514,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jun 11, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jun 12, 2026 |
 | 🔒 [linkedin-airs](https://github.com/fabioc-aloha/linkedin-airs) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jun 8, 2026 |
 
 ### AI & Machine Learning
@@ -527,7 +527,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [Alex_ACT_Memory](https://github.com/fabioc-aloha/Alex_ACT_Memory) | Shared memory bus for ACT-Edition heirs (peer-to-peer) | Jun 10, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
-| 🔒 [charts](https://github.com/fabioc-aloha/charts) 🤖 | Companion site for AI-Assisted Business Analysis (charts.correax.com) | Jun 11, 2026 |
 | 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | May 24, 2026 |
 | 🔒 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | May 16, 2026 |
 | 🔒 [PC_Plus](https://github.com/fabioc-aloha/PC_Plus) 🤖 | Local AI stack on a Snapdragon X Plus Copilot+ PC - Foundry Local, Ollama, LM Studio, Foundry Toolkit, and ONNX Runtime QNN docs | May 29, 2026 |
@@ -555,6 +554,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jun 4, 2026 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Jun 8, 2026 |
+| 🔒 [the-defensible-decision](https://github.com/fabioc-aloha/the-defensible-decision) 🤖 | Companion site for AI-Assisted Business Analysis (charts.correax.com) | Jun 11, 2026 |
 
 ### Web Applications
 
