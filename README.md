@@ -514,8 +514,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jun 23, 2026 |
-| 🔒 [linkedin-airs](https://github.com/fabioc-aloha/linkedin-airs) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jun 17, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jun 24, 2026 |
+| 🔒 [linkedin-airs](https://github.com/fabioc-aloha/linkedin-airs) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jun 23, 2026 |
 
 ### AI & Machine Learning
 
@@ -524,7 +524,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [ai-tldr](https://github.com/fabioc-aloha/ai-tldr) 🤖 | Audio-first on-device LLM reading app (planning phase) | Jun 9, 2026 |
 | 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 📂 [Alex_ACT](https://github.com/fabioc-aloha/Alex_ACT) 🤖 | Experimental AI brain built from first principles: ACT (Artificial Critical Thinking) + rapid learning. Testing if disciplined reasoning can match pre-accumulated domain knowledge. | Apr 27, 2026 |
-| 🔒 [Alex_ACT_Memory](https://github.com/fabioc-aloha/Alex_ACT_Memory) | Shared memory bus for ACT-Edition heirs (peer-to-peer) | Jun 18, 2026 |
+| 🔒 [Alex_ACT_Memory](https://github.com/fabioc-aloha/Alex_ACT_Memory) | Shared memory bus for ACT-Edition heirs (peer-to-peer) | Jun 23, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | May 24, 2026 |
@@ -553,21 +553,21 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂🪦 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 11, 2025 |
 | 📂 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jun 22, 2026 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
-| 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Jun 22, 2026 |
+| 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Jun 24, 2026 |
 | 🔒 [the-defensible-decision](https://github.com/fabioc-aloha/the-defensible-decision) 🤖 | Companion site for AI-Assisted Business Analysis (charts.correax.com) | Jun 14, 2026 |
 
 ### Web Applications
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒 [AnyChat](https://github.com/fabioc-aloha/AnyChat) 🤖 | On-device iOS + macOS chat using Apple Foundation Models. SwiftUI, VS Code-first. | Jun 19, 2026 |
+| 🔒 [AnyChat](https://github.com/fabioc-aloha/AnyChat) 🤖 | On-device iOS + macOS chat using Apple Foundation Models. SwiftUI, VS Code-first. | Jun 23, 2026 |
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
 
 ### Developer Tools
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [Alex_ACT_Extension](https://github.com/fabioc-aloha/Alex_ACT_Extension) 🤖 | VS Code extension for Alex ACT Edition -- Artificial Critical Thinking for GitHub Copilot. One-click brain bootstrap, upgrade, status, and Plugin Mall search. | Jun 20, 2026 |
+| 📂 [Alex_ACT_Extension](https://github.com/fabioc-aloha/Alex_ACT_Extension) 🤖 | VS Code extension for Alex ACT Edition -- Artificial Critical Thinking for GitHub Copilot. One-click brain bootstrap, upgrade, status, and Plugin Mall search. | Jun 23, 2026 |
 | 📂 [Alex_ACT_Visual_Storytelling](https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling) 🤖 | Visual storytelling plugin factory for the ACT fleet. Develops, tests, and publishes modular plugins (chart selection, data prep, datasource connectors, delivery targets) to Alex_ACT_Plugin_Mall. | May 6, 2026 |
 | 📂 [Alex_Plug_In](https://github.com/fabioc-aloha/Alex_Plug_In) 🤖 | Transform GitHub Copilot into a sophisticated AI learning partner with meta-cognitive awareness, persistent memory, dual-mind processing, and cross-project knowledge sharing. VS Code extension. | Apr 15, 2026 |
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
