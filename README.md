@@ -514,7 +514,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 10, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 11, 2026 |
 | 🔒 [linkedin-airs](https://github.com/fabioc-aloha/linkedin-airs) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jun 23, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Jun 27, 2026 |
 
@@ -564,7 +564,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AnyChat](https://github.com/fabioc-aloha/AnyChat) 🤖 | On-device iOS + macOS chat using Apple Foundation Models. SwiftUI, VS Code-first. | Jun 27, 2026 |
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
 | 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 | Loop Engineering companion site (recovered source + D2 hero) | Jul 10, 2026 |
-| 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Jun 29, 2026 |
+| 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Jun 29, 2026 |
 
 ### Developer Tools
 
@@ -599,7 +599,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂🪦 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 4, 2025 |
 | 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | — | May 27, 2026 |
 | 🔒 [media-review-hub](https://github.com/fabioc-aloha/media-review-hub) 🤖 | — | May 27, 2026 |
-| 🔒 [Mystery](https://github.com/fabioc-aloha/Mystery) | Dead Letter — An AI-driven mystery game where every playthrough is unique | Apr 25, 2026 |
+| 🔒 [Mystery](https://github.com/fabioc-aloha/Mystery) 🤖 | Dead Letter — An AI-driven mystery game where every playthrough is unique | Apr 25, 2026 |
 | 📂🪦 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Sep 4, 2025 |
 
 ### Uncategorized
@@ -617,7 +617,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | — | Jun 14, 2026 |
 | 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | Jul 2, 2026 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
-| 🔒 [mac](https://github.com/fabioc-aloha/mac) | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
+| 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
 | 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Jul 8, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | — | Jul 1, 2026 |
 | 🔒 [Shortcuts](https://github.com/fabioc-aloha/Shortcuts) 🤖 | — | Jun 12, 2026 |
