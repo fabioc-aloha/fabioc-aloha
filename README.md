@@ -514,8 +514,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 17, 2026 |
-| 🔒 [linkedin-airs](https://github.com/fabioc-aloha/linkedin-airs) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jun 23, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 18, 2026 |
+| 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jul 17, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Jul 14, 2026 |
 
 ### AI & Machine Learning
@@ -540,7 +540,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂🪦 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 4, 2025 |
 | 📂🪦 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 4, 2025 |
 | 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
-| 🔒 [tracker-correax](https://github.com/fabioc-aloha/tracker-correax) 🤖 | Privacy-restricted self-hosted Umami analytics for CorreaX sites | Jul 16, 2026 |
+| 🔒 [tracker-correax](https://github.com/fabioc-aloha/tracker-correax) 🤖 | Privacy-restricted self-hosted Umami analytics for CorreaX sites | Jul 17, 2026 |
 
 ### Infrastructure
 
@@ -564,9 +564,9 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AnyChat](https://github.com/fabioc-aloha/AnyChat) 🤖 | On-device iOS + macOS chat using Apple Foundation Models. SwiftUI, VS Code-first. | Jun 27, 2026 |
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Apr 22, 2026 |
-| 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 | Loop Engineering companion site (recovered source + D2 hero) | Jul 15, 2026 |
+| 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 | Loop Engineering companion site (recovered source + D2 hero) | Jul 17, 2026 |
 | 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Jun 29, 2026 |
-| 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Jul 16, 2026 |
+| 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Jul 17, 2026 |
 
 ### Developer Tools
 
@@ -579,6 +579,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒🪦 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Sep 4, 2025 |
 | 🔒🪦 [ChatGPT](https://github.com/fabioc-aloha/ChatGPT) 🤖 | OpenAI Implementation Specialist - Expert guidance for function calling, API integration, and sophisticated AI implementations with comprehensive educational framework | Sep 4, 2025 |
 | 📂 [copilot-enhancement-patterns](https://github.com/fabioc-aloha/copilot-enhancement-patterns) 🤖 | M365 Copilot declarative agent for writing better prompts using Dialog Engineering | Apr 25, 2026 |
+| 🔒 [copilot-knowledge-work-setup](https://github.com/fabioc-aloha/copilot-knowledge-work-setup) 🤖 | Portable GitHub Copilot setup for business analysis, knowledge work, Microsoft 365, Fabric, Power BI, Azure, and read-only SQL workflows | Jul 17, 2026 |
 | 📂 [data-formulator-vscode](https://github.com/fabioc-aloha/data-formulator-vscode) 🤖 | — | Jul 9, 2026 |
 | 🔒 [machine-reset](https://github.com/fabioc-aloha/machine-reset) 🤖 | Windows 11 reset workflow - backup, fresh install, and selective restore of apps and customizations. | Jun 28, 2026 |
 | 📂 [markdown-to-pdf](https://github.com/fabioc-aloha/markdown-to-pdf) 🤖 | Professional Markdown to PDF conversion with APA 7th edition formatting, Mermaid diagrams, and extensive customization | Jan 29, 2026 |
@@ -597,7 +598,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [Alex_Travel_Nerd](https://github.com/fabioc-aloha/Alex_Travel_Nerd) 🤖 | Personal multi-trip travel-planning workspace curated by Alex Travel Nerd (ACT Edition heir). One folder per trip. | Jun 16, 2026 |
 | 🔒 [alex-counselor](https://github.com/fabioc-aloha/alex-counselor) 🤖 | Personal workspace for studying and applying Viktor Frankl's logotherapy -- three pathways to meaning, Socratic meaning-discovery, paradoxical intention, dereflection. Thinking partner, not licensed clinical practice. Built on Alex ACT Edition with composed Mall skills. | May 30, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | May 5, 2026 |
-| 🔒 [books-correax](https://github.com/fabioc-aloha/books-correax) 🤖 | The Alex Finch Library catalog and companion resources for books.correax.com | Jul 15, 2026 |
+| 🔒 [books-correax](https://github.com/fabioc-aloha/books-correax) 🤖 | The Alex Finch Library catalog and companion resources for books.correax.com | Jul 17, 2026 |
 | 📂🪦 [Comedy](https://github.com/fabioc-aloha/Comedy) 🤖 | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Sep 4, 2025 |
 | 📂🪦 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Sep 4, 2025 |
 | 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | — | May 27, 2026 |
@@ -614,6 +615,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AI_Talks](https://github.com/fabioc-aloha/AI_Talks) 🤖 | AI_Talks | Jun 3, 2026 |
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
 | 🔒 [Alex_ACT_Benchmark](https://github.com/fabioc-aloha/Alex_ACT_Benchmark) 🤖 | — | May 28, 2026 |
+| 🔒 [correax-azure-subscription-monitor](https://github.com/fabioc-aloha/correax-azure-subscription-monitor) | — | Jul 17, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Jun 7, 2026 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
 | 🔒 [eu-correax](https://github.com/fabioc-aloha/eu-correax) 🤖 | EU Decompression research site (eu.correax.com) - spun off from fabioc-aloha/job 2026-06-27 | Jun 27, 2026 |
