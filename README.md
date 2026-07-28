@@ -515,7 +515,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Jul 26, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 27, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Jul 28, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jul 25, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Jul 25, 2026 |
 
@@ -539,7 +539,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AIRS_Future_Research](https://github.com/fabioc-aloha/AIRS_Future_Research) | Private companion to AIRS_Data_Analysis: research planning materials, proprietary IP, and future-research roadmap (post-DBA) | Jun 1, 2026 |
 | 📂🪦 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 4, 2025 |
-| 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Jul 22, 2026 |
+| 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Jul 27, 2026 |
 | 📂🪦 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 4, 2025 |
 | 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
 | 🔒 [OrgReports](https://github.com/fabioc-aloha/OrgReports) | Executive organization briefs produced with GitHub Copilot CLI + WorkIQ + Python export pipeline | Jul 20, 2026 |
@@ -628,7 +628,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AI_Talks](https://github.com/fabioc-aloha/AI_Talks) 🤖 | AI_Talks | Jun 3, 2026 |
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
 | 🔒 [Alex_ACT_Benchmark](https://github.com/fabioc-aloha/Alex_ACT_Benchmark) 🤖 | — | May 28, 2026 |
-| 🔒 [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) 🤖 | Top-of-chain steward for the Alex ACT plugin-architecture lineage. Successor to Alex_ACT_Supervisor (per AlexMaster -> Alex_ACT_Supervisor -> Alex_ACT_Steward generational-rename precedent). Founding artifact is Alex_ACT_Steward_Plan.md. | Jul 27, 2026 |
+| 🔒 [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) 🤖 | Top-of-chain steward for the Alex ACT plugin-architecture lineage. Successor to Alex_ACT_Supervisor (per AlexMaster -> Alex_ACT_Supervisor -> Alex_ACT_Steward generational-rename precedent). Founding artifact is Alex_ACT_Steward_Plan.md. | Jul 28, 2026 |
 | 🔒 [Alex_GHC_Edition](https://github.com/fabioc-aloha/Alex_GHC_Edition) 🤖 | — | Jul 20, 2026 |
 | 🔒 [Alexa_Edition](https://github.com/fabioc-aloha/Alexa_Edition) 🤖 | Edição ACT Alexa Finch em português brasileiro para GitHub Copilot | Jul 20, 2026 |
 | 🔒 [amidar](https://github.com/fabioc-aloha/amidar) | — | Jul 22, 2026 |
@@ -644,7 +644,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
 | 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Jul 13, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | — | Jul 1, 2026 |
-| 🔒 [QuestionnaireFlow](https://github.com/fabioc-aloha/QuestionnaireFlow) 🤖 | — | Jul 23, 2026 |
+| 🔒 [QuestionnaireFlow](https://github.com/fabioc-aloha/QuestionnaireFlow) 🤖 | — | Jul 28, 2026 |
 | 🔒 [Shortcuts](https://github.com/fabioc-aloha/Shortcuts) 🤖 | — | Jun 12, 2026 |
 | 🔒 [TESTE](https://github.com/fabioc-aloha/TESTE) | — | Jun 28, 2026 |
 | 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | — | May 27, 2026 |
