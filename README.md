@@ -515,7 +515,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Jul 28, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Aug 2, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Aug 3, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Jul 25, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Jul 25, 2026 |
 
@@ -574,7 +574,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [circuit-breaker](https://github.com/fabioc-aloha/circuit-breaker) 🤖 | High-voltage cyberpunk arcade remix: Tetris with a Donkey Kong-style gorilla throwing pieces from a girder, Pac-Man line clears, a Boss Rush mode, and an AI-basket stock ticker running across the marquee. TypeScript + Canvas + Web Audio, zero runtime deps. | Jul 28, 2026 |
 | 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 | Loop Engineering companion site (recovered source + D2 hero) | Jul 25, 2026 |
 | 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Jun 29, 2026 |
-| 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Jul 25, 2026 |
+| 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Aug 2, 2026 |
 
 ### Developer Tools
 
@@ -633,7 +633,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [Alex_ACT_Benchmark](https://github.com/fabioc-aloha/Alex_ACT_Benchmark) 🤖 | — | May 28, 2026 |
 | 🔒 [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) 🤖 | Top-of-chain steward for the Alex ACT plugin-architecture lineage. Successor to Alex_ACT_Supervisor (per AlexMaster -> Alex_ACT_Supervisor -> Alex_ACT_Steward generational-rename precedent). Founding artifact is Alex_ACT_Steward_Plan.md. | Aug 2, 2026 |
 | 🔒 [Alex_GHC_Edition](https://github.com/fabioc-aloha/Alex_GHC_Edition) 🤖 | — | Jul 20, 2026 |
-| 🔒 [Alexa_Edition](https://github.com/fabioc-aloha/Alexa_Edition) 🤖 | Edição ACT Alexa Finch em português brasileiro para GitHub Copilot | Jul 20, 2026 |
+| 🔒 [Alexa_Edition](https://github.com/fabioc-aloha/Alexa_Edition) 🤖 | Edição ACT Alexa Finch em português brasileiro para GitHub Copilot | Aug 2, 2026 |
 | 🔒 [amidar](https://github.com/fabioc-aloha/amidar) | — | Jul 22, 2026 |
 | 🔒 [Big-Idea](https://github.com/fabioc-aloha/Big-Idea) 🤖 | — | Aug 2, 2026 |
 | 🔒 [correax-azure-subscription-monitor](https://github.com/fabioc-aloha/correax-azure-subscription-monitor) | — | Jul 17, 2026 |
