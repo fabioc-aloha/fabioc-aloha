@@ -515,7 +515,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Jul 28, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Aug 13, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Aug 14, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Aug 9, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Aug 9, 2026 |
 
@@ -565,7 +565,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jul 1, 2026 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖 | Spotify Skills for Claude - Production Spotify API integration + complete toolkit for creating Claude Desktop Skills. Includes OAuth 2.0, cover art generation, automated tools, and comprehensive guides. | Aug 5, 2026 |
-| 🔒 [the-defensible-decision](https://github.com/fabioc-aloha/the-defensible-decision) 🤖 | Companion site for AI-Assisted Business Analysis (charts.correax.com) | Aug 12, 2026 |
+| 🔒 [the-defensible-decision](https://github.com/fabioc-aloha/the-defensible-decision) 🤖 | Companion site for AI-Assisted Business Analysis (charts.correax.com) | Aug 13, 2026 |
 
 ### Web Applications
 
@@ -646,13 +646,14 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [fabioc-environment](https://github.com/fabioc-aloha/fabioc-environment) | — | Aug 12, 2026 |
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | — | Jun 14, 2026 |
 | 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | Jul 2, 2026 |
+| 📂 [gravitas](https://github.com/fabioc-aloha/gravitas) | — | Aug 14, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | — | Aug 5, 2026 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
 | 🔒 [kaggle](https://github.com/fabioc-aloha/kaggle) 🤖 | — | Aug 12, 2026 |
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Apr 23, 2026 |
 | 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Jul 13, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | — | Jul 1, 2026 |
-| 🔒 [QuestionnaireFlow](https://github.com/fabioc-aloha/QuestionnaireFlow) 🤖 | — | Aug 12, 2026 |
+| 🔒 [QuestionnaireFlow](https://github.com/fabioc-aloha/QuestionnaireFlow) 🤖 | — | Aug 13, 2026 |
 | 🔒 [Shortcuts](https://github.com/fabioc-aloha/Shortcuts) 🤖 | — | Jun 12, 2026 |
 | 🔒 [TESTE](https://github.com/fabioc-aloha/TESTE) | — | Jun 28, 2026 |
 | 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | — | May 27, 2026 |
