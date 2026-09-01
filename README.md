@@ -494,7 +494,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Aug 27, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Aug 31, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Sep 1, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Aug 17, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Aug 27, 2026 |
 
@@ -515,7 +515,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 🔒 [emojify](https://github.com/fabioc-aloha/emojify) | Browser-local adaptive emoji mosaic proof of concept | Aug 27, 2026 |
 | 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | May 24, 2026 |
-| 🔒 [LearnAI](https://github.com/fabioc-aloha/LearnAI) 🤖 | Developer and publisher of a free AI skills training platform at learnai.correax.com. New use cases for AI are researched, training is developed, and the result is delivered in a friendly interface. Workshop playbooks, Dialog Engineering foundation, and verified LinkedIn-shareable certificates of completion. | Aug 23, 2026 |
+| 🔒 [LearnAI](https://github.com/fabioc-aloha/LearnAI) 🤖 | Developer and publisher of a free AI skills training platform at learnai.correax.com. New use cases for AI are researched, training is developed, and the result is delivered in a friendly interface. Workshop playbooks, Dialog Engineering foundation, and verified LinkedIn-shareable certificates of completion. | Aug 31, 2026 |
 | 🔒 [mailbox-management](https://github.com/fabioc-aloha/mailbox-management) | Design-first Python tool for managing a large M365 mailbox via Microsoft Graph, with a semantic classifier for RFC 8058 auto-unsubscribe. | Aug 27, 2026 |
 | 🔒 [PBI-Visual-Assistant](https://github.com/fabioc-aloha/PBI-Visual-Assistant) 🤖 | AI-powered Power BI report and visualization design, powered by Alex | May 16, 2026 |
 | 🔒 [PC_Plus](https://github.com/fabioc-aloha/PC_Plus) 🤖 | Local AI stack on a Snapdragon X Plus Copilot+ PC - Foundry Local, Ollama, LM Studio, Foundry Toolkit, and ONNX Runtime QNN docs | May 29, 2026 |
@@ -529,6 +529,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AIRS_Future_Research](https://github.com/fabioc-aloha/AIRS_Future_Research) | Private companion to AIRS_Data_Analysis: research planning materials, proprietary IP, and future-research roadmap (post-DBA) | Jun 1, 2026 |
 | 📂🪦 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 4, 2025 |
 | 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Aug 29, 2026 |
+| 🔒 [cpesynapse-V2](https://github.com/fabioc-aloha/cpesynapse-V2) | Version-controlled artifacts for the cpesynapse Azure Synapse workspace. | Aug 31, 2026 |
 | 📂🪦 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 4, 2025 |
 | 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
 | 🔒 [psychometric-research](https://github.com/fabioc-aloha/psychometric-research) 🤖 | Mapping the multidimensional structure of political ideology: a cross-national factor-analytic study using EFA, CFA, IRT, Bayesian factor models, and NOMINATE across WVS, ESS, ANES, CHES, Manifesto, Voteview, BES, and ParlGov. | Aug 27, 2026 |
@@ -616,6 +617,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AI_Talks](https://github.com/fabioc-aloha/AI_Talks) 🤖 | AI_Talks | Jun 3, 2026 |
 | 🔒🪦 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | My DBA Project | Aug 3, 2025 |
 | 🔒 [Alex_ACT_Benchmark](https://github.com/fabioc-aloha/Alex_ACT_Benchmark) 🤖 | — | May 28, 2026 |
+| 📂 [Alex_ACT_Scout](https://github.com/fabioc-aloha/Alex_ACT_Scout) 🤖 | — | Sep 1, 2026 |
 | 🔒 [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) 🤖 | Top-of-chain steward for the Alex ACT plugin-architecture lineage. Successor to Alex_ACT_Supervisor (per AlexMaster -> Alex_ACT_Supervisor -> Alex_ACT_Steward generational-rename precedent). Founding artifact is Alex_ACT_Steward_Plan.md. | Aug 27, 2026 |
 | 🔒 [Alex_Finch_ACT](https://github.com/fabioc-aloha/Alex_Finch_ACT) | — | Aug 26, 2026 |
 | 🔒 [Alex_GHC_Edition](https://github.com/fabioc-aloha/Alex_GHC_Edition) 🤖 | — | Aug 6, 2026 |
