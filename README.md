@@ -494,7 +494,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Sep 1, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Sep 3, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Sep 4, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Aug 17, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Sep 1, 2026 |
 
@@ -504,12 +504,12 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [ai-tldr](https://github.com/fabioc-aloha/ai-tldr) 🤖 | Audio-first on-device LLM reading app (planning phase) | Jun 9, 2026 |
 | 📂 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
-| 🔒 [AI-Wars-2026](https://github.com/fabioc-aloha/AI-Wars-2026) 🤖 | My first Web-Book | Sep 2, 2026 |
+| 🔒 [AI-Wars-2026](https://github.com/fabioc-aloha/AI-Wars-2026) 🤖 | My first Web-Book | Sep 3, 2026 |
 | 📂 [Alex_ACT](https://github.com/fabioc-aloha/Alex_ACT) 🤖 | Experimental AI brain built from first principles: ACT (Artificial Critical Thinking) + rapid learning. Testing if disciplined reasoning can match pre-accumulated domain knowledge. | Aug 19, 2026 |
 | 📂 [Alex_ACT_AI_Operations](https://github.com/fabioc-aloha/Alex_ACT_AI_Operations) 🤖 | Optional Alex ACT provider router for model planning, consent, and execution across Replicate, Hugging Face, and ElevenLabs | Sep 1, 2026 |
-| 📂 [Alex_ACT_Core](https://github.com/fabioc-aloha/Alex_ACT_Core) 🤖 | Plugin-native baseline brain for Alex ACT, with critical-thinking instructions, reusable agent skills, prompts, and tooling for GitHub Copilot. | Sep 1, 2026 |
+| 📂 [Alex_ACT_Core](https://github.com/fabioc-aloha/Alex_ACT_Core) 🤖 | Plugin-native baseline brain for Alex ACT, with critical-thinking instructions, reusable agent skills, prompts, and tooling for GitHub Copilot. | Sep 3, 2026 |
 | 🔒 [Alex_ACT_Memory](https://github.com/fabioc-aloha/Alex_ACT_Memory) | Shared memory bus for ACT-Edition heirs (peer-to-peer) | Sep 1, 2026 |
-| 🔒 [alex-act-brain-compiler](https://github.com/fabioc-aloha/alex-act-brain-compiler) 🤖 | — | Sep 1, 2026 |
+| 🔒 [alex-act-brain-compiler](https://github.com/fabioc-aloha/alex-act-brain-compiler) 🤖 | — | Sep 3, 2026 |
 | 📂 [alex-act-enterprise](https://github.com/fabioc-aloha/alex-act-enterprise) 🤖 | Alex ACT config-template plugin for the public Microsoft ecosystem: Azure, Fabric, Power BI, M365 Agents Toolkit. Ships a setup-enterprise-stack skill that generates the ~/.copilot/settings.json block for 7 public plugins. Composes with alex-act-core and alex-act-illustrator-plugin. Maintained by Alex_ACT_Steward. | Sep 1, 2026 |
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Jan 29, 2026 |
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
@@ -647,7 +647,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Sep 1, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | — | Jul 1, 2026 |
 | 🔒 [QuestionnaireFlow](https://github.com/fabioc-aloha/QuestionnaireFlow) 🤖 | — | Sep 2, 2026 |
-| 🔒 [scout-workspaces](https://github.com/fabioc-aloha/scout-workspaces) | — | Aug 25, 2026 |
+| 🔒 [scout-workspaces](https://github.com/fabioc-aloha/scout-workspaces) | — | Sep 4, 2026 |
 | 🔒 [VideoScout](https://github.com/fabioc-aloha/VideoScout) | — | Aug 29, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | — | Aug 16, 2026 |
 | 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | — | May 27, 2026 |
