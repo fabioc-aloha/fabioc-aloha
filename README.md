@@ -494,7 +494,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | — | Sep 1, 2026 |
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | May 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Sep 25, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Sep 26, 2026 |
 | 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Aug 17, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Sep 1, 2026 |
 
@@ -528,8 +528,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [AIRS_Future_Research](https://github.com/fabioc-aloha/AIRS_Future_Research) | Private companion to AIRS_Data_Analysis: research planning materials, proprietary IP, and future-research roadmap (post-DBA) | Jun 1, 2026 |
 | 📂🪦 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Sep 4, 2025 |
-| 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Sep 9, 2026 |
-| 🔒 [cpesynapse-V2](https://github.com/fabioc-aloha/cpesynapse-V2) | Version-controlled artifacts for the cpesynapse Azure Synapse workspace. | Aug 31, 2026 |
+| 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Sep 25, 2026 |
+| 🔒 [cpesynapse-V2](https://github.com/fabioc-aloha/cpesynapse-V2) | Version-controlled artifacts for the cpesynapse Azure Synapse workspace. | Sep 25, 2026 |
 | 📂🪦 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Sep 4, 2025 |
 | 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Dec 18, 2025 |
 | 🔒 [psychometric-research](https://github.com/fabioc-aloha/psychometric-research) 🤖 | Mapping the multidimensional structure of political ideology: a cross-national factor-analytic study using EFA, CFA, IRT, Bayesian factor models, and NOMINATE across WVS, ESS, ANES, CHES, Manifesto, Voteview, BES, and ParlGov. | Sep 1, 2026 |
@@ -584,7 +584,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒🪦 [Self-Learning-Vibe-Coding](https://github.com/fabioc-aloha/Self-Learning-Vibe-Coding) 🤖 | Imagine having an AI coding assistant that doesn't just help you today but *actually gets better* with every mistake it makes. An assistant that learns your code style, remembers project-specific details, and builds a knowledge base of solutions to problems it once struggled with. | Aug 1, 2025 |
 | 🔒 [ServiceTree_IcM](https://github.com/fabioc-aloha/ServiceTree_IcM) | Unified CLI to manage Microsoft Service Tree services and IcM configuration for the team. | Sep 1, 2026 |
 | 📂 [youtube-mcp-tools](https://github.com/fabioc-aloha/youtube-mcp-tools) 🤖 | Canonical YouTube intelligence for VS Code and modern MCP hosts. | Sep 1, 2026 |
-| 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 1, 2026 |
+| 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 25, 2026 |
 
 ### Libraries & Packages
 
@@ -642,7 +642,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [fabioc-environment](https://github.com/fabioc-aloha/fabioc-environment) | — | Sep 1, 2026 |
 | 🔒 [Freddy-Jolly-Dogs](https://github.com/fabioc-aloha/Freddy-Jolly-Dogs) 🤖 | — | Sep 1, 2026 |
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | — | Jun 14, 2026 |
-| 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | Sep 1, 2026 |
+| 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | — | Sep 25, 2026 |
 | 📂 [gravitas](https://github.com/fabioc-aloha/gravitas) 🤖 | — | Sep 1, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | — | Sep 1, 2026 |
 | 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Dec 23, 2025 |
@@ -655,7 +655,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [VideoScout](https://github.com/fabioc-aloha/VideoScout) | — | Aug 29, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | — | Aug 16, 2026 |
 | 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | — | May 27, 2026 |
-| 🔒 [zoom-notes](https://github.com/fabioc-aloha/zoom-notes) | — | Sep 8, 2026 |
+| 🔒 [zoom-notes](https://github.com/fabioc-aloha/zoom-notes) 🤖 | — | Sep 25, 2026 |
 <!-- PORTFOLIO:END -->
 
 ## 🤖 Automated Portfolio Management
