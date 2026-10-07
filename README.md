@@ -251,7 +251,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | May 5, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Oct 6, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Oct 7, 2026 |
 | 🔒 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖 | AlexMedia, a CLI toolkit for AI media production. Image, video, voice cloning, music, 3D, and emoji through 83 Replicate models, with editing commands and end-to-end workflows that ship 3D prints, t-shirts, and stickers. The fleet's creative production engine: one partner, every modality, all the way to the printer. | May 6, 2026 |
 | 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖 | AlexPapers, the research pipeline behind the Future of Work program. Venue-targeted manuscripts spanning HCI, cognitive science, neuroscience, AI ethics, and organizational AI adoption, drafted for CHI, CogSci, FAccT, IEEE, MIS Quarterly, and HBR. Anchored in AIRS-16, feeding books on meta-cognitive AI and human-AI symbiosis. | May 6, 2026 |
 | 📂🪦 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖 | Comprehensive LLM cognitive benchmark suite — 17 dimensions, 142 challenges, multi-provider scoring | Mar 8, 2026 |
@@ -382,12 +382,15 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [fabioc-environment](https://github.com/fabioc-aloha/fabioc-environment) | Captures installed tools and user-level config for the dev machine; observed machine state, not inferred requirements. | Sep 1, 2026 |
 | 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | Family calendar web app (early starter from a Spark template). | May 27, 2026 |
 | 🔒 [Freddy-Jolly-Dogs](https://github.com/fabioc-aloha/Freddy-Jolly-Dogs) 🤖 | Evidence-informed, Markdown-first foundation for managing Freddy and Jolly's health records, routines, and behavioral observations. | Sep 1, 2026 |
+| 🔒 [FreddyAssistant](https://github.com/fabioc-aloha/FreddyAssistant) | — | Oct 6, 2026 |
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | Private writing workspace: drafts on the right to act, plus a letter to Lavi. | Jun 14, 2026 |
 | 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | Weekly CX research briefing for the Microsoft GCX community. | Sep 25, 2026 |
 | 📂 [gravitas](https://github.com/fabioc-aloha/gravitas) 🤖 | Generative black-hole scenes grounded in relativity: interactive exploration plus research-grade wallpaper rendering. | Sep 1, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | Documentation workspace: Loop Engineering research, Alex ACT setup evidence, and repeatable setup scripts. | Sep 1, 2026 |
+| 🔒 [JollyAssistant](https://github.com/fabioc-aloha/JollyAssistant) | — | Oct 6, 2026 |
 | 🔒 [kaggle](https://github.com/fabioc-aloha/kaggle) 🤖 | Working repo for a long-horizon Kaggle campaign: research, tooling, and per-competition work. | Sep 1, 2026 |
 | 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 | Loop Engineering companion site (recovered source + D2 hero) | Aug 21, 2026 |
+| 🔒 [LinkedIn-Research](https://github.com/fabioc-aloha/LinkedIn-Research) 🤖 | Assistant-supported LinkedIn research, drafting, and engagement workflow (private) | Oct 6, 2026 |
 | 🔒 [macosapp](https://github.com/fabioc-aloha/macosapp) | — | Oct 5, 2026 |
 | 🔒 [media-review-hub](https://github.com/fabioc-aloha/media-review-hub) 🤖 | Media review hub web app (early starter from a Spark template). | May 27, 2026 |
 | 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Sep 1, 2026 |
