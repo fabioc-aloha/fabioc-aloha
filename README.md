@@ -251,7 +251,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒🪦 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Sep 23, 2025 |
 | 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | May 5, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Nov 1, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for an AI-narrated GitHub profile: classifies, clusters, narrates, and Responsible-AI reviews 100+ repositories into a self-updating dashboard, then publishes to a lean profile repo. | Nov 2, 2026 |
 | 🔒 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖 | AlexMedia, a CLI toolkit for AI media production. Image, video, voice cloning, music, 3D, and emoji through 83 Replicate models, with editing commands and end-to-end workflows that ship 3D prints, t-shirts, and stickers. The fleet's creative production engine: one partner, every modality, all the way to the printer. | May 6, 2026 |
 | 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖 | AlexPapers, the research pipeline behind the Future of Work program. Venue-targeted manuscripts spanning HCI, cognitive science, neuroscience, AI ethics, and organizational AI adoption, drafted for CHI, CogSci, FAccT, IEEE, MIS Quarterly, and HBR. Anchored in AIRS-16, feeding books on meta-cognitive AI and human-AI symbiosis. | May 6, 2026 |
 | 📂🪦 [BrainBenchmark](https://github.com/fabioc-aloha/BrainBenchmark) 🤖 | Comprehensive LLM cognitive benchmark suite — 17 dimensions, 142 challenges, multi-provider scoring | Mar 8, 2026 |
@@ -347,7 +347,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [Alex_Travel_Nerd](https://github.com/fabioc-aloha/Alex_Travel_Nerd) 🤖 | Personal multi-trip travel-planning workspace curated by Alex Travel Nerd (ACT Edition heir). One folder per trip. | Jun 16, 2026 |
 | 🔒 [health](https://github.com/fabioc-aloha/health) 🤖 | Turn your own medical records into clear answers and better conversations with your care team. Personal grounding, not population averages. A decision-support companion for the patient — every finding routes to a provider conversation, never replaces one. | May 6, 2026 |
-| 📂 [SurveyFunnel](https://github.com/fabioc-aloha/SurveyFunnel) 🤖 | — | Oct 31, 2026 |
+| 📂 [SurveyFunnel](https://github.com/fabioc-aloha/SurveyFunnel) 🤖 | — | Nov 2, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Sep 1, 2026 |
 
 ### Uncategorized
@@ -376,7 +376,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [Conformal_Map_GIMP_3.2](https://github.com/fabioc-aloha/Conformal_Map_GIMP_3.2) | GIMP 3 plugin: conformal-mapping image transforms via complex functions, preserving local angles. | Aug 26, 2026 |
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Sep 1, 2026 |
 | 🔒 [correax-azure-subscription-monitor](https://github.com/fabioc-aloha/correax-azure-subscription-monitor) | Read-only Azure subscription dashboard as a Copilot CLI canvas extension: inventory, health, costs, Advisor recommendations. | Jul 17, 2026 |
-| 🔒 [correax-web](https://github.com/fabioc-aloha/correax-web) 🤖 | Planning and future monorepo host for consolidating small *.correax.com Azure Static Web Apps into www.correax.com. See docs/CONSOLIDATION-PLAN.md. | Oct 28, 2026 |
+| 🔒 [correax-web](https://github.com/fabioc-aloha/correax-web) 🤖 | Planning and future monorepo host for consolidating small *.correax.com Azure Static Web Apps into www.correax.com. See docs/CONSOLIDATION-PLAN.md. | Nov 1, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Jun 7, 2026 |
 | 🔒 [cpe-profiles](https://github.com/fabioc-aloha/cpe-profiles) 🤖 | Source-controlled PBIR authoring for the next GCX Profile reports; definitions edited as code via the Fabric REST API. | Sep 13, 2026 |
 | 🔒🪦 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Jul 13, 2025 |
@@ -402,6 +402,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | QR code generation HTTP API on Azure Functions, mirroring a subset of goqr.me's create-qr-code API. | Jul 1, 2026 |
 | 🔒 [scout-workspaces](https://github.com/fabioc-aloha/scout-workspaces) | Working asset store for Scout sessions: UAT screenshots and review captures for AI Wars, AIRS, and site work. | Sep 4, 2026 |
 | 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Sep 8, 2026 |
+| 🔒 [TheEditor](https://github.com/fabioc-aloha/TheEditor) 🤖 | — | Nov 2, 2026 |
 | 🔒 [VerificationHabit](https://github.com/fabioc-aloha/VerificationHabit) | — | Oct 11, 2026 |
 | 🔒 [VideoScout](https://github.com/fabioc-aloha/VideoScout) | Context-aware video research engine: discovers and evaluates the videos worth watching for the task at hand. | Aug 29, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | Local, review-first tool for collecting, approving, and exporting cross-device wallpapers from curated sources. | Aug 16, 2026 |
