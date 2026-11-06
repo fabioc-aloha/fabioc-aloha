@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=a67eade0b9">
-<img src="portfolio.svg?v=eeb37cc859" alt="Portfolio dashboard: 154 repositories, 143 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=de2f3ec72d">
+<img src="portfolio.svg?v=73f9cb2672" alt="Portfolio dashboard: 145 repositories, 134 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -200,8 +200,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [Declarative-Agents](https://github.com/fabioc-aloha/Declarative-Agents) 🤖 | Builds Microsoft 365 declarative agents that apply the right capability to a specific user task. | Nov 6, 2026 |
 | 📂 [executive-coach](https://github.com/fabioc-aloha/executive-coach) 🤖 | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Nov 6, 2026 |
 | 🔒 [FabricCapacity](https://github.com/fabioc-aloha/FabricCapacity) 🤖 | Production blueprint for an EU-resident, compliance-certified analytics platform — enabling regulated workloads to operate within European data sovereignty boundaries while clearing privacy, security, responsible-AI, and threat-modeling gates. | May 12, 2026 |
-| 🔒 [FreddyAssistant](https://github.com/fabioc-aloha/FreddyAssistant) | Backup of Freddy's environment: identity and operating files, long-term memory, goals and tracked work, scheduled jobs, and created artifacts for Fabio Correa's personal AI assistant on Muse. | Nov 6, 2026 |
-| 🔒 [ideas](https://github.com/fabioc-aloha/ideas) 🤖 | Project plans, ideas, and Alex cognitive architecture domain knowledge | Nov 6, 2026 |
 | 🔒 [kaggle](https://github.com/fabioc-aloha/kaggle) 🤖 | Working repo for a long-horizon Kaggle campaign: research, tooling, and per-competition work. | Nov 6, 2026 |
 | 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | Nov 6, 2026 |
 | 🔒 [LearnAI](https://github.com/fabioc-aloha/LearnAI) 🤖 | Developer and publisher of a free AI skills training platform at learnai.correax.com. New use cases for AI are researched, training is developed, and the result is delivered in a friendly interface. Workshop playbooks, Dialog Engineering foundation, and verified LinkedIn-shareable certificates of completion. | Nov 6, 2026 |
@@ -221,7 +219,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [spotify-curation-studio](https://github.com/fabioc-aloha/spotify-curation-studio) | Local-first, policy-aware playlist curation and Spotify account management research. | Aug 11, 2026 |
 | 📂🪦 [spotify-mcpb](https://github.com/fabioc-aloha/spotify-mcpb) 🤖 | 🎵 AI-powered Spotify control through Claude Desktop. Enhanced smart play, user library management & playlist control. Cross-platform MCPB bundle with 22 comprehensive tools using Spotify Web API. Windows, macOS, Linux support. | Oct 20, 2025 |
 | 🔒 [the-defensible-decision](https://github.com/fabioc-aloha/the-defensible-decision) 🤖 | Companion website for The Defensible Decision, Fabio Correa's guide to AI-assisted business analytics. | Nov 6, 2026 |
-| 🔒 [The-Hype-Check](https://github.com/fabioc-aloha/The-Hype-Check) 🤖 [archived] | LinkedIn AIRS content engine - career-transition runway for Dr. Fabio Correa (pivot out of Microsoft, July 2026) | Nov 6, 2026 |
 | 📂 [tldr](https://github.com/fabioc-aloha/tldr) 🤖 | Local-only Windows document summarizer for highly sensitive information that cannot leave the machine. Powered by Phi-4 Mini via Microsoft Foundry Local: no cloud, no API keys, no telemetry. Drop a PDF, DOCX, or text, pick from five styles and three detail levels, hear it read aloud. Self-contained single-file exe, runs on CPU, GPU, or NPU. | Nov 6, 2026 |
 | 📂 [youtube-mcp-server](https://github.com/fabioc-aloha/youtube-mcp-server) 🤖 | Legacy standalone MCP server source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Nov 6, 2026 |
 | 📂 [youtube-mcp-tools](https://github.com/fabioc-aloha/youtube-mcp-tools) 🤖 | Canonical YouTube intelligence for VS Code and modern MCP hosts. | Nov 6, 2026 |
@@ -230,7 +227,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒 [AIRS_Future_Research](https://github.com/fabioc-aloha/AIRS_Future_Research) | Private companion to AIRS_Data_Analysis: research planning materials, proprietary IP, and future-research roadmap (post-DBA) | Nov 6, 2026 |
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | Illustrator studio for The Defensible Decision, Fabio Correa's book on AI-assisted business analytics: figure and illustration production. | Nov 6, 2026 |
 | 📂 [Alex_ACT_Visual_Storytelling](https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling) 🤖 [archived] | Visual storytelling plugin factory for the ACT fleet. Develops, tests, and publishes modular plugins (chart selection, data prep, datasource connectors, delivery targets) to Alex_ACT_Plugin_Mall. | Nov 6, 2026 |
 | 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Nov 6, 2026 |
@@ -280,7 +276,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [seo-monitor](https://github.com/fabioc-aloha/seo-monitor) 🤖 | Watches Google Search Console and Bing Webmaster Tools across Fabio's websites; runs the weekly SEO scan and tracks issues. | Nov 6, 2026 |
 | 🔒 [ServiceTree_IcM](https://github.com/fabioc-aloha/ServiceTree_IcM) | Unified CLI to manage Microsoft Service Tree services and IcM configuration for the team. | Nov 6, 2026 |
 | 📂 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Nov 6, 2026 |
-| 🔒 [VerificationHabit](https://github.com/fabioc-aloha/VerificationHabit) | Digital products storefront for Fabio Correa's practitioner toolkits: checklists, scorecards, and frameworks drawn from his books, starting with The Verification Habit. | Nov 6, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | Wallpaper Foundry: a local, review-first tool for collecting, approving, and exporting wallpapers. | Nov 6, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 25, 2026 |
 | 🔒 [zoom-notes](https://github.com/fabioc-aloha/zoom-notes) 🤖 | Local tooling for retrieving viewer-authorized Zoom recording artifacts and preparing them for transcription, summarization, and slide extraction. | Nov 6, 2026 |
@@ -301,8 +296,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [alex-editor](https://github.com/fabioc-aloha/alex-editor) 🤖 | HBR publication pipeline and Alex cognitive architecture workspace | Nov 6, 2026 |
 | 📂 [AlexCook](https://github.com/fabioc-aloha/AlexCook) 🤖 | The Alex Cookbook - An AI-generated family cookbook with 100+ recipes. IBS-friendly options, picky-eater approved, and yes, theres a whole chapter for the dogs. | Nov 6, 2026 |
 | 🔒 [amidar](https://github.com/fabioc-aloha/amidar) | Grid Runner: an original grid-capture arcade game in TypeScript and Canvas 2D (Vite), built as a pure static bundle. | Nov 6, 2026 |
-| 🔒 [career-materials](https://github.com/fabioc-aloha/career-materials) 🤖 | Private backup of Fabio Correa's job-hunt working materials (created 2026-10-17, reorganized 2026-10-22). | Nov 6, 2026 |
-| 🔒 [charlotte-two-property-plan](https://github.com/fabioc-aloha/charlotte-two-property-plan) 🤖 | Private planning repo for a two-property location plan across candidate cities; the source of truth for that work. | Nov 6, 2026 |
 | 🔒 [circuit-breaker-handheld](https://github.com/fabioc-aloha/circuit-breaker-handheld) 🤖 | Boss-rush block stacker for handhelds. A Godot 4 port of the Circuit Breaker web game, built for the Anbernic RG Rotate. | Oct 31, 2026 |
 | 📂 [Comedy](https://github.com/fabioc-aloha/Comedy) 🤖 | Comedy writing and humor generation platform with AI-assisted joke creation, comedic timing analysis, and entertainment content development | Nov 6, 2026 |
 | 📂 [Creative](https://github.com/fabioc-aloha/Creative) 🤖 | Creative writing and content generation tools with AI-powered assistance for storytelling, ideation, and artistic expression | Nov 6, 2026 |
@@ -312,7 +305,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [gravitas](https://github.com/fabioc-aloha/gravitas) 🤖 | Gravitas: generative black-hole scenes, grounded in relativity. | Nov 6, 2026 |
 | 🔒🪦 [health](https://github.com/fabioc-aloha/health) 🤖 | Turn your own medical records into clear answers and better conversations with your care team. Personal grounding, not population averages. A decision-support companion for the patient — every finding routes to a provider conversation, never replaces one. | May 6, 2026 |
 | 🔒 [JollyAssistant](https://github.com/fabioc-aloha/JollyAssistant) | Snapshot backup of Jolly, a personal Muse assistant environment. | Nov 6, 2026 |
-| 🔒 [msft-career](https://github.com/fabioc-aloha/msft-career) 🤖 | Microsoft-facing career management (Connect, identity, strategy, advisors, VRP history) - spun off from fabioc-aloha/job 2026-06-27 | Nov 6, 2026 |
 | 🔒 [www-correax](https://github.com/fabioc-aloha/www-correax) 🤖 | Personal site (www.correax.com / contact.correax.com) + canonical resume - spun off from fabioc-aloha/job 2026-06-27 | Nov 6, 2026 |
 
 ### Uncategorized
@@ -321,7 +313,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [Agency](https://github.com/fabioc-aloha/Agency) 🤖 | Starter workspace for Agency agent runs: install script, agent config, handoff notes, and test logs. | Nov 6, 2026 |
 | 🔒 [Alex_Finch_ACT](https://github.com/fabioc-aloha/Alex_Finch_ACT) | An outside agent's independent reading of the Alex ACT constellation, recorded as a review artifact. | Nov 6, 2026 |
-| 🔒 [Alex_Monetization](https://github.com/fabioc-aloha/Alex_Monetization) | Working strategy for monetizing the Alex ecosystem: offers, channels, and pricing notes (August 2026). | Nov 6, 2026 |
 | 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 6, 2026 |
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Nov 6, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Nov 6, 2026 |
