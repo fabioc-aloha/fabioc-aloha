@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=b4d6d8d0b6">
-<img src="portfolio.svg?v=c6d652b534" alt="Portfolio dashboard: 154 repositories, 143 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=a67eade0b9">
+<img src="portfolio.svg?v=eeb37cc859" alt="Portfolio dashboard: 154 repositories, 143 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -89,6 +89,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 > ### 📂 [harness-assessment](https://github.com/fabioc-aloha/harness-assessment)
 >
+> *Grade the harness, not the demo.*
+>
 > A black-box assessment of AI tools, run from the operator's seat against the ten Harness Canvas fields from Loop Engineering, second edition. Scripted probes under a frozen method score the harness a tool ships with, and every verdict publishes with its traces. Phase 0 is frozen; pilots come next.
 >
 > 🐍 `Python`
@@ -97,6 +99,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 > ### 📂 [spotify-skill](https://github.com/fabioc-aloha/spotify-skill) 🤖
 >
+> *A production integration, packaged as a skill.*
+>
 > A production Spotify API integration packaged as a Claude skill, with OAuth 2.0 and forty-plus methods covering playback, playlists, and library management. It doubles as a toolkit for building skills of your own, and it is the reference implementation Fabio points to for what a finished skill looks like.
 >
 > 🐍 `Python` · ⭐ 18
@@ -104,6 +108,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 > 🎒 `agent-skills` 🤖 `ai` 🏷️ `anthropic` 🏷️ `api-wrapper` 🏷️ `claude` 🏷️ `claude-ai` 🏷️ `examples` 🏷️ `oauth2` 🐍 `python` 🏷️ `skill-development` 🎒 `skills` 🏷️ `spotify-api` 🏷️ `tutorial`
 
 > ### 📂 [SurveyFunnel](https://github.com/fabioc-aloha/SurveyFunnel) 🤖
+>
+> *Empathy, taught at arcade speed.*
 >
 > Dear Valued Customer is a retro arcade training game about survey response work. Players balance audience, invitation, and questionnaire against goodwill and credits, and learn in play why response rate is a benchmark rather than the win condition. Live on Azure Static Web Apps, built from a single HTML file.
 >
@@ -133,6 +139,8 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 > ### 📂 [circuit-breaker](https://github.com/fabioc-aloha/circuit-breaker) 🤖
 >
+> *Two classics, one cartridge.*
+>
 > A cyberpunk arcade remix: Tetris blocks, a Donkey Kong-style gorilla hurling them down, and Pac-Man-shaped attackers in Boss Rush mode. TypeScript on Canvas and Web Audio, zero runtime dependencies, playable at cb.correax.com, with a handheld port in its own repository.
 >
 > 🟦 `TypeScript`
@@ -151,7 +159,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [ACT_Skills_for_Scout](https://github.com/fabioc-aloha/ACT_Skills_for_Scout) | Production-ready user-global ACT skills and Flint charting bundle for Microsoft Scout. | Aug 28, 2026 |
-| 🔒 [AI_Talks](https://github.com/fabioc-aloha/AI_Talks) 🤖 | Slides, notes, and materials for Fabio Correa's talks on AI. (Drafted from the repo name; confirm.) | Nov 6, 2026 |
+| 🔒 [AI_Talks](https://github.com/fabioc-aloha/AI_Talks) 🤖 | Slides, notes, and materials for Fabio Correa's talks on AI. | Nov 6, 2026 |
 | 🔒 [ai-tldr](https://github.com/fabioc-aloha/ai-tldr) 🤖 | Audio-first on-device LLM reading app (planning phase) | Nov 6, 2026 |
 | 📂🪦 [ai-wallpaper-generator](https://github.com/fabioc-aloha/ai-wallpaper-generator) 🤖 | AI-powered wallpaper generator PWA optimized for iPhone 16 Pro using Azure serverless and Replicate AI | Feb 21, 2026 |
 | 🔒 [AIRS](https://github.com/fabioc-aloha/AIRS) 🤖 | DBA dissertation project: development and validation of the AI Readiness Scales (AIRS), the instrument behind AIRS-16. | Nov 6, 2026 |
@@ -265,18 +273,15 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [Altman-Z-Score](https://github.com/fabioc-aloha/Altman-Z-Score) 🤖 | Financial analysis tool implementing the Altman Z-Score model for bankruptcy prediction and corporate financial health assessment | Nov 6, 2026 |
 | 🔒 [BRD](https://github.com/fabioc-aloha/BRD) 🤖 | Business Requirements Documentation tools and templates for enterprise software development and project management | Nov 6, 2026 |
 | 📂 [Extensions](https://github.com/fabioc-aloha/Extensions) | Productivity toolset for VS Code developers. Monorepo of 16 standalone extensions, 9 live on the Marketplace under publisher fabioc-aloha: Hook Studio, Workspace Watchdog, MCP App Starter, Knowledge Decay Tracker, AI Voice Reader, SecretGuard, Focus Timer, Markdown to Word, Brandfetch Logo Fetcher. More on the way. | Aug 24, 2026 |
-| 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | Family calendar project. (Repo still carries the Spark template README; replace this draft once the real content lands.) | Nov 6, 2026 |
 | 📂 [Investing](https://github.com/fabioc-aloha/Investing) 🤖 | Investment analysis and portfolio management tools with financial modeling and market research capabilities | Nov 6, 2026 |
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Nov 6, 2026 |
 | 📂🪦 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
-| 🔒 [media-review-hub](https://github.com/fabioc-aloha/media-review-hub) 🤖 | Media review hub. (Repo still carries the Spark template README; replace this draft once the real content lands.) | Nov 6, 2026 |
 | 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Nov 6, 2026 |
 | 🔒 [seo-monitor](https://github.com/fabioc-aloha/seo-monitor) 🤖 | Watches Google Search Console and Bing Webmaster Tools across Fabio's websites; runs the weekly SEO scan and tracks issues. | Nov 6, 2026 |
 | 🔒 [ServiceTree_IcM](https://github.com/fabioc-aloha/ServiceTree_IcM) | Unified CLI to manage Microsoft Service Tree services and IcM configuration for the team. | Nov 6, 2026 |
 | 📂 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Nov 6, 2026 |
 | 🔒 [VerificationHabit](https://github.com/fabioc-aloha/VerificationHabit) | Digital products storefront for Fabio Correa's practitioner toolkits: checklists, scorecards, and frameworks drawn from his books, starting with The Verification Habit. | Nov 6, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | Wallpaper Foundry: a local, review-first tool for collecting, approving, and exporting wallpapers. | Nov 6, 2026 |
-| 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | World time zone converter. (Repo still carries the Spark template README; replace this draft once the real content lands.) | Nov 6, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 25, 2026 |
 | 🔒 [zoom-notes](https://github.com/fabioc-aloha/zoom-notes) 🤖 | Local tooling for retrieving viewer-authorized Zoom recording artifacts and preparing them for transcription, summarization, and slide extraction. | Nov 6, 2026 |
 
@@ -321,14 +326,17 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Nov 6, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Nov 6, 2026 |
 | 🔒 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Nov 6, 2026 |
+| 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | Family calendar project. | Nov 6, 2026 |
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | Private writing workspace: drafts on the right to act, plus a letter to Lavi. | Nov 6, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | Documentation workspace: Loop Engineering research, Alex ACT setup evidence, and working notes. | Nov 6, 2026 |
 | 🔒 [LinkedIn-Research](https://github.com/fabioc-aloha/LinkedIn-Research) 🤖 | Assistant-supported LinkedIn research, drafting, and engagement workflow (private) | Nov 6, 2026 |
 | 🔒 [macosapp](https://github.com/fabioc-aloha/macosapp) | Working notes and prototypes for a macOS app project. | Nov 6, 2026 |
+| 🔒 [media-review-hub](https://github.com/fabioc-aloha/media-review-hub) 🤖 | Media review hub. | Nov 6, 2026 |
 | 🔒 [scout-workspaces](https://github.com/fabioc-aloha/scout-workspaces) | Working asset store for Scout sessions: UAT screenshots and review captures for AI Wars, AIRS, and site work. | Nov 6, 2026 |
 | 🔒 [seo-correax](https://github.com/fabioc-aloha/seo-correax) 🤖 | Cross-site SEO, search visibility, and discoverability operations for CorreaX web properties. | Nov 6, 2026 |
 | 🔒 [TheEditor](https://github.com/fabioc-aloha/TheEditor) 🤖 | An editorial workbench for technical books, built around findings an author can act on. | Nov 6, 2026 |
 | 🔒 [VideoScout](https://github.com/fabioc-aloha/VideoScout) | VideoScout: finds the videos worth watching for what you are trying to accomplish. | Nov 6, 2026 |
+| 🔒 [world-time-zone-conv](https://github.com/fabioc-aloha/world-time-zone-conv) 🤖 | World time zone converter. | Nov 6, 2026 |
 <!-- PORTFOLIO:END -->
 
 ## 🤖 Automated Portfolio Management
