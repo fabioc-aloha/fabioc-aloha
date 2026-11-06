@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=de2f3ec72d">
-<img src="portfolio.svg?v=73f9cb2672" alt="Portfolio dashboard: 145 repositories, 134 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=b801afedef">
+<img src="portfolio.svg?v=ddbdee1f5e" alt="Portfolio dashboard: 140 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
 </picture>
 </p>
 
@@ -152,7 +152,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒🪦 [AcademicPublications](https://github.com/fabioc-aloha/AcademicPublications) 🤖 | Academic portfolio website built with GitHub Pages | Apr 25, 2026 |
-| 🔒 [cpe-profiles](https://github.com/fabioc-aloha/cpe-profiles) 🤖 | Source-controlled PBIR authoring for the next version of the GCX Profile reports (Microsoft CPE). | Nov 6, 2026 |
 
 ### AI & Machine Learning
 
@@ -230,7 +229,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [Alex_ACT_DDA](https://github.com/fabioc-aloha/Alex_ACT_DDA) 🤖 | Illustrator studio for The Defensible Decision, Fabio Correa's book on AI-assisted business analytics: figure and illustration production. | Nov 6, 2026 |
 | 📂 [Alex_ACT_Visual_Storytelling](https://github.com/fabioc-aloha/Alex_ACT_Visual_Storytelling) 🤖 [archived] | Visual storytelling plugin factory for the ACT fleet. Develops, tests, and publishes modular plugins (chart selection, data prep, datasource connectors, delivery targets) to Alex_ACT_Plugin_Mall. | Nov 6, 2026 |
 | 🔒 [analytics-correax](https://github.com/fabioc-aloha/analytics-correax) 🤖 | CorreaX Constellation Tracker - Azure Functions + Table Storage analytics stack (successor to Umami-based tracker-correax) | Nov 6, 2026 |
-| 🔒 [cpesynapse-V2](https://github.com/fabioc-aloha/cpesynapse-V2) | Version-controlled artifacts for the cpesynapse Azure Synapse workspace. | Nov 6, 2026 |
 | 📂 [data-formulator-vscode](https://github.com/fabioc-aloha/data-formulator-vscode) 🤖 | VS Code packaging of Microsoft Research's Data Formulator: AI-powered data exploration and visualization. (Drafted from the README; confirm.) | Nov 6, 2026 |
 | 🔒 [fabioc-environment](https://github.com/fabioc-aloha/fabioc-environment) | Captures the installed tools and user-level configuration behind Fabio's development root, keeping observed machine state separate from inferred repo requirements, with credential-shaped data rejected before it is tracked. | Nov 6, 2026 |
 | 🔒 [KalabashDashboard](https://github.com/fabioc-aloha/KalabashDashboard) 🤖 | Professional desktop financial market tracking with 8-Factor Investment Rating System, 60+ financial ratios, advanced technical indicators (Bollinger Bands, RSI, MACD, Stochastic), and comprehensive Learn section with 17 illustrated financial terms. Built with React + TypeScript + Electron. | Nov 6, 2026 |
@@ -241,7 +239,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 📂 [AlexQ_Template](https://github.com/fabioc-aloha/AlexQ_Template) 🤖 | Universal Qualtrics + Azure integration template with production-ready patterns, SFI governance, comprehensive API reference (140+ endpoints), dashboard & ticketing architectures, and Alex Q cognitive framework | Nov 6, 2026 |
 | 🔒 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jul 1, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | QR code generation HTTP API mirroring a useful subset of goqr.me's create-qr-code API, running on Azure Functions Premium. | Nov 6, 2026 |
 
@@ -258,7 +255,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Nov 6, 2026 |
 | 🔒 [correax-web](https://github.com/fabioc-aloha/correax-web) 🤖 | Planning and future monorepo host for consolidating small *.correax.com Azure Static Web Apps into www.correax.com. See docs/CONSOLIDATION-PLAN.md. | Nov 6, 2026 |
 | 🔒 [eu-correax](https://github.com/fabioc-aloha/eu-correax) 🤖 [archived] | EU Decompression research site (eu.correax.com) - spun off from fabioc-aloha/job 2026-06-27 | Nov 6, 2026 |
-| 🔒 [gcx-tldr](https://github.com/fabioc-aloha/gcx-tldr) 🤖 | GCX TL;DR: weekly CX research briefing for the Microsoft GCX community, published as an internal Entra-walled Azure Static Web App. | Nov 6, 2026 |
 | 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 [archived] | Loop Engineering companion site (recovered source + D2 hero) | Nov 6, 2026 |
 
 ### Developer Tools
@@ -274,7 +270,6 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂🪦 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Nov 6, 2026 |
 | 🔒 [seo-monitor](https://github.com/fabioc-aloha/seo-monitor) 🤖 | Watches Google Search Console and Bing Webmaster Tools across Fabio's websites; runs the weekly SEO scan and tracks issues. | Nov 6, 2026 |
-| 🔒 [ServiceTree_IcM](https://github.com/fabioc-aloha/ServiceTree_IcM) | Unified CLI to manage Microsoft Service Tree services and IcM configuration for the team. | Nov 6, 2026 |
 | 📂 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Nov 6, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | Wallpaper Foundry: a local, review-first tool for collecting, approving, and exporting wallpapers. | Nov 6, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 25, 2026 |
