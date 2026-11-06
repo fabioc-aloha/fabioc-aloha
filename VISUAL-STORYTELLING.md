@@ -1,6 +1,6 @@
 # Visual Storytelling with Data: Building a Self-Updating GitHub Portfolio
 
-A walk-through of how this repository's portfolio dashboard is built, from raw GitHub API data to a single, self-contained SVG with banner, treemap, KPIs, and an LLM-authored executive summary.
+A walk-through of how this repository's portfolio dashboard is built, from raw GitHub API data to a single, self-contained SVG with banner, KPI strip, theme and activity panels, and a chat-authored executive summary.
 
 This is a tutorial, not a reference. It explains *why* each step looks the way it does, what we tried, and what we kept.
 
@@ -14,81 +14,37 @@ I am Dr. Fabio Correa: Director of Advanced Analytics & Data Science at Microsof
 
 Résumés make claims. Most GitHub profiles make noise. I wanted something that *demonstrates* rather than asserts, so I built one. Three properties make this a credible exhibit:
 
-- **The thing you are looking at *is* the work.** A self-updating portfolio that classifies 100+ repositories, clusters their topics, writes its own executive summary, runs its own Responsible-AI review, and renders a treemap-driven dashboard, every day at 6 AM Eastern, autonomously, in CI (Continuous Integration: GitHub's servers run the pipeline on a schedule, gate each step, and only publish when every check passes). If I cannot ship a working AI pipeline for my own profile, why would anyone trust me to ship one for their enterprise?
-- **Every design decision is a position statement.** Hash-based caching means we never burn LLM tokens on identical inputs, the same discipline that takes enterprise GenAI from a cost center to a margin-positive product. Strict review gates fail the build on regression. The cover-letter executive summary at the top of the README is applied *dialog engineering*: opinionated, evidence-based, audience-aware. (Yes, dialog engineering, not prompt engineering. Alex and I are writing a book on why that distinction matters; the short version is that a single prompt is a guess, a dialog is a system.)
+- **The thing you are looking at *is* the work.** A self-updating portfolio that classifies 100+ repositories by their topics, maps those topics to themes, and renders its dashboard, every day at 6 AM Eastern, autonomously, in CI (Continuous Integration: GitHub's servers run the pipeline on a schedule, gate each step, and only publish when every check passes). The executive summary is written by a human in chat and approved word by word; no part of the daily run calls a model. If I cannot ship a working automated pipeline for my own profile, why would anyone trust me to ship one for their enterprise?
+- **Every design decision is a position statement.** Deterministic stages mean the same input produces the same output on every run, so every number on the page can be recomputed from the artifacts and checked, the same discipline that makes enterprise automation auditable instead of a matter of faith. Strict review gates fail the build on regression. The cover-letter executive summary at the top of the README is applied *dialog engineering*: opinionated, evidence-based, audience-aware. (Yes, dialog engineering, not prompt engineering. Alex and I are writing a book on why that distinction matters; the short version is that a single prompt is a guess, a dialog is a system.)
 - **The portfolio underneath is the proof.** AIRS, my doctoral dissertation, a validated AI Readiness Scale (N=523, SEM-validated). Alex, an open-source cognitive architecture. Dozens of pipelines spanning Azure OpenAI, predictive analytics, data governance, and applied research. The dashboard scans in 15 seconds; the repos themselves are the receipts.
 
 If you happen to be evaluating me for such a role (hypothetically, of course), every section below also answers "what would you do on day one?" Staged pipelines, content-hashed caching, evidence-based prompts, hard review gates, calm visual design. That is how I would build your AI initiatives.
 
-One more thing. The AI assistant who paired with me on this entire system, who classifies the repos, clusters the topics, and iterates on the prose you are reading right now, is **Alex**. Alex is an open-source cognitive architecture I designed and shipped ([alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture)). The most sophisticated piece of evidence in this portfolio is not a repo, a chart, or a citation. It is the collaborator. *Alex is the ultimate showcase of my work*: a working AI partner, designed by me, doing real work on a real production system, in public, every day at 6 AM Eastern.
+One more thing. The AI assistant who paired with me to design and build this entire system, and who iterates on the prose you are reading right now, is **Alex**. Alex is an open-source cognitive architecture I designed and shipped ([alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture)). The most sophisticated piece of evidence in this portfolio is not a repo, a chart, or a citation. It is the collaborator. *Alex is the ultimate showcase of my work*: a working AI partner, designed by me, doing real work on a real production system, in public, every day at 6 AM Eastern.
 
 > 📄 [Full résumé](https://www.correax.com/resume) · 💬 [Schedule a conversation](https://aka.ms/AskFabio)
 
 ---
 
-## Responsible AI: the dog watches the butcher shop
+## The gate: what checks the work
 
-The dashboard's executive summary is chat-authored by Fabio and Alex in dialog, then reviewed and synced into the pipeline config. The daily-generated artifacts (classifications, clusters, tagline) are reviewed by a separate LLM before anything publishes. The AI that *makes* the claims is not the AI that *approves* them.
+The dashboard's executive summary is chat-authored by Fabio and Alex in dialog, then reviewed and synced into the pipeline config. Nothing in the daily run writes prose. The summary reaches the page only after a human approved every word of it, and the machinery around it is checked by rules, not by another model.
 
-> 📌 **A confession from inside the workshop.** The RAI stage you are about to read about did not exist when I started writing this section. I told my AI partner *"and we are applying RAI by having an LLM evaluate the LLM output and flagging risks"*, fully expecting to mark it as a planned next step. By the time I finished the sentence, Alex had already drafted [`scripts/rai-review.mjs`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs), wired it into the pipeline, designed the seven-dimension rubric, computed a deterministic verdict-rollup so quality issues warn but only safety issues block, and surfaced the verdict as a badge under the executive summary card. We then iterated together on the rubric, hardened the evidence rules, and bumped the reviewer to a more capable model. That is not an anecdote about a clever prompt. It is the demonstration. *A genuinely useful AI partner anticipates the ask, ships the implementation, and explains the choices, all in the same conversation.* This document is being co-authored by the same loop.
+That was not always the design. Until November 2026, a Responsible-AI stage (`scripts/rai-review.mjs`) ran a separate LLM, gpt-4o at temperature 0.0, over the summary and the daily artifacts before anything published. A seven-dimension rubric split quality checks (a FAIL warned) from safety checks (a FAIL blocked the publish), every FAIL had to quote the offending phrase as evidence, and the verdict shipped as a badge under the executive summary. GitHub retired GitHub Models, the service that stage called, on July 30, 2026. The stage was retired on November 6, 2026. Its last verdict (PASS, July 29, 2026) is kept in `repos/rai-review.json` as a tombstone, for the record.
 
-### The pattern
+The gate that replaced it is deterministic:
 
-```mermaid
-%%{init: {'themeVariables': {'edgeLabelBackground': '#ffffff'}}}%%
-flowchart TD
-    S[("profile.executiveSummary<br/>chat-authored")] --> R
-    F[("portfolio.config.json<br/>declared objectives")] --> R
-    G[("repo-classification.json<br/>ground-truth facts")] --> R
-    R["rai-review.mjs<br/>gpt-4o · temp 0.0"] -->|7-dimension rubric| C{"Per-check status"}
-    C -->|"safety FAIL"| X["🚫 Block publish<br/>exit 1"]
-    C -->|"quality FAIL"| W["⚠️ Publish<br/>with WARN badge"]
-    C -->|"all PASS"| P["🛡️ Publish<br/>with PASS badge"]
-    X -.-> H[("rai-review.json<br/>auditable receipts")]
-    W -.-> H
-    P -.-> H
-    H --> D["Reader sees verdict<br/>under the executive summary"]
-```
+- **validate-pins** runs right after the fetch and fails the run if any flagship pin in `portfolio.config.json` no longer resolves to a real, visible repo. A renamed pin cannot silently drop its card.
+- **review-content** runs after generation and recomputes the portfolio from the artifacts: category and repo counts, flagship names, dashboard numbers, markers, SVG well-formedness. If the rendered README disagrees with the classification, the run exits non-zero and nothing publishes.
+- **run-report** closes every run with a health record in `repos/run-report.json`: each stage's method and status, anything degraded, descriptions still missing, and topic coverage (how many repos carry no topics, and so classify weakly). A degraded run says so on the record instead of hiding it.
 
-### What gets reviewed
-
-The reviewer receives the executive summary (from `portfolio.config.json`) and judges it against the classification ground truth:
-
-| Input | Role | Source |
-| --- | --- | --- |
-| `summaryUnderReview` | The text being judged. Three paragraphs. | `profile.executiveSummary` from config |
-| `groundedFacts` | What the candidate has publicly declared (role, credentials, signature work). Used to spot fabrication. | `portfolio.config.json` → `portfolioObjectives` |
-| `portfolioFacts` | Deterministic counts and flagship names. Used to spot invented repos. | `repo-classification.json` |
-
-The rubric covers seven dimensions, split into two tiers:
-
-- **Quality checks** (factualGrounding, sourceFidelity, tone, hallucinationRisk). A FAIL here triggers a `⚠️ WARN` badge. The summary still publishes; the warning is logged for review.
-- **Safety-critical checks** (sensitiveContent, biasAndFairness, voiceCompliance). A FAIL here exits the pipeline non-zero. Nothing publishes. The reasons are written to `repos/rai-review.json` for human review before the next run.
-
-The split is deliberate. Quality is a discussion. Safety is absolute. We do not block on "I think the summary should have mentioned Python share earlier"; we *do* block on "the summary added a credential the candidate does not have."
-
-### The implementation choices that matter
-
-A few decisions worth calling out, because they show up in real enterprise RAI programs:
-
-- **A different author, not the same one.** Self-review by the same author is theater. The executive summary is chat-authored by a human and Alex (see Stage 4); the reviewer is `gpt-4o`. Human authorship plus machine review is an even stronger separation than two different model families — the reviewer cannot be biased by its own phrasing. We started this stage on `gpt-4o-mini` and bumped to `gpt-4o` after watching the smaller model hallucinate FAIL reasons it could not back up; capability matters when the LLM is the auditor.
-- **`temperature: 0.0`.** A reviewer that gives different verdicts on identical inputs is a coin flip, not a reviewer. Determinism is non-negotiable.
-- **Evidence-required FAILs.** The rubric tells the reviewer that every FAIL must quote the exact offending phrase from the summary. No "implies", no "suggests", no vibes. *If you cannot quote it, the check passes.* This single rule eliminated most of the false positives we saw during development.
-- **Verdict rollup is deterministic.** The LLM judges per dimension; the script counts the failures and routes them through the safety/quality split. Letting the LLM pick its own overall verdict produced inconsistent rollups, the same "let the model narrate, not count" principle the summary stage already follows.
-- **Cache by hash.** Like every other LLM stage, the RAI call is hash-cached on `(summary + objectives + portfolio facts)`. A clean run with no upstream change costs zero RAI tokens.
-- **Publish the receipt.** The verdict appears as a badge under the executive summary card in the README, linked back to this section. The reader sees the review happened. Full per-check JSON lives in [`repos/rai-review.json`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/repos/rai-review.json), diffable across daily runs.
-
-### What this proves
-
-A portfolio that ships human-authored, AI-assisted prose at the top of its public README, then has a separate AI verify that prose against the candidate's declared sources, then surfaces the verdict where the reader can see it, is not just demonstrating dialog engineering. It is the operational discipline that takes enterprise GenAI from a clever demo to a production system. The review stage is a working answer to the question every responsible AI program is trying to answer: *what stops the model from saying something we cannot stand behind?*
-
-The honest answer most organizations have today is "nothing, we ship it and hope". The answer this portfolio demonstrates is "another model, a different rubric, evidence-required FAILs, hard gates on safety, and the badge on the front page so you can see we did the work".
+The question the old stage tried to answer still stands: what stops the system from saying something we cannot stand behind? The current answer is narrower and stronger. The prose is human-authored and human-approved before it enters the config. The numbers are recomputed by scripts that either match the artifacts or stop the publish. There is no model in the loop to surprise anyone.
 
 ---
 
 ## The finished product
 
-Before we get into the how, here is the what. This is the live portfolio as it renders on [github.com/fabioc-aloha](https://github.com/fabioc-aloha) the morning after a clean pipeline run, banner and treemap and KPIs and executive summary and RAI badge all stitched into a single SVG, plus the curated flagship lineup underneath:
+Before we get into the how, here is the what. This is the live portfolio as it renders on [github.com/fabioc-aloha](https://github.com/fabioc-aloha) the morning after a clean pipeline run, banner and KPI strip and panels and executive summary all stitched into a single SVG, plus the curated flagship lineup underneath:
 
 ![Live portfolio screenshot from github.com/fabioc-aloha](Screenshot_25-4-2026_105318_github.com.jpeg)
 
@@ -106,7 +62,7 @@ The goal of this project is a one-glance answer to three questions:
 2. **What is the shape of the work?**, active vs. archived, deep vs. broad, languages, flagships
 3. **Is it current?**, when was this regenerated, against which data
 
-We answer all three with a single image, regenerated every day at 6 AM Eastern by GitHub Actions, and we let an LLM write the prose that ties it together.
+We answer all three with a single image, regenerated every day at 6 AM Eastern by GitHub Actions, and the prose that ties it together is written in chat and approved by a human before it ships.
 
 The final artifact is `portfolio.svg`, embedded once in [README.md](README.md). Open it: there are no per-section markdown headings between the banner and the stat footer. It is one composed canvas.
 
@@ -124,15 +80,15 @@ For private repos the bar is higher: descriptions stay generic enough to live on
 ## The pipeline
 
 ```text
-fetch-repos  →  classify-repos  →  cluster-topics  →  rai-review  →  generate-readme  →  review-content
-   (gh API)      (gpt-4o-mini)     (Llama-3.1-405B)    (gpt-4o)        (SVG stitch)        (gates)
+fetch-repos  →  validate-pins  →  classify-repos  →  cluster-topics  →  generate-readme  →  review-content  →  run-report
+   (gh API)       (pin check)      (topic signals)     (checked-in map)     (SVG stitch)         (gate)            (health record)
 ```
 
 Each stage writes a JSON artifact and reads only the previous stage's output. That gives us three properties for free:
 
-- **Caching by content hash.** Every LLM stage hashes its input and skips the API call if the hash is unchanged. A scheduled run every day at 6 AM Eastern that hits zero API calls when nothing changed is the default, not the exception.
-- **Replay-ability.** Any stage can be re-run on yesterday's data without re-fetching. Great for prompt iteration.
-- **Failure isolation.** A single failed stage doesn't poison the rest. Cluster failures fall back to cached clusters; summary failures render the README without the prose block.
+- **Determinism.** No stage calls a model. Classification is keyword rules over repo topics; clustering is a lookup in a checked-in map. Same input, same output, every run, and any number on the page can be recomputed by hand from the artifacts.
+- **Replay-ability.** Any stage can be re-run on yesterday's data without re-fetching. Great for debugging a rule or a mapping.
+- **Failure isolation.** A single failed stage doesn't poison the rest. Cluster failure keeps the previous clusters and the run report says so; a failed gate stops the publish entirely.
 
 The orchestrator is [scripts/refresh.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/refresh.mjs). It runs the stages, gates on `review-content.mjs`, and exits non-zero on regression so the GitHub Action never publishes a broken artifact.
 
@@ -148,84 +104,32 @@ The fetch stage has no LLM and no business logic. Its only job is to be **determ
 
 ---
 
-## Stage 2: Classify (LLM #1)
+## Stage 2: Classify (deterministic rules)
 
-Source: `repo-analysis.json`. Output: `repos/repo-classification.json`. Model: **`gpt-4o-mini`** via GitHub Models.
+Source: `repo-analysis.json`. Output: `repos/repo-classification.json`. No model.
 
-Each repo gets a category (from a 10-item taxonomy: AI, Data, Infrastructure, Web Apps, Developer Tools, …) and a tier (`flagship` / `notable` / `standard` / `archived`). The taxonomy is hand-curated in [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs); the LLM only assigns repos to existing buckets.
+Each repo gets a category (from a 10-item taxonomy: AI & Machine Learning, Data & Analytics, Infrastructure, Web Applications, Developer Tools, and the rest) and a tier (`flagship` / `notable` / `standard` / `dormant`). The taxonomy lives in [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs) as signal lists, and the assignment runs in two passes:
 
-### Why `gpt-4o-mini`
+1. **Topics first.** Each repo's GitHub topics are matched exactly against the category signals, in priority order. Topics are the curated keywords; a repo's own tags are the strongest statement of what it is.
+2. **Name and description second.** Only when the topics produce no hit does the script fall back to substring matching on the repo name and description. This exists for repos with thin or no topics.
 
-We benchmarked three models on this stage:
+Tiers are a separate deterministic step in the same script. The hand-curated `pinnedFlagships` list in `portfolio.config.json` takes the flagship tier; the rest are tiered by the date and description rules (a repo with no update in over 180 days is dormant). The classification is computed fresh on every run. No cached result can displace today's.
 
-| Model | Result | Why we rejected / kept |
-| --- | --- | --- |
-| Regex signals only | ~70% accurate | Misses paraphrased topics, no description understanding. Kept as fallback. |
-| `gpt-4o-mini` | ~95% accurate | Cheap, fast, deterministic at `temperature: 0.2`. **Kept.** |
-| `Meta-Llama-3.1-405B-Instruct` | ~96% accurate | Identical quality at 30× the latency. Wasted on a bucket-assignment task. |
-
-Lesson: pick the smallest model that clears the quality bar. Classification is a structured task with a closed output set, a small model handles it.
-
-### The prompt trick: numeric codes
-
-~60–110 repos × ~80 chars each = several KB of names + descriptions in the prompt (the exact count fluctuates as repos are created or excluded). The naive output format is `{"repo-name": "Category"}`, but that doubles the token cost (the names appear twice) and makes JSON keys fragile when names contain dots or quotes.
-
-So we assign short codes:
-
-```text
-R0: spotify-skill, Voice skill connecting Spotify to Alexa
-R1: alex-cognitive-architecture, VS Code extension shipping a portable cognitive architecture
-...
-```
-
-And ask for `{"R0": "AI & Machine Learning", "R1": "Developer Tools"}`. Half the tokens, zero key-collision risk, and the code-to-name map stays in script memory.
+Until November 2026 this stage called `gpt-4o-mini` on GitHub Models and kept the rules as a fallback. The rules turned out to be the honest core of the stage: they are inspectable, they cost nothing, and they cannot be retired by a vendor. When GitHub retired GitHub Models on July 30, 2026, the fallback became the stage. The old prompt is preserved in the appendix as history.
 
 ---
 
-## Stage 3: Cluster topics + tagline (LLM #2)
+## Stage 3: Cluster topics + tagline (deterministic map)
 
-Source: `repo-classification.json` + descriptions. Output: `repos/topic-clusters.json`. Model: **`Meta-Llama-3.1-405B-Instruct`**.
+Source: `repo-classification.json` + `repo-analysis.json`. Output: `repos/topic-clusters.json`. No model.
 
-This stage does two jobs in one call:
+The topic-to-theme mapping lives in the repo as data: [`topic-themes.json`](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/topic-themes.json) at the root, hand-maintained, currently 9 themes over 152 topics. The map was seeded from the last model clustering when the AI stages retired, and it is edited deliberately, in the open, when a topic needs a deliberate home.
 
-1. Group the raw GitHub topics (typically 70–150, depending on how many repos are in scope) into 8–10 named semantic clusters (e.g. "AI & Copilot", "Cloud & Azure")
-2. Write the developer's tagline in one sentence ≤120 chars
+The script applies the map to the day's topics and counts theme membership by repos. A topic that appears in the repos but is not in the map yet is placed by co-occurrence: the repos that use it vote, through their other (already mapped) topics, for a theme. A topic with no co-occurrence signal goes to "Other". Both rules are deterministic: same input repos and topics, same themes out.
 
-### Why we changed models here
+The banner tagline is a stored string in the same file, written in chat and kept until a human revises it. No stage invents a new one overnight.
 
-Initial version used `gpt-4o-mini` for both classification and clustering. The classification was great. The clusters were mediocre, generic names ("Tools", "AI Stuff"), uneven sizes, a bloated "Other" bucket holding 20%+ of topics.
-
-We A/B tested:
-
-| Model | Cluster names | "Other" share | Tagline |
-| --- | --- | --- | --- |
-| `gpt-4o-mini` | Generic | 22% | Bland, often included the user's name (which we forbid) |
-| `gpt-4o` | Better | 14% | Better, but still occasional name leakage |
-| `Meta-Llama-3.1-405B-Instruct` | Specific & portfolio-grade | **8%** | Specific, never name-leaked |
-
-The 405B model justifies its cost here because clustering is **a creative naming task with a global constraint** (every topic must be assigned exactly once, "Other" ≤10%). That is the kind of constraint smaller models violate silently.
-
-### Constraint enforcement
-
-The prompt has explicit JSON schema, hard caps on cluster count, and a validation checklist the model must run before responding. Even so, we don't trust it. The script:
-
-- Strips topics the model hallucinated (returned topics not in the input set)
-- Merges duplicate "Other"-like buckets ("Misc", "General", "Uncategorized") into a single canonical "Other"
-- Re-tries up to 3 times if "Other" exceeds 10%, keeping the run with the smallest "Other"
-- Adds any topics the model dropped to "Other" so the assignment is total
-
-The full system prompt lives in [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) and is reproduced in the appendix below.
-
-### Tagline generation
-
-The tagline is a side-product of the same call. Rules (in the system prompt):
-
-- One sentence, ≤120 characters
-- No name, employer, degree, location, or generic filler
-- Must describe what this person *builds*, not who they *are*
-- Grounded in repo descriptions, with topic frequencies as supporting context
-
-Doing it in the same call (rather than a dedicated tagline stage) gives the model the full corpus and lets it cross-reference clusters with descriptions. Same input, two outputs, one cache key.
+Until November 2026 this stage called `Meta-Llama-3.1-405B-Instruct` to group topics and write the tagline in one call. The model's clusters were good; they became the seed of the checked-in map. The old prompt is preserved in the appendix as history.
 
 ---
 
@@ -242,6 +146,8 @@ The summary is rendered as plain markdown directly under the SVG image in the RE
 ---
 
 ## Stage 4.5: SEO curation (off-cron, human-in-the-loop)
+
+> **Status note, 2026-11-06:** the two proposal muscles described in this section (`seo-curate.cjs` and `fetch-popular-topics.cjs`) no longer exist, and the gpt-4o proposal flow with them. Curation still happens off-cron and human-approved; it now runs as a reviewed pass over the repos' topics and descriptions, with the changes applied by hand. The section stands as the record of the muscle-based design.
 
 The daily pipeline regenerates the dashboard. It does not edit the descriptions or topics on the repos themselves — that is a curation step, not an automation step, and the difference matters.
 
@@ -378,15 +284,16 @@ We **never modify the source file** during the build. Instead, [scripts/generate
 
 ```js
 bannerSvg = bannerSrc
-  // 1. Inject the LLM-generated tagline into the role-line slot.
+  // 1. Inject the stored tagline into the role-line slot, wrapped onto two
+  //    lines when it would overflow the slot at natural width.
   .replace(/<text x="320" y="180"[^>]*>[^<]*<\/text>/,
-    `<text x="320" y="180" ... textLength="800" lengthAdjust="spacingAndGlyphs">${escTagline}</text>`)
+    `<text x="320" y="166" ...>${escTaglineLine1}</text><text x="320" y="192" ...>${escTaglineLine2}</text>`)
   // 2. Add an "Automatic Repository Portfolio For" prelude above the name.
   .replace(/(<!-- Main name -->)/,
     `<text x="320" y="54" ... letter-spacing="3">AUTOMATIC REPOSITORY PORTFOLIO FOR</text>\n  $1`)
-  // 3. Replace the name with the credentialed full name.
+  // 3. Replace the name with the credentialed full name from the config.
   .replace(/<text x="320" y="135" font-size="72"[^>]*>[^<]*<\/text>/,
-    `<text x="320" y="135" font-size="74" ...>Dr. Fabio Correa, DBA</text>`)
+    `<text x="320" y="135" font-size="74" ...>Fabio Correa, DBA</text>`)
   // 4. Replace the static "POWERED BY CORREAX" badge with the build timestamp.
   .replace(/<g transform="translate\(320, 255\)">[\s\S]*?<\/g>/,
     `<g ...><text>UPDATED</text><text x="70" font-weight="700">${escStamp}</text></g>`);
@@ -396,7 +303,7 @@ Each regex anchors on stable layout coordinates (`x="320" y="180"`) or on the so
 
 Why regex and not an SVG parser? The source banner has 200+ elements (gradient stops, filter primitives, a stylized logo). A real parser would let us mutate by ID, but it would also mean introducing an XML dependency and writing a serializer that preserves the source's exact whitespace. Regex over four anchored lines is 8 lines of code and survives every refactor we've thrown at it.
 
-The result of stage 5 is `portfolio.svg`: a single file containing the banner, the treemap, the at-a-glance row, and a centered stats footer (e.g. `63 repositories across 10 categories · 48 actively maintained · 13 flagships` — numbers are computed from the classification JSON at build time). All fonts unified to Segoe UI, all chrome muted-slate `#94a3b8`. The only chromatic accents are the cluster colors.
+The result of stage 5 is `portfolio.svg`: a single file containing the banner, the KPI strip, the theme and activity panels, the languages and tiers panels, and a centered stats footer (numbers are computed from the classification JSON at build time). The combiner writes a light and a dark variant (`portfolio.svg` and `portfolio-dark.svg`), and the README references them through a `picture` element whose URLs carry a short content hash (`?v=...`) of the file each run wrote, so GitHub's image cache can never serve a stale dashboard. All fonts unified to Segoe UI, all chrome muted-slate `#94a3b8`. The only chromatic accents are the theme colors.
 
 ### Footer integration
 
@@ -413,17 +320,17 @@ The stat line used to be a separate `<p align="center">` block of HTML below the
 - Checks every flagship name from the classification appears in the README
 - Validates SVG well-formedness (open + close tags, viewBox present)
 
-If review fails, the GitHub Action exits non-zero and the README is never committed. We catch silent regressions, like an LLM that helpfully drops 3 repos when re-clustering, before they ship.
+If review fails, the GitHub Action exits non-zero and the README is never committed. We catch silent regressions, like a mapping edit that quietly drops 3 repos from a theme, before they ship.
 
 ---
 
-## Stage 7: Responsible-AI review (LLM #3)
+## Stage 7: Run report (the health record)
 
-Source: `profile.executiveSummary` from `portfolio.config.json` plus declared objectives plus a compact ground-truth view of the classification. Output: `repos/rai-review.json`. Model: **`gpt-4o`** at **temperature 0.0**.
+Source: every stage's output. Output: `repos/run-report.json`, plus the GitHub Actions job summary.
 
-This is the stage that earns the "we apply RAI" claim, and it is documented in full in the dedicated [Responsible AI section](#responsible-ai-the-dog-watches-the-butcher-shop) at the top of this document, including the rubric, verdict semantics, mermaid diagram, and the model-selection rationale. The short version: a different LLM evaluates the executive summary against the candidate's declared facts and the deterministic portfolio ground truth, every FAIL must quote the offending phrase, the verdict rollup is computed in deterministic JS (safety FAIL blocks publish, quality FAIL warns), and the receipt ships as a badge on the README.
+The last step of every refresh writes the run's health record: each stage's method and status, anything that degraded, descriptions still missing, archived repos included, and topic coverage, meaning how many repos carry no topics and so classify only on name and description. A run that fell back or skipped something says so in the record; the README itself carries a short pipeline note when a stage degraded, and no note when the run was clean.
 
-The reason this stage is also covered up top is that RAI is not a footnote on a pipeline diagram. It is the difference between "we used an LLM" and "we shipped an LLM responsibly".
+This stage replaced the Responsible-AI review in November 2026. That stage, its rubric, and its retirement are covered in [The gate](#the-gate-what-checks-the-work) at the top of this document; `repos/rai-review.json` remains in the repo as its tombstone.
 
 ---
 
@@ -470,6 +377,8 @@ The traffic dashboard will NOT be part of `refresh.mjs`. It runs on its own week
 
 ## What we learned
 
+Most of these lessons date from the pipeline's model era, which ended on 2026-11-06 when the model stages were retired and replaced with deterministic rules. They stand as the record of that design; the discipline behind them (validate outputs twice, never let a narrator count, cache what is expensive) carried over to the rule-based stages unchanged.
+
 - **Token codes beat token names.** The `R0/R1` substitution halved our classification prompt size with zero quality cost.
 - **Match the model to the task.** Classification is structured → small model. Naming and creative prose → large model. Don't pay 405B prices for a bucket-assignment task.
 - **JSON-only outputs, validated twice.** The model returns JSON, we validate the schema, then we validate the *content* (no hallucinated topics, no missing repos). Both checks have caught real bugs.
@@ -484,7 +393,9 @@ The traffic dashboard will NOT be part of `refresh.mjs`. It runs on its own week
 
 ## Appendix: the prompts
 
-### Classification (gpt-4o-mini, temperature 0.2)
+### Classification (historical: gpt-4o-mini, temperature 0.2, retired 2026-11-06)
+
+> **Note:** Classification is now deterministic keyword rules over repo topics (see Stage 2 above). The prompt below documents the retired model approach, preserved for transparency.
 
 ```text
 You are a GitHub repository classifier. Each repo has a code (R0, R1, ...), a name,
@@ -530,7 +441,9 @@ R4: fabioc-aloha, AI portfolio showcasing ethical human-AI collaboration. Think.
 
 Descriptions are passed verbatim. The `[FORK]` marker is added in the script, not pulled from the GitHub API metadata, because we want it to be a hard token the model can't miss.
 
-### Clustering + tagline (Llama-3.1-405B, temperature 0.3)
+### Clustering + tagline (historical: Llama-3.1-405B, temperature 0.3, retired 2026-11-06)
+
+> **Note:** Clustering is now a checked-in topic-to-theme map (see Stage 3 above), seeded from this model's last output. The prompt below documents the retired model approach, preserved for transparency.
 
 ```text
 You are a GitHub portfolio analysis assistant.
@@ -704,9 +617,9 @@ At ~2K tokens in and ~300 tokens out, the call costs about $0.001 with the 405B 
 | --- | --- |
 | [scripts/refresh.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/refresh.mjs) | Pipeline orchestrator |
 | [scripts/fetch-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/fetch-repos.mjs) | Stage 1, GitHub API fetch |
-| [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs) | Stage 2, LLM classification |
-| [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) | Stage 3, clustering + tagline |
-| [scripts/rai-review.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/rai-review.mjs) | Stage 7, responsible-AI review |
+| [scripts/classify-repos.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/classify-repos.mjs) | Stage 2, deterministic classification |
+| [scripts/cluster-topics.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/cluster-topics.mjs) | Stage 3, deterministic clustering (topic-themes.json) |
+| [scripts/run-report.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/run-report.mjs) | Stage 7, per-run health report |
 | [scripts/generate-readme.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-readme.mjs) | Stage 5, README + SVG composition |
 | [scripts/generate-topic-viz.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-topic-viz.mjs) | Treemap renderer |
 | [scripts/generate-glance-svg.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/generate-glance-svg.mjs) | KPI row renderer |
@@ -715,8 +628,6 @@ At ~2K tokens in and ~300 tokens out, the call costs about $0.001 with the 405B 
 | [scripts/review-content.mjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/scripts/review-content.mjs) | Stage 6, output gates |
 | [docs/brand/logos/banner-profile.svg](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/docs/brand/logos/banner-profile.svg) | Banner template |
 | [portfolio.config.json](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/portfolio.config.json) | Profile, taxonomy, overrides |
-| [.github/muscles/seo-curate.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/seo-curate.cjs) | SEO description + topic proposals |
-| [.github/muscles/fetch-popular-topics.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/fetch-popular-topics.cjs) | Popularity-ranked topic database |
-| [.github/muscles/traffic-snapshot.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/traffic-snapshot.cjs) | Weekly traffic capture |
+| [.github/muscles/local/traffic-snapshot.cjs](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/muscles/local/traffic-snapshot.cjs) | Weekly traffic capture |
 | [.github/workflows/traffic-snapshot.yml](https://github.com/fabioc-aloha/AlexFleetPortfolio/blob/main/.github/workflows/traffic-snapshot.yml) | Weekly traffic workflow |
 | [portfolio.svg](portfolio.svg) | Final dashboard artifact |
