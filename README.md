@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=9605f4ca20">
-<img src="portfolio.svg?v=6279bf1683" alt="Portfolio dashboard: 140 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=c911c1e763">
+<img src="portfolio.svg?v=1ce2eb651d" alt="Portfolio dashboard: 140 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
 </picture>
 </p>
 
@@ -171,7 +171,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [Alex_ACT_Extension](https://github.com/fabioc-aloha/Alex_ACT_Extension) | VS Code extension for Alex ACT Edition -- Artificial Critical Thinking for GitHub Copilot. One-click brain bootstrap, upgrade, status, and Plugin Mall search. | Aug 6, 2026 |
 | 📂 [Alex_ACT_Illustrator_Plugin](https://github.com/fabioc-aloha/Alex_ACT_Illustrator_Plugin) 🤖 | Alex - ACT Edition plugin: pick the right chart, then render it locally via the microsoft/flint-chart MCP server (Vega-Lite / ECharts / Chart.js). | Nov 6, 2026 |
 | 🔒 [Alex_ACT_Memory](https://github.com/fabioc-aloha/Alex_ACT_Memory) | Shared memory bus for ACT-Edition heirs (peer-to-peer) | Nov 6, 2026 |
-| 🔒 [Alex_ACT_ONE_Steward](https://github.com/fabioc-aloha/Alex_ACT_ONE_Steward) 🤖 | Steward for Alex ACT ONE, the Plugin Mall, and the ACT framework | Nov 6, 2026 |
+| 🔒 [Alex_ACT_ONE_Steward](https://github.com/fabioc-aloha/Alex_ACT_ONE_Steward) 🤖 | Steward for Alex ACT ONE, the Plugin Mall, and the ACT framework | Nov 7, 2026 |
 | 📂 [Alex_ACT_Scout](https://github.com/fabioc-aloha/Alex_ACT_Scout) 🤖 | Installable Microsoft Scout skills for disciplined analysis and engineering work, from the Alex ACT family. | Nov 6, 2026 |
 | 🔒 [Alex_ACT_Steward](https://github.com/fabioc-aloha/Alex_ACT_Steward) 🤖 | Top-of-chain steward for the Alex ACT plugin-architecture lineage. Successor to Alex_ACT_Supervisor (per AlexMaster -> Alex_ACT_Supervisor -> Alex_ACT_Steward generational-rename precedent). Founding artifact is Alex_ACT_Steward_Plan.md. | Nov 6, 2026 |
 | 🔒 [Alex_ACT_Supervisor](https://github.com/fabioc-aloha/Alex_ACT_Supervisor) 🤖 | Keeps the ACT fleet trustworthy — curates the heir template and skill marketplace, triages real-world feedback, and ships disciplined releases so every deployed AI assistant stays coherent, current, and accountable. | Nov 6, 2026 |
@@ -308,7 +308,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 |------|-------------|---------|
 | 🔒 [Agency](https://github.com/fabioc-aloha/Agency) 🤖 | Starter workspace for Agency agent runs: install script, agent config, handoff notes, and test logs. | Nov 6, 2026 |
 | 🔒 [Alex_Finch_ACT](https://github.com/fabioc-aloha/Alex_Finch_ACT) | An outside agent's independent reading of the Alex ACT constellation, recorded as a review artifact. | Nov 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 6, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 7, 2026 |
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Nov 6, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Nov 6, 2026 |
 | 🔒 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Nov 6, 2026 |

@@ -159,7 +159,7 @@
   <line x1="320" y1="243" x2="600" y2="243" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
 
   <!-- CorreaX branding badge -->
-  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">Nov 06 2026 12:54 EST</text></g>
+  <g transform="translate(320, 255)" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#94a3b8"><text letter-spacing="1">UPDATED</text><text x="70" font-weight="700">Nov 07 2026 10:59 EST</text></g>
 
   <!-- Tech circuit decorations on right -->
   <g opacity="0.25">
@@ -204,10 +204,10 @@
 <text x="224" y="114" font-size="11.5" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Over 180 days: <tspan font-weight="700">11</tspan></text>
 <text x="14" y="146" font-size="10" font-weight="700" letter-spacing="0.6" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">MOST RECENTLY UPDATED</text>
 <text x="14" y="168" font-size="12" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">AlexFleetPortfolio</text>
-<text x="390" y="168" text-anchor="end" font-size="11.5" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Nov 6, 2026</text>
-<text x="14" y="190" font-size="12" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">AI_Talks</text>
-<text x="390" y="190" text-anchor="end" font-size="11.5" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Nov 6, 2026</text>
-<text x="14" y="212" font-size="12" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">world-time-zone-conv</text>
+<text x="390" y="168" text-anchor="end" font-size="11.5" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Nov 7, 2026</text>
+<text x="14" y="190" font-size="12" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Alex_ACT_ONE_Steward</text>
+<text x="390" y="190" text-anchor="end" font-size="11.5" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Nov 7, 2026</text>
+<text x="14" y="212" font-size="12" fill="#1f2328" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">AI_Talks</text>
 <text x="390" y="212" text-anchor="end" font-size="11.5" fill="#57606a" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">Nov 6, 2026</text></g>
 </g>
 <g transform="translate(0, 535)">
