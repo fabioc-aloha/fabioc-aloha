@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=77cacd805f">
-<img src="portfolio.svg?v=47bd6f51e3" alt="Portfolio dashboard: 140 repositories, 128 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=0528e74560">
+<img src="portfolio.svg?v=524807aef1" alt="Portfolio dashboard: 141 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
 </picture>
 </p>
 
@@ -57,7 +57,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > 🎒 `agent-skills` 🏷️ `agentic-ai` 🤖 `ai` 🤖 `ai-assistant` 🛡️ `ai-governance` ☁️ `azure` 🏷️ `best-practices` 🏷️ `claude-code` 🎒 `claude-skills` 🧩 `copilot` 🧩 `copilot-skills` 💭 `critical-thinking` 🎒 `cursor-skills` 🏷️ `devops` 🧩 `github-copilot` 🏷️ `knowledge-base` 🏷️ `mcp` ✍️ `prompt-engineering` 🏷️ `security` 🏷️ `skill-marketplace`
 
-> ### 📂 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) 🤖
+> ### 🔒 [AIRS_Data_Analysis](https://github.com/fabioc-aloha/AIRS_Data_Analysis) 🤖
 >
 > *The evidence the rest of the portfolio stands on.*
 >
@@ -199,7 +199,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [correax-azure-subscription-monitor](https://github.com/fabioc-aloha/correax-azure-subscription-monitor) | Read-only Azure subscription dashboard as a GitHub Copilot CLI canvas extension: resource inventory, health, Advisor recommendations, policy compliance, and cost forecast. | Nov 6, 2026 |
 | 🔒 [Declarative-Agents](https://github.com/fabioc-aloha/Declarative-Agents) 🤖 | Builds Microsoft 365 declarative agents that apply the right capability to a specific user task. | Nov 6, 2026 |
 | 📂 [executive-coach](https://github.com/fabioc-aloha/executive-coach) 🤖 | Revolutionary Human-AI Learning Partnership specializing in executive coaching and leadership development through conversational learning methodology | Nov 6, 2026 |
-| 🔒 [FabricCapacity](https://github.com/fabioc-aloha/FabricCapacity) 🤖 | Production blueprint for an EU-resident, compliance-certified analytics platform — enabling regulated workloads to operate within European data sovereignty boundaries while clearing privacy, security, responsible-AI, and threat-modeling gates. | May 12, 2026 |
+| 🔒🪦 [FabricCapacity](https://github.com/fabioc-aloha/FabricCapacity) 🤖 | Production blueprint for an EU-resident, compliance-certified analytics platform — enabling regulated workloads to operate within European data sovereignty boundaries while clearing privacy, security, responsible-AI, and threat-modeling gates. | May 12, 2026 |
 | 🔒 [gavi](https://github.com/fabioc-aloha/gavi) 🤖 | A configured Alex cognitive architecture workspace (edition 3.5.0): agents, instructions, and skills, with the Right to Act analysis and edition documents. | Nov 9, 2026 |
 | 🔒 [kaggle](https://github.com/fabioc-aloha/kaggle) 🤖 | Working repo for a long-horizon Kaggle campaign: research, tooling, and per-competition work. | Nov 6, 2026 |
 | 🔒 [Karpathy_Loop](https://github.com/fabioc-aloha/Karpathy_Loop) 🤖 | Karpathy Loop: text-substrate self-improvement loop for Alyva's brain | Nov 6, 2026 |
@@ -242,6 +242,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 | Repo | Description | Updated |
 |------|-------------|---------|
+| 🔒 [gcx-survey-funnel](https://github.com/fabioc-aloha/gcx-survey-funnel) 🤖 | GCX survey funnel: pipeline reference, API docs, quality dashboard specs, research, and decisions | Nov 10, 2026 |
 | 🔒 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jul 1, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | QR code generation HTTP API mirroring a useful subset of goqr.me's create-qr-code API, running on Azure Functions Premium. | Nov 6, 2026 |
 
@@ -272,7 +273,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [mac](https://github.com/fabioc-aloha/mac) 🤖 | Private master repo for together.correax.com — curates content published to fabioc-aloha/together (public template) and Azure SWA | Nov 6, 2026 |
 | 📂🪦 [maya](https://github.com/fabioc-aloha/maya) 🤖 | 🚀 Maya Python scripting tools and tutorials - Starship generators, 3D text creators, and automation scripts for Autodesk Maya | Dec 15, 2025 |
 | 📂 [Q-Weather-USA-Pro](https://github.com/fabioc-aloha/Q-Weather-USA-Pro) 🤖 | Modern US weather + severe-weather alerts applet for Das Keyboard Q. Click-to-open NWS forecast page. | Nov 6, 2026 |
-| 🔒 [seo-monitor](https://github.com/fabioc-aloha/seo-monitor) 🤖 | Watches Google Search Console and Bing Webmaster Tools across Fabio's websites; runs the weekly SEO scan and tracks issues. | Nov 8, 2026 |
+| 🔒 [seo-monitor](https://github.com/fabioc-aloha/seo-monitor) 🤖 | Watches Google Search Console and Bing Webmaster Tools across Fabio's websites; runs the weekly SEO scan and tracks issues. | Nov 9, 2026 |
 | 📂 [Taylor](https://github.com/fabioc-aloha/Taylor) 🤖 | Personal project management and productivity tools with intelligent task organization and workflow optimization | Nov 6, 2026 |
 | 🔒 [wallpaper-foundry](https://github.com/fabioc-aloha/wallpaper-foundry) | Wallpaper Foundry: a local, review-first tool for collecting, approving, and exporting wallpapers. | Nov 6, 2026 |
 | 📂 [youtube-mcp-vscode](https://github.com/fabioc-aloha/youtube-mcp-vscode) 🤖 | Legacy VS Code extension source. Active development moved to github.com/fabioc-aloha/youtube-mcp-tools. | Sep 25, 2026 |
@@ -310,7 +311,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [Alex_Finch_ACT](https://github.com/fabioc-aloha/Alex_Finch_ACT) | An outside agent's independent reading of the Alex ACT constellation, recorded as a review artifact. | Nov 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 9, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 10, 2026 |
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Nov 6, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Nov 6, 2026 |
 | 🔒 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Nov 6, 2026 |
