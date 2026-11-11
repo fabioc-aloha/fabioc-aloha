@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=0528e74560">
-<img src="portfolio.svg?v=524807aef1" alt="Portfolio dashboard: 141 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=d99c886450">
+<img src="portfolio.svg?v=4a0953ce93" alt="Portfolio dashboard: 141 repositories, 128 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
 </picture>
 </p>
 
@@ -242,7 +242,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 
 | Repo | Description | Updated |
 |------|-------------|---------|
-| 🔒 [gcx-survey-funnel](https://github.com/fabioc-aloha/gcx-survey-funnel) 🤖 | GCX survey funnel: pipeline reference, API docs, quality dashboard specs, research, and decisions | Nov 10, 2026 |
+| 🔒 [gcx-survey-funnel](https://github.com/fabioc-aloha/gcx-survey-funnel) 🤖 | GCX survey funnel: pipeline reference, API docs, quality dashboard specs, research, and decisions | Nov 11, 2026 |
 | 🔒 [qr-code](https://github.com/fabioc-aloha/qr-code) 🤖 | Azure Functions HTTP API for generating PNG, JPEG, and SVG QR codes from text, URLs, and workflow payloads. | Jul 1, 2026 |
 | 🔒 [qr-codes-ms](https://github.com/fabioc-aloha/qr-codes-ms) 🤖 | QR code generation HTTP API mirroring a useful subset of goqr.me's create-qr-code API, running on Azure Functions Premium. | Nov 6, 2026 |
 
@@ -257,7 +257,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 📂 [Chat-Starter](https://github.com/fabioc-aloha/Chat-Starter) | A comprehensive React chat assistant framework with AI capabilities, function calling, and conversation persistence | Nov 6, 2026 |
-| 🔒 [correax-web](https://github.com/fabioc-aloha/correax-web) 🤖 | Planning and future monorepo host for consolidating small *.correax.com Azure Static Web Apps into www.correax.com. See docs/CONSOLIDATION-PLAN.md. | Nov 6, 2026 |
+| 🔒 [correax-web](https://github.com/fabioc-aloha/correax-web) 🤖 | Planning and future monorepo host for consolidating small *.correax.com Azure Static Web Apps into www.correax.com. See docs/CONSOLIDATION-PLAN.md. | Nov 11, 2026 |
 | 🔒 [eu-correax](https://github.com/fabioc-aloha/eu-correax) 🤖 [archived] | EU Decompression research site (eu.correax.com) - spun off from fabioc-aloha/job 2026-06-27 | Nov 6, 2026 |
 | 🔒 [le-correax](https://github.com/fabioc-aloha/le-correax) 🤖 [archived] | Loop Engineering companion site (recovered source + D2 hero) | Nov 6, 2026 |
 
