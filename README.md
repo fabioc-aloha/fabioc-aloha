@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=d99c886450">
-<img src="portfolio.svg?v=4a0953ce93" alt="Portfolio dashboard: 141 repositories, 128 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, AI Agents & Skills." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=ca6ecb31d7">
+<img src="portfolio.svg?v=865b7dab5e" alt="Portfolio dashboard: 142 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -185,7 +185,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 📂 [alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture) 🤖 | Cognitive architecture that turns any AI assistant into a proactive organizational teammate, then puts that teammate in command of a fleet of specialist agents working on the user's behalf. Persistent memory across projects, calibrated confidence, proactive risk gates, one intent dispatched to the right specialist with attribution intact. | Nov 6, 2026 |
 | 🔒 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Nov 6, 2026 |
 | 🔒 [alex-counselor](https://github.com/fabioc-aloha/alex-counselor) 🤖 | Personal workspace for studying and applying Viktor Frankl's logotherapy -- three pathways to meaning, Socratic meaning-discovery, paradoxical intention, dereflection. Thinking partner, not licensed clinical practice. Built on Alex ACT Edition with composed Mall skills. | May 30, 2026 |
-| 📂 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
+| 📂🪦 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
 | 🔒🪦 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖 | AlexMedia, a CLI toolkit for AI media production. Image, video, voice cloning, music, 3D, and emoji through 83 Replicate models, with editing commands and end-to-end workflows that ship 3D prints, t-shirts, and stickers. The fleet's creative production engine: one partner, every modality, all the way to the printer. | May 6, 2026 |
 | 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖 | AlexPapers, the research pipeline behind the Future of Work program. Venue-targeted manuscripts spanning HCI, cognitive science, neuroscience, AI ethics, and organizational AI adoption, drafted for CHI, CogSci, FAccT, IEEE, MIS Quarterly, and HBR. Anchored in AIRS-16, feeding books on meta-cognitive AI and human-AI symbiosis. | Nov 6, 2026 |
 | 🔒 [AnyChat](https://github.com/fabioc-aloha/AnyChat) 🤖 | On-device iOS + macOS chat using Apple Foundation Models. SwiftUI, VS Code-first. | Nov 6, 2026 |
@@ -311,10 +311,11 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | Repo | Description | Updated |
 |------|-------------|---------|
 | 🔒 [Alex_Finch_ACT](https://github.com/fabioc-aloha/Alex_Finch_ACT) | An outside agent's independent reading of the Alex ACT constellation, recorded as a review artifact. | Nov 6, 2026 |
-| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 10, 2026 |
+| 🔒 [AlexFleetPortfolio](https://github.com/fabioc-aloha/AlexFleetPortfolio) 🤖 | Build engine for Fabio's GitHub profile: a deterministic pipeline that fetches 150+ repositories, classifies them by their topics, clusters themes, and publishes a self-updating dashboard to a lean profile repo. No model in the loop. | Nov 11, 2026 |
 | 🔒 [correax-azure-management](https://github.com/fabioc-aloha/correax-azure-management) 🤖 | CorreaX Azure asset and application repository management | Nov 6, 2026 |
 | 🔒 [CorreaX360](https://github.com/fabioc-aloha/CorreaX360) 🤖 | Independent adaptation of S360 patterns for a different Azure tenant/subscription | Nov 6, 2026 |
 | 🔒 [DBA710](https://github.com/fabioc-aloha/DBA710) 🤖 | DBA710 - Business Statistics and Research Methods | Nov 6, 2026 |
+| 🔒 [development-environment](https://github.com/fabioc-aloha/development-environment) 🤖 | Rebuild and verify a Windows development environment with preview-first setup and read-only drift checks. | Nov 12, 2026 |
 | 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | Family calendar project. | Nov 6, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | Documentation workspace: Loop Engineering research, Alex ACT setup evidence, and working notes. | Nov 6, 2026 |
 | 🔒 [LinkedIn-Research](https://github.com/fabioc-aloha/LinkedIn-Research) 🤖 | Assistant-supported LinkedIn research, drafting, and engagement workflow (private) | Nov 6, 2026 |
