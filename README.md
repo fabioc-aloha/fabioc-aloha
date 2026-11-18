@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=e23388d44e">
-<img src="portfolio.svg?v=190d753c5e" alt="Portfolio dashboard: 142 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=67e801f6ae">
+<img src="portfolio.svg?v=ff6e37a7af" alt="Portfolio dashboard: 142 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -53,7 +53,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > The marketplace where the fleet's proven skills are published. Two hundred lessons from real projects across fifty-plus domains, each distilled into drop-in expertise for an AI partner. Every skill earned its place in production before it was written down.
 >
-> 🐍 `Python` · ⭐ 5
+> 🐍 `Python` · ⭐ 6
 >
 > 🎒 `agent-skills` 🏷️ `agentic-ai` 🤖 `ai` 🤖 `ai-assistant` 🛡️ `ai-governance` ☁️ `azure` 🏷️ `best-practices` 🏷️ `claude-code` 🎒 `claude-skills` 🧩 `copilot` 🧩 `copilot-skills` 💭 `critical-thinking` 🎒 `cursor-skills` 🏷️ `devops` 🧩 `github-copilot` 🏷️ `knowledge-base` 🏷️ `mcp` ✍️ `prompt-engineering` 🏷️ `security` 🏷️ `skill-marketplace`
 
