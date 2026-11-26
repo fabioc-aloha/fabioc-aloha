@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=1d53bb908f">
-<img src="portfolio.svg?v=495696ecb6" alt="Portfolio dashboard: 142 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=3883312956">
+<img src="portfolio.svg?v=d0c5dfaa50" alt="Portfolio dashboard: 142 repositories, 128 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -43,7 +43,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 >
 > The ACT framework ported to Muse. Sixty skills triaged to fifty-two, each kept only for what Muse does not already do natively. The same discipline running on a second host shows the partnership lives in the method.
 >
-> 🟨 `JavaScript`
+> 🌐 `HTML`
 >
 > 🎒 `agent-skills` 🤖 `ai` 🤖 `ai-agents` 🏷️ `claude` 💭 `critical-thinking` ✍️ `prompt-engineering`
 
