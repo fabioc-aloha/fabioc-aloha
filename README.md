@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=3883312956">
-<img src="portfolio.svg?v=d0c5dfaa50" alt="Portfolio dashboard: 142 repositories, 128 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=1c41c43552">
+<img src="portfolio.svg?v=6514d2803c" alt="Portfolio dashboard: 143 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
@@ -184,7 +184,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [alex-articles](https://github.com/fabioc-aloha/alex-articles) 🤖 | 🧠 Academic publications & research for the Alex Cognitive Architecture — a biologically-inspired framework giving AI coding assistants persistent memory, synaptic networks, and dream states | Nov 6, 2026 |
 | 📂 [alex-cognitive-architecture](https://github.com/fabioc-aloha/alex-cognitive-architecture) 🤖 | Cognitive architecture that turns any AI assistant into a proactive organizational teammate, then puts that teammate in command of a fleet of specialist agents working on the user's behalf. Persistent memory across projects, calibrated confidence, proactive risk gates, one intent dispatched to the right specialist with attribution intact. | Nov 6, 2026 |
 | 🔒 [Alex-Cognitive-Architecture-Paper](https://github.com/fabioc-aloha/Alex-Cognitive-Architecture-Paper) 🤖 | Academic research paper documenting the Alex Cognitive Architecture framework, consciousness development, and Human-AI learning partnerships | Nov 6, 2026 |
-| 🔒 [alex-counselor](https://github.com/fabioc-aloha/alex-counselor) 🤖 | Personal workspace for studying and applying Viktor Frankl's logotherapy -- three pathways to meaning, Socratic meaning-discovery, paradoxical intention, dereflection. Thinking partner, not licensed clinical practice. Built on Alex ACT Edition with composed Mall skills. | May 30, 2026 |
+| 🔒🪦 [alex-counselor](https://github.com/fabioc-aloha/alex-counselor) 🤖 | Personal workspace for studying and applying Viktor Frankl's logotherapy -- three pathways to meaning, Socratic meaning-discovery, paradoxical intention, dereflection. Thinking partner, not licensed clinical practice. Built on Alex ACT Edition with composed Mall skills. | May 30, 2026 |
 | 📂🪦 [AlexAgent](https://github.com/fabioc-aloha/AlexAgent) | Alex Agent Plugin — Install AI cognitive architecture in VS Code without an extension. 84 skills, 7 agents, 22 instructions, MCP tools. | May 15, 2026 |
 | 🔒🪦 [AlexMedia](https://github.com/fabioc-aloha/AlexMedia) 🤖 | AlexMedia, a CLI toolkit for AI media production. Image, video, voice cloning, music, 3D, and emoji through 83 Replicate models, with editing commands and end-to-end workflows that ship 3D prints, t-shirts, and stickers. The fleet's creative production engine: one partner, every modality, all the way to the printer. | May 6, 2026 |
 | 🔒 [AlexPapers](https://github.com/fabioc-aloha/AlexPapers) 🤖 | AlexPapers, the research pipeline behind the Future of Work program. Venue-targeted manuscripts spanning HCI, cognitive science, neuroscience, AI ethics, and organizational AI adoption, drafted for CHI, CogSci, FAccT, IEEE, MIS Quarterly, and HBR. Anchored in AIRS-16, feeding books on meta-cognitive AI and human-AI symbiosis. | Nov 6, 2026 |
@@ -318,6 +318,7 @@ Hand-authored synthesis of fleet themes, capabilities, and overall agent composi
 | 🔒 [development-environment](https://github.com/fabioc-aloha/development-environment) 🤖 | Rebuild and verify a Windows development environment with preview-first setup and read-only drift checks. | Nov 12, 2026 |
 | 🔒 [family-calendar](https://github.com/fabioc-aloha/family-calendar) 🤖 | Family calendar project. | Nov 6, 2026 |
 | 🔒 [helper1](https://github.com/fabioc-aloha/helper1) 🤖 | Documentation workspace: Loop Engineering research, Alex ACT setup evidence, and working notes. | Nov 6, 2026 |
+| 🔒 [kitchen-correax](https://github.com/fabioc-aloha/kitchen-correax) 🤖 | kitchen.correax.com — test site for kitchen gadget handoffs: each gadget does its best part, then hands off to the next. | Nov 26, 2026 |
 | 🔒 [LinkedIn-Research](https://github.com/fabioc-aloha/LinkedIn-Research) 🤖 | Assistant-supported LinkedIn research, drafting, and engagement workflow (private) | Nov 6, 2026 |
 | 🔒 [macosapp](https://github.com/fabioc-aloha/macosapp) | Fabio's first macOS app: a SwiftUI treat counter for Jolly the dog. | Nov 9, 2026 |
 | 🔒 [media-review-hub](https://github.com/fabioc-aloha/media-review-hub) 🤖 | Media review hub. | Nov 6, 2026 |
