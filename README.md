@@ -4,8 +4,8 @@
 <!-- PORTFOLIO:START -->
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=1c41c43552">
-<img src="portfolio.svg?v=6514d2803c" alt="Portfolio dashboard: 143 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
+<source media="(prefers-color-scheme: dark)" srcset="portfolio-dark.svg?v=c4190fef6a">
+<img src="portfolio.svg?v=dfa49f4363" alt="Portfolio dashboard: 143 repositories, 129 active in the last 180 days, 12 flagships, top themes Cloud & Azure, AI & Copilot, Developer Tools." width="900"/>
 </picture>
 </p>
 
